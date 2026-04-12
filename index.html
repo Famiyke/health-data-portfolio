@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Health Data Analytics Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0f0d;
+    --surface: #111a16;
+    --surface2: #182219;
+    --border: #1f2e23;
+    --accent: #3dffa0;
+    --accent2: #00c46a;
+    --accent-dim: rgba(61,255,160,0.08);
+    --text: #e8f0ea;
+    --text-muted: #6b8570;
+    --text-dim: #3d5244;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  body::before {
+    content: '';
+    position: fixed; inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+    background-size: 200px;
+    pointer-events: none; z-index: 0; opacity: 0.4;
+  }
+
+  .glow-orb { position: fixed; border-radius: 50%; filter: blur(120px); pointer-events: none; z-index: 0; }
+  .glow-1 { width:600px; height:600px; background:rgba(61,255,160,0.04); top:-200px; left:-200px; animation: drift1 18s ease-in-out infinite; }
+  .glow-2 { width:500px; height:500px; background:rgba(0,196,106,0.03); bottom:0; right:-150px; animation: drift2 22s ease-in-out infinite; }
+  @keyframes drift1 { 0%,100%{transform:translate(0,0)} 50%{transform:translate(60px,40px)} }
+  @keyframes drift2 { 0%,100%{transform:translate(0,0)} 50%{transform:translate(-40px,-60px)} }
+
+  .wrap { max-width:1100px; margin:0 auto; padding:0 32px; position:relative; z-index:1; }
+
+  nav {
+    position:fixed; top:0; left:0; right:0; z-index:100;
+    padding:20px 0;
+    background:rgba(10,15,13,0.88);
+    backdrop-filter:blur(20px);
+    border-bottom:1px solid var(--border);
+    transition:padding 0.3s;
+  }
+  nav .inner { max-width:1100px; margin:0 auto; padding:0 32px; display:flex; justify-content:space-between; align-items:center; }
+  .nav-logo { font-family:'DM Mono',monospace; font-size:12px; color:var(--accent); letter-spacing:0.15em; text-transform:uppercase; text-decoration:none; }
+  .nav-links { display:flex; gap:32px; }
+  .nav-links a { font-family:'DM Mono',monospace; font-size:11px; color:var(--text-muted); text-decoration:none; letter-spacing:0.1em; text-transform:uppercase; transition:color 0.2s; }
+  .nav-links a:hover { color:var(--accent); }
+
+  .hero { min-height:100vh; display:flex; align-items:center; padding-top:80px; }
+  .hero-content { max-width:720px; }
+
+  .eyebrow { font-family:'DM Mono',monospace; font-size:11px; letter-spacing:0.2em; text-transform:uppercase; color:var(--accent); margin-bottom:24px; opacity:0; animation:fadeUp 0.8s 0.1s forwards; }
+  .hero h1 { font-family:'DM Serif Display',serif; font-size:clamp(42px,7vw,88px); line-height:1.05; margin-bottom:24px; opacity:0; animation:fadeUp 0.8s 0.2s forwards; }
+  .hero h1 em { font-style:italic; color:var(--accent); }
+  .hero-desc { font-size:16px; color:var(--text-muted); max-width:520px; line-height:1.8; margin-bottom:48px; opacity:0; animation:fadeUp 0.8s 0.35s forwards; }
+  .hero-actions { display:flex; gap:16px; flex-wrap:wrap; opacity:0; animation:fadeUp 0.8s 0.45s forwards; }
+
+  .btn-primary { display:inline-flex; align-items:center; gap:8px; background:var(--accent); color:#0a0f0d; font-family:'DM Mono',monospace; font-size:12px; letter-spacing:0.08em; text-transform:uppercase; padding:14px 28px; text-decoration:none; transition:all 0.2s; font-weight:500; }
+  .btn-primary:hover { background:#fff; transform:translateY(-2px); }
+  .btn-outline { display:inline-flex; align-items:center; gap:8px; border:1px solid var(--border); color:var(--text-muted); font-family:'DM Mono',monospace; font-size:12px; letter-spacing:0.08em; text-transform:uppercase; padding:14px 28px; text-decoration:none; transition:all 0.2s; }
+  .btn-outline:hover { border-color:var(--accent); color:var(--accent); transform:translateY(-2px); }
+
+  .hero-stats { display:flex; gap:48px; margin-top:80px; opacity:0; animation:fadeUp 0.8s 0.6s forwards; }
+  .stat-number { font-family:'DM Serif Display',serif; font-size:36px; color:var(--accent); line-height:1; }
+  .stat-label { font-family:'DM Mono',monospace; font-size:10px; letter-spacing:0.15em; text-transform:uppercase; color:var(--text-dim); margin-top:6px; }
+
+  .ticker-wrap { overflow:hidden; border-top:1px solid var(--border); border-bottom:1px solid var(--border); padding:14px 0; margin:40px 0 0; }
+  .ticker { display:flex; gap:48px; white-space:nowrap; animation:ticker 28s linear infinite; }
+  .ticker span { font-family:'DM Mono',monospace; font-size:11px; letter-spacing:0.12em; text-transform:uppercase; color:var(--text-dim); flex-shrink:0; }
+  .ticker span em { color:var(--accent); font-style:normal; }
+  @keyframes ticker { from{transform:translateX(0)} to{transform:translateX(-50%)} }
+
+  .section-header { display:flex; align-items:baseline; gap:20px; margin-bottom:56px; }
+  .section-label { font-family:'DM Mono',monospace; font-size:10px; letter-spacing:0.2em; text-transform:uppercase; color:var(--text-dim); white-space:nowrap; }
+  .section-line { flex:1; height:1px; background:var(--border); }
+
+  .hats { padding:100px 0; }
+  .hats-grid { display:grid; grid-template-columns:repeat(5,1fr); gap:1px; background:var(--border); border:1px solid var(--border); }
+  .hat-card { background:var(--surface); padding:32px 24px; transition:background 0.3s; }
+  .hat-card:hover { background:var(--surface2); }
+  .hat-icon { font-size:28px; margin-bottom:16px; display:block; }
+  .hat-title { font-family:'DM Mono',monospace; font-size:11px; letter-spacing:0.1em; text-transform:uppercase; color:var(--accent); margin-bottom:10px; }
+  .hat-desc { font-size:13px; color:var(--text-muted); line-height:1.6; }
+
+  .projects { padding:100px 0; }
+  .projects-grid { display:flex; flex-direction:column; gap:2px; }
+
+  .project-card {
+    background:var(--surface); border:1px solid var(--border);
+    padding:36px 40px;
+    display:grid; grid-template-columns:64px 1fr auto;
+    gap:32px; align-items:start;
+    text-decoration:none; transition:all 0.25s;
+    position:relative; overflow:hidden;
+  }
+  .project-card::before { content:''; position:absolute; left:0; top:0; bottom:0; width:2px; background:var(--accent); transform:scaleY(0); transform-origin:bottom; transition:transform 0.3s; }
+  .project-card:hover { background:var(--surface2); }
+  .project-card:hover::before { transform:scaleY(1); }
+
+  .project-number { font-family:'DM Serif Display',serif; font-size:56px; color:var(--text-dim); line-height:1; padding-top:4px; transition:color 0.3s; }
+  .project-card:hover .project-number { color:var(--accent); }
+
+  .project-meta { display:flex; align-items:center; gap:12px; margin-bottom:10px; }
+  .project-source { font-family:'DM Mono',monospace; font-size:10px; letter-spacing:0.12em; text-transform:uppercase; color:var(--accent2); background:var(--accent-dim); padding:3px 10px; }
+  .project-domain { font-family:'DM Mono',monospace; font-size:10px; letter-spacing:0.1em; text-transform:uppercase; color:var(--text-dim); }
+  .project-title { font-family:'DM Serif Display',serif; font-size:22px; color:var(--text); margin-bottom:10px; line-height:1.2; }
+  .project-desc { font-size:14px; color:var(--text-muted); line-height:1.7; max-width:560px; margin-bottom:20px; }
+  .project-tools { display:flex; gap:8px; flex-wrap:wrap; }
+  .tool-tag { font-family:'DM Mono',monospace; font-size:10px; letter-spacing:0.08em; padding:4px 10px; border:1px solid var(--border); color:var(--text-dim); text-transform:uppercase; }
+
+  .project-findings { display:flex; flex-direction:column; gap:8px; padding-left:20px; min-width:220px; border-left:1px solid var(--border); margin-top:4px; }
+  .finding { font-size:12px; color:var(--text-muted); line-height:1.5; display:flex; gap:8px; }
+  .finding::before { content:'→'; color:var(--accent); flex-shrink:0; font-family:'DM Mono',monospace; font-size:11px; margin-top:1px; }
+
+  .methodology { padding:100px 0; }
+  .method-grid { display:grid; grid-template-columns:1fr 1fr; gap:2px; background:var(--border); border:1px solid var(--border); }
+  .method-card { background:var(--surface); padding:40px; }
+  .method-step { font-family:'DM Mono',monospace; font-size:10px; letter-spacing:0.2em; color:var(--accent); text-transform:uppercase; margin-bottom:16px; }
+  .method-title { font-family:'DM Serif Display',serif; font-size:20px; margin-bottom:12px; }
+  .method-desc { font-size:13px; color:var(--text-muted); line-height:1.7; }
+
+  .about { padding:100px 0; }
+  .about-grid { display:grid; grid-template-columns:1fr 1fr; gap:80px; align-items:center; }
+  .about-text h2 { font-family:'DM Serif Display',serif; font-size:clamp(28px,4vw,44px); line-height:1.15; margin-bottom:24px; }
+  .about-text h2 em { font-style:italic; color:var(--accent); }
+  .about-text p { font-size:15px; color:var(--text-muted); line-height:1.8; margin-bottom:16px; }
+  .skills-list { display:grid; grid-template-columns:1fr 1fr; gap:2px; background:var(--border); border:1px solid var(--border); }
+  .skill-item { background:var(--surface); padding:20px 24px; display:flex; align-items:center; gap:12px; }
+  .skill-dot { width:6px; height:6px; background:var(--accent); border-radius:50%; flex-shrink:0; }
+  .skill-name { font-family:'DM Mono',monospace; font-size:11px; letter-spacing:0.08em; text-transform:uppercase; color:var(--text-muted); }
+
+  .contact { padding:100px 0 60px; }
+  .contact-box { border:1px solid var(--border); background:var(--surface); padding:72px; text-align:center; position:relative; overflow:hidden; }
+  .contact-box::before { content:''; position:absolute; top:0; left:50%; transform:translateX(-50%); width:300px; height:1px; background:linear-gradient(90deg,transparent,var(--accent),transparent); }
+  .contact-box h2 { font-family:'DM Serif Display',serif; font-size:clamp(32px,5vw,56px); margin-bottom:16px; }
+  .contact-box h2 em { font-style:italic; color:var(--accent); }
+  .contact-box p { color:var(--text-muted); font-size:15px; max-width:440px; margin:0 auto 40px; line-height:1.7; }
+  .contact-links { display:flex; justify-content:center; gap:16px; flex-wrap:wrap; }
+
+  footer { padding:32px 0; border-top:1px solid var(--border); }
+  footer .inner { max-width:1100px; margin:0 auto; padding:0 32px; display:flex; justify-content:space-between; align-items:center; }
+  footer p { font-family:'DM Mono',monospace; font-size:11px; color:var(--text-dim); letter-spacing:0.08em; }
+
+  .reveal { opacity:0; transform:translateY(24px); transition:all 0.7s cubic-bezier(0.16,1,0.3,1); }
+  .reveal.visible { opacity:1; transform:translateY(0); }
+
+  @keyframes fadeUp { to{opacity:1;transform:translateY(0)} from{opacity:0;transform:translateY(20px)} }
+
+  @media(max-width:900px) {
+    .hats-grid { grid-template-columns:repeat(3,1fr); }
+    .project-card { grid-template-columns:48px 1fr; }
+    .project-findings { display:none; }
+    .method-grid { grid-template-columns:1fr; }
+    .about-grid { grid-template-columns:1fr; gap:40px; }
+    .contact-box { padding:48px 24px; }
+  }
+  @media(max-width:600px) {
+    .hats-grid { grid-template-columns:1fr 1fr; }
+    .hero-stats { gap:28px; flex-wrap:wrap; }
+    .nav-links { display:none; }
+    .project-card { padding:24px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="glow-orb glow-1"></div>
+<div class="glow-orb glow-2"></div>
+
+<nav>
+  <div class="inner">
+    <a class="nav-logo" href="#">Health Data Portfolio</a>
+    <div class="nav-links">
+      <a href="#projects">Projects</a>
+      <a href="#methodology">Methodology</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-content">
+      <p class="eyebrow">Canadian Health Data Analyst</p>
+      <h1>Turning raw <em>health data</em> into decisions that matter.</h1>
+      <p class="hero-desc">Six end-to-end projects built on real Canadian health datasets. Each project covers data cleaning, SQL analysis, visualization, and a strategic brief a decision-maker can act on.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">View Projects ↓</a>
+        <a href="https://github.com/Famiyke" target="_blank" class="btn-outline">GitHub →</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <div class="stat-number">6</div>
+          <div class="stat-label">Live Projects</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">5</div>
+          <div class="stat-label">Real Datasets</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">4</div>
+          <div class="stat-label">Tools Used</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">5</div>
+          <div class="stat-label">Analyst Roles</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="ticker-wrap">
+    <div class="ticker">
+      <span>Python <em>/</em></span><span>SQL <em>/</em></span><span>Power BI <em>/</em></span><span>Tableau <em>/</em></span><span>Excel <em>/</em></span><span>CIHI <em>/</em></span><span>Statistics Canada <em>/</em></span><span>CCDSS <em>/</em></span><span>CCHS PUMF <em>/</em></span><span>Ontario Health <em>/</em></span><span>Manitoba Health <em>/</em></span>
+      <span>Python <em>/</em></span><span>SQL <em>/</em></span><span>Power BI <em>/</em></span><span>Tableau <em>/</em></span><span>Excel <em>/</em></span><span>CIHI <em>/</em></span><span>Statistics Canada <em>/</em></span><span>CCDSS <em>/</em></span><span>CCHS PUMF <em>/</em></span><span>Ontario Health <em>/</em></span><span>Manitoba Health <em>/</em></span>
+    </div>
+  </div>
+</div>
+
+<section class="hats">
+  <div class="wrap">
+    <div class="section-header reveal">
+      <span class="section-label">Analyst Roles</span>
+      <div class="section-line"></div>
+    </div>
+    <div class="hats-grid reveal">
+      <div class="hat-card">
+        <span class="hat-icon">🔍</span>
+        <div class="hat-title">Data Detective</div>
+        <div class="hat-desc">Cleaning messy records, profiling distributions, and flagging suppressed values before any analysis begins.</div>
+      </div>
+      <div class="hat-card">
+        <span class="hat-icon">⌨️</span>
+        <div class="hat-title">SQL / Python</div>
+        <div class="hat-desc">Querying, grouping, joining, and transforming data at the source. No spreadsheet approximations.</div>
+      </div>
+      <div class="hat-card">
+        <span class="hat-icon">📊</span>
+        <div class="hat-title">Dashboard Architect</div>
+        <div class="hat-desc">Building Tableau and Power BI dashboards that communicate findings without requiring a stats degree to read.</div>
+      </div>
+      <div class="hat-card">
+        <span class="hat-icon">📝</span>
+        <div class="hat-title">Data Storyteller</div>
+        <div class="hat-desc">Writing plain-language briefs and summaries aimed at decision-makers, not data teams.</div>
+      </div>
+      <div class="hat-card">
+        <span class="hat-icon">🎯</span>
+        <div class="hat-title">Strategic Consultant</div>
+        <div class="hat-desc">Translating findings into specific, actionable recommendations with clear rationale and measurable targets.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="projects" id="projects">
+  <div class="wrap">
+    <div class="section-header reveal">
+      <span class="section-label">Projects</span>
+      <div class="section-line"></div>
+    </div>
+    <div class="projects-grid">
+
+      <a href="https://github.com/Famiyke/hospital-readmission-canada" target="_blank" class="project-card reveal">
+        <div class="project-number">01</div>
+        <div class="project-body">
+          <div class="project-meta">
+            <span class="project-source">CIHI Quick Stats</span>
+            <span class="project-domain">Hospital Performance</span>
+          </div>
+          <div class="project-title">Canadian Hospital Readmission Analysis</div>
+          <div class="project-desc">Cleaned and analysed 5-year readmission rates across 10 provinces and 8 diagnoses. Identified the provinces and conditions driving preventable returns, with a province-level compliance ranking and COVID impact assessment.</div>
+          <div class="project-tools">
+            <span class="tool-tag">Python</span><span class="tool-tag">SQL</span><span class="tool-tag">Tableau</span><span class="tool-tag">Pandas</span>
+          </div>
+        </div>
+        <div class="project-findings">
+          <div class="finding">Atlantic provinces show 1–2pp higher readmission than other provinces</div>
+          <div class="finding">COPD and Heart Failure drive 40% of preventable readmissions</div>
+          <div class="finding">COVID caused a 2.2pp spike in 2020 — rates recovered to near pre-COVID levels by 2022</div>
+          <div class="finding">$27.5M annual savings identified from a 10% reduction in top-3 diagnoses</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/Famiyke/chronic-disease-surveillance-canada" target="_blank" class="project-card reveal">
+        <div class="project-number">02</div>
+        <div class="project-body">
+          <div class="project-meta">
+            <span class="project-source">PHAC CCDSS</span>
+            <span class="project-domain">Chronic Disease</span>
+          </div>
+          <div class="project-title">Canadian Chronic Disease Surveillance</div>
+          <div class="project-desc">Tracked prevalence and incidence of 5 chronic conditions across 10 provinces from 2010–2022. Built age-stratified trend analysis and a provincial risk score to guide where prevention investment is most urgent.</div>
+          <div class="project-tools">
+            <span class="tool-tag">Python</span><span class="tool-tag">SQL</span><span class="tool-tag">Power BI</span>
+          </div>
+        </div>
+        <div class="project-findings">
+          <div class="finding">Mood/anxiety disorders grew 49% over the period — fastest of all conditions</div>
+          <div class="finding">Diabetes up 36%; Atlantic provinces carry the highest burden across all conditions</div>
+          <div class="finding">75+ age group shows 14× higher hypertension prevalence than the 20–44 group</div>
+          <div class="finding">Three provinces flagged for targeted prevention investment</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/Famiyke/health-expenditure-canada" target="_blank" class="project-card reveal">
+        <div class="project-number">03</div>
+        <div class="project-body">
+          <div class="project-meta">
+            <span class="project-source">CIHI NHEX (Excel)</span>
+            <span class="project-domain">Health Finance</span>
+          </div>
+          <div class="project-title">National Health Expenditure Analysis</div>
+          <div class="project-desc">Used 50 years of CIHI NHEX data to map where Canada's $361B health budget goes. Decomposed per capita spending by province, source of finance, and category to identify structural inefficiencies and equity gaps.</div>
+          <div class="project-tools">
+            <span class="tool-tag">Python</span><span class="tool-tag">SQL</span><span class="tool-tag">Excel</span>
+          </div>
+        </div>
+        <div class="project-findings">
+          <div class="finding">NL spends $1,711 more per capita than QC — the widest provincial gap</div>
+          <div class="finding">Physician services grew fastest at +65% — outpacing hospitals, drugs, and all other categories</div>
+          <div class="finding">GLP-1 analogues growing at 14.5%/year — fastest drug sub-category</div>
+          <div class="finding">Hospitals remain 26.3% of total budget despite decades of reform</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/Famiyke/ontario-wait-times" target="_blank" class="project-card reveal">
+        <div class="project-number">04</div>
+        <div class="project-body">
+          <div class="project-meta">
+            <span class="project-source">Ontario Health CSV</span>
+            <span class="project-domain">Access &amp; Wait Times</span>
+          </div>
+          <div class="project-title">Ontario Surgical Wait Time Analysis</div>
+          <div class="project-desc">Ranked 15 hospitals and 7 procedures on target compliance and median wait. Quantified the urban-rural gap, identified the worst procedure-region combinations, and tracked COVID backlog recovery over 6 years.</div>
+          <div class="project-tools">
+            <span class="tool-tag">Python</span><span class="tool-tag">SQL</span><span class="tool-tag">Tableau</span>
+          </div>
+        </div>
+        <div class="project-findings">
+          <div class="finding">Rural hospitals average 23pp lower compliance than urban hospitals</div>
+          <div class="finding">Overall Priority 3 compliance averages 80% — below the 90% provincial target</div>
+          <div class="finding">COVID caused a 15pp compliance drop in 2020 — near-full recovery by 2023</div>
+          <div class="finding">11 of 15 hospitals fall below the 90% provincial compliance target</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/Famiyke/mental-health-outcomes-canada" target="_blank" class="project-card reveal">
+        <div class="project-number">05</div>
+        <div class="project-body">
+          <div class="project-meta">
+            <span class="project-source">StatCan CCHS PUMF</span>
+            <span class="project-domain">Mental Health</span>
+          </div>
+          <div class="project-title">Provincial Mental Health Outcomes</div>
+          <div class="project-desc">Analysed respondent-level CCHS microdata to map mental health status by province, age, income, and Indigenous identity across Canada. Identified the highest-risk demographic intersections for provincial investment targeting.</div>
+          <div class="project-tools">
+            <span class="tool-tag">Python</span><span class="tool-tag">SQL</span><span class="tool-tag">Power BI</span>
+          </div>
+        </div>
+        <div class="project-findings">
+          <div class="finding">NB and NL rank lowest nationally for good mental health</div>
+          <div class="finding">Low-income respondents report poor MH at 1.5× the national rate</div>
+          <div class="finding">Indigenous unmet mental health need is 4.6× higher than non-Indigenous</div>
+          <div class="finding">Anxiety overtook depression as the most prevalent condition</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/Famiyke/manitoba-health-equity" target="_blank" class="project-card reveal">
+        <div class="project-number">06</div>
+        <div class="project-body">
+          <div class="project-meta">
+            <span class="project-source">Manitoba Health PDF</span>
+            <span class="project-domain">Health Equity</span>
+          </div>
+          <div class="project-title">Manitoba Regional Health Equity Analysis</div>
+          <div class="project-desc">Extracted and standardised 9 health indicators from Manitoba Health's annual PDF reports across 5 Regional Health Authorities. Built a composite equity score and correlated social determinants with mortality.</div>
+          <div class="project-tools">
+            <span class="tool-tag">Python</span><span class="tool-tag">SQL</span><span class="tool-tag">Excel</span>
+          </div>
+        </div>
+        <div class="project-findings">
+          <div class="finding">Northern RHA premature mortality is nearly twice the provincial average (1.9×)</div>
+          <div class="finding">41% of Northern residents report having no regular doctor</div>
+          <div class="finding">Low income correlates strongly with every negative outcome measured</div>
+          <div class="finding">Northern RHA scores Critical on composite health equity index</div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<section class="methodology" id="methodology">
+  <div class="wrap">
+    <div class="section-header reveal">
+      <span class="section-label">How Every Project Is Built</span>
+      <div class="section-line"></div>
+    </div>
+    <div class="method-grid reveal">
+      <div class="method-card">
+        <div class="method-step">Step 01</div>
+        <div class="method-title">Source Verification</div>
+        <div class="method-desc">Every dataset is sourced from a named Canadian government or agency publication. Download URLs are documented in each project README. No data is invented without anchoring to published figures.</div>
+      </div>
+      <div class="method-card">
+        <div class="method-step">Step 02</div>
+        <div class="method-title">Data Cleaning and Profiling</div>
+        <div class="method-desc">Before any analysis, a dedicated cleaning script checks for missing values, out-of-range indicators, suppressed cells, and coverage gaps. All decisions are logged with rationale.</div>
+      </div>
+      <div class="method-card">
+        <div class="method-step">Step 03</div>
+        <div class="method-title">SQL and Python Analysis</div>
+        <div class="method-desc">Core questions are answered in SQL for reproducibility and extended in Python for depth. Every finding is verifiable from the raw data. No black-box models — only readable, explainable logic.</div>
+      </div>
+      <div class="method-card">
+        <div class="method-step">Step 04</div>
+        <div class="method-title">Visualisation and Communication</div>
+        <div class="method-desc">Dashboards are built for a non-technical audience. Every chart has a single clear message. Projects include a written brief a health director can read in 10 minutes and act on.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="wrap">
+    <div class="section-header reveal">
+      <span class="section-label">About</span>
+      <div class="section-line"></div>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <h2>A data analyst focused on <em>Canadian health systems.</em></h2>
+        <p>I work at the intersection of public health data and practical decision support. My projects use real datasets from Statistics Canada, CIHI, PHAC, and provincial health authorities.</p>
+        <p>Every project ends with a written recommendation a health team can take to a planning meeting. Data without direction is just numbers.</p>
+        <div style="margin-top:32px;">
+          <a href="#contact" class="btn-primary">Get in touch →</a>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="skills-list">
+          <div class="skill-item"><div class="skill-dot"></div><div class="skill-name">Python / Pandas</div></div>
+          <div class="skill-item"><div class="skill-dot"></div><div class="skill-name">SQL</div></div>
+          <div class="skill-item"><div class="skill-dot"></div><div class="skill-name">Power BI</div></div>
+          <div class="skill-item"><div class="skill-dot"></div><div class="skill-name">Tableau</div></div>
+          <div class="skill-item"><div class="skill-dot"></div><div class="skill-name">Excel / XLSX</div></div>
+          <div class="skill-item"><div class="skill-dot"></div><div class="skill-name">CIHI Data</div></div>
+          <div class="skill-item"><div class="skill-dot"></div><div class="skill-name">StatCan PUMF</div></div>
+          <div class="skill-item"><div class="skill-dot"></div><div class="skill-name">Health Equity</div></div>
+          <div class="skill-item"><div class="skill-dot"></div><div class="skill-name">Data Cleaning</div></div>
+          <div class="skill-item"><div class="skill-dot"></div><div class="skill-name">Policy Briefs</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="contact-box reveal">
+      <h2>Let's work on <em>something real.</em></h2>
+      <p>Open to health data analyst roles, contracts, and freelance projects across Canada. Comfortable with remote work and federal or provincial datasets.</p>
+      <div class="contact-links">
+        <a href="mailto:ikennanwogu3@gmail.com" class="btn-primary">Email Me →</a>
+        <a href="https://www.linkedin.com/in/ikenna-nwogu-pharmd-mba-mph-2a053910a" target="_blank" class="btn-outline">LinkedIn →</a>
+        <a href="https://github.com/Famiyke" target="_blank" class="btn-outline">GitHub →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="inner">
+    <p>Health Data Analytics Portfolio — Canada</p>
+    <p>All data sources documented in each GitHub repo.</p>
+  </div>
+</footer>
+
+<script>
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        const delay = entry.target.dataset.delay || 0;
+        setTimeout(() => entry.target.classList.add('visible'), delay);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+
+  document.querySelectorAll('.project-car
