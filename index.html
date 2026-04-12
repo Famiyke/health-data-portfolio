@@ -231,8 +231,8 @@ nav {
 
 .proj-right { border-left: 1px solid var(--border); padding-left: 22px; }
 .pfind-title { font-family: var(--mono); font-size: 8px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--text-dim); margin-bottom: 14px; }
-.finding { font-size: 14px; color: var(--text); line-height: 1.6; display: flex; gap: 8px; margin-bottom: 10px; }
-.finding::before { content: '▸'; color: var(--teal); flex-shrink: 0; font-size: 9px; margin-top: 2px; }
+.finding { font-size: 14px; color: var(--text); line-height: 1.7; display: block; margin-bottom: 11px; padding-left: 16px; position: relative; }
+.finding::before { content: '▸'; color: var(--teal); font-size: 9px; position: absolute; left: 0; top: 4px; }
 .finding b { color: var(--teal2); font-weight: 700; }
 .proj-spark { margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--border); }
 .spark-lbl { font-family: var(--mono); font-size: 7.5px; color: var(--text-dim); letter-spacing: 0.1em; margin-bottom: 8px; text-transform: uppercase; }
@@ -413,10 +413,10 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
       </div>
       <div class="proj-right">
         <div class="pfind-title">Key Findings</div>
-        <div class="finding">Atlantic provinces show <b>1–2pp higher</b> readmission than other provinces</div>
-        <div class="finding">COPD and Heart Failure drive <b>39%</b> of preventable readmissions</div>
-        <div class="finding">COVID caused a <b>2.2pp spike</b> in 2020 — rates recovered by 2022</div>
-        <div class="finding"><b>$27.5M</b> annual savings from 10% reduction in top-3 diagnoses</div>
+        <div class="finding">Atlantic provinces have readmission rates <b>1 to 2 percentage points higher</b> than the rest of Canada</div>
+        <div class="finding">COPD and Heart Failure together account for <b>39%</b> of all preventable readmissions nationally</div>
+        <div class="finding">Readmission rates spiked by <b>2.2 percentage points</b> in 2020 and returned to near pre-COVID levels by 2022</div>
+        <div class="finding">A 10% reduction in COPD, Heart Failure, and Sepsis readmissions would save an estimated <b>$27.5M per year</b></div>
         <div class="proj-spark">
           <div class="spark-lbl">Readmission Rate by Province</div>
           <svg width="100%" height="44" viewBox="0 0 210 44" xmlns="http://www.w3.org/2000/svg">
@@ -448,10 +448,10 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
       </div>
       <div class="proj-right">
         <div class="pfind-title">Key Findings</div>
-        <div class="finding">Mood/anxiety grew <b>49%</b> — fastest of all 5 conditions</div>
-        <div class="finding">Diabetes up <b>36%</b>; Atlantic provinces carry highest burden</div>
-        <div class="finding">75+ age group shows <b>14×</b> higher hypertension than 20–44</div>
-        <div class="finding">Three provinces flagged for targeted prevention investment</div>
+        <div class="finding">Mood and anxiety disorders grew <b>49%</b> between 2010 and 2022, the fastest of all five conditions tracked</div>
+        <div class="finding">Diabetes prevalence rose <b>36%</b> over the period, with Atlantic provinces carrying the highest burden across all conditions</div>
+        <div class="finding">Hypertension is <b>14 times more prevalent</b> in the 75 and older age group than in adults aged 20 to 44</div>
+        <div class="finding">Three provinces were flagged as <b>priority targets</b> for chronic disease prevention investment based on composite burden scores</div>
         <div class="proj-spark">
           <div class="spark-lbl">Condition Prevalence Growth 2010–2022</div>
           <svg width="100%" height="44" viewBox="0 0 210 44" xmlns="http://www.w3.org/2000/svg">
@@ -480,10 +480,10 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
       </div>
       <div class="proj-right">
         <div class="pfind-title">Key Findings</div>
-        <div class="finding">NL spends <b>$1,711 more</b> per capita than QC — widest gap</div>
-        <div class="finding">Physician services grew <b>+65%</b> — fastest 2015–2023</div>
-        <div class="finding">GLP-1 analogues growing at <b>14.5%/year</b></div>
-        <div class="finding">Hospitals still <b>26.3%</b> of total budget</div>
+        <div class="finding">Newfoundland spends <b>$1,711 more per person</b> on health than Quebec, the widest provincial spending gap in the dataset</div>
+        <div class="finding">Physician services spending grew <b>65%</b> between 2015 and 2023, outpacing every other category including hospitals and drugs</div>
+        <div class="finding">GLP-1 medications such as Ozempic are growing at <b>14.5% per year</b>, nearly five times faster than generic drugs</div>
+        <div class="finding">Hospitals continue to absorb <b>26.3%</b> of Canada's total health budget despite decades of community care reform</div>
         <div class="proj-spark">
           <div class="spark-lbl">Per-Capita Spending by Province 2023</div>
           <svg width="100%" height="44" viewBox="0 0 210 44" xmlns="http://www.w3.org/2000/svg">
@@ -523,10 +523,10 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
       </div>
       <div class="proj-right">
         <div class="pfind-title">Key Findings</div>
-        <div class="finding">Rural hospitals average <b>23pp lower</b> compliance than urban</div>
-        <div class="finding">Overall Priority 3 compliance <b>80%</b> — below 90% target</div>
-        <div class="finding">COVID caused a <b>15pp drop</b> in 2020 — near recovery by 2023</div>
-        <div class="finding"><b>11 of 15</b> hospitals fall below the 90% target</div>
+        <div class="finding">Rural hospitals average <b>23 percentage points lower</b> compliance than urban hospitals for the same surgical procedures</div>
+        <div class="finding">Only <b>80%</b> of Priority 3 patients receive care within the provincial target time, falling short of the 90% standard</div>
+        <div class="finding">Compliance dropped <b>15 percentage points</b> during the COVID-19 disruption in 2020 and has nearly recovered to pre-pandemic levels by 2023</div>
+        <div class="finding"><b>11 of the 15 hospitals</b> analysed fall below the 90% provincial compliance target</div>
         <div class="proj-spark">
           <div class="spark-lbl">Urban vs Rural Compliance</div>
           <svg width="100%" height="44" viewBox="0 0 210 44" xmlns="http://www.w3.org/2000/svg">
@@ -551,10 +551,10 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
       </div>
       <div class="proj-right">
         <div class="pfind-title">Key Findings</div>
-        <div class="finding">NB (<b>61%</b>) and NL (<b>62%</b>) rank lowest nationally</div>
-        <div class="finding">Low-income respondents report poor MH at <b>1.5×</b> national rate</div>
-        <div class="finding">Indigenous unmet need is <b>4.6×</b> higher than non-Indigenous</div>
-        <div class="finding">Anxiety (<b>12%</b>) overtook depression (<b>9.4%</b>)</div>
+        <div class="finding">New Brunswick (<b>61%</b>) and Newfoundland (<b>62%</b>) report the lowest rates of good mental health of any province</div>
+        <div class="finding">Respondents earning under $30,000 per year report poor mental health at <b>1.5 times</b> the national rate</div>
+        <div class="finding">Indigenous Canadians report unmet mental health need at <b>4.6 times the rate</b> of non-Indigenous respondents, the largest equity gap in the dataset</div>
+        <div class="finding">Anxiety disorders (<b>12%</b> prevalence) have now overtaken depression (<b>9.4%</b>) as the most common mental health condition</div>
         <div class="proj-spark">
           <div class="spark-lbl">Good MH % by Income Group</div>
           <svg width="100%" height="44" viewBox="0 0 210 44" xmlns="http://www.w3.org/2000/svg">
@@ -586,10 +586,10 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
       </div>
       <div class="proj-right">
         <div class="pfind-title">Key Findings</div>
-        <div class="finding">Northern premature mortality is <b>nearly 2×</b> provincial average</div>
-        <div class="finding"><b>41%</b> of Northern residents have no regular doctor</div>
-        <div class="finding">Low income correlates <b>r=0.94</b> with mortality</div>
-        <div class="finding">Northern RHA scores <b>Critical (0/100)</b> on equity index</div>
+        <div class="finding">The Northern RHA records premature mortality at <b>nearly twice</b> the rate of the provincial average</div>
+        <div class="finding"><b>Four in ten</b> residents of Northern Manitoba have no regular doctor, the highest no-doctor rate in the province</div>
+        <div class="finding">Low income is the single strongest predictor of poor health outcomes, with a correlation of <b>r = 0.94</b> against mortality across all five RHAs</div>
+        <div class="finding">The Northern RHA scores <b>0 out of 100</b> on the composite health equity index, the only RHA classified as Critical</div>
         <div class="proj-spark">
           <div class="spark-lbl">Composite Equity Score by RHA (100=best)</div>
           <svg width="100%" height="44" viewBox="0 0 210 44" xmlns="http://www.w3.org/2000/svg">
