@@ -357,6 +357,68 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
   .nav-logo { font-size: 10px; }
 }
 
+
+/* Recruiter-first portfolio layout */
+.hero-layout { min-height: auto; padding-top: 58px; }
+.hero-inner { padding-top: 66px; padding-bottom: 70px; grid-template-columns: minmax(0,1fr) 370px; gap: 46px; }
+.hero-stats { max-width: 540px; }
+.experience, .projects, .highlights, .method, .about { padding-top: 72px; padding-bottom: 72px; }
+.section-lead { font-size: 15px; line-height: 1.8; color: var(--text-mid); max-width: 770px; margin: -4px 0 30px; }
+.featured-stack { display: grid; gap: 18px; }
+.featured-card { display: grid; grid-template-columns: minmax(0,1.35fr) minmax(260px,.85fr); background: var(--surface); border: 1px solid var(--border); box-shadow: var(--shadow); overflow: hidden; }
+.featured-copy { padding: 29px 32px; }
+.featured-copy h3 { font: 500 clamp(24px,3vw,32px)/1.14 var(--serif); margin: 6px 0 14px; }
+.featured-copy p { color: var(--text-mid); font-size: 14px; line-height: 1.7; margin-bottom: 11px; }
+.featured-question { font-weight: 700; color: var(--text) !important; font-size: 15px !important; }
+.featured-detail { font-size: 13px; line-height: 1.6; margin-bottom: 8px; color: var(--text-mid); }
+.featured-detail strong { color: var(--teal2); }
+.featured-copy .proj-tools { margin-top: 17px; }
+.featured-actions { display: flex; flex-wrap: wrap; gap: 20px; margin-top: 22px; }
+.featured-actions a, .compact-project a { font: 500 10px var(--mono); color: var(--teal); letter-spacing: .05em; text-decoration: none; border-bottom: 1px solid var(--teal-mid); padding-bottom: 5px; }
+.featured-actions a:hover, .compact-project a:hover { color: var(--teal2); border-color: var(--teal2); }
+.featured-visual { background: linear-gradient(155deg,var(--teal-lt),#edf1ec 58%,#f8f8f5); border-left: 1px solid var(--border); display:flex; flex-direction:column; justify-content:center; padding: 28px; min-width: 0; }
+.visual-top { display: flex; align-items: center; justify-content: space-between; flex-wrap:wrap; gap:8px; font: 9px var(--mono); text-transform:uppercase; color: var(--teal2); letter-spacing:.07em; border-bottom:1px solid var(--teal-mid); padding-bottom:13px; margin-bottom:22px; }
+.visual-top span:last-child { color:var(--text-muted); }
+.visual-bars { display:grid; gap:13px; }
+.visual-bars > div { display:grid; grid-template-columns:75px 1fr; gap:10px; align-items:center; font:11px var(--mono); color: var(--text-mid); }
+.visual-bars i { display:block; width:var(--v); max-width:100%; min-width:12px; height:14px; background:var(--teal); border-radius:0 2px 2px 0; opacity:.84; }
+.featured-visual p { margin:23px 0 0; font: 11px/1.6 var(--sans); color: var(--text-muted); }
+.flow-preview { display:flex; flex-direction:column; align-items:center; gap:10px; font:11px var(--mono); color:var(--teal2); }
+.flow-preview div { background:white; border:1px solid var(--teal-mid); width:100%; text-align:center; padding:13px 6px; }
+.flow-preview span { font-size:19px; line-height:1; }
+.compact-heading { margin-top:45px; }
+.compact-project-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:15px; }
+.compact-project { background:var(--surface); border:1px solid var(--border); padding:24px; display:flex; flex-direction:column; gap:14px; box-shadow:var(--shadow); min-width:0; }
+.compact-project h3 { font:500 24px/1.2 var(--serif); }
+.compact-project p { font-size:13px; line-height:1.7; color:var(--text-mid); flex:1; }
+.compact-project .proj-tools { margin-top:auto; }
+.compact-project a { align-self:start; margin-top:5px; }
+.data-disclosure { margin-top:24px; border-left:3px solid var(--teal); background:var(--surface); padding:17px 20px; font-size:13px; line-height:1.75; color:var(--text-mid); }
+.about-grid { grid-template-columns: minmax(0,1.1fr) minmax(0,.9fr); gap:48px; }
+.creds { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:4px 14px; }
+.cred { font-size:9px; line-height:1.5; }
+@media(max-width:1024px) {
+  .hero-inner { grid-template-columns:minmax(0,1fr) 320px; gap:28px; }
+  .featured-card { grid-template-columns:minmax(0,1fr) minmax(240px,.85fr); }
+  .compact-project-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
+@media(max-width:768px) {
+  .hero-inner { grid-template-columns:1fr; padding-top:35px; padding-bottom:46px; }
+  .hero-panel { display:none; }
+  .featured-card { grid-template-columns:1fr; }
+  .featured-copy { padding:25px 22px; }
+  .featured-visual { border-left:0; border-top:1px solid var(--border); padding:20px 24px; }
+  .compact-project-grid { grid-template-columns:1fr; }
+  .experience, .projects, .highlights, .method, .about { padding-top:52px; padding-bottom:52px; }
+  .creds { grid-template-columns:1fr 1fr; }
+}
+@media(max-width:420px) {
+  .hero-inner { padding-top:30px; }
+  .hero-stats { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .nav-links a[href="#experience"] { display:none; }
+  .about-grid { gap:27px; }
+  .skills-grid { grid-template-columns:1fr 1fr; }
+}
 </style>
 </head>
 <body>
@@ -367,8 +429,8 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
     <div class="nav-links">
       <a href="#experience">Experience</a>
       <a href="#projects">Projects</a>
-      <a href="#highlights">Highlights</a>
-      <a href="#methodology">Methodology</a>
+      
+      
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
     </div>
@@ -454,279 +516,102 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
   </div>
 </section>
 
-<!-- HATS -->
-<section class="hats">
-  <div class="wrap">
-    <div class="sh"><span class="sh-num">02</span><span class="sh-label">Technical Capabilities</span><div class="sh-line"></div></div>
-    <div class="hats-grid">
-      <div class="hat"><span class="hat-icon">🔍</span><div class="hat-t">Data Detective</div><div class="hat-d">Profiling distributions, inspecting missing values, checking suppression codes and testing sample data consistency.</div></div>
-      <div class="hat"><span class="hat-icon">⌨️</span><div class="hat-t">SQL / Python</div><div class="hat-d">Querying, grouping, ranking, and transforming data. Project outputs can be traced to the demonstration scripts and sample datasets.</div></div>
-      <div class="hat"><span class="hat-icon">📊</span><div class="hat-t">Dashboard Architect</div><div class="hat-d">Tableau and Power BI dashboards built for non-technical health audiences. One chart, one message.</div></div>
-      <div class="hat"><span class="hat-icon">📝</span><div class="hat-t">Data Storyteller</div><div class="hat-d">Written briefs for quality committees, finance directors, and public health planners, translating data into clear insights for decision-making.</div></div>
-      <div class="hat"><span class="hat-icon">🎯</span><div class="hat-t">Strategic Consultant</div><div class="hat-d">Recommendations are presented as hypotheses or scenarios for validation, not demonstrated policy impacts.</div></div>
-    </div>
-  </div>
-</section>
-
 <!-- PROJECTS -->
-<section class="projects" id="projects"><div class="wrap" style="padding-top:18px;padding-bottom:18px;"><p style="border-left:3px solid var(--teal);padding:14px 18px;background:var(--surface);color:var(--text-mid);font-size:14px;"><strong>Data transparency:</strong> Project datasets and findings are largely simulated analytical demonstrations, not verified Canadian patient, hospital or population estimates. The expenditure Excel workbook is described as using CIHI source data, while its Python analysis is simulated. Please see each repository for methods and limitations.</p></div>
+<section class="projects" id="projects">
   <div class="wrap">
-    <div class="sh"><span class="sh-num">03</span><span class="sh-label">Selected Healthcare Analytics Projects</span><div class="sh-line"></div></div>
-
-    <!-- P1 -->
-    <a href="https://github.com/Famiyke/hospital-readmission-canada" target="_blank" class="proj-card">
-      <div class="proj-num">01</div>
-      <div>
-        <div class="proj-meta"><span class="proj-src">CIHI-informed simulation</span><span class="proj-domain">Hospital Performance</span></div>
-        <div class="proj-title">Canadian Hospital Readmission Analysis</div>
-        <div class="proj-desc">Analysed simulated readmission records across provinces and diagnostic groups. Demonstrated data profiling, SQL analysis, trend visualization, and an illustrative intervention cost scenario.</div>
-        <div class="project-context"><strong>Decision question:</strong> Where should hospital teams focus follow-up resources to reduce avoidable returns?</div>
-        <div class="project-context"><strong>My approach:</strong> Used Python and SQL to compare simulated diagnosis, regional and time-series readmissions; modeled an assumed intervention scenario.</div>
-        <div class="project-context"><strong>Deliverables:</strong> Code, Tableau dashboard and quality committee brief.</div>
-        <div class="project-context"><strong>Evidence boundary:</strong> Simulated patient-level records; costs and savings are hypothetical.</div>
-        
+    <div class="sh"><span class="sh-num">02</span><span class="sh-label">Featured Healthcare Analytics Projects</span><div class="sh-line"></div></div>
+    <p class="section-lead">Selected case studies demonstrate how I define a healthcare question, prepare and analyse data, build reports, and communicate decisions. All featured analytical results are illustrative unless the linked source documentation confirms otherwise.</p>
+    <div class="featured-stack">
+      <article class="featured-card">
+        <div class="featured-copy">
+          <div class="proj-meta"><span class="proj-src">Simulated CIHI-informed records</span><span class="proj-domain">Hospital operations</span></div>
+          <h3>Hospital Readmissions and Discharge Planning</h3>
+          <p class="featured-question">Where should hospital teams prioritize follow-up interventions?</p>
+          <p>Compared diagnosis and geographic patterns in simulated readmission data, explored time trends, and modeled an illustrative cost-avoidance scenario.</p>
+          <div class="featured-detail"><strong>Methods:</strong> Data validation, Python, SQL, trend analysis and scenario modelling.</div>
+          <div class="featured-detail"><strong>Deliverables:</strong> Tableau dashboard, reproducible code and quality committee brief.</div>
+          <div class="proj-tools"><span class="tool">Python</span><span class="tool">SQL</span><span class="tool">Tableau</span></div>
+          <div class="featured-actions"><a href="https://github.com/Famiyke/hospital-readmission-canada" target="_blank" rel="noopener noreferrer">Read the case study →</a><a href="https://public.tableau.com/app/profile/ikenna.nwogu/viz/CanadianHospitalReadmission/CANADIANHOSPITALREADMISSION" target="_blank" rel="noopener noreferrer">Tableau dashboard ↗</a></div>
+        </div>
+        <div class="featured-visual">
+          <div class="visual-top"><span>Readmission comparison</span><span>Illustrative data</span></div>
+          <div class="visual-bars" aria-label="Illustrative bars showing different readmission levels by province">
+            <div><span>QC</span><i style="--v:48%"></i></div><div><span>AB</span><i style="--v:56%"></i></div><div><span>ON</span><i style="--v:63%"></i></div><div><span>NB</span><i style="--v:73%"></i></div><div><span>NS</span><i style="--v:81%"></i></div><div><span>NL</span><i style="--v:89%"></i></div>
+          </div>
+          <p>Illustrative visual, not official provincial readmission rates. Dashboard methods and assumptions are documented in GitHub.</p>
+        </div>
+      </article>
+      <article class="featured-card">
+        <div class="featured-copy">
+          <div class="proj-meta"><span class="proj-src">CIHI NHEX reference + separate simulation</span><span class="proj-domain">Health finance</span></div>
+          <h3>Canadian Health Expenditure Analysis</h3>
+          <p class="featured-question">How can finance teams compare expenditure and evaluate budget scenarios?</p>
+          <p>Developed expenditure comparisons and an illustrative fiscal model. The Excel workbook is described as using CIHI source tables; the Python analysis uses generated data.</p>
+          <div class="featured-detail"><strong>Methods:</strong> Excel reporting, SQL, Python, expenditure categorization and scenario analysis.</div>
+          <div class="featured-detail"><strong>Deliverables:</strong> Analytical workbook, scripts and finance decision brief.</div>
+          <div class="proj-tools"><span class="tool">Excel</span><span class="tool">SQL</span><span class="tool">Python</span></div>
+          <div class="featured-actions"><a href="https://github.com/Famiyke/health-expenditure-canada" target="_blank" rel="noopener noreferrer">Read the case study →</a></div>
+        </div>
+        <div class="featured-visual">
+          <div class="visual-top"><span>Spending category framework</span><span>Method preview</span></div>
+          <div class="visual-bars" aria-label="Schematic category comparison, not expenditure statistics">
+            <div><span>Hospitals</span><i style="--v:88%"></i></div><div><span>Drugs</span><i style="--v:67%"></i></div><div><span>Physicians</span><i style="--v:74%"></i></div><div><span>Other</span><i style="--v:51%"></i></div>
+          </div>
+          <p>Schematic of the reporting approach. Bar lengths are decorative and are not CIHI expenditure values.</p>
+        </div>
+      </article>
+      <article class="featured-card">
+        <div class="featured-copy">
+          <div class="proj-meta"><span class="proj-src">Simulated PHAC CCDSS-style records</span><span class="proj-domain">Public health surveillance</span></div>
+          <h3>Chronic Disease Surveillance</h3>
+          <p class="featured-question">How can surveillance teams identify changes across conditions and populations?</p>
+          <p>Built a reproducible demonstration of age-stratified prevalence analysis, geographic comparisons and an illustrative burden index.</p>
+          <div class="featured-detail"><strong>Methods:</strong> Data preparation, SQL queries, Python analysis and stratified reporting.</div>
+          <div class="featured-detail"><strong>Deliverables:</strong> Power BI report documentation, code and prevention brief.</div>
+          <div class="proj-tools"><span class="tool">Python</span><span class="tool">SQL</span><span class="tool">Power BI</span></div>
+          <div class="featured-actions"><a href="https://github.com/Famiyke/chronic-disease-surveillance-canada" target="_blank" rel="noopener noreferrer">Read the case study →</a></div>
+        </div>
+        <div class="featured-visual">
+          <div class="visual-top"><span>Surveillance workflow</span><span>Method preview</span></div>
+          <div class="flow-preview" aria-label="Data preparation to trend analysis to reporting">
+            <div>Clean &amp; validate</div><span>↓</span><div>Stratify &amp; compare</div><span>↓</span><div>Dashboard &amp; brief</div>
+          </div>
+          <p>Workflow diagram, not verified Canadian disease prevalence figures.</p>
+        </div>
+      </article>
+    </div>
+    <div class="sh compact-heading"><span class="sh-num">03</span><span class="sh-label">Additional Projects</span><div class="sh-line"></div></div>
+    <div class="compact-project-grid">
+      <article class="compact-project">
+        <div class="proj-meta"><span class="proj-src">Simulated</span><span class="proj-domain">Access to care</span></div>
+        <h3>Ontario Surgical Wait Times</h3>
+        <p>Demonstrated hospital and procedure comparisons, compliance analysis and access-to-care reporting.</p>
         <div class="proj-tools"><span class="tool">Python</span><span class="tool">SQL</span><span class="tool">Tableau</span></div>
-        <span class="project-action">View methods, code and deliverables →</span>
-      </div>
-      <div class="proj-right">
-        <div class="pfind-title">Illustrative Outputs</div>
-        <div class="finding">Illustrative analysis of provincial readmission variation using generated records</div>
-        <div class="finding">Demonstrates diagnosis ranking without equating rates to absolute volumes</div>
-        <div class="finding">Simulated time-series comparison explores possible service disruption</div>
-        <div class="finding">Hypothetical gross cost-avoidance model; savings not measured or guaranteed</div>
-        <div class="proj-spark">
-          <div class="spark-lbl">Readmission Rate by Province</div>
-          <svg width="100%" height="44" viewBox="0 0 210 44" xmlns="http://www.w3.org/2000/svg">
-            <rect x="0"   y="22" width="28" height="22" fill="#4a9aaa" rx="1"/>
-            <rect x="31"  y="18" width="28" height="26" fill="#4a9aaa" rx="1"/>
-            <rect x="62"  y="14" width="28" height="30" fill="#2d8595" rx="1"/>
-            <rect x="93"  y="9"  width="28" height="35" fill="#0d5c63" rx="1"/>
-            <rect x="124" y="6"  width="28" height="38" fill="#0d5c63" rx="1"/>
-            <rect x="155" y="2"  width="28" height="42" fill="#c0392b" rx="1"/>
-            <text x="1"   y="43" font-family="DM Mono,monospace" font-size="6.5" fill="#b0afa8">QC</text>
-            <text x="32"  y="43" font-family="DM Mono,monospace" font-size="6.5" fill="#b0afa8">AB</text>
-            <text x="63"  y="43" font-family="DM Mono,monospace" font-size="6.5" fill="#b0afa8">ON</text>
-            <text x="94"  y="43" font-family="DM Mono,monospace" font-size="6.5" fill="#b0afa8">NB</text>
-            <text x="125" y="43" font-family="DM Mono,monospace" font-size="6.5" fill="#b0afa8">NS</text>
-            <text x="156" y="43" font-family="DM Mono,monospace" font-size="6.5" fill="#b0afa8">NL</text>
-          </svg>
-        </div>
-      </div>
-    </a>
-
-    <!-- P2 -->
-    <a href="https://github.com/Famiyke/chronic-disease-surveillance-canada" target="_blank" class="proj-card">
-      <div class="proj-num">02</div>
-      <div>
-        <div class="proj-meta"><span class="proj-src">PHAC-informed simulation</span><span class="proj-domain">Chronic Disease</span></div>
-        <div class="proj-title">Canadian Chronic Disease Surveillance</div>
-        <div class="proj-desc">Built simulated chronic disease surveillance tables and demonstrated age-stratified trend analysis and a documented, author-designed provincial burden score.</div>
-        <div class="project-context"><strong>Decision question:</strong> How can population-health teams identify chronic disease monitoring priorities?</div>
-        <div class="project-context"><strong>My approach:</strong> Built simulated CCDSS-style records; calculated prevalence patterns by condition, age and geography.</div>
-        <div class="project-context"><strong>Deliverables:</strong> Python/SQL workflows, Power BI project and prevention brief.</div>
-        <div class="project-context"><strong>Evidence boundary:</strong> Generated prevalence and growth rates are not verified PHAC estimates.</div>
-        
+        <a href="https://github.com/Famiyke/ontario-wait-times" target="_blank" rel="noopener noreferrer">View project →</a>
+      </article>
+      <article class="compact-project">
+        <div class="proj-meta"><span class="proj-src">Simulated</span><span class="proj-domain">Population health</span></div>
+        <h3>Mental Health Outcomes</h3>
+        <p>Explored demographic indicator reporting with generated respondent-level records and a Power BI example.</p>
         <div class="proj-tools"><span class="tool">Python</span><span class="tool">SQL</span><span class="tool">Power BI</span></div>
-        <span class="project-action">View methods, code and deliverables →</span>
-      </div>
-      <div class="proj-right">
-        <div class="pfind-title">Illustrative Outputs</div>
-        <div class="finding">Simulated age and year trends demonstrate surveillance techniques</div>
-        <div class="finding">Generated diabetes and mental health outputs require validation against official estimates</div>
-        <div class="finding">Age-specific prevalence comparisons illustrate denominator and adjustment issues</div>
-        <div class="finding">Author-designed burden score helps demonstrate prioritization methods</div>
-        <div class="proj-spark">
-          <div class="spark-lbl">Condition Prevalence Growth 2010–2022</div>
-          <svg width="100%" height="44" viewBox="0 0 210 44" xmlns="http://www.w3.org/2000/svg">
-            <polyline points="0,40 42,33 84,25 126,17 168,9 210,4" stroke="#0a4a50" stroke-width="2.5" fill="none"/>
-            <polyline points="0,41 42,38 84,33 126,28 168,24 210,21" stroke="#a07008" stroke-width="2" fill="none" stroke-dasharray="4,2"/>
-            <polyline points="0,43 42,42 84,40 126,38 168,36 210,34" stroke="#3a5f95" stroke-width="2" fill="none" stroke-dasharray="4,2"/>
-            <circle cx="210" cy="4"  r="3" fill="#0d5c63"/>
-            <circle cx="210" cy="21" r="2.5" fill="#b7860b"/>
-            <circle cx="210" cy="34" r="2.5" fill="#4a6fa5"/>
-            <text x="0"   y="12" font-family="DM Mono,monospace" font-size="7" fill="#0d5c63">Mood/Anx</text>
-            <text x="0"   y="22" font-family="DM Mono,monospace" font-size="7" fill="#b7860b">Diabetes</text>
-            <text x="0"   y="32" font-family="DM Mono,monospace" font-size="7" fill="#4a6fa5">COPD</text>
-          </svg>
-        </div>
-      </div>
-    </a>
-
-    <!-- P3 -->
-    <a href="https://github.com/Famiyke/health-expenditure-canada" target="_blank" class="proj-card">
-      <div class="proj-num">03</div>
-      <div>
-        <div class="proj-meta"><span class="proj-src">CIHI NHEX 2025</span><span class="proj-domain">Health Finance</span></div>
-        <div class="proj-title">National Health Expenditure Analysis</div>
-        <div class="proj-desc">Combined an Excel workbook described as based on CIHI NHEX tables with a separate simulated Python analysis. Explored provincial spending, drug categories and hypothetical fiscal scenarios.</div>
-        <div class="project-context"><strong>Decision question:</strong> How can finance teams compare expenditure categories and model budget choices?</div>
-        <div class="project-context"><strong>My approach:</strong> Used a CIHI-based Excel workbook alongside a separate synthetic Python spending analysis and scenario model.</div>
-        <div class="project-context"><strong>Deliverables:</strong> Excel workbook, Python/SQL analysis and financial briefing.</div>
-        <div class="project-context"><strong>Evidence boundary:</strong> Excel source and simulation are distinct; projected savings are hypothetical.</div>
-        
+        <a href="https://github.com/Famiyke/mental-health-outcomes-canada" target="_blank" rel="noopener noreferrer">View project →</a>
+      </article>
+      <article class="compact-project">
+        <div class="proj-meta"><span class="proj-src">Simulated</span><span class="proj-domain">Health equity</span></div>
+        <h3>Manitoba Regional Health Equity</h3>
+        <p>Built a demonstration of RHA indicators, an illustrative composite score and ecological comparisons.</p>
         <div class="proj-tools"><span class="tool">Python</span><span class="tool">SQL</span><span class="tool">Excel</span></div>
-        <span class="project-action">View methods, code and deliverables →</span>
-      </div>
-      <div class="proj-right">
-        <div class="pfind-title">Illustrative Outputs</div>
-        <div class="finding">Worked example of provincial expenditure comparisons; verify against CIHI source tables</div>
-        <div class="finding">Scenario-based spending analysis; model assumptions are not official forecasts</div>
-        <div class="finding">Illustrative drug category growth analysis, not measured GLP-1 growth</div>
-        <div class="finding">Excel reporting demonstrates expenditure summaries and quality checks</div>
-        <div class="proj-spark">
-          <div class="spark-lbl">Per-Capita Spending by Province 2023</div>
-          <svg width="100%" height="44" viewBox="0 0 210 44" xmlns="http://www.w3.org/2000/svg">
-            <rect x="0"   y="28" width="18" height="16" fill="#4a9aaa" rx="1"/>
-            <rect x="21"  y="22" width="18" height="22" fill="#2d8595" rx="1"/>
-            <rect x="42"  y="18" width="18" height="26" fill="#2d8595" rx="1"/>
-            <rect x="63"  y="14" width="18" height="30" fill="#0d5c63" rx="1"/>
-            <rect x="84"  y="12" width="18" height="32" fill="#0d5c63" rx="1"/>
-            <rect x="105" y="10" width="18" height="34" fill="#0d5c63" rx="1"/>
-            <rect x="126" y="8"  width="18" height="36" fill="#0a4a50" rx="1"/>
-            <rect x="147" y="6"  width="18" height="38" fill="#0a4a50" rx="1"/>
-            <rect x="168" y="4"  width="18" height="40" fill="#0a4a50" rx="1"/>
-            <rect x="189" y="0"  width="18" height="44" fill="#c0392b" rx="1"/>
-            <text x="0"   y="43" font-family="DM Mono,monospace" font-size="5.5" fill="#b0afa8">QC</text>
-            <text x="21"  y="43" font-family="DM Mono,monospace" font-size="5.5" fill="#b0afa8">ON</text>
-            <text x="42"  y="43" font-family="DM Mono,monospace" font-size="5.5" fill="#b0afa8">BC</text>
-            <text x="63"  y="43" font-family="DM Mono,monospace" font-size="5.5" fill="#b0afa8">PE</text>
-            <text x="84"  y="43" font-family="DM Mono,monospace" font-size="5.5" fill="#b0afa8">MB</text>
-            <text x="105" y="43" font-family="DM Mono,monospace" font-size="5.5" fill="#b0afa8">SK</text>
-            <text x="126" y="43" font-family="DM Mono,monospace" font-size="5.5" fill="#b0afa8">NS</text>
-            <text x="147" y="43" font-family="DM Mono,monospace" font-size="5.5" fill="#b0afa8">NB</text>
-            <text x="168" y="43" font-family="DM Mono,monospace" font-size="5.5" fill="#b0afa8">AB</text>
-            <text x="189" y="43" font-family="DM Mono,monospace" font-size="5.5" fill="#b0afa8">NL</text>
-          </svg>
-        </div>
-      </div>
-    </a>
-
-    <!-- P4 -->
-    <a href="https://github.com/Famiyke/ontario-wait-times" target="_blank" class="proj-card">
-      <div class="proj-num">04</div>
-      <div>
-        <div class="proj-meta"><span class="proj-src">Ontario-informed simulation</span><span class="proj-domain">Access &amp; Wait Times</span></div>
-        <div class="proj-title">Ontario Surgical Wait Time Analysis</div>
-        <div class="proj-desc">Demonstrated surgical access analysis using a simulated 15-hospital dataset. Built hospital/procedure comparisons, example compliance trends, and a Tableau dashboard. Rankings are not official facility results.</div>
-        <div class="project-context"><strong>Decision question:</strong> Which procedures and sites might need closer access-to-care monitoring?</div>
-        <div class="project-context"><strong>My approach:</strong> Modeled wait-time compliance by procedure, hospital and region in an illustrative 15-hospital dataset.</div>
-        <div class="project-context"><strong>Deliverables:</strong> Python/SQL scripts, Tableau dashboard and patient-access brief.</div>
-        <div class="project-context"><strong>Evidence boundary:</strong> Hospital comparisons are synthetic, not actual Ontario Health rankings.</div>
-        
-        <div class="proj-tools"><span class="tool">Python</span><span class="tool">SQL</span><span class="tool">Tableau</span></div>
-        <span class="project-action">View methods, code and deliverables →</span>
-      </div>
-      <div class="proj-right">
-        <div class="pfind-title">Illustrative Outputs</div>
-        <div class="finding">Simulated hospital-level analysis shows geographic comparisons</div>
-        <div class="finding">Illustrative compliance calculations, not observed Ontario Health results</div>
-        <div class="finding">Generated time trends demonstrate backlog analysis methods</div>
-        <div class="finding">Example hospital rankings must not be treated as actual facility performance</div>
-        <div class="proj-spark">
-          <div class="spark-lbl">Urban vs Rural Compliance</div>
-          <svg width="100%" height="44" viewBox="0 0 210 44" xmlns="http://www.w3.org/2000/svg">
-            <rect x="10" y="4" width="88" height="36" fill="#4a9aaa" rx="1"/>
-            <text x="14" y="26" font-family="DM Mono,monospace" font-size="9" fill="#0d5c63" font-weight="500">Urban 87.9%</text>
-            <rect x="112" y="18" width="88" height="22" fill="#d9867c" rx="1"/>
-            <text x="116" y="34" font-family="DM Mono,monospace" font-size="9" fill="#c0392b" font-weight="500">Rural 64.9%</text>
-            <text x="10" y="43" font-family="DM Mono,monospace" font-size="6.5" fill="#b0afa8">23pp compliance gap</text>
-          </svg>
-        </div>
-      </div>
-    </a>
-
-    <!-- P5 -->
-    <a href="https://github.com/Famiyke/mental-health-outcomes-canada" target="_blank" class="proj-card">
-      <div class="proj-num">05</div>
-      <div>
-        <div class="proj-meta"><span class="proj-src">CCHS-informed simulation</span><span class="proj-domain">Mental Health</span></div>
-        <div class="proj-title">Provincial Mental Health Outcomes</div>
-        <div class="proj-desc">Analysed simulated respondent records inspired by CCHS indicators. Built demographic cross-tabulations and a Power BI demonstration; modeled outcomes are not official survey estimates.</div>
-        <div class="project-context"><strong>Decision question:</strong> How can analysts explore differences in mental health indicators across demographic groups?</div>
-        <div class="project-context"><strong>My approach:</strong> Constructed respondent-style records for stratified reporting and a Power BI dashboard.</div>
-        <div class="project-context"><strong>Deliverables:</strong> Python/SQL workflows, dashboard design and mental health equity brief.</div>
-        <div class="project-context"><strong>Evidence boundary:</strong> Simulation is not a weighted CCHS survey estimate.</div>
-        
-        <div class="proj-tools"><span class="tool">Python</span><span class="tool">SQL</span><span class="tool">Power BI</span></div>
-        <span class="project-action">View methods, code and deliverables →</span>
-      </div>
-      <div class="proj-right">
-        <div class="pfind-title">Illustrative Outputs</div>
-        <div class="finding">Simulated provincial patterns demonstrate mental health indicator reporting</div>
-        <div class="finding">Modeled income differences illustrate stratified analysis, not population prevalence</div>
-        <div class="finding">Generated demographic ratios are not official CCHS estimates</div>
-        <div class="finding">Condition comparisons require representative source data and survey weights</div>
-        <div class="proj-spark">
-          <div class="spark-lbl">Good MH % by Income Group</div>
-          <svg width="100%" height="44" viewBox="0 0 210 44" xmlns="http://www.w3.org/2000/svg">
-            <rect x="0"  y="22" width="46" height="22" fill="#d9867c" rx="1"/>
-            <rect x="50" y="14" width="46" height="30" fill="#d4a843" rx="1"/>
-            <rect x="100" y="7" width="46" height="37" fill="#4a9aaa" rx="1"/>
-            <rect x="150" y="0" width="46" height="44" fill="#0d5c63" rx="1"/>
-            <text x="3"   y="18" font-family="DM Mono,monospace" font-size="8" fill="#c0392b">52%</text>
-            <text x="53"  y="10" font-family="DM Mono,monospace" font-size="8" fill="#b7860b">64%</text>
-            <text x="103" y="5"  font-family="DM Mono,monospace" font-size="8" fill="#0a4a50">72%</text>
-            <text x="153" y="11" font-family="DM Mono,monospace" font-size="8" fill="#fff">80%</text>
-            <text x="3"   y="43" font-family="DM Mono,monospace" font-size="6" fill="#b0afa8">&lt;$30K</text>
-            <text x="53"  y="43" font-family="DM Mono,monospace" font-size="6" fill="#b0afa8">$30-60K</text>
-            <text x="103" y="43" font-family="DM Mono,monospace" font-size="6" fill="#b0afa8">$60-100K</text>
-            <text x="153" y="43" font-family="DM Mono,monospace" font-size="6" fill="#b0afa8">$100K+</text>
-          </svg>
-        </div>
-      </div>
-    </a>
-
-    <!-- P6 -->
-    <a href="https://github.com/Famiyke/manitoba-health-equity" target="_blank" class="proj-card">
-      <div class="proj-num">06</div>
-      <div>
-        <div class="proj-meta"><span class="proj-src">Manitoba-informed simulation</span><span class="proj-domain">Health Equity</span></div>
-        <div class="proj-title">Manitoba Regional Health Equity Analysis</div>
-        <div class="proj-desc">Built simulated RHA indicators and demonstrated an author-designed equity index, exploratory ecological correlations, and Excel reporting. Findings are not official Manitoba Health estimates.</div>
-        <div class="project-context"><strong>Decision question:</strong> How can regional planners compare health needs without confusing correlation with causation?</div>
-        <div class="project-context"><strong>My approach:</strong> Developed simulated RHA indicators, a transparent composite index and exploratory ecological comparisons.</div>
-        <div class="project-context"><strong>Deliverables:</strong> Python/SQL analysis, Excel workbook and regional equity brief.</div>
-        <div class="project-context"><strong>Evidence boundary:</strong> Five-region ecological patterns and index scores are illustrative.</div>
-        
-        <div class="proj-tools"><span class="tool">Python</span><span class="tool">SQL</span><span class="tool">Excel</span></div>
-        <span class="project-action">View methods, code and deliverables →</span>
-      </div>
-      <div class="proj-right">
-        <div class="pfind-title">Illustrative Outputs</div>
-        <div class="finding">Illustrative RHA outcome comparisons based on simulated indicators</div>
-        <div class="finding">Modeled access-to-care indicators are not verified regional rates</div>
-        <div class="finding">Ecological correlation across five regions does not show causation</div>
-        <div class="finding">Composite equity score is author-designed and requires sensitivity analysis</div>
-        <div class="proj-spark">
-          <div class="spark-lbl">Composite Equity Score by RHA (100=best)</div>
-          <svg width="100%" height="44" viewBox="0 0 210 44" xmlns="http://www.w3.org/2000/svg">
-            <rect x="0"  y="42" width="30" height="2"  fill="#c0392b" rx="1"/>
-            <text x="2"  y="38" font-family="DM Mono,monospace" font-size="7" fill="#c0392b">0</text>
-            <rect x="36" y="14" width="30" height="30" fill="#d4a843" rx="1"/>
-            <text x="38" y="11" font-family="DM Mono,monospace" font-size="7" fill="#b7860b">69</text>
-            <rect x="72" y="12" width="30" height="32" fill="#4a9aaa" rx="1"/>
-            <text x="74" y="9"  font-family="DM Mono,monospace" font-size="7" fill="#0a4a50">71</text>
-            <rect x="108" y="2" width="30" height="42" fill="#0d5c63" rx="1"/>
-            <text x="110" y="13" font-family="DM Mono,monospace" font-size="7" fill="#fff">93</text>
-            <rect x="144" y="0" width="30" height="44" fill="#0d5c63" rx="1"/>
-            <text x="146" y="13" font-family="DM Mono,monospace" font-size="7" fill="#fff">95</text>
-            <text x="2"   y="44" font-family="DM Mono,monospace" font-size="5.5" fill="#b0afa8">North</text>
-            <text x="38"  y="44" font-family="DM Mono,monospace" font-size="5.5" fill="#b0afa8">PrMt</text>
-            <text x="74"  y="44" font-family="DM Mono,monospace" font-size="5.5" fill="#b0afa8">IL-E</text>
-            <text x="110" y="44" font-family="DM Mono,monospace" font-size="5.5" fill="#b0afa8">Wpg</text>
-            <text x="146" y="44" font-family="DM Mono,monospace" font-size="5.5" fill="#b0afa8">SHlth</text>
-          </svg>
-        </div>
-      </div>
-    </a>
-
+        <a href="https://github.com/Famiyke/manitoba-health-equity" target="_blank" rel="noopener noreferrer">View project →</a>
+      </article>
+    </div>
+    <p class="data-disclosure"><strong>Data transparency:</strong> These portfolio projects primarily use simulated datasets informed by public Canadian health sources. Their generated findings are not official population, hospital or provincial estimates. Consult each repository for assumptions, code and limitations.</p>
   </div>
 </section>
 
 <!-- HIGHLIGHTS -->
 <section class="highlights" id="highlights">
   <div class="wrap">
-    <div class="sh"><span class="sh-num">04</span><span class="sh-label">Methods and Demonstrated Outputs</span><div class="sh-line"></div></div>
+    <div class="sh"><span class="sh-num">04</span><span class="sh-label">Methods and Deliverables</span><div class="sh-line"></div></div>
     <p style="font-size:15px;color:var(--text-mid);line-height:1.8;max-width:790px;margin:0 0 26px;">These examples show how I turn a healthcare question into structured analysis, reporting and decision support. Most project datasets are simulated, so their outputs demonstrate methods rather than measured Canadian health-system results.</p>
     <div class="hl-grid">
       <div class="hl t"><div class="hl-n">01</div><div class="hl-l">Data preparation and validation</div><div class="hl-d">Use Python and Excel to inspect fields, resolve inconsistent formats, assess missing values and document dataset limitations before analysis.</div><div class="hl-p">Hospital readmissions · Chronic disease surveillance</div></div>
@@ -742,7 +627,7 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
 <!-- METHODOLOGY -->
 <section class="method" id="methodology">
   <div class="wrap">
-    <div class="sh"><span class="sh-num">05</span><span class="sh-label">How Every Project Is Built</span><div class="sh-line"></div></div>
+    <div class="sh"><span class="sh-num">05</span><span class="sh-label">How the Analysis Is Built</span><div class="sh-line"></div></div>
     <div class="method-grid">
       <div class="mc"><div class="mc-step">Step 01</div><div class="mc-title">Source Verification</div><div class="mc-desc">Each project names its public reference sources and identifies simulated records. Source links do not mean that generated findings reproduce official published estimates.</div></div>
       <div class="mc"><div class="mc-step">Step 02</div><div class="mc-title">Data Cleaning</div><div class="mc-desc">Before any analysis, a dedicated script checks for missing values, out-of-range indicators, suppressed cells (CIHI uses "--" and "LV" codes), and coverage gaps across all provinces and years.</div></div>
