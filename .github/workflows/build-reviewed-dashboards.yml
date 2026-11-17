@@ -1,0 +1,73 @@
+name: Build and verify reviewed healthcare dashboards
+on:
+  push:
+    paths:
+      - 'build_reviewed_dashboards.py'
+      - '.github/workflows/build-reviewed-dashboards.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  dashboards:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: Famiyke/chronic-disease-surveillance-canada
+          path: _sources/chronic
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: Famiyke/ontario-wait-times
+          path: _sources/ontario
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: Famiyke/mental-health-outcomes-canada
+          path: _sources/mental
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: Famiyke/hospital-readmission-canada
+          path: _sources/hospital
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install minimal dependencies
+        run: python -m pip install pandas numpy
+      - name: Generate corrected synthetic datasets
+        run: |
+          cd _sources/mental && python simulate_cchs.py && python validate_demo.py
+          cd ../hospital && python simulate_cihi_data.py
+      - name: Generate 4 independent browser dashboards
+        run: python build_reviewed_dashboards.py
+      - name: Validate browser dashboards and provenance labels
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          folder=Path('dashboards')
+          paths=['diabetes.html','ontario.html','mental-health.html','readmissions.html']
+          for name in paths:
+              data=(folder/name).read_text(encoding='utf-8')
+              assert data.startswith('<!DOCTYPE html>') and 'CFG = ' in data
+              assert '<script>' in data and 'view' in data and 'year' in data
+              assert 'Accessible data table' in data and 'role="note"' in data
+              if name in ('mental-health.html','readmissions.html'):
+                  assert 'SIMULATED DATA ONLY' in data
+                  assert not ('4.6×' in data or '4.6x' in data)
+              else:
+                  assert 'REAL PUBLIC DATA' in data or 'REAL PUBLISHED AGGREGATES' in data
+              assert len(data)>8000
+              print('PASS',name,len(data),'bytes')
+          assert (folder/'index.html').exists()
+          PY
+      - name: Commit validated dashboards to GitHub Pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dashboards/
+          git diff --cached --quiet || (git commit -m "Publish reviewed real and simulated healthcare dashboards" && git push)
