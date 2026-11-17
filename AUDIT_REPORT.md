@@ -4,6 +4,18 @@
 **Scope:** GitHub Pages homepage and six linked project repositories  
 **Audit type:** Static code and documentation inspection, repository file inventory, and limited public-link retrieval.
 
+## Follow-up runtime validation (16–17 November 2026)
+
+GitHub Actions clean-environment smoke tests were added and executed in all six project repositories.
+
+**Result: all six passed** the Python compilation, generated-dataset creation and project analysis sequence using Python 3.11 and pinned interpreter family (package versions are currently unpinned). These runs confirm basic reproducibility of the simulated workflow, **not** scientific accuracy against official datasets.
+
+Additional integrity checks of the archive structure of the Power BI PBIX files and readability of the Excel XLSX workbooks passed in all four applicable repositories. Archive integrity does not confirm correct DAX measures, formulas, dashboard design or numerical reconciliation.
+
+A separate live GitHub Pages deployment check was added to the website repository. Refer to its most recent GitHub Actions run for the deployment verdict. The public retrieval tool continued showing a previously published page during this audit, so browser-level confirmation is still necessary.
+
+**Outstanding:** validate calculations and interpretability against original government sources, open and interact with Power BI/Tableau dashboards, inspect charts and mobile rendering in a browser, and review accessibility with assistive tools.
+
 ## Executive outcome
 
 **Status: Partially remediated. Not yet independently validated for release as evidence of actual Canadian health-system findings.**
@@ -31,8 +43,8 @@ This audit improved transparency, presentation and documentation. It did not exe
 
 ### High — Runtime and deliverables
 
-- No clean Python-environment execution has been completed in this audit. Passing input/output filename checks does not prove the scripts run without errors.
-- Power BI PBIX and Excel XLSX files were identified in the repository trees but not opened, recalculated or cross-checked.
+- Clean GitHub Actions smoke tests passed for all six demonstration workflows, but independent numeric reconciliation with official sources has not been performed.
+- PBIX and XLSX container-integrity tests passed. They were not visually opened, recalculated, or cross-checked against authoritative source data.
 - Tableau Public dashboard URLs are included but the dashboard content could not be verified with available public retrieval.
 - Notebook/script dependencies and input-schema compatibility require a reproducibility test.
 
@@ -57,7 +69,7 @@ This audit improved transparency, presentation and documentation. It did not exe
 The portfolio is ready for an evidence-based recruiter review when:
 
 - [ ] The public deployed page is confirmed to match the latest GitHub `index.html`.
-- [ ] All six Python workflows execute successfully from documented setup instructions.
+- [x] All six Python demonstration workflows execute successfully in clean GitHub Actions environments.
 - [ ] The PBIX/XLSX deliverables open and their main charts/figures reconcile with their respective analysis inputs.
 - [ ] The Tableau dashboards load and plainly disclose synthetic data.
 - [ ] All links work from both desktop and mobile browsers.
