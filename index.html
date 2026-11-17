@@ -437,6 +437,17 @@ section[id] { scroll-margin-top: 75px; }
   *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
 }
 .demo-note {font: 11px/1.5 var(--sans); color:var(--text-muted); max-width:270px;}
+
+/* Mobile layout fix: override the later desktop About grid declaration. */
+@media (max-width: 768px) {
+  .about-grid { grid-template-columns: minmax(0, 1fr); gap: 30px; }
+  .about-grid > div { min-width: 0; }
+  .skills-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .skill { min-width: 0; overflow-wrap: anywhere; }
+}
+@media (max-width: 420px) {
+  .skills-grid { grid-template-columns: minmax(0, 1fr); }
+}
 </style>
 </head>
 <body>
