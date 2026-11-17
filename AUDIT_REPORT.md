@@ -4,6 +4,22 @@
 **Scope:** GitHub Pages homepage and six linked project repositories  
 **Audit type:** Static code and documentation inspection, repository file inventory, and limited public-link retrieval.
 
+## Real-data rebuild completed on 17 November 2026
+
+**Three reproducible official-source case studies were added and passed GitHub Actions tests:**
+
+1. **Health Expenditure:** Real CIHI NHEX 2026 Series A national totals, 52 yearly source-linked records, actual/revised years 1975–2024, forecasts 2025–2026; a separate descriptive analysis reports spending, per capita, GDP share, and nominal growth.
+2. **Chronic Disease Surveillance:** Real Government of Nova Scotia CCDSS-derived diabetes prevalence source `cumi-sw99`, 1,288 age/sex/zone/year strata, 23 provincial annual rates and 92 zone-year rates. All source-row rates were checked against count/population arithmetic.
+3. **Ontario Surgery:** Real Financial Accountability Office of Ontario tables A-1 to A-3 based on Ontario Health data, 276 metric-year records for 2019–2022, preserving the crucial distinction between observed annual surgery counts and FAO-estimated waiting months.
+
+Project descriptions and portfolio homepage were updated. The homepage hero no longer presents stale, modeled mental-health disparity figures. It now plots actual CIHI expenditure totals through 2024 and clearly identifies a separate 2026 forecast.
+
+[Full source references, reproducibility links and boundaries](REAL_DATA_CASE_STUDIES.md).
+
+**Not rebuilt from official patient-level data:** hospital readmissions, mental health outcomes and Manitoba equity. Their existing demonstration records and dashboards remain synthetic. Ontario's original Tableau facility ranks and the original chronic-disease Power BI visualization do **not** represent the new official-source series.
+
+This marks a substantive improvement in external source provenance, **not** universal verification of the six original dashboard packages.
+
 ## Remediation update: 17 November 2026
 
 ### Responsive design regression fixed
