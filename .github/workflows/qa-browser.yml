@@ -44,7 +44,7 @@ jobs:
                   })''')
                   print(name,measurement,flush=True)
                   if measurement['documentWidth'] > measurement['clientWidth'] + 2:
-                      offenders=page.evaluate('''() => [...document.querySelectorAll('body *')].filter(el=>{const r=el.getBoundingClientRect();return r.right>innerWidth+2 || r.left < -2;}).slice(0,25).map(el=>({tag:el.tagName,cls:el.className,txt:(el.textContent||'').trim().slice(0,60),left:Math.round(el.getBoundingClientRect().left),right:Math.round(el.getBoundingClientRect().right),width:Math.round(el.getBoundingClientRect().width)}))''')
+                      offenders=page.evaluate('''() => [...document.querySelectorAll('body *')].filter(el=>{if(el.closest('.ticker')) return false; const r=el.getBoundingClientRect();return r.right>innerWidth+2 || r.left < -2;}).slice(0,65).map(el=>({tag:el.tagName,cls:el.className,txt:(el.textContent||'').trim().slice(0,60),left:Math.round(el.getBoundingClientRect().left),right:Math.round(el.getBoundingClientRect().right),width:Math.round(el.getBoundingClientRect().width)}))''')
                       print('OVERFLOW OFFENDERS',offenders,flush=True)
                   assert measurement['documentWidth'] <= measurement['clientWidth'] + 2, f'{name}: horizontal overflow'
                   assert measurement['featured']==3 and measurement['compact']==3
