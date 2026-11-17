@@ -4,6 +4,24 @@
 **Scope:** GitHub Pages homepage and six linked project repositories  
 **Audit type:** Static code and documentation inspection, repository file inventory, and limited public-link retrieval.
 
+## Remediation update: 17 November 2026
+
+**Repaired and tested**
+- Mental health synthetic generator now uses mutually exclusive/exhaustive five-level self-rated mental-health categories. Generated "good or better" agrees with scale levels 1–3, while "fair or poor" uses 4–5. The analysis asserts that categories sum to 100%, and provincial groups with fewer than 30 generated records are suppressed from printed comparisons.
+- Removed the simulation's unsupported imposed Indigenous-related prevalence and unmet-care multipliers. Identity-comparison claims were withdrawn from the updated script.
+- Added `validate_demo.py` regression tests and integrated them into GitHub Actions. The latest mental health workflow completed successfully.
+- Replaced misleading "published-source" claims in all five affected synthetic data generators with statements distinguishing model assumptions from real extracted data.
+- Updated all six project READMEs for accurate run instructions and source status; stopped promoting uncorrected Power BI or Tableau charts as verified reporting.
+- Updated the public portfolio page to distinguish an archived Power BI prototype and a source-checked CIHI comparison from unvalidated model outputs.
+
+**Not safe to claim as fixed**
+- Existing mental-health and chronic-disease PBIX packages still hold their historical report data/visuals, including misleading captions. Python changes do **not** update embedded Power BI data. They need refresh, corrected DAX/labels and republishing from Power BI Desktop.
+- Tableau Public visualizations remain controlled by their publisher and still need prominent on-dashboard synthetic-data warnings, even though README links and homepage promotion have been corrected.
+- Archived mental-health screenshots are not evidence of the revised analytical outputs.
+- Real-world health-system result verification for the other projects remains incomplete.
+
+**Release interpretation:** The updated GitHub repositories can demonstrate synthetic analytics methods. Do not publish or use the archived dashboard figures as real healthcare findings.
+
 ## Follow-up runtime validation (16–17 November 2026)
 
 GitHub Actions clean-environment smoke tests were added and executed in all six project repositories.
