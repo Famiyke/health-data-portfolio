@@ -1,0 +1,32 @@
+name: Create native PBIX review copies
+on:
+  push:
+    paths:
+      - 'make_native_pbix_review.py'
+      - '.github/workflows/make-native-pbix-review.yml'
+  workflow_dispatch:
+jobs:
+  pbix-native-review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: Famiyke/mental-health-outcomes-canada
+          path: _native/mental
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: Famiyke/chronic-disease-surveillance-canada
+          path: _native/chronic
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: Build separate labelled PBIX review copies
+        run: python make_native_pbix_review.py
+      - name: Upload copies for Desktop verification
+        uses: actions/upload-artifact@v4
+        with:
+          name: native-pbix-labelled-review-copies
+          path: native_review_copies/*.pbix
