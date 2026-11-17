@@ -278,6 +278,9 @@ nav {
 .about-sources { margin-top: 20px; font-size: 13px !important; color: var(--text-mid) !important; }
 @media(max-width:768px) { .about-grid { gap: 28px; } .skills-grid { grid-template-columns: 1fr 1fr; } .cred { flex-wrap: wrap; } }
 
+.about-impact { border-left: 3px solid var(--teal); background: var(--surface); padding: 16px 18px; margin: 20px 0 22px; display: grid; gap: 7px; font-size: 14px; line-height: 1.65; box-shadow: var(--shadow); }
+.about-impact strong { font: 500 10px var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--teal); }
+.about-capability-intro { font-size: 14px !important; color: var(--text-mid) !important; margin-bottom: 19px !important; }
 /* ── CONTACT ── */
 .contact { padding: 80px 0 60px; }
 .contact-box {
@@ -752,13 +755,17 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
 <!-- ABOUT -->
 <section class="about" id="about">
   <div class="wrap">
-    <div class="sh"><span class="sh-num">06</span><span class="sh-label">About Me</span><div class="sh-line"></div></div>
+    <div class="sh"><span class="sh-num">06</span><span class="sh-label">About</span><div class="sh-line"></div></div>
     <div class="about-grid">
       <div>
-        <h2>Clinical understanding.<br><em>Analytical thinking.</em></h2>
-        <p>I am a healthcare data and research analyst with a background in pharmacy, public health, business administration and data science. I combine clinical knowledge with analytical methods to examine healthcare performance, research evidence, service delivery and population health questions.</p>
-        <p>My experience includes research impact analysis associated with Imperial College London, where I worked with mixed-methods evidence, stakeholder interviews and research influence on policy and practice. At Opportunities for Employment in Winnipeg, I supported data workflow improvements and reporting processes for participant services.</p>
-        <p>I have supported records for more than 500 participants and helped reduce routine report preparation time to under 40 minutes per cycle. I use Python, SQL, Excel, Power BI and Tableau to structure data, explore patterns and communicate findings. I am interested in healthcare analytics, decision support, research analytics and public health intelligence roles across Canada.</p>
+        <h2>Healthcare knowledge.<br><em>Evidence you can act on.</em></h2>
+        <p>I am a healthcare data and research analyst with a foundation in pharmacy, public health, business and data science. I understand clinical questions and the decisions behind them, from patient care and service performance to population health and resource allocation.</p>
+        <p>My research experience includes an impact study associated with Imperial College London, examining how research informs policy and clinical practice through interviews, evidence synthesis and research impact indicators. In Winnipeg, I supported Opportunities for Employment with data-entry standards, participant intake and more efficient reporting workflows.</p>
+        <div class="about-impact" aria-label="Example of practical experience">
+          <strong>Practical impact</strong>
+          <span>Supported intake data for 500+ participants and helped bring recurring report preparation to under 40 minutes per cycle at Opportunities for Employment.</span>
+        </div>
+        <p>I use SQL, Python, Excel, Power BI and Tableau to clean and analyse data, communicate uncertainty and produce useful reports. I am seeking healthcare analytics, decision support and research roles where clinical understanding and sound analysis improve decisions.</p>
         <div class="creds" aria-label="Education and qualifications">
           <div class="cred"><span class="cred-deg">BPharm</span> Bachelor of Pharmacy</div>
           <div class="cred"><span class="cred-deg">MPH</span> Master of Public Health</div>
@@ -766,26 +773,27 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
           <div class="cred"><span class="cred-deg">Data</span> Diploma in Data Science</div>
         </div>
         <div style="margin-top:28px; display:flex; gap:12px; flex-wrap:wrap;">
-          <a href="#experience" class="btn-primary">View experience →</a>
-          <a href="#contact" class="btn-outline">Contact me →</a>
+          <a href="#experience" class="btn-primary">See professional experience →</a>
+          <a href="#contact" class="btn-outline">Get in touch →</a>
           <a href="https://www.linkedin.com/in/ikenna-nwogu-pharmd-mba-mph-2a053910a" target="_blank" rel="noopener noreferrer" class="btn-outline">LinkedIn →</a>
         </div>
       </div>
       <div>
-        <h3 class="about-skills-title">Technical and analytical capabilities</h3>
+        <h3 class="about-skills-title">What I bring to a team</h3>
+        <p class="about-capability-intro">A combination of clinical subject knowledge, analytical methods and communication for technical and nontechnical stakeholders.</p>
         <div class="skills-grid">
+          <div class="skill"><div class="skill-dot"></div>SQL &amp; Data Queries</div>
           <div class="skill"><div class="skill-dot"></div>Python / Pandas</div>
-          <div class="skill"><div class="skill-dot"></div>SQL</div>
+          <div class="skill"><div class="skill-dot"></div>Excel / Power Query</div>
           <div class="skill"><div class="skill-dot"></div>Power BI / DAX</div>
           <div class="skill"><div class="skill-dot"></div>Tableau</div>
-          <div class="skill"><div class="skill-dot"></div>Excel / Power Query</div>
-          <div class="skill"><div class="skill-dot"></div>Data Cleaning &amp; Quality</div>
-          <div class="skill"><div class="skill-dot"></div>Statistical Analysis</div>
-          <div class="skill"><div class="skill-dot"></div>Dashboard Reporting</div>
+          <div class="skill"><div class="skill-dot"></div>Data Quality</div>
+          <div class="skill"><div class="skill-dot"></div>Reporting &amp; Dashboards</div>
           <div class="skill"><div class="skill-dot"></div>Research &amp; Evaluation</div>
-          <div class="skill"><div class="skill-dot"></div>Stakeholder Reporting</div>
+          <div class="skill"><div class="skill-dot"></div>Public Health Analysis</div>
+          <div class="skill"><div class="skill-dot"></div>Stakeholder Communication</div>
         </div>
-        <p class="about-sources"><strong>Public health reference sources:</strong> CIHI, Statistics Canada, PHAC and provincial health agencies. My portfolio projects identify where records are simulated and distinguish illustrative findings from verified source statistics.</p>
+        <p class="about-sources"><strong>About the projects:</strong> The case studies demonstrate analytical workflows using primarily simulated datasets informed by Canadian public sources. Each repository identifies the data used and its limitations.</p>
       </div>
     </div>
   </div>
