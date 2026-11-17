@@ -1,0 +1,37 @@
+name: Verify deployed portfolio homepage
+on:
+  push:
+    paths:
+      - '.github/workflows/verify-site.yml'
+  workflow_dispatch:
+jobs:
+  verify-deployment:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Fetch the public GitHub Pages site and inspect current content
+        shell: bash
+        run: |
+          python - <<'PY'
+          from urllib.request import Request, urlopen
+          import time
+          url = "https://famiyke.github.io/health-data-portfolio/"
+          expected = ("Featured Healthcare Analytics Projects", "Data transparency:", "Professional Experience", "Methods and Deliverables")
+          for attempt in range(5):
+              try:
+                  req = Request(f"{url}?validate={int(time.time())}",headers={"User-Agent":"Portfolio-QA/1.0","Cache-Control":"no-cache"})
+                  with urlopen(req, timeout=20) as response:
+                      body = response.read().decode("utf-8", errors="replace")
+                      print("Public site HTTP", response.status, "length", len(body))
+                  missing = [x for x in expected if x not in body]
+                  old = "24</div><div class=\"stat-l\">Verified Findings" in body
+                  if not missing and not old:
+                      print("PASS: deployed site contains current homepage content")
+                      break
+                  print(f"Attempt {attempt+1}: missing={missing}, stale_heading={old}")
+              except Exception as err:
+                  print(f"Attempt {attempt+1}: fetch failed: {err}")
+              if attempt == 4:
+                  raise SystemExit("FAIL: published site not verified to match latest design")
+              time.sleep(15)
+          PY
