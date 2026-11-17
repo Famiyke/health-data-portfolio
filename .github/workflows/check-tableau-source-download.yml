@@ -1,0 +1,41 @@
+name: Check access to original Tableau Public workbooks
+on:
+  workflow_dispatch:
+  push:
+    paths: ['.github/workflows/check-tableau-source-download.yml']
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check public workbook download availability
+        run: |
+          python - <<'PY'
+          from urllib.request import Request,urlopen
+          from urllib.error import HTTPError,URLError
+          projects=[
+              'CanadianHospitalReadmission',
+              'OntarioSurgicalWaitTimesHealthAnalyticsDashboard',
+          ]
+          for name in projects:
+            for ext in ('twb','twbx'):
+              url=f'https://public.tableau.com/workbooks/{name}.{ext}'
+              try:
+                with urlopen(Request(url,headers={'User-Agent':'Mozilla/5.0'}),timeout=20) as response:
+                  data=response.read()
+                  content_type=response.headers.get('Content-Type')
+                  good= data.startswith(b'PK') if ext=='twbx' else data.lstrip().startswith(b'<?xml')
+                  print(name,ext,'HTTP',response.status,'BYTES',len(data),'MIME',content_type,'VALID',good)
+                  if good:
+                    with open(f'{name}.{ext}','wb') as f:f.write(data)
+              except Exception as error:
+                print(name,ext,'NOT ACCESSIBLE',type(error).__name__,str(error)[:150])
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tableau-public-source-if-available
+          path: |
+            *.twb
+            *.twbx
+          if-no-files-found: ignore
