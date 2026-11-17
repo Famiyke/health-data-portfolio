@@ -3,6 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Ikenna Nwogu is a healthcare data and research analyst with pharmacy, public health, business and data science training. Explore experience and transparent Python, SQL, Power BI, Tableau and Excel case studies.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ikenna Nwogu | Healthcare Data Analytics">
+<meta property="og:description" content="Healthcare analysis, research evidence, reporting and decision support. Professional experience and six clearly labelled analytics case studies.">
+<meta property="og:url" content="https://famiyke.github.io/health-data-portfolio/">
+<meta name="theme-color" content="#0d5c63">
+<link rel="canonical" href="https://famiyke.github.io/health-data-portfolio/">
 <title>Ikenna Nwogu - Canadian Health Data Analytics Portfolio</title>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Mono:wght@300;400;500&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 <style>
@@ -419,11 +426,22 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
   .about-grid { gap:27px; }
   .skills-grid { grid-template-columns:1fr 1fr; }
 }
+
+/* Accessibility and keyboard navigation */
+.skip-link { position: fixed; left: 12px; top: -100px; z-index: 1000; background: var(--teal); color: white; padding: 10px 16px; text-decoration: none; font: 13px var(--sans); }
+.skip-link:focus { top: 10px; }
+a:focus-visible { outline: 3px solid var(--teal); outline-offset: 3px; }
+section[id] { scroll-margin-top: 75px; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
+}
 </style>
 </head>
 <body>
+<a class="skip-link" href="#experience">Skip to main content</a>
 
-<nav>
+<nav aria-label="Primary navigation">
   <div class="nav-inner">
     <a class="nav-logo" href="#">Ikenna Nwogu</a>
     <div class="nav-links">
@@ -448,7 +466,7 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
     <div class="hero-btns">
       <a href="#experience" class="btn-primary">View Experience ↓</a>
        <a href="#projects" class="btn-outline">Explore Projects →</a>
-      <a href="https://github.com/Famiyke" target="_blank" class="btn-outline">GitHub →</a>
+      <a href="https://github.com/Famiyke" target="_blank" rel="noopener noreferrer" class="btn-outline">GitHub →</a>
     </div>
     <div class="hero-stats">
       <div class="stat-box"><div class="stat-n">6</div><div class="stat-l">Projects</div></div>
@@ -535,7 +553,7 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
         </div>
         <div class="featured-visual">
           <div class="visual-top"><span>Readmission comparison</span><span>Illustrative data</span></div>
-          <div class="visual-bars" aria-label="Illustrative bars showing different readmission levels by province">
+          <div class="visual-bars" aria-label="Decorative example comparing generated readmission levels by province">
             <div><span>QC</span><i style="--v:48%"></i></div><div><span>AB</span><i style="--v:56%"></i></div><div><span>ON</span><i style="--v:63%"></i></div><div><span>NB</span><i style="--v:73%"></i></div><div><span>NS</span><i style="--v:81%"></i></div><div><span>NL</span><i style="--v:89%"></i></div>
           </div>
           <p>Illustrative visual, not official provincial readmission rates. Dashboard methods and assumptions are documented in GitHub.</p>
@@ -692,8 +710,8 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
       <p>Interested in healthcare data analyst, public health analyst, research analyst, business analyst and decision support opportunities in Canada. Open to remote, hybrid and on-site work. Explore my practical experience and analytics portfolio, including clearly labelled simulated case studies.</p>
       <div class="contact-links">
         <a href="mailto:ikennanwogu3@gmail.com" class="btn-primary">Email Me →</a>
-        <a href="https://www.linkedin.com/in/ikenna-nwogu-pharmd-mba-mph-2a053910a" target="_blank" class="btn-outline">LinkedIn →</a>
-        <a href="https://github.com/Famiyke" target="_blank" class="btn-outline">GitHub →</a>
+        <a href="https://www.linkedin.com/in/ikenna-nwogu-pharmd-mba-mph-2a053910a" target="_blank" rel="noopener noreferrer" class="btn-outline">LinkedIn →</a>
+        <a href="https://github.com/Famiyke" target="_blank" rel="noopener noreferrer" class="btn-outline">GitHub →</a>
       </div>
     </div>
   </div>
