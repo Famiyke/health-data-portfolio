@@ -56,6 +56,28 @@ Power BI structure scans are evidence of report contents, **not** a substitute f
 3. Confirm DAX logic, actual chart rendering after the banners are added, tooltip precision, filter behavior, and accessibility in the intended viewing environments.
 4. Confirm all officially derived workbook numbers against an identifiable CIHI release and exact worksheet/cell references. The 2025 CIHI Series A file could not be downloaded from the guessed historical direct URL; this is a source-reconciliation blocker, not evidence that the workbook is correct or incorrect.
 
+## Follow-up official NHEX reconciliation and Power BI screenshot review
+
+### CIHI expenditure figures reconciled against a real source file
+
+The original 2000–2023 national expenditure series in the portfolio workbook was compared against CIHI's **official 2026 Series A Excel workbook**, downloaded directly from CIHI and read cell by cell. All **24 years** matched on year and the workbook's 10 category totals reconciled internally to within **$0.05 billion** a year.
+
+Comparing the older portfolio release to the revised 2026 CIHI series gave a mean absolute total-spending difference of about **$0.13 billion**, with the largest difference in 2023: **$360.70 billion (portfolio) versus $362.183 billion (CIHI 2026)**. The 2023 public-health category differed more substantially: **$21.37 billion versus $23.29 billion**, respectively. These are **different release vintages**, not proof that the original entry is a mistake.
+
+Detailed year-by-year CSV and method report:
+- https://github.com/Famiyke/health-expenditure-canada/blob/main/reconciliation_nhex_2026_vs_portfolio_2000_2023.csv
+- https://github.com/Famiyke/health-expenditure-canada/blob/main/OFFICIAL_NHEX_RECONCILIATION.md
+
+### Mental health Power BI screenshots reviewed
+
+The four screenshots in the mental health project were inspected. The National Snapshot screenshot incorrectly labels synthetic records as **"Source: Statistics Canada CCHS | 5,000 respondents."** A two-part mental-health donut has displayed values **66.8** and **26.4**, totaling **93.2%**, which requires investigation of the missing category and denominator. The Equity Analysis screenshot shows an unqualified modeled **4.6× Indigenous unmet-need ratio**. The provincial scorecard includes **PE with only 23 simulated respondents**, and some province-income cells display **100.00%**, making small-group handling important.
+
+These are dashboard-presentation and measurement issues, **not validated CCHS findings**. Correction instructions:
+- https://github.com/Famiyke/mental-health-outcomes-canada/blob/main/DASHBOARD_CORRECTION_GUIDE.md
+- https://github.com/Famiyke/chronic-disease-surveillance-canada/blob/main/DASHBOARD_CORRECTION_GUIDE.md
+
+The original PBIX files remain unchanged because editing their internal package or layout outside Power BI Desktop could corrupt them. Their pages still require visible simulation banners, updated source descriptions, and DAX validation in Power BI Desktop.
+
 ## Executive outcome
 
 **Status: Partially remediated. Not yet independently validated for release as evidence of actual Canadian health-system findings.**
