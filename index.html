@@ -274,6 +274,10 @@ nav {
 .skill { background: var(--surface); padding: 14px 18px; display: flex; align-items: center; gap: 10px; font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.07em; text-transform: uppercase; color: var(--text-muted); }
 .skill-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--teal); flex-shrink: 0; }
 
+.about-skills-title { font: 500 24px/1.2 var(--serif); margin-bottom: 20px; color: var(--text); }
+.about-sources { margin-top: 20px; font-size: 13px !important; color: var(--text-mid) !important; }
+@media(max-width:768px) { .about-grid { gap: 28px; } .skills-grid { grid-template-columns: 1fr 1fr; } .cred { flex-wrap: wrap; } }
+
 /* ── CONTACT ── */
 .contact { padding: 80px 0 60px; }
 .contact-box {
@@ -748,36 +752,40 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
 <!-- ABOUT -->
 <section class="about" id="about">
   <div class="wrap">
-    <div class="sh"><span class="sh-num">06</span><span class="sh-label">About</span><div class="sh-line"></div></div>
+    <div class="sh"><span class="sh-num">06</span><span class="sh-label">About Me</span><div class="sh-line"></div></div>
     <div class="about-grid">
       <div>
-        <h2>Health data, <em>applied.</em></h2>
-        <p>I am an internationally trained pharmacist and healthcare analytics professional with a Bachelor of Pharmacy, Master of Public Health, MBA and Diploma in Data Science. My background connects clinical context with evidence analysis, operational reporting and business decisions. I have contributed to a research impact study associated with Imperial College London and supported data process improvement at Opportunities for Employment in Winnipeg.</p>
-        <p>My projects use simulated analytical datasets informed by public Canadian health indicators. One expenditure workbook is described as using CIHI source tables. I distinguish illustrative results from official estimates and make model assumptions available in GitHub.</p>
-        <div class="creds">
+        <h2>Clinical understanding.<br><em>Analytical thinking.</em></h2>
+        <p>I am a healthcare data and research analyst with a background in pharmacy, public health, business administration and data science. I combine clinical knowledge with analytical methods to examine healthcare performance, research evidence, service delivery and population health questions.</p>
+        <p>My experience includes research impact analysis associated with Imperial College London, where I worked with mixed-methods evidence, stakeholder interviews and research influence on policy and practice. At Opportunities for Employment in Winnipeg, I supported data workflow improvements and reporting processes for participant services.</p>
+        <p>I have supported records for more than 500 participants and helped reduce routine report preparation time to under 40 minutes per cycle. I use Python, SQL, Excel, Power BI and Tableau to structure data, explore patterns and communicate findings. I am interested in healthcare analytics, decision support, research analytics and public health intelligence roles across Canada.</p>
+        <div class="creds" aria-label="Education and qualifications">
           <div class="cred"><span class="cred-deg">BPharm</span> Bachelor of Pharmacy</div>
-          <div class="cred"><span class="cred-deg">MBA</span> Master of Business Administration</div>
           <div class="cred"><span class="cred-deg">MPH</span> Master of Public Health</div>
-          <div class="cred"><span class="cred-deg">Dip</span> Diploma in Data Science</div>
+          <div class="cred"><span class="cred-deg">MBA</span> Master of Business Administration</div>
+          <div class="cred"><span class="cred-deg">Data</span> Diploma in Data Science</div>
         </div>
         <div style="margin-top:28px; display:flex; gap:12px; flex-wrap:wrap;">
-          <a href="#contact" class="btn-primary">Get in touch →</a>
-          <a href="https://github.com/Famiyke" target="_blank" class="btn-outline">GitHub →</a>
+          <a href="#experience" class="btn-primary">View experience →</a>
+          <a href="#contact" class="btn-outline">Contact me →</a>
+          <a href="https://www.linkedin.com/in/ikenna-nwogu-pharmd-mba-mph-2a053910a" target="_blank" rel="noopener noreferrer" class="btn-outline">LinkedIn →</a>
         </div>
       </div>
       <div>
+        <h3 class="about-skills-title">Technical and analytical capabilities</h3>
         <div class="skills-grid">
           <div class="skill"><div class="skill-dot"></div>Python / Pandas</div>
           <div class="skill"><div class="skill-dot"></div>SQL</div>
           <div class="skill"><div class="skill-dot"></div>Power BI / DAX</div>
           <div class="skill"><div class="skill-dot"></div>Tableau</div>
-          <div class="skill"><div class="skill-dot"></div>Excel / XLSX</div>
-          <div class="skill"><div class="skill-dot"></div>CIHI NHEX Data</div>
-          <div class="skill"><div class="skill-dot"></div>StatCan CCHS PUMF</div>
-          <div class="skill"><div class="skill-dot"></div>PHAC CCDSS</div>
-          <div class="skill"><div class="skill-dot"></div>Health Equity Analysis</div>
-          <div class="skill"><div class="skill-dot"></div>Policy Briefs</div>
+          <div class="skill"><div class="skill-dot"></div>Excel / Power Query</div>
+          <div class="skill"><div class="skill-dot"></div>Data Cleaning &amp; Quality</div>
+          <div class="skill"><div class="skill-dot"></div>Statistical Analysis</div>
+          <div class="skill"><div class="skill-dot"></div>Dashboard Reporting</div>
+          <div class="skill"><div class="skill-dot"></div>Research &amp; Evaluation</div>
+          <div class="skill"><div class="skill-dot"></div>Stakeholder Reporting</div>
         </div>
+        <p class="about-sources"><strong>Public health reference sources:</strong> CIHI, Statistics Canada, PHAC and provincial health agencies. My portfolio projects identify where records are simulated and distinguish illustrative findings from verified source statistics.</p>
       </div>
     </div>
   </div>
