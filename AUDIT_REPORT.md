@@ -4,6 +4,21 @@
 **Scope:** GitHub Pages homepage and six linked project repositories  
 **Audit type:** Static code and documentation inspection, repository file inventory, and limited public-link retrieval.
 
+## Legacy dashboard remediation and safe replacement: 17 November 2026
+
+Four independently navigable, responsive browser dashboards were built from verified repo data sources and reviewed synthetic generators. They require no Power BI service login:
+
+- [Nova Scotia diabetes, real CCDSS-derived data](dashboards/diabetes.html)
+- [Ontario surgical access, real FAO public aggregates](dashboards/ontario.html)
+- [Mental health, corrected synthetic dataset](dashboards/mental-health.html)
+- [Hospital readmissions, simulated methods demonstration](dashboards/readmissions.html)
+
+Each page displays a prominent **REAL PUBLIC DATA / SIMULATED DATA ONLY** disclaimer, source and code links, limitations, keyboard-accessible data controls, data values and accessible tables. The two real-data dashboards use existing officially sourced CSV outputs, while the mental health and readmission versions regenerate the synthetic data from the current Python generator. The mental health page excludes identity disparity charts, ensures rating groups are exhaustive and omits subgroups with fewer than 30 synthetic records.
+
+GitHub Actions `Build and verify reviewed healthcare dashboards` passed and committed all five static HTML pages, including the dashboard index. The dedicated Chromium dashboard test passed for all four dashboards at 375px and 1440px, including interactive filters and no horizontal scrolling.
+
+**Remaining scope limitation:** The original Power BI PBIX and remote Tableau Public dashboards were **not updated in their native editing environments**. Their old visuals, source labels and underlying data may still be wrong if opened directly. The reviewed web dashboards are independent replacements for recruiter-facing presentation, not claims of repaired or refreshed PBIX/TWB files.
+
 ## Real-data rebuild completed on 17 November 2026
 
 **Three reproducible official-source case studies were added and passed GitHub Actions tests:**
