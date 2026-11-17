@@ -16,11 +16,51 @@ A GitHub Actions direct HTTP check of the deployed GitHub Pages homepage passed 
 
 **Outstanding:** validate calculations and interpretability against original government sources, open and interact with Power BI/Tableau dashboards, inspect charts and mobile rendering in a browser, and review accessibility with assistive tools.
 
+## Detailed evidence and dashboard review (17 November 2026)
+
+### Independently checked public-source anchors
+
+- **CIHI NHEX:** CIHI's 2025 data-in-brief publication estimates **$398.8B for 2025** (forecast), while the 2026 release projects **$433B for 2026** and lists 2023 at approximately **$362B**. The portfolio's expenditure workbook displays **$361B for 2023**, a figure consistent with the older CIHI release vintage, but its precise cell mapping remains unverified. Do not combine historical release vintages without a revision note. Sources: https://www.cihi.ca/sites/default/files/document/health-expenditure-data-in-brief-2025-en.pdf ; https://www.cihi.ca/en/national-health-expenditure-trends/nhex-trends-reports/nhex-trends-2026-snapshot
+- **PHAC CCDSS:** The standard published age groups differ from the simulated project's groups. PHAC suppresses estimates when underlying unrounded counts are below 10. Source: https://health-infobase.canada.ca/ccdss/Methods
+- **Ontario Health:** Official surgical statistics distinguish Wait 1 from Wait 2 and account for procedure, priority and reporting period. The generated hospital dataset is not an observed performance extract. Source: https://www.ontariohealth.ca/system/reporting/wait-times/wait-times-results
+- **Statistics Canada CCHS:** Public-use microdata require appropriate survey weighting for population estimates. This project has no validated official weighted results. Source: https://www.statcan.gc.ca/en/statistical-programs/document/3226_D7_T9_V3-eng.pdf
+- **Manitoba Health:** The project uses generated RHA records rather than an official compiled extraction. Source catalogue: https://www.gov.mb.ca/health/annstats/
+
+Every project repository now includes `SOURCE_VALIDATION.md` recording what the official source establishes and which project figures remain unverified.
+
+### Dashboard and workbook findings
+
+| Deliverable | Structural inspection | Outstanding presentation/data issue |
+|---|---|---|
+| Hospital Readmission Tableau | Published page and visualization loaded in headless Chromium | Visible dashboard lacks synthetic-data banner; region and diagnosis figures are simulated |
+| Ontario Surgical Wait Times Tableau | Published page and visualization loaded in headless Chromium | Named hospitals and apparent performance rankings lack synthetic-data banner |
+| Chronic Disease Power BI | Four report pages; 6, 3, 2 and 2 visual containers | No simulated-data disclosure phrase found in page layout; actual visual rendering and DAX not validated |
+| Mental Health Power BI | Four report pages; 7, 3, 3 and 5 visual containers | No simulated-data disclosure phrase found in page layout; actual visual rendering and DAX not validated |
+| Health Expenditure Excel | Six original sheets; four charts and 115 formulas retained | Earlier source vintage and source-cell mapping require reconciliation; first provenance sheet now added |
+| Manitoba Equity Excel | Four original sheets; two charts and no formulas | Derived figures are stored values rather than spreadsheet formulas; first synthetic-data provenance sheet now added |
+
+Power BI structure scans are evidence of report contents, **not** a substitute for Power BI Desktop visual and data validation. Tableau browser screenshots were captured but a first-visit Tableau promotional dialog overlaid parts of the visualizations, so full visual UX validation is still pending.
+
+### Changes made during this stage
+
+- Added source-specific public reference and validation boundaries to each repository.
+- Added a prominent `START HERE` provenance sheet to both Excel files, preserving the initial chart and formula counts through post-save verification.
+- Added warnings to the Power BI dashboard guides about missing on-page disclosure.
+- Removed direct promotion of an unlabeled Tableau demonstration from the portfolio homepage.
+- Added repeatable CIHI source metadata and workbook inspection checks and headless Tableau browser checks.
+
+### Important remaining release blockers
+
+1. Put **"SIMULATED DATA — DEMONSTRATION ONLY. NOT OFFICIAL CANADIAN HEALTH STATISTICS"** visibly on every Tableau and Power BI report page using their respective publisher/editor tools.
+2. Reproduce any statistical findings promoted as real using exact source downloads, documentation, matching reference years/denominators, and independent calculations.
+3. Confirm DAX logic, actual chart rendering after the banners are added, tooltip precision, filter behavior, and accessibility in the intended viewing environments.
+4. Confirm all officially derived workbook numbers against an identifiable CIHI release and exact worksheet/cell references. The 2025 CIHI Series A file could not be downloaded from the guessed historical direct URL; this is a source-reconciliation blocker, not evidence that the workbook is correct or incorrect.
+
 ## Executive outcome
 
 **Status: Partially remediated. Not yet independently validated for release as evidence of actual Canadian health-system findings.**
 
-This audit improved transparency, presentation and documentation. It did not execute the six Python workflows, open binary PBIX/XLSX deliverables, perform browser-based mobile testing, or independently reconcile data with original government releases.
+This audit improved transparency and documentation, executed all six Python demonstration workflows, inspected Power BI report-page structure, checked Excel sheets and formulas, and used headless Chromium to view the published Tableau dashboards. It has **not** fully reconciled project-specific findings against original government data, validated Power BI DAX in Desktop, or completed a multi-device accessibility test.
 
 ## Confirmed corrective changes
 
@@ -44,8 +84,8 @@ This audit improved transparency, presentation and documentation. It did not exe
 ### High — Runtime and deliverables
 
 - Clean GitHub Actions smoke tests passed for all six demonstration workflows, but independent numeric reconciliation with official sources has not been performed.
-- PBIX and XLSX container-integrity tests passed. They were not visually opened, recalculated, or cross-checked against authoritative source data.
-- Tableau Public dashboard URLs are included but the dashboard content could not be verified with available public retrieval.
+- PBIX structural inspection confirmed four pages in each report. Page-text inspection found no embedded simulated-data disclosure on any page. Both Excel workbooks were opened with openpyxl and gained a prominent provenance tab while retaining charts and formulas. Full Power BI DAX and source-value reconciliation remain outstanding.
+- Headless browser screenshots confirm both Tableau Public dashboards render. Neither visible dashboard shows an adequate simulated-data warning; the Ontario report presents named hospital rankings. Direct promotion of the hospital Tableau visualization was removed from the homepage pending publisher-side labeling.
 - Notebook/script dependencies and input-schema compatibility require a reproducibility test.
 
 ### High — Live deployment discrepancy
