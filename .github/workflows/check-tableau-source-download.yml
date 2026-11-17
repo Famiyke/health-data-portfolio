@@ -26,7 +26,8 @@ jobs:
                 with urlopen(Request(url,headers={'User-Agent':'Mozilla/5.0'}),timeout=20) as response:
                   data=response.read()
                   content_type=response.headers.get('Content-Type')
-                  good= data.startswith(b'PK') if ext=='twbx' else ET.fromstring(data).tag=='workbook'
+                  print('RAW PREFIX',name,ext,repr(data[:130]),'HEX',data[:40].hex())
+                  good= data.startswith(b'PK') if ext=='twbx' else data.lstrip().startswith(b'<workbook')
                   print(name,ext,'HTTP',response.status,'BYTES',len(data),'MIME',content_type,'VALID',good)
                   if good:
                     with open(f'{name}.{ext}','wb') as f:f.write(data)
