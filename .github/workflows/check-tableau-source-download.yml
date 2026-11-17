@@ -27,10 +27,10 @@ jobs:
                   data=response.read()
                   content_type=response.headers.get('Content-Type')
                   print('RAW PREFIX',name,ext,repr(data[:130]),'HEX',data[:40].hex())
-                  good= data.startswith(b'PK') if ext=='twbx' else data.lstrip().startswith(b'<workbook')
+                  good= data.startswith(b'PK') or data.lstrip().startswith(b'<workbook')
                   print(name,ext,'HTTP',response.status,'BYTES',len(data),'MIME',content_type,'VALID',good)
                   if good:
-                    with open(f'{name}.{ext}','wb') as f:f.write(data)
+                    with open(f'{name}.twbx' if data.startswith(b'PK') else f'{name}.twb','wb') as f:f.write(data)
               except Exception as error:
                 print(name,ext,'NOT ACCESSIBLE',type(error).__name__,str(error)[:150])
           PY
