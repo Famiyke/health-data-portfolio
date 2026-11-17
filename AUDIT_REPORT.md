@@ -12,7 +12,7 @@ GitHub Actions clean-environment smoke tests were added and executed in all six 
 
 Additional integrity checks of the archive structure of the Power BI PBIX files and readability of the Excel XLSX workbooks passed in all four applicable repositories. Archive integrity does not confirm correct DAX measures, formulas, dashboard design or numerical reconciliation.
 
-A separate live GitHub Pages deployment check was added to the website repository. Refer to its most recent GitHub Actions run for the deployment verdict. The public retrieval tool continued showing a previously published page during this audit, so browser-level confirmation is still necessary.
+A GitHub Actions direct HTTP check of the deployed GitHub Pages homepage passed on 17 November 2026. It verified the featured project heading, experience section ID, methods heading, data-disclosure content and absence of the former '24 Verified Findings' text. The generic web retrieval tool still surfaced cached old HTML. Full visual and accessibility browser testing remains outstanding.
 
 **Outstanding:** validate calculations and interpretability against original government sources, open and interact with Power BI/Tableau dashboards, inspect charts and mobile rendering in a browser, and review accessibility with assistive tools.
 
@@ -50,8 +50,8 @@ This audit improved transparency, presentation and documentation. It did not exe
 
 ### High — Live deployment discrepancy
 
-- The linked GitHub repository contains the revised homepage, while the public website text retrieval returned an older version with unqualified claims such as “24 Verified Findings.” This may reflect stale retrieval or an actual GitHub Pages publishing issue; the exact cause was not established.
-- Verify the deployed page directly in a normal browser, including a hard refresh or private window, and compare to `main/index.html`.
+- A direct HTTP check through GitHub Actions confirmed the revised homepage is served publicly. The text retrieval tool may show stale content; direct deployment verification passed.
+- Cross-device visual inspection in a real browser remains outstanding.
 
 ### Medium — Accessibility and web UX
 
@@ -68,7 +68,7 @@ This audit improved transparency, presentation and documentation. It did not exe
 
 The portfolio is ready for an evidence-based recruiter review when:
 
-- [ ] The public deployed page is confirmed to match the latest GitHub `index.html`.
+- [x] A direct HTTP smoke test confirmed the current key sections and removal of stale headline claims on the public deployed page.
 - [x] All six Python demonstration workflows execute successfully in clean GitHub Actions environments.
 - [ ] The PBIX/XLSX deliverables open and their main charts/figures reconcile with their respective analysis inputs.
 - [ ] The Tableau dashboards load and plainly disclose synthetic data.
