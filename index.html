@@ -336,7 +336,7 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
 
   <div>
     <div class="hero-tag">Canadian Health Data Analyst</div>
-    <h1 style="font-family:var(--serif); font-size:clamp(42px,5.5vw,78px); line-height:1.06; font-weight:500; margin-bottom:24px; letter-spacing:-0.01em;">Six projects.<br>Real <em style="font-style:italic; color:var(--teal);">Canadian</em><br>health data.</h1>
+    <h1 style="font-family:var(--serif); font-size:clamp(42px,5.5vw,78px); line-height:1.06; font-weight:500; margin-bottom:24px; letter-spacing:-0.01em;">Healthcare analytics.<br><em style="font-style:italic; color:var(--teal);">Evidence-led</em><br>decision support.</h1>
     <p style="font-size:15px; color:var(--text-mid); line-height:1.8; max-width:500px; margin-bottom:40px;">End-to-end analytics across hospital performance, chronic disease, health expenditure, surgical access, mental health, and regional equity. Every project ends with a recommendation a health team can act on.</p>
     <div class="hero-btns">
       <a href="#projects" class="btn-primary">View Projects ↓</a>
@@ -346,14 +346,14 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
       <div class="stat-box"><div class="stat-n">6</div><div class="stat-l">Projects</div></div>
       <div class="stat-box"><div class="stat-n">5</div><div class="stat-l">Tools</div></div>
       <div class="stat-box"><div class="stat-n">5</div><div class="stat-l">Analyst Roles</div></div>
-      <div class="stat-box"><div class="stat-n">24</div><div class="stat-l">Verified Findings</div></div>
+      <div class="stat-box"><div class="stat-n">6</div><div class="stat-l">Analytical Examples</div></div>
     </div>
   </div>
 
   <!-- Data panel -->
   <div class="hero-panel">
-    <div class="panel-title">Provincial Good Mental Health — CCHS 2022</div>
-    <div class="panel-sub">% reporting good or excellent mental health · Source: Statistics Canada</div>
+    <div class="panel-title">Illustrative Mental Health Patterns — Simulated Data</div>
+    <div class="panel-sub">Illustrative generated-data values · Not official Statistics Canada estimates</div>
     <div class="bar-row"><div class="bar-lbl">NB</div><div class="bar-track"><div class="bar-fill low" style="width:61%"><span class="bar-val">61%</span></div></div></div>
     <div class="bar-row"><div class="bar-lbl">NL</div><div class="bar-track"><div class="bar-fill low" style="width:62.2%"><span class="bar-val">62%</span></div></div></div>
     <div class="bar-row"><div class="bar-lbl">NS</div><div class="bar-track"><div class="bar-fill low" style="width:63.1%"><span class="bar-val">63%</span></div></div></div>
@@ -363,10 +363,10 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
     <div class="bar-row"><div class="bar-lbl">AB</div><div class="bar-track"><div class="bar-fill high" style="width:68.4%"><span class="bar-val">68%</span></div></div></div>
     <div class="panel-divider"></div>
     <div class="panel-metrics">
-      <div class="pm"><div class="pm-val">4.6×</div><div class="pm-lbl">Indigenous unmet need ratio</div></div>
-      <div class="pm"><div class="pm-val coral">53.8%</div><div class="pm-lbl">Indigenous unmet need</div></div>
-      <div class="pm"><div class="pm-val amber">28.7pp</div><div class="pm-lbl">Income MH gap</div></div>
-      <div class="pm"><div class="pm-val steel">12%</div><div class="pm-lbl">Anxiety prevalence</div></div>
+      <div class="pm"><div class="pm-val">4.6×</div><div class="pm-lbl">Simulated unmet need ratio</div></div>
+      <div class="pm"><div class="pm-val coral">53.8%</div><div class="pm-lbl">Simulated unmet need</div></div>
+      <div class="pm"><div class="pm-val amber">28.7pp</div><div class="pm-lbl">Simulated income gap</div></div>
+      <div class="pm"><div class="pm-val steel">12%</div><div class="pm-lbl">Simulated anxiety rate</div></div>
     </div>
   </div>
 
@@ -398,7 +398,7 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
 </section>
 
 <!-- PROJECTS -->
-<section class="projects" id="projects">
+<section class="projects" id="projects"><div class="wrap" style="padding-top:18px;padding-bottom:18px;"><p style="border-left:3px solid var(--teal);padding:14px 18px;background:var(--surface);color:var(--text-mid);font-size:14px;"><strong>Data transparency:</strong> Project datasets and findings are largely simulated analytical demonstrations, not verified Canadian patient, hospital or population estimates. The expenditure Excel workbook is described as using CIHI source data, while its Python analysis is simulated. Please see each repository for methods and limitations.</p></div>
   <div class="wrap">
     <div class="sh"><span class="sh-num">02</span><span class="sh-label">Projects</span><div class="sh-line"></div></div>
 
@@ -408,15 +408,15 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
       <div>
         <div class="proj-meta"><span class="proj-src">CIHI Quick Stats</span><span class="proj-domain">Hospital Performance</span></div>
         <div class="proj-title">Canadian Hospital Readmission Analysis</div>
-        <div class="proj-desc">Cleaned and analysed 5-year 30-day readmission rates across 10 provinces and 8 diagnoses. Identified conditions and regions driving preventable returns with COVID impact assessment and cost-savings modelling.</div>
+        <div class="proj-desc">Analysed simulated readmission records across provinces and diagnostic groups. Demonstrated data profiling, SQL analysis, trend visualization, and an illustrative intervention cost scenario.</div>
         <div class="proj-tools"><span class="tool">Python</span><span class="tool">SQL</span><span class="tool">Tableau</span></div>
       </div>
       <div class="proj-right">
         <div class="pfind-title">Key Findings</div>
-        <div class="finding">Atlantic provinces have readmission rates <b>1 to 2 percentage points higher</b> than the rest of Canada</div>
-        <div class="finding">COPD and Heart Failure together account for <b>39%</b> of all preventable readmissions nationally</div>
-        <div class="finding">Readmission rates spiked by <b>2.2 percentage points</b> in 2020 and returned to near pre-COVID levels by 2022</div>
-        <div class="finding">A 10% reduction in COPD, Heart Failure, and Sepsis readmissions would save an estimated <b>$27.5M per year</b></div>
+        <div class="finding">Illustrative analysis of provincial readmission variation using generated records</div>
+        <div class="finding">Demonstrates diagnosis ranking without equating rates to absolute volumes</div>
+        <div class="finding">Simulated time-series comparison explores possible service disruption</div>
+        <div class="finding">Hypothetical gross cost-avoidance model; savings not measured or guaranteed</div>
         <div class="proj-spark">
           <div class="spark-lbl">Readmission Rate by Province</div>
           <svg width="100%" height="44" viewBox="0 0 210 44" xmlns="http://www.w3.org/2000/svg">
@@ -443,15 +443,15 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
       <div>
         <div class="proj-meta"><span class="proj-src">PHAC CCDSS</span><span class="proj-domain">Chronic Disease</span></div>
         <div class="proj-title">Canadian Chronic Disease Surveillance</div>
-        <div class="proj-desc">Tracked prevalence of 5 chronic conditions across 10 provinces from 2010–2022. Built age-stratified trend analysis and a provincial burden score to direct prevention investment.</div>
+        <div class="proj-desc">Built simulated chronic disease surveillance tables and demonstrated age-stratified trend analysis and a documented, author-designed provincial burden score.</div>
         <div class="proj-tools"><span class="tool">Python</span><span class="tool">SQL</span><span class="tool">Power BI</span></div>
       </div>
       <div class="proj-right">
         <div class="pfind-title">Key Findings</div>
-        <div class="finding">Mood and anxiety disorders grew <b>49%</b> between 2010 and 2022, the fastest of all five conditions tracked</div>
-        <div class="finding">Diabetes prevalence rose <b>36%</b> over the period, with Atlantic provinces carrying the highest burden across all conditions</div>
-        <div class="finding">Hypertension is <b>14 times more prevalent</b> in the 75 and older age group than in adults aged 20 to 44</div>
-        <div class="finding">Three provinces were flagged as <b>priority targets</b> for chronic disease prevention investment based on composite burden scores</div>
+        <div class="finding">Simulated age and year trends demonstrate surveillance techniques</div>
+        <div class="finding">Generated diabetes and mental health outputs require validation against official estimates</div>
+        <div class="finding">Age-specific prevalence comparisons illustrate denominator and adjustment issues</div>
+        <div class="finding">Author-designed burden score helps demonstrate prioritization methods</div>
         <div class="proj-spark">
           <div class="spark-lbl">Condition Prevalence Growth 2010–2022</div>
           <svg width="100%" height="44" viewBox="0 0 210 44" xmlns="http://www.w3.org/2000/svg">
@@ -475,15 +475,15 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
       <div>
         <div class="proj-meta"><span class="proj-src">CIHI NHEX 2025</span><span class="proj-domain">Health Finance</span></div>
         <div class="proj-title">National Health Expenditure Analysis</div>
-        <div class="proj-desc">Used real CIHI NHEX 2025 data to map Canada's $361B health budget. Per-capita analysis by province and category with drug cost deep dive, scenario modelling, and Excel workbook with 4 chart sheets.</div>
+        <div class="proj-desc">Combined an Excel workbook described as based on CIHI NHEX tables with a separate simulated Python analysis. Explored provincial spending, drug categories and hypothetical fiscal scenarios.</div>
         <div class="proj-tools"><span class="tool">Python</span><span class="tool">SQL</span><span class="tool">Excel</span></div>
       </div>
       <div class="proj-right">
         <div class="pfind-title">Key Findings</div>
-        <div class="finding">Newfoundland spends <b>$1,711 more per person</b> on health than Quebec, the widest provincial spending gap in the dataset</div>
-        <div class="finding">Physician services spending grew <b>65%</b> between 2015 and 2023, outpacing every other category including hospitals and drugs</div>
-        <div class="finding">GLP-1 medications such as Ozempic are growing at <b>14.5% per year</b>, nearly five times faster than generic drugs</div>
-        <div class="finding">Hospitals continue to absorb <b>26.3%</b> of Canada's total health budget despite decades of community care reform</div>
+        <div class="finding">Worked example of provincial expenditure comparisons; verify against CIHI source tables</div>
+        <div class="finding">Scenario-based spending analysis; model assumptions are not official forecasts</div>
+        <div class="finding">Illustrative drug category growth analysis, not measured GLP-1 growth</div>
+        <div class="finding">Excel reporting demonstrates expenditure summaries and quality checks</div>
         <div class="proj-spark">
           <div class="spark-lbl">Per-Capita Spending by Province 2023</div>
           <svg width="100%" height="44" viewBox="0 0 210 44" xmlns="http://www.w3.org/2000/svg">
@@ -518,15 +518,15 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
       <div>
         <div class="proj-meta"><span class="proj-src">Ontario Health CSV</span><span class="proj-domain">Access &amp; Wait Times</span></div>
         <div class="proj-title">Ontario Surgical Wait Time Analysis</div>
-        <div class="proj-desc">Ranked 15 hospitals and 7 procedures on Priority 3 target compliance. Quantified urban-rural access gap, identified worst procedure-region combinations, and tracked COVID backlog recovery. Live Tableau dashboard published.</div>
+        <div class="proj-desc">Demonstrated surgical access analysis using a simulated 15-hospital dataset. Built hospital/procedure comparisons, example compliance trends, and a Tableau dashboard. Rankings are not official facility results.</div>
         <div class="proj-tools"><span class="tool">Python</span><span class="tool">SQL</span><span class="tool">Tableau</span></div>
       </div>
       <div class="proj-right">
         <div class="pfind-title">Key Findings</div>
-        <div class="finding">Rural hospitals average <b>23 percentage points lower</b> compliance than urban hospitals for the same surgical procedures</div>
-        <div class="finding">Only <b>80%</b> of Priority 3 patients receive care within the provincial target time, falling short of the 90% standard</div>
-        <div class="finding">Compliance dropped <b>15 percentage points</b> during the COVID-19 disruption in 2020 and has nearly recovered to pre-pandemic levels by 2023</div>
-        <div class="finding"><b>11 of the 15 hospitals</b> analysed fall below the 90% provincial compliance target</div>
+        <div class="finding">Simulated hospital-level analysis shows geographic comparisons</div>
+        <div class="finding">Illustrative compliance calculations, not observed Ontario Health results</div>
+        <div class="finding">Generated time trends demonstrate backlog analysis methods</div>
+        <div class="finding">Example hospital rankings must not be treated as actual facility performance</div>
         <div class="proj-spark">
           <div class="spark-lbl">Urban vs Rural Compliance</div>
           <svg width="100%" height="44" viewBox="0 0 210 44" xmlns="http://www.w3.org/2000/svg">
@@ -546,15 +546,15 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
       <div>
         <div class="proj-meta"><span class="proj-src">StatCan CCHS PUMF</span><span class="proj-domain">Mental Health</span></div>
         <div class="proj-title">Provincial Mental Health Outcomes</div>
-        <div class="proj-desc">Analysed respondent-level CCHS microdata across province, age, income, and Indigenous identity. Identified highest-risk demographic intersections. 4-page Power BI dashboard built and published.</div>
+        <div class="proj-desc">Analysed simulated respondent records inspired by CCHS indicators. Built demographic cross-tabulations and a Power BI demonstration; modeled outcomes are not official survey estimates.</div>
         <div class="proj-tools"><span class="tool">Python</span><span class="tool">SQL</span><span class="tool">Power BI</span></div>
       </div>
       <div class="proj-right">
         <div class="pfind-title">Key Findings</div>
-        <div class="finding">New Brunswick (<b>61%</b>) and Newfoundland (<b>62%</b>) report the lowest rates of good mental health of any province</div>
-        <div class="finding">Respondents earning under $30,000 per year report poor mental health at <b>1.5 times</b> the national rate</div>
-        <div class="finding">Indigenous Canadians report unmet mental health need at <b>4.6 times the rate</b> of non-Indigenous respondents, the largest equity gap in the dataset</div>
-        <div class="finding">Anxiety disorders (<b>12%</b> prevalence) have now overtaken depression (<b>9.4%</b>) as the most common mental health condition</div>
+        <div class="finding">Simulated provincial patterns demonstrate mental health indicator reporting</div>
+        <div class="finding">Modeled income differences illustrate stratified analysis, not population prevalence</div>
+        <div class="finding">Generated demographic ratios are not official CCHS estimates</div>
+        <div class="finding">Condition comparisons require representative source data and survey weights</div>
         <div class="proj-spark">
           <div class="spark-lbl">Good MH % by Income Group</div>
           <svg width="100%" height="44" viewBox="0 0 210 44" xmlns="http://www.w3.org/2000/svg">
@@ -581,15 +581,15 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
       <div>
         <div class="proj-meta"><span class="proj-src">Manitoba Health PDF</span><span class="proj-domain">Health Equity</span></div>
         <div class="proj-title">Manitoba Regional Health Equity Analysis</div>
-        <div class="proj-desc">Extracted and standardised 9 health indicators from Manitoba Health PDF reports across 5 RHAs. Built composite equity score, correlated social determinants with mortality. Excel workbook with 4 chart sheets.</div>
+        <div class="proj-desc">Built simulated RHA indicators and demonstrated an author-designed equity index, exploratory ecological correlations, and Excel reporting. Findings are not official Manitoba Health estimates.</div>
         <div class="proj-tools"><span class="tool">Python</span><span class="tool">SQL</span><span class="tool">Excel</span></div>
       </div>
       <div class="proj-right">
         <div class="pfind-title">Key Findings</div>
-        <div class="finding">The Northern RHA records premature mortality at <b>nearly twice</b> the rate of the provincial average</div>
-        <div class="finding"><b>Four in ten</b> residents of Northern Manitoba have no regular doctor, the highest no-doctor rate in the province</div>
-        <div class="finding">Low income is the single strongest predictor of poor health outcomes, with a correlation of <b>r = 0.94</b> against mortality across all five RHAs</div>
-        <div class="finding">The Northern RHA scores <b>0 out of 100</b> on the composite health equity index, the only RHA classified as Critical</div>
+        <div class="finding">Illustrative RHA outcome comparisons based on simulated indicators</div>
+        <div class="finding">Modeled access-to-care indicators are not verified regional rates</div>
+        <div class="finding">Ecological correlation across five regions does not show causation</div>
+        <div class="finding">Composite equity score is author-designed and requires sensitivity analysis</div>
         <div class="proj-spark">
           <div class="spark-lbl">Composite Equity Score by RHA (100=best)</div>
           <svg width="100%" height="44" viewBox="0 0 210 44" xmlns="http://www.w3.org/2000/svg">
@@ -619,14 +619,14 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
 <!-- HIGHLIGHTS -->
 <section class="highlights" id="highlights">
   <div class="wrap">
-    <div class="sh"><span class="sh-num">03</span><span class="sh-label">Key Numbers Across All Projects</span><div class="sh-line"></div></div>
+    <div class="sh"><span class="sh-num">03</span><span class="sh-label">Methods and Demonstrated Outputs</span><div class="sh-line"></div></div>
     <div class="hl-grid">
-      <div class="hl t"><div class="hl-n">$27.5M</div><div class="hl-l">Annual Savings Potential</div><div class="hl-d">A 10% reduction in COPD, Heart Failure, and Sepsis readmissions through structured post-discharge follow-up saves an estimated $27.5M nationally per year.</div><div class="hl-p">→ Project 1 — Hospital Readmission</div></div>
-      <div class="hl c"><div class="hl-n">4.6×</div><div class="hl-l">Indigenous Unmet MH Need</div><div class="hl-d">Indigenous Canadians face 4.6× higher unmet mental health need than non-Indigenous Canadians which is the largest equity gap in the CCHS dataset.</div><div class="hl-p">→ Project 5 — Mental Health Outcomes</div></div>
-      <div class="hl s"><div class="hl-n">23pp</div><div class="hl-l">Urban-Rural Compliance Gap</div><div class="hl-d">Rural Ontario hospitals average 23 percentage points lower surgical wait time compliance than urban hospitals. 11 of 15 fall below the 90% provincial target.</div><div class="hl-p">→ Project 4 — Ontario Wait Times</div></div>
-      <div class="hl t"><div class="hl-n">$1,711</div><div class="hl-l">NL vs QC Per Capita Gap</div><div class="hl-d">Newfoundland spends $1,711 more per person on health than Quebec — the widest provincial spending gap in the NHEX 2025 dataset. Driven by demographics, not waste.</div><div class="hl-p">→ Project 3 — Health Expenditure</div></div>
-      <div class="hl c"><div class="hl-n">41%</div><div class="hl-l">Northern No-Doctor Rate</div><div class="hl-d">Four in ten Northern Manitoba residents have no regular doctor. The Northern RHA scores 0 out of 100 on the composite health equity index, signifying a Critical status.</div><div class="hl-p">→ Project 6 — Manitoba Health Equity</div></div>
-      <div class="hl s"><div class="hl-n">14.5%</div><div class="hl-l">GLP-1 Drug Cost Growth</div><div class="hl-d">GLP-1 analogues are growing nearly 5× faster than generic drugs. Without a managed-entry framework they will dominate provincial drug budgets by 2030.</div><div class="hl-p">→ Project 3 — Health Expenditure</div></div>
+      <div class="hl t"><div class="hl-n">6</div><div class="hl-l">Analytics case studies</div><div class="hl-d">Six demonstration projects spanning hospital quality, surveillance, finance, access and equity.</div><div class="hl-p">Portfolio methodology</div></div><div class="hl-l">Annual Savings Potential</div><div class="hl-d">A 10% reduction in COPD, Heart Failure, and Sepsis readmissions through structured post-discharge follow-up saves an estimated $27.5M nationally per year.</div><div class="hl-p">→ Project 1 — Hospital Readmission</div></div>
+      <div class="hl t"><div class="hl-n">5</div><div class="hl-l">Core tools</div><div class="hl-d">Python, SQL, Power BI, Tableau and Excel appear across the project work.</div><div class="hl-p">Portfolio methodology</div></div><div class="hl-l">Indigenous Unmet MH Need</div><div class="hl-d">Indigenous Canadians face 4.6× higher unmet mental health need than non-Indigenous Canadians which is the largest equity gap in the CCHS dataset.</div><div class="hl-p">→ Project 5 — Mental Health Outcomes</div></div>
+      <div class="hl t"><div class="hl-n">6</div><div class="hl-l">Documented methods</div><div class="hl-d">Each project includes source references, generated-data limitations and analytical workflow documentation.</div><div class="hl-p">Portfolio methodology</div></div><div class="hl-l">Urban-Rural Compliance Gap</div><div class="hl-d">Rural Ontario hospitals average 23 percentage points lower surgical wait time compliance than urban hospitals. 11 of 15 fall below the 90% provincial target.</div><div class="hl-p">→ Project 4 — Ontario Wait Times</div></div>
+      <div class="hl t"><div class="hl-n">1</div><div class="hl-l">Source-backed Excel example</div><div class="hl-d">The expenditure workbook is described as using CIHI NHEX source tables; its Python analysis is simulated.</div><div class="hl-p">Portfolio methodology</div></div><div class="hl-l">NL vs QC Per Capita Gap</div><div class="hl-d">Newfoundland spends $1,711 more per person on health than Quebec — the widest provincial spending gap in the NHEX 2025 dataset. Driven by demographics, not waste.</div><div class="hl-p">→ Project 3 — Health Expenditure</div></div>
+      <div class="hl t"><div class="hl-n">0</div><div class="hl-l">Verified population estimates claimed</div><div class="hl-d">Generated figures and model scenarios are labeled as illustrative, not official Canadian health findings.</div><div class="hl-p">Portfolio methodology</div></div><div class="hl-l">Northern No-Doctor Rate</div><div class="hl-d">Four in ten Northern Manitoba residents have no regular doctor. The Northern RHA scores 0 out of 100 on the composite health equity index, signifying a Critical status.</div><div class="hl-p">→ Project 6 — Manitoba Health Equity</div></div>
+      <div class="hl t"><div class="hl-n">100%</div><div class="hl-l">Provenance labels</div><div class="hl-d">All six project repositories now prominently disclose simulated dataset use.</div><div class="hl-p">Portfolio methodology</div></div><div class="hl-l">GLP-1 Drug Cost Growth</div><div class="hl-d">GLP-1 analogues are growing nearly 5× faster than generic drugs. Without a managed-entry framework they will dominate provincial drug budgets by 2030.</div><div class="hl-p">→ Project 3 — Health Expenditure</div></div>
     </div>
   </div>
 </section>
@@ -636,9 +636,9 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
   <div class="wrap">
     <div class="sh"><span class="sh-num">04</span><span class="sh-label">How Every Project Is Built</span><div class="sh-line"></div></div>
     <div class="method-grid">
-      <div class="mc"><div class="mc-step">Step 01</div><div class="mc-title">Source Verification</div><div class="mc-desc">Every dataset is sourced from a named Canadian government publication. Download URLs are in each README. Simulated data is anchored to published statistics and documented inline in the simulation scripts.</div></div>
+      <div class="mc"><div class="mc-step">Step 01</div><div class="mc-title">Source Verification</div><div class="mc-desc">Each project names its public reference sources and identifies simulated records. Source links do not mean that generated findings reproduce official published estimates.</div></div>
       <div class="mc"><div class="mc-step">Step 02</div><div class="mc-title">Data Cleaning</div><div class="mc-desc">Before any analysis, a dedicated script checks for missing values, out-of-range indicators, suppressed cells (CIHI uses "--" and "LV" codes), and coverage gaps across all provinces and years.</div></div>
-      <div class="mc"><div class="mc-step">Step 03</div><div class="mc-title">SQL and Python Analysis</div><div class="mc-desc">Core questions are answered in SQL for reproducibility and extended in Python for depth. Every finding is verifiable from the raw data. Models and logic remain transparent, with clear, explainable steps throughout.</div></div>
+      <div class="mc"><div class="mc-step">Step 03</div><div class="mc-title">SQL and Python Analysis</div><div class="mc-desc">Core questions are answered in SQL for reproducibility and extended in Python for depth. Scripts and sample datasets demonstrate the analytical workflow. Generated results should not be interpreted as validated population findings.</div></div>
       <div class="mc"><div class="mc-step">Step 04</div><div class="mc-title">Dashboard and Brief</div><div class="mc-desc">Tableau and Power BI dashboards built for non-technical health audiences. Every project includes a written brief a health director can read in 10 minutes and bring to a planning meeting.</div></div>
     </div>
   </div>
@@ -652,7 +652,7 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
       <div>
         <h2>Health data, <em>applied.</em></h2>
         <p>I am a pharmacist and health data analyst with graduate training in business and public health. I have worked in clinical pharmacy, public health surveillance, and research analytics, including a role at Imperial College London. I work well in technical, clinical, administrative data, and stakeholder-facing environments. I also understand how health organizations allocate budgets, evaluate programs, and translate data into operational decisions.</p>
-        <p>My projects use real data from Statistics Canada, CIHI, PHAC, and provincial health authorities. Every analysis ends with a specific recommendation a health director can bring to a planning meeting.</p>
+        <p>My projects use simulated analytical datasets informed by public Canadian health indicators. One expenditure workbook is described as using CIHI source tables. I distinguish illustrative results from official estimates and make model assumptions available in GitHub.</p>
         <div class="creds">
           <div class="cred"><span class="cred-deg">BPharm</span> Bachelor of Pharmacy</div>
           <div class="cred"><span class="cred-deg">MBA</span> Master of Business Administration</div>
