@@ -6,6 +6,12 @@
 
 ## Remediation update: 17 November 2026
 
+### Responsive design regression fixed
+
+A Chromium regression test initially found a **375px mobile viewport overflowing to 474px**. The cause was an About-section skills grid that retained a desktop column layout. The CSS was corrected for narrow viewports. The subsequent GitHub Actions run **44081018123 passed** desktop (1440px), tablet (768px), and mobile (375px) horizontal-overflow and page-structure checks. The revised GitHub Pages build also completed successfully.
+
+
+
 **Repaired and tested**
 - Mental health synthetic generator now uses mutually exclusive/exhaustive five-level self-rated mental-health categories. Generated "good or better" agrees with scale levels 1–3, while "fair or poor" uses 4–5. The analysis asserts that categories sum to 100%, and provincial groups with fewer than 30 generated records are suppressed from printed comparisons.
 - Removed the simulation's unsupported imposed Indigenous-related prevalence and unmet-care multipliers. Identity-comparison claims were withdrawn from the updated script.
