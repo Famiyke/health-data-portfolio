@@ -313,6 +313,43 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
   .nav-links { display: none; }
   .method-grid { grid-template-columns: 1fr; }
 }
+
+/* Professional experience and recruiter-facing project summaries */
+.experience { padding: 88px 0; background: var(--surface2); }
+.experience-intro { max-width: 760px; color: var(--text-mid); font-size: 15px; line-height: 1.8; margin: 0 0 26px; }
+.exp-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.exp-card { background: var(--surface); border: 1px solid var(--border); padding: 30px; box-shadow: var(--shadow); }
+.exp-kicker { color: var(--teal); font: 10px var(--mono); letter-spacing: .09em; text-transform: uppercase; margin-bottom: 12px; }
+.exp-card h3 { font: 500 25px/1.15 var(--serif); margin-bottom: 9px; }
+.exp-card p { color: var(--text-mid); font-size: 14px; line-height: 1.75; margin-top: 12px; }
+.exp-result { background: var(--teal-lt); border-left: 3px solid var(--teal); padding: 12px 14px; margin-top: 20px; font-size: 13px; line-height: 1.6; }
+.project-context { font-size: 13px; line-height: 1.6; margin: 0 0 13px; color: var(--text-mid); }
+.project-context strong { color: var(--teal2); }
+.project-action { display: inline-block; font: 10px var(--mono); text-transform: uppercase; letter-spacing: .07em; color: var(--teal); margin-top: 13px; border-bottom: 1px solid var(--teal-mid); padding-bottom: 3px; }
+.hero-layout { min-height: 100vh; padding-top: 58px; display: grid; grid-template-columns: 1fr; align-items: center; position: relative; z-index: 1; }
+.hero-inner { display: grid; grid-template-columns: minmax(0,1fr) 420px; gap: 64px; align-items: center; padding-top: 40px; padding-bottom: 60px; }
+.proj-right { display: block; }
+@media(max-width:1024px) {
+  .hero-inner { grid-template-columns: 1fr; gap: 24px; }
+  .hero-panel { display: block; max-width: 520px; }
+  .proj-right { display: block; grid-column: 2; border-left: 0; border-top: 1px solid var(--border); padding: 14px 0 0; }
+  .exp-grid { grid-template-columns: 1fr; }
+}
+@media(max-width:768px) {
+  .hero-layout { min-height: auto; }
+  .hero-inner { padding-top: 65px; padding-bottom: 45px; }
+  .hero-panel { display: none; }
+  .proj-card { grid-template-columns: 1fr; gap: 12px; padding: 25px 20px; }
+  .proj-num { font-size: 26px; }
+  .proj-right { grid-column: 1; }
+  .exp-card { padding: 24px; }
+  .nav-links { display: flex; gap: 12px; }
+  .nav-links a { font-size: 9px; }
+  .nav-links a[href="#highlights"], .nav-links a[href="#methodology"], .nav-links a[href="#about"] { display:none; }
+  .nav-inner { padding: 0 18px; }
+  .nav-logo { font-size: 10px; }
+}
+
 </style>
 </head>
 <body>
@@ -321,6 +358,7 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
   <div class="nav-inner">
     <a class="nav-logo" href="#">Ikenna Nwogu</a>
     <div class="nav-links">
+      <a href="#experience">Experience</a>
       <a href="#projects">Projects</a>
       <a href="#highlights">Highlights</a>
       <a href="#methodology">Methodology</a>
@@ -331,22 +369,23 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
 </nav>
 
 <!-- HERO -->
-<section style="min-height:100vh; padding-top:58px; display:grid; grid-template-columns:1fr 420px; gap:80px; align-items:center; position:relative; z-index:1;">
-<div class="wrap" style="grid-column:1/-1; display:grid; grid-template-columns:1fr 420px; gap:80px; align-items:center; padding-top:40px; padding-bottom:60px;">
+<section class="hero-layout">
+<div class="wrap hero-inner">
 
   <div>
-    <div class="hero-tag">Canadian Health Data Analyst</div>
-    <h1 style="font-family:var(--serif); font-size:clamp(42px,5.5vw,78px); line-height:1.06; font-weight:500; margin-bottom:24px; letter-spacing:-0.01em;">Healthcare analytics.<br><em style="font-style:italic; color:var(--teal);">Evidence-led</em><br>decision support.</h1>
-    <p style="font-size:15px; color:var(--text-mid); line-height:1.8; max-width:500px; margin-bottom:40px;">I combine pharmacy, public health and business training with Python, SQL, Power BI, Tableau and Excel. Explore healthcare analytics case studies with explicit data limitations and reproducible workflows.</p>
+    <div class="hero-tag">Healthcare Data Analyst · Public Health &amp; Decision Support</div>
+    <h1 style="font-family:var(--serif); font-size:clamp(42px,5.5vw,78px); line-height:1.06; font-weight:500; margin-bottom:24px; letter-spacing:-0.01em;">I translate <em style="font-style:italic; color:var(--teal);">health data</em><br>into decisions.</h1>
+    <p style="font-size:15px; color:var(--text-mid); line-height:1.8; max-width:500px; margin-bottom:40px;">I combine a pharmacy background, an MPH, an MBA and data science training to solve healthcare reporting, research and operational problems. My experience includes research impact analysis and improving data processes for a community employment organization. Explore my work in Python, SQL, Power BI, Tableau and Excel.</p>
     <div class="hero-btns">
-      <a href="#projects" class="btn-primary">View Projects ↓</a>
+      <a href="#experience" class="btn-primary">View Experience ↓</a>
+       <a href="#projects" class="btn-outline">Explore Projects →</a>
       <a href="https://github.com/Famiyke" target="_blank" class="btn-outline">GitHub →</a>
     </div>
     <div class="hero-stats">
       <div class="stat-box"><div class="stat-n">6</div><div class="stat-l">Projects</div></div>
       <div class="stat-box"><div class="stat-n">5</div><div class="stat-l">Tools</div></div>
-      <div class="stat-box"><div class="stat-n">5</div><div class="stat-l">Analyst Roles</div></div>
-      <div class="stat-box"><div class="stat-n">6</div><div class="stat-l">Analytical Examples</div></div>
+      <div class="stat-box"><div class="stat-n">MPH</div><div class="stat-l">Public Health</div></div>
+      <div class="stat-box"><div class="stat-n">MBA</div><div class="stat-l">Business Analysis</div></div>
     </div>
   </div>
 
@@ -383,10 +422,35 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
   </div>
 </div>
 
+
+<!-- PROFESSIONAL EXPERIENCE -->
+<section class="experience" id="experience">
+  <div class="wrap">
+    <div class="sh"><span class="sh-num">01</span><span class="sh-label">Experience &amp; Practical Impact</span><div class="sh-line"></div></div>
+    <p class="experience-intro">I bring experience from research and community service operations alongside my independent healthcare analytics projects. These examples reflect organizational work, not simulated portfolio results.</p>
+    <div class="exp-grid">
+      <article class="exp-card">
+        <div class="exp-kicker">Research analytics · Imperial College London</div>
+        <h3>Research impact and evidence analysis</h3>
+        <p>Worked on an impact study involving Clinical Practice Research Datalink (CPRD) research. The work combined qualitative interviews with assessment of research outputs, altmetrics and potential influence on policy and clinical guidelines.</p>
+        <p><strong>Skills applied:</strong> mixed-methods research, evidence synthesis, stakeholder interviews, research impact assessment and communication.</p>
+        <div class="exp-result"><strong>Value demonstrated:</strong> Translating varied research evidence into findings relevant to stakeholders and decision-makers.</div>
+      </article>
+      <article class="exp-card">
+        <div class="exp-kicker">Program support &amp; data · Opportunities for Employment, Winnipeg</div>
+        <h3>Data workflow and reporting improvement</h3>
+        <p>Supported participant intake and reporting data processes. Standardized file structures and data-entry workflows to improve consistency and make routine report preparation easier.</p>
+        <p><strong>Skills applied:</strong> data quality, Excel-based workflow improvement, process documentation, reporting support and privacy-aware information handling.</p>
+        <div class="exp-result"><strong>Reported outcomes:</strong> Supported intake records for more than 500 participants and reduced report preparation to under 40 minutes per cycle.</div>
+      </article>
+    </div>
+  </div>
+</section>
+
 <!-- HATS -->
 <section class="hats">
   <div class="wrap">
-    <div class="sh"><span class="sh-num">01</span><span class="sh-label">Analyst Roles</span><div class="sh-line"></div></div>
+    <div class="sh"><span class="sh-num">02</span><span class="sh-label">Technical Capabilities</span><div class="sh-line"></div></div>
     <div class="hats-grid">
       <div class="hat"><span class="hat-icon">🔍</span><div class="hat-t">Data Detective</div><div class="hat-d">Profiling distributions, inspecting missing values, checking suppression codes and testing sample data consistency.</div></div>
       <div class="hat"><span class="hat-icon">⌨️</span><div class="hat-t">SQL / Python</div><div class="hat-d">Querying, grouping, ranking, and transforming data. Project outputs can be traced to the demonstration scripts and sample datasets.</div></div>
@@ -400,7 +464,7 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
 <!-- PROJECTS -->
 <section class="projects" id="projects"><div class="wrap" style="padding-top:18px;padding-bottom:18px;"><p style="border-left:3px solid var(--teal);padding:14px 18px;background:var(--surface);color:var(--text-mid);font-size:14px;"><strong>Data transparency:</strong> Project datasets and findings are largely simulated analytical demonstrations, not verified Canadian patient, hospital or population estimates. The expenditure Excel workbook is described as using CIHI source data, while its Python analysis is simulated. Please see each repository for methods and limitations.</p></div>
   <div class="wrap">
-    <div class="sh"><span class="sh-num">02</span><span class="sh-label">Projects</span><div class="sh-line"></div></div>
+    <div class="sh"><span class="sh-num">03</span><span class="sh-label">Selected Healthcare Analytics Projects</span><div class="sh-line"></div></div>
 
     <!-- P1 -->
     <a href="https://github.com/Famiyke/hospital-readmission-canada" target="_blank" class="proj-card">
@@ -409,7 +473,13 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
         <div class="proj-meta"><span class="proj-src">CIHI-informed simulation</span><span class="proj-domain">Hospital Performance</span></div>
         <div class="proj-title">Canadian Hospital Readmission Analysis</div>
         <div class="proj-desc">Analysed simulated readmission records across provinces and diagnostic groups. Demonstrated data profiling, SQL analysis, trend visualization, and an illustrative intervention cost scenario.</div>
+        <div class="project-context"><strong>Decision question:</strong> Where should hospital teams focus follow-up resources to reduce avoidable returns?</div>
+        <div class="project-context"><strong>My approach:</strong> Used Python and SQL to compare simulated diagnosis, regional and time-series readmissions; modeled an assumed intervention scenario.</div>
+        <div class="project-context"><strong>Deliverables:</strong> Code, Tableau dashboard and quality committee brief.</div>
+        <div class="project-context"><strong>Evidence boundary:</strong> Simulated patient-level records; costs and savings are hypothetical.</div>
+        
         <div class="proj-tools"><span class="tool">Python</span><span class="tool">SQL</span><span class="tool">Tableau</span></div>
+        <span class="project-action">View methods, code and deliverables →</span>
       </div>
       <div class="proj-right">
         <div class="pfind-title">Illustrative Outputs</div>
@@ -444,7 +514,13 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
         <div class="proj-meta"><span class="proj-src">PHAC-informed simulation</span><span class="proj-domain">Chronic Disease</span></div>
         <div class="proj-title">Canadian Chronic Disease Surveillance</div>
         <div class="proj-desc">Built simulated chronic disease surveillance tables and demonstrated age-stratified trend analysis and a documented, author-designed provincial burden score.</div>
+        <div class="project-context"><strong>Decision question:</strong> How can population-health teams identify chronic disease monitoring priorities?</div>
+        <div class="project-context"><strong>My approach:</strong> Built simulated CCDSS-style records; calculated prevalence patterns by condition, age and geography.</div>
+        <div class="project-context"><strong>Deliverables:</strong> Python/SQL workflows, Power BI project and prevention brief.</div>
+        <div class="project-context"><strong>Evidence boundary:</strong> Generated prevalence and growth rates are not verified PHAC estimates.</div>
+        
         <div class="proj-tools"><span class="tool">Python</span><span class="tool">SQL</span><span class="tool">Power BI</span></div>
+        <span class="project-action">View methods, code and deliverables →</span>
       </div>
       <div class="proj-right">
         <div class="pfind-title">Illustrative Outputs</div>
@@ -476,7 +552,13 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
         <div class="proj-meta"><span class="proj-src">CIHI NHEX 2025</span><span class="proj-domain">Health Finance</span></div>
         <div class="proj-title">National Health Expenditure Analysis</div>
         <div class="proj-desc">Combined an Excel workbook described as based on CIHI NHEX tables with a separate simulated Python analysis. Explored provincial spending, drug categories and hypothetical fiscal scenarios.</div>
+        <div class="project-context"><strong>Decision question:</strong> How can finance teams compare expenditure categories and model budget choices?</div>
+        <div class="project-context"><strong>My approach:</strong> Used a CIHI-based Excel workbook alongside a separate synthetic Python spending analysis and scenario model.</div>
+        <div class="project-context"><strong>Deliverables:</strong> Excel workbook, Python/SQL analysis and financial briefing.</div>
+        <div class="project-context"><strong>Evidence boundary:</strong> Excel source and simulation are distinct; projected savings are hypothetical.</div>
+        
         <div class="proj-tools"><span class="tool">Python</span><span class="tool">SQL</span><span class="tool">Excel</span></div>
+        <span class="project-action">View methods, code and deliverables →</span>
       </div>
       <div class="proj-right">
         <div class="pfind-title">Illustrative Outputs</div>
@@ -519,7 +601,13 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
         <div class="proj-meta"><span class="proj-src">Ontario-informed simulation</span><span class="proj-domain">Access &amp; Wait Times</span></div>
         <div class="proj-title">Ontario Surgical Wait Time Analysis</div>
         <div class="proj-desc">Demonstrated surgical access analysis using a simulated 15-hospital dataset. Built hospital/procedure comparisons, example compliance trends, and a Tableau dashboard. Rankings are not official facility results.</div>
+        <div class="project-context"><strong>Decision question:</strong> Which procedures and sites might need closer access-to-care monitoring?</div>
+        <div class="project-context"><strong>My approach:</strong> Modeled wait-time compliance by procedure, hospital and region in an illustrative 15-hospital dataset.</div>
+        <div class="project-context"><strong>Deliverables:</strong> Python/SQL scripts, Tableau dashboard and patient-access brief.</div>
+        <div class="project-context"><strong>Evidence boundary:</strong> Hospital comparisons are synthetic, not actual Ontario Health rankings.</div>
+        
         <div class="proj-tools"><span class="tool">Python</span><span class="tool">SQL</span><span class="tool">Tableau</span></div>
+        <span class="project-action">View methods, code and deliverables →</span>
       </div>
       <div class="proj-right">
         <div class="pfind-title">Illustrative Outputs</div>
@@ -547,7 +635,13 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
         <div class="proj-meta"><span class="proj-src">CCHS-informed simulation</span><span class="proj-domain">Mental Health</span></div>
         <div class="proj-title">Provincial Mental Health Outcomes</div>
         <div class="proj-desc">Analysed simulated respondent records inspired by CCHS indicators. Built demographic cross-tabulations and a Power BI demonstration; modeled outcomes are not official survey estimates.</div>
+        <div class="project-context"><strong>Decision question:</strong> How can analysts explore differences in mental health indicators across demographic groups?</div>
+        <div class="project-context"><strong>My approach:</strong> Constructed respondent-style records for stratified reporting and a Power BI dashboard.</div>
+        <div class="project-context"><strong>Deliverables:</strong> Python/SQL workflows, dashboard design and mental health equity brief.</div>
+        <div class="project-context"><strong>Evidence boundary:</strong> Simulation is not a weighted CCHS survey estimate.</div>
+        
         <div class="proj-tools"><span class="tool">Python</span><span class="tool">SQL</span><span class="tool">Power BI</span></div>
+        <span class="project-action">View methods, code and deliverables →</span>
       </div>
       <div class="proj-right">
         <div class="pfind-title">Illustrative Outputs</div>
@@ -582,7 +676,13 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
         <div class="proj-meta"><span class="proj-src">Manitoba-informed simulation</span><span class="proj-domain">Health Equity</span></div>
         <div class="proj-title">Manitoba Regional Health Equity Analysis</div>
         <div class="proj-desc">Built simulated RHA indicators and demonstrated an author-designed equity index, exploratory ecological correlations, and Excel reporting. Findings are not official Manitoba Health estimates.</div>
+        <div class="project-context"><strong>Decision question:</strong> How can regional planners compare health needs without confusing correlation with causation?</div>
+        <div class="project-context"><strong>My approach:</strong> Developed simulated RHA indicators, a transparent composite index and exploratory ecological comparisons.</div>
+        <div class="project-context"><strong>Deliverables:</strong> Python/SQL analysis, Excel workbook and regional equity brief.</div>
+        <div class="project-context"><strong>Evidence boundary:</strong> Five-region ecological patterns and index scores are illustrative.</div>
+        
         <div class="proj-tools"><span class="tool">Python</span><span class="tool">SQL</span><span class="tool">Excel</span></div>
+        <span class="project-action">View methods, code and deliverables →</span>
       </div>
       <div class="proj-right">
         <div class="pfind-title">Illustrative Outputs</div>
@@ -619,7 +719,7 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
 <!-- HIGHLIGHTS -->
 <section class="highlights" id="highlights">
   <div class="wrap">
-    <div class="sh"><span class="sh-num">03</span><span class="sh-label">Methods and Demonstrated Outputs</span><div class="sh-line"></div></div>
+    <div class="sh"><span class="sh-num">04</span><span class="sh-label">Methods and Demonstrated Outputs</span><div class="sh-line"></div></div>
     <div class="hl-grid">
       <div class="hl t"><div class="hl-n">6</div><div class="hl-l">Analytics case studies</div><div class="hl-d">Six demonstration projects spanning hospital quality, surveillance, finance, access and equity.</div><div class="hl-p">Portfolio methodology</div></div><div class="hl-l">Annual Savings Potential</div><div class="hl-d">A 10% reduction in COPD, Heart Failure, and Sepsis readmissions through structured post-discharge follow-up saves an estimated $27.5M nationally per year.</div><div class="hl-p">→ Project 1 — Hospital Readmission</div></div>
       <div class="hl t"><div class="hl-n">5</div><div class="hl-l">Core tools</div><div class="hl-d">Python, SQL, Power BI, Tableau and Excel appear across the project work.</div><div class="hl-p">Portfolio methodology</div></div><div class="hl-l">Indigenous Unmet MH Need</div><div class="hl-d">Indigenous Canadians face 4.6× higher unmet mental health need than non-Indigenous Canadians which is the largest equity gap in the CCHS dataset.</div><div class="hl-p">→ Project 5 — Mental Health Outcomes</div></div>
@@ -634,7 +734,7 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
 <!-- METHODOLOGY -->
 <section class="method" id="methodology">
   <div class="wrap">
-    <div class="sh"><span class="sh-num">04</span><span class="sh-label">How Every Project Is Built</span><div class="sh-line"></div></div>
+    <div class="sh"><span class="sh-num">05</span><span class="sh-label">How Every Project Is Built</span><div class="sh-line"></div></div>
     <div class="method-grid">
       <div class="mc"><div class="mc-step">Step 01</div><div class="mc-title">Source Verification</div><div class="mc-desc">Each project names its public reference sources and identifies simulated records. Source links do not mean that generated findings reproduce official published estimates.</div></div>
       <div class="mc"><div class="mc-step">Step 02</div><div class="mc-title">Data Cleaning</div><div class="mc-desc">Before any analysis, a dedicated script checks for missing values, out-of-range indicators, suppressed cells (CIHI uses "--" and "LV" codes), and coverage gaps across all provinces and years.</div></div>
@@ -647,11 +747,11 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
 <!-- ABOUT -->
 <section class="about" id="about">
   <div class="wrap">
-    <div class="sh"><span class="sh-num">05</span><span class="sh-label">About</span><div class="sh-line"></div></div>
+    <div class="sh"><span class="sh-num">06</span><span class="sh-label">About</span><div class="sh-line"></div></div>
     <div class="about-grid">
       <div>
         <h2>Health data, <em>applied.</em></h2>
-        <p>I am a pharmacist and health data analyst with graduate training in business and public health. I have worked in clinical pharmacy, public health surveillance, and research analytics, including a role at Imperial College London. I work well in technical, clinical, administrative data, and stakeholder-facing environments. I also understand how health organizations allocate budgets, evaluate programs, and translate data into operational decisions.</p>
+        <p>I am an internationally trained pharmacist and healthcare analytics professional with a Bachelor of Pharmacy, Master of Public Health, MBA and Diploma in Data Science. My background connects clinical context with evidence analysis, operational reporting and business decisions. I have contributed to a research impact study associated with Imperial College London and supported data process improvement at Opportunities for Employment in Winnipeg.</p>
         <p>My projects use simulated analytical datasets informed by public Canadian health indicators. One expenditure workbook is described as using CIHI source tables. I distinguish illustrative results from official estimates and make model assumptions available in GitHub.</p>
         <div class="creds">
           <div class="cred"><span class="cred-deg">BPharm</span> Bachelor of Pharmacy</div>
@@ -687,7 +787,7 @@ footer p { font-family: var(--mono); font-size: 9.5px; color: var(--text-dim); l
   <div class="wrap">
     <div class="contact-box">
       <h2>Open to <em>health data</em> roles.</h2>
-      <p>Seeking health data analyst, healthcare analyst, and decision support analyst roles across Canada. Open to remote, hybrid, and onsite roles arrangements. Portfolio case studies based primarily on simulated records informed by Canadian public sources.</p>
+      <p>Interested in healthcare data analyst, public health analyst, research analyst, business analyst and decision support opportunities in Canada. Open to remote, hybrid and on-site work. Explore my practical experience and analytics portfolio, including clearly labelled simulated case studies.</p>
       <div class="contact-links">
         <a href="mailto:ikennanwogu3@gmail.com" class="btn-primary">Email Me →</a>
         <a href="https://www.linkedin.com/in/ikenna-nwogu-pharmd-mba-mph-2a053910a" target="_blank" class="btn-outline">LinkedIn →</a>
