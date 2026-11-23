@@ -48,12 +48,24 @@ jobs:
           Expand-Archive resources\workforce\powerbi-project.zip -DestinationPath "$env:RUNNER_TEMP\Workforce" -Force
           python native-desktop-check\check_desktop.py --kind powerbi --exe "$env:POWERBI_EXE" --file "$env:RUNNER_TEMP\Workforce\Workforce.pbip" --output evidence\powerbi
           exit $LASTEXITCODE
-      - name: Verify the native Power BI data model and DAX output
+      - name: Verify every native model row and all six DAX measures
         if: always()
-        shell: powershell
+        shell: pwsh
         run: |
           if(-not $env:POWERBI_EXE){throw 'Power BI Desktop not installed'}
-          & .\native-desktop-check\query_powerbi.ps1 -InstallPath "$env:POWERBI_EXE" -EvidenceDir evidence\powerbi
+          $portFile = Get-ChildItem "$env:LOCALAPPDATA\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces" -Filter msmdsrv.port.txt -Recurse -ErrorAction SilentlyContinue | Sort-Object LastWriteTime -Descending | Select-Object -First 1
+          if(-not $portFile){throw 'No native Power BI model workspace found'}
+          $port= (Get-Content $portFile.FullName -Raw).Trim() -replace '[^0-9]',''
+          dotnet run --project native-desktop-check/QueryPowerBI.csproj -c Release -- $port native-desktop-check/expected-model.json evidence/powerbi
+          if($LASTEXITCODE -ne 0){throw 'Native model verification failed'}
+      - name: Inspect report pages after data refresh
+        if: always()
+        shell: pwsh
+        run: |
+          if(-not $env:POWERBI_EXE){throw 'Power BI Desktop not installed'}
+          python native-desktop-check/check_desktop.py --kind powerbi --exe "$env:POWERBI_EXE" --file "$env:RUNNER_TEMP\Workforce\Workforce.pbip" --output evidence/powerbi-after-refresh --attach --skip-refresh
+          if(Test-Path evidence/powerbi-after-refresh){Copy-Item evidence/powerbi-after-refresh evidence/powerbi -Recurse -Force}
+          exit $LASTEXITCODE
       - name: Upload Power BI Desktop observations
         if: always()
         uses: actions/upload-artifact@v4
@@ -63,6 +75,7 @@ jobs:
           retention-days: 3
           if-no-files-found: warn
   tableau:
+    if: ${{ !contains(github.event.head_commit.message, 'Power BI refresh retry') }}
     runs-on: windows-2025
     timeout-minutes: 24
     steps:
@@ -97,8 +110,15 @@ jobs:
         shell: pwsh
         run: |
           New-Item -ItemType Directory -Force evidence\tableau | Out-Null
-          python native-desktop-check\check_desktop.py --kind tableau --exe "$env:TABLEAU_EXE" --file resources\retail\retail-forecast.twbx --output evidence\tableau
-          exit $LASTEXITCODE
+          python native-desktop-check\check_desktop.py --kind tableau --exe "$env:TABLEAU_EXE" --file resources\retail\retail-forecast.twbx --output evidence\tableau\dashboard
+          $first = $LASTEXITCODE
+          if($first -ne 0){
+            Get-Process tabpublic -ErrorAction SilentlyContinue | Stop-Process -Force
+            Start-Sleep 3
+            python native-desktop-check\check_desktop.py --kind tableau --exe "$env:TABLEAU_EXE" --file native-desktop-check\retail-forecast-sheets.twbx --output evidence\tableau\sheets
+            exit $LASTEXITCODE
+          }
+          exit $first
       - name: Capture Tableau workbook diagnostics
         if: always()
         shell: pwsh
@@ -107,7 +127,7 @@ jobs:
           $documents=[Environment]::GetFolderPath('MyDocuments')
           $logs=Get-ChildItem (Join-Path $documents 'My Tableau Repository\Logs') -Filter '*.txt' -ErrorAction SilentlyContinue
           foreach($log in $logs){
-            $matched=Select-String -Path $log.FullName -Pattern 'open-workbook|workbook-open|error opening|workbook.*failed|Retail Sales Forecasting|retail-forecast' -ErrorAction SilentlyContinue | Select-Object -Last 40
+            $matched=Select-String -Path $log.FullName -Pattern '"sev":"(error|fatal|warn)"|exception|error-code-id|open-workbook|workbook-open|error opening|workbook.*failed' -ErrorAction SilentlyContinue | Select-Object -Last 200
             if($matched){$matched | ForEach-Object {$_.Line} | Set-Content -Encoding utf8 (Join-Path 'evidence\tableau' ($log.BaseName+'-workbook.txt'))}
           }
       - name: Upload Tableau Desktop observations

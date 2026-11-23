@@ -9,6 +9,7 @@ import json
 import os
 from pathlib import Path
 import subprocess
+import sys
 import time
 
 from PIL import ImageGrab
@@ -83,22 +84,28 @@ def read_controls(handle, output, filename):
 
 
 def main():
+    sys.stdout.reconfigure(encoding="utf-8", errors="backslashreplace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="backslashreplace")
     parser = argparse.ArgumentParser()
     parser.add_argument('--kind', choices=['powerbi', 'tableau'], required=True)
     parser.add_argument('--exe', type=Path, required=True)
     parser.add_argument('--file', type=Path, required=True)
     parser.add_argument('--output', type=Path, required=True)
+    parser.add_argument('--attach', action='store_true')
+    parser.add_argument('--skip-refresh', action='store_true')
     args = parser.parse_args()
     args.output.mkdir(parents=True, exist_ok=True)
     improve_resolution()
-    expected = 'Workforce' if args.kind == 'powerbi' else 'Retail Sales Forecasting'
+    expected = 'Workforce' if args.kind == 'powerbi' else args.file.stem
+    expected_titles = (expected, 'Retail Sales Forecasting') if args.kind == 'tableau' else (expected,)
     pages = (
         ['Vacancy rates by industry (%)', 'Health and social assistance vacancy rate (%)', 'Offered wages by industry (CAD/hour)', 'Hospital overtime hours (% of regular + overtime)', 'Paid hospital sick leave hours per FTE', 'Registered nurses per 100,000 residents']
         if args.kind == 'powerbi' else
         ['Retail Sales Forecasting', 'Canada actual and forecast sales (CAD billions)', 'Manitoba actual and forecast sales (CAD billions)', 'Regional sales · Sep 2026 (CAD billions)', 'Canada model accuracy · holdout WAPE (%)']
     )
-    proc = subprocess.Popen([str(args.exe), str(args.file.resolve())])
-    print('Started native executable:', args.exe, 'PID', proc.pid, flush=True)
+    if not args.attach:
+        proc = subprocess.Popen([str(args.exe), str(args.file.resolve())])
+        print('Started native executable:', args.exe, 'PID', proc.pid, flush=True)
     end = time.monotonic() + 210
     previous = None
     handle = None
@@ -107,7 +114,13 @@ def main():
         if found != previous:
             print('Top-level windows:', found, flush=True)
             previous = found
-        candidates = [(h, title) for h, title in found if expected.casefold() in title.casefold()]
+        candidates = [(h, title) for h, title in found if any(target.casefold() in title.casefold() for target in expected_titles)]
+        error = next((h for h, title in found if title.strip().lower() in ('unable to complete action', 'error opening workbook', 'unable to open workbook')), None)
+        if error is not None:
+            print('Workbook opening error dialog observed.', flush=True)
+            capture(error, args.output, 'error-dialog')
+            read_controls(error, args.output, 'error-dialog-controls')
+            break
         if candidates:
             handle = candidates[0][0]
             break
@@ -140,16 +153,18 @@ def main():
         (args.output/'ui-status.json').write_text(json.dumps(status, indent=2), encoding='utf-8')
         return 2
     print('Opened expected workbook window:', win32gui.GetWindowText(handle), flush=True)
+    time.sleep(12)
     capture(handle, args.output, 'initial-workbook')
     controls = read_controls(handle, args.output, 'initial-controls')
-    if args.kind == 'powerbi':
-        refresh = [(c, n) for c, n, kind in controls if n.strip().casefold() == 'refresh' and kind == 'Button']
+    if args.kind == 'powerbi' and not args.skip_refresh:
+        refresh = [(c, n) for c, n, kind in controls if n.strip().casefold() in ('refresh now', 'refresh') and kind == 'Button']
+        refresh.sort(key=lambda pair: pair[1].strip().casefold() != 'refresh now')
         if refresh:
             try:
                 refresh[0][0].click_input()
                 status['refresh_clicked'] = True
                 print('Clicked Power BI Desktop Refresh', flush=True)
-                time.sleep(15)
+                time.sleep(30)
             except Exception as exc:
                 print('Refresh control did not respond:', str(exc)[:200], flush=True)
     for i, name in enumerate(pages, 1):
