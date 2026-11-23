@@ -54,7 +54,7 @@ function createHome() {
     section.setAttribute('aria-labelledby', 'group-' + type);
     const groupProjects = projects.filter(p => p.group === type);
     const label = type === 'system' ? 'Health system & finance' : 'Population health & equity';
-    const desc = type === 'system' ? 'Expenditure, access and hospital performance using published aggregates.' : 'Surveillance, mental health and regional equity using published estimates.';
+    const desc = type === 'system' ? 'Explore expenditure, access to surgery and hospital performance using published health system data.' : 'Explore disease surveillance, mental health and regional health equity using published population estimates.';
     section.innerHTML = '<div class="group-head"><div><h3 id="group-' + type + '">' + label + '</h3><p>' + desc + '</p></div></div><div class="project-grid"></div>';
     for (const p of groupProjects) section.querySelector('.project-grid').append(createCard(p));
     groups.append(section);
@@ -96,9 +96,9 @@ function createProject() {
     return;
   }
   document.title = p.title + ' | Ikenna Nwogu';
-  const statusText = p.statusText || (p.id === 'expenditure' ? 'CIHI published national figures. Actual/revised observations are separate from the 2025–2026 forecasts.' :
-    p.id === 'ontario' ? 'Published FAO Ontario aggregates. Surgery figures from March 2021 onward include an estimation assumption. Waiting months are estimated from throughput and waitlist data.' :
-    'Published Nova Scotia CCDSS-derived aggregate statistics. Scope is provincial and crude; adults aged 20 and older.');
+  const statusText = p.statusText || (p.id === 'expenditure' ? 'CIHI’s published national figures distinguish historical actual and revised spending from forecasts for 2025–2026.' :
+    p.id === 'ontario' ? 'The FAO publishes aggregate Ontario figures. Surgery figures from March 2021 onward include an estimation assumption. Waiting times are estimated from surgical throughput and waitlist data.' :
+    'Published Nova Scotia statistics based on Canadian Chronic Disease Surveillance System data. The dashboard reports crude prevalence for adults aged 20 and older.');
   const idx = projects.indexOf(p);
   const previous = projects[(idx + projects.length - 1) % projects.length];
   const next = projects[(idx + 1) % projects.length];
@@ -110,19 +110,19 @@ function createProject() {
     '<div class="data-status ' + p.type + '"><strong>' + 'Official-source data' + '</strong><span>' + escapeHtml(statusText) + '</span></div><p class="intro-source">' + 'Source: ' + external(p.sourceUrl, escapeHtml(p.source)) + '</p></div></section>' +
     '<section class="project-body"><div class="shell"><div class="summary-grid">' +
     p.cards.map(c => '<div class="summary-card ' + p.type + (c.label.toLowerCase().includes('forecast') ? ' forecast-card' : '') + '"><strong>' + escapeHtml(c.value) + '</strong><span>' + escapeHtml(c.label) + '</span></div>').join('') + '</div>' +
-    '<div class="dashboard-layout"><div class="dashboard-main"><section class="dashboard-panel"><div class="panel-heading"><div><h2>Explore the dashboard</h2><p>Choose an indicator and reporting period to compare values.</p></div>' + dataBadge(p) + '</div>' +
+    '<div class="dashboard-layout"><div class="dashboard-main"><section class="dashboard-panel"><div class="panel-heading"><div><h2>Explore the dashboard</h2><p>Select an indicator and reporting period to compare results.</p></div>' + dataBadge(p) + '</div>' +
     '<div class="controls"><label class="control" for="indicator">Indicator<select id="indicator"></select></label><label class="control" for="period">Reporting period<select id="period"></select></label></div>' +
     '<div class="chart-top"><h3 id="chart-title">Data comparison</h3><label class="sort-label" id="sort-wrap">Sort<select id="sort"><option value="original">Source order</option><option value="desc">Highest first</option><option value="asc">Lowest first</option><option value="alpha">Name A–Z</option></select></label></div>' +
     '<p id="chart-explain" class="chart-explain"></p><div id="chart" class="chart" aria-label="Interactive chart"></div><div class="legend" id="legend" hidden></div>' +
     '<div class="chart-footer"><p id="selection-info" role="status"></p><button class="download" id="download" type="button">Download selection CSV</button></div></section>' +
-    '<section class="dashboard-panel table-panel"><h2>Data table</h2><p class="chart-explain">The values shown in the chart. Use the table to review exact figures and source context.</p><div class="table-scroll" tabindex="0" aria-label="Scrollable data table"><table><thead id="table-head"></thead><tbody id="table-body"></tbody></table></div><p class="table-caption" id="table-caption"></p></section></div>' +
+    '<section class="dashboard-panel table-panel"><h2>Data table</h2><p class="chart-explain">Review the exact chart values, data-quality flags and source references.</p><div class="table-scroll" tabindex="0" aria-label="Scrollable data table"><table><thead id="table-head"></thead><tbody id="table-body"></tbody></table></div><p class="table-caption" id="table-caption"></p></section></div>' +
     '<aside aria-label="Case study information"><section class="side-panel"><h2>Case study details</h2><h3>Coverage</h3><p>' + escapeHtml(p.coverage) + '</p><h3>Methods</h3><ul>' + p.methods.map(m => '<li>' + escapeHtml(m) + '</li>').join('') + '</ul>' +
     '<div class="tags">' + p.tools.map(tool => '<span>' + escapeHtml(tool) + '</span>').join('') + '</div><div class="source-block"><h3>' + 'Data source' + '</h3><p>' + escapeHtml(p.source) + '</p>' +
     external(p.sourceUrl, 'Open official source') +
     (p.sourceLinks || []).map(link => external(link.url, escapeHtml(link.name))).join('') +
     external(p.evidence, 'Findings and methodology') + workflow(p) + '</div></section>' +
     (p.findings ? '<section class="side-panel findings-panel"><h2>Key findings</h2><ul>' + p.findings.map(f => '<li>' + escapeHtml(f) + '</li>').join('') + '</ul></section>' : '') +
-    '<section class="side-panel limits-panel ' + p.type + '"><h2>Interpretation &amp; limits</h2><p>' + escapeHtml(p.limits) + '</p></section></aside></div></div></section>' +
+    '<section class="side-panel limits-panel ' + p.type + '"><h2>Interpretation &amp; limitations</h2><p>' + escapeHtml(p.limits) + '</p></section></aside></div></div></section>' +
     '<div class="project-nav"><div class="shell project-nav-inner"><a href="' + projectHref(previous) + '">Previous: ' + escapeHtml(previous.title) + '</a><a class="button secondary" href="index.html#projects">All projects</a><a href="' + projectHref(next) + '">Next: ' + escapeHtml(next.title) + '</a></div></div>';
   document.getElementById('project-picker').addEventListener('change', e => {
     location.href = 'project.html?case=' + encodeURIComponent(e.target.value);
