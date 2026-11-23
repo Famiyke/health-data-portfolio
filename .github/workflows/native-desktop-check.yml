@@ -10,6 +10,7 @@ permissions:
   contents: read
 jobs:
   powerbi:
+    if: ${{ !contains(github.event.head_commit.message, 'Tableau executable retry') }}
     runs-on: windows-2025
     timeout-minutes: 24
     steps:
@@ -88,8 +89,8 @@ jobs:
           $p=Start-Process $installer -ArgumentList @('/quiet','/norestart','ACCEPTEULA=1','SENDTELEMETRY=0','AUTOUPDATE=0','DESKTOPSHORTCUT=0') -Wait -PassThru
           Write-Host "Install exit $($p.ExitCode)"
           if($p.ExitCode -notin @(0,3010)){throw 'Tableau installer failed'}
-          $exe=Get-ChildItem "$env:ProgramFiles\Tableau" -Filter '*.exe' -Recurse | Where-Object {$_.Name -match '^(tableau|tableaupublic)\.exe$'} | Select-Object -First 1
-          if(-not $exe){throw 'Installed Tableau Desktop executable was not found'}
+          $exe=Get-ChildItem "$env:ProgramFiles\Tableau" -Filter '*.exe' -Recurse | Where-Object {$_.Name -match '^(tableau|tableaupublic|tabpublic|tableau public)\.exe$'} | Select-Object -First 1
+          if(-not $exe){Get-ChildItem "$env:ProgramFiles\Tableau" -Filter '*.exe' -Recurse | Select-Object Name,FullName; throw 'Installed Tableau Desktop executable was not found'}
           Write-Host "Installed version $($exe.VersionInfo.ProductVersion)"
           "TABLEAU_EXE=$($exe.FullName)" >> $env:GITHUB_ENV
       - name: Open packaged retail workbook in Tableau Desktop Public Edition
@@ -98,6 +99,17 @@ jobs:
           New-Item -ItemType Directory -Force evidence\tableau | Out-Null
           python native-desktop-check\check_desktop.py --kind tableau --exe "$env:TABLEAU_EXE" --file resources\retail\retail-forecast.twbx --output evidence\tableau
           exit $LASTEXITCODE
+      - name: Capture Tableau workbook diagnostics
+        if: always()
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force evidence\tableau | Out-Null
+          $documents=[Environment]::GetFolderPath('MyDocuments')
+          $logs=Get-ChildItem (Join-Path $documents 'My Tableau Repository\Logs') -Filter '*.txt' -ErrorAction SilentlyContinue
+          foreach($log in $logs){
+            $matched=Select-String -Path $log.FullName -Pattern 'open-workbook|workbook-open|error opening|workbook.*failed|Retail Sales Forecasting|retail-forecast' -ErrorAction SilentlyContinue | Select-Object -Last 40
+            if($matched){$matched | ForEach-Object {$_.Line} | Set-Content -Encoding utf8 (Join-Path 'evidence\tableau' ($log.BaseName+'-workbook.txt'))}
+          }
       - name: Upload Tableau Desktop observations
         if: always()
         uses: actions/upload-artifact@v4
