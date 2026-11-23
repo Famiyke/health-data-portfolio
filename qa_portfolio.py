@@ -74,7 +74,7 @@ def check_values(page, view, rows):
         expected.append(str(row['n']))
         assert actual['cells'] == expected, (view['name'], row['label'], actual['cells'], expected)
         assert actual['url'] == SOURCE_DOWNLOADS.get(row['sourceUrl'], row['sourceUrl']), (view['name'], row['label'], actual['url'])
-    if view['chart'] == 'line':
+    if view.get('chart') == 'line':
         assert page.locator('#chart circle').count() == len(visible)
         assert page.locator('#chart .forecast-point').count() == sum(r['status'] == 'Forecast' for r in visible)
     else:
