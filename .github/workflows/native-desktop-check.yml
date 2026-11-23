@@ -1,0 +1,108 @@
+name: Native desktop workbook review
+on:
+  push:
+    branches: ['native-desktop-check-20261123']
+    paths:
+      - '.github/workflows/native-desktop-check.yml'
+      - 'native-desktop-check/**'
+      - 'resources/workforce/powerbi-project.zip'
+permissions:
+  contents: read
+jobs:
+  powerbi:
+    runs-on: windows-2025
+    timeout-minutes: 24
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install UI test dependencies
+        run: python -m pip install pywinauto pillow pywin32
+      - name: Install signed Microsoft Power BI Desktop on test VM
+        shell: pwsh
+        run: |
+          $ErrorActionPreference='Stop'
+          whoami
+          Get-Process -Id $PID | Select-Object ProcessName,SessionId
+          $ProgressPreference='SilentlyContinue'
+          $installer=Join-Path $env:RUNNER_TEMP 'PBIDesktopSetup-x64.exe'
+          $url='https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2026-10_x64.exe'
+          curl.exe --fail --location --retry 2 --output $installer $url
+          if($LASTEXITCODE -ne 0){throw 'Power BI installer download failed'}
+          $signature=Get-AuthenticodeSignature $installer
+          Write-Host "Signature: $($signature.Status) $($signature.SignerCertificate.Subject)"
+          if($signature.Status -ne 'Valid' -or $signature.SignerCertificate.Subject -notmatch 'Microsoft'){throw 'Installer signature was not verified'}
+          $p=Start-Process $installer -ArgumentList @('-quiet','-norestart','ACCEPT_EULA=1','DISABLE_UPDATE_NOTIFICATION=1','ENABLECXP=0','INSTALLDESKTOPSHORTCUT=0') -Wait -PassThru
+          Write-Host "Install exit $($p.ExitCode)"
+          if($p.ExitCode -notin @(0,3010)){throw 'Power BI installer failed'}
+          $exe=Get-ChildItem "$env:ProgramFiles\Microsoft Power BI Desktop" -Filter PBIDesktop.exe -Recurse | Select-Object -First 1
+          if(-not $exe){throw 'Installed Power BI Desktop executable was not found'}
+          Write-Host "Installed version $($exe.VersionInfo.ProductVersion)"
+          "POWERBI_EXE=$($exe.FullName)" >> $env:GITHUB_ENV
+      - name: Open workforce project in Power BI Desktop
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force evidence\powerbi | Out-Null
+          Expand-Archive resources\workforce\powerbi-project.zip -DestinationPath "$env:RUNNER_TEMP\Workforce" -Force
+          python native-desktop-check\check_desktop.py --kind powerbi --exe "$env:POWERBI_EXE" --file "$env:RUNNER_TEMP\Workforce\Workforce.pbip" --output evidence\powerbi
+          exit $LASTEXITCODE
+      - name: Verify the native Power BI data model and DAX output
+        if: always()
+        shell: powershell
+        run: |
+          if(-not $env:POWERBI_EXE){throw 'Power BI Desktop not installed'}
+          & .\native-desktop-check\query_powerbi.ps1 -InstallPath "$env:POWERBI_EXE" -EvidenceDir evidence\powerbi
+      - name: Upload Power BI Desktop observations
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: powerbi-desktop-evidence
+          path: evidence/powerbi
+          retention-days: 3
+          if-no-files-found: warn
+  tableau:
+    runs-on: windows-2025
+    timeout-minutes: 24
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install UI test dependencies
+        run: python -m pip install pywinauto pillow pywin32
+      - name: Install signed Tableau Desktop Public Edition on test VM
+        shell: pwsh
+        run: |
+          $ErrorActionPreference='Stop'
+          whoami
+          Get-Process -Id $PID | Select-Object ProcessName,SessionId
+          $ProgressPreference='SilentlyContinue'
+          $installer=Join-Path $env:RUNNER_TEMP 'TableauPublicDesktop-x64.exe'
+          $url='https://downloads.tableau.com/public/TableauPublicDesktop-64bit-2026-1-0.exe'
+          curl.exe --fail --location --retry 2 --output $installer $url
+          if($LASTEXITCODE -ne 0){throw 'Tableau installer download failed'}
+          $signature=Get-AuthenticodeSignature $installer
+          Write-Host "Signature: $($signature.Status) $($signature.SignerCertificate.Subject)"
+          if($signature.Status -ne 'Valid' -or $signature.SignerCertificate.Subject -notmatch 'Tableau|Salesforce'){throw 'Installer signature was not verified'}
+          $p=Start-Process $installer -ArgumentList @('/quiet','/norestart','ACCEPTEULA=1','SENDTELEMETRY=0','AUTOUPDATE=0','DESKTOPSHORTCUT=0') -Wait -PassThru
+          Write-Host "Install exit $($p.ExitCode)"
+          if($p.ExitCode -notin @(0,3010)){throw 'Tableau installer failed'}
+          $exe=Get-ChildItem "$env:ProgramFiles\Tableau" -Filter '*.exe' -Recurse | Where-Object {$_.Name -match '^(tableau|tableaupublic)\.exe$'} | Select-Object -First 1
+          if(-not $exe){throw 'Installed Tableau Desktop executable was not found'}
+          Write-Host "Installed version $($exe.VersionInfo.ProductVersion)"
+          "TABLEAU_EXE=$($exe.FullName)" >> $env:GITHUB_ENV
+      - name: Open packaged retail workbook in Tableau Desktop Public Edition
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force evidence\tableau | Out-Null
+          python native-desktop-check\check_desktop.py --kind tableau --exe "$env:TABLEAU_EXE" --file resources\retail\retail-forecast.twbx --output evidence\tableau
+          exit $LASTEXITCODE
+      - name: Upload Tableau Desktop observations
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tableau-desktop-evidence
+          path: evidence/tableau
+          retention-days: 3
+          if-no-files-found: warn
