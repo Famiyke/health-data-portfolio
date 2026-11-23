@@ -24,12 +24,20 @@ The dataset includes 952 observations across 11 fiscal years. It contains 937 pu
 - Null values represent unavailable/suppressed estimates. Use-with-caution flags are preserved.
 - Confidence intervals come from the publishers, where provided. No synthetic patient or respondent records are included.
 
+## Walk through the code
+
+In extract_public_data.py, readmissions() streams the large CIHI workbook and selects the risk-adjusted rates for the relevant groups and locations. It saves the workbook row, confidence interval and publication status with every observation.
+
+The four queries in analysis.sql cover the national trend, provincial comparisons with Canada, patient groups and publication flags. A provincial rate minus the Canadian rate gives the difference per 100 eligible episodes.
+
+validate_public_data.py reads the workbook with openpyxl and checks the published values and inclusion rules independently of the XML extractor.
+
 ## Files and reproduction
 - data.csv: normalized published aggregates, with source row/vector/page and URL.
 - source_manifest.json: original download filenames, URLs, sizes and SHA-256 hashes.
 - validation.json: independent row-level check results.
 - analysis.sql and analysis_results.json: SQLite analysis and executed outputs.
-- extract_public_data.py: source extraction, transformation and integrity assertions.
+- extract_public_data.py: project-specific source extraction and validation checks.
 - validate_public_data.py: independent validation against CIHI workbook rows.
 - run_analysis.py: executes the SQL against data.csv.
 
@@ -37,7 +45,7 @@ To run SQL using the included exact snapshot:
 
     python run_analysis.py .
 
-To re-extract source data, download the named source files above into downloads/. Install requirements.txt.
+To recreate this project, download its source files into downloads/. Run `python -m pip install -r requirements.txt`.
 
     python extract_public_data.py --project readmissions --raw-dir downloads --output-dir rebuilt
     python validate_public_data.py --project readmissions --raw-dir downloads --data-dir rebuilt

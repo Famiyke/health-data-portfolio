@@ -19,6 +19,14 @@ The process map and requirements traceability matrix are generalized portfolio d
 - `reporting.py`: runnable aggregate reporting prototype.
 - `test_reporting.py`: artificial unit-test fixtures; not business observations.
 
+## Walk through the code
+
+reporting.py reads authorized aggregate cycle counts from the blank CSV template. Each row must have a unique cycle ID, a valid date and nonnegative counts.
+
+The main check is that validated records plus records requiring follow-up equals records received. The script sums the counts and calculates the validation rate and mean preparation time.
+
+test_reporting.py uses artificial test rows to exercise empty input, valid totals and rejected entries. These tests demonstrate the reporting prototype developed for the portfolio.
+
 ## Run the prototype
 Open the template in Excel or another spreadsheet application, enter authorized aggregate cycle counts, save as CSV, then execute `python reporting.py aggregate_cycle_template.csv --output summary.json`. The blank template returns No data entered, not a zero-performance report. Run `python -m unittest -v test_reporting.py` to reproduce the checks. Standard Python 3.10+ is sufficient.
 

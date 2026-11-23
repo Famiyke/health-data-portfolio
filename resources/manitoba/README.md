@@ -25,12 +25,20 @@ The dataset contains 255 published observations. It covers seven survey indicato
 - Null values represent unavailable/suppressed estimates. Use-with-caution flags are preserved.
 - Confidence intervals come from the publishers, where provided. No synthetic patient or respondent records are included.
 
+## Walk through the code
+
+manitoba() extracts regional survey estimates from the Statistics Canada table. extract_mb_report() reads the printed Manitoba report figures with their page references.
+
+The queries compare regional diabetes estimates with the provincial estimate and calculate an emergency visit rate ratio from the lowest and highest income quintiles. The original survey and administrative measures retain their different units and periods.
+
+The validator checks the survey table vectors and the labeled report figures separately.
+
 ## Files and reproduction
 - data.csv: normalized published aggregates, with source row/vector/page and URL.
 - source_manifest.json: original download filenames, URLs, sizes and SHA-256 hashes.
 - validation.json: independent row-level check results.
 - analysis.sql and analysis_results.json: SQLite analysis and executed outputs.
-- extract_public_data.py: source extraction, transformation and integrity assertions.
+- extract_public_data.py: project-specific source extraction and validation checks.
 - validate_public_data.py: independent validation against Statistics Canada CSV records and Manitoba report chart labels.
 - run_analysis.py: executes the SQL against data.csv.
 
@@ -38,7 +46,7 @@ To run SQL using the included exact snapshot:
 
     python run_analysis.py .
 
-To re-extract source data, download the named source files above into downloads/. Install requirements.txt. Also install Poppler's pdftotext command.
+To recreate this project, download its source files into downloads/. Run `python -m pip install -r requirements.txt`. The Manitoba report parser also requires Poppler’s `pdftotext` command. Also install Poppler's pdftotext command.
 
     python extract_public_data.py --project manitoba --raw-dir downloads --output-dir rebuilt
     python validate_public_data.py --project manitoba --raw-dir downloads --data-dir rebuilt

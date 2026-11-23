@@ -28,10 +28,18 @@ SQL analyses: latest industry snapshot, same-quarter vacancy-rate changes, sick 
 ## Independent validation
 3,199 source records independently reconciled to official CSV rows or Excel cells. See validation.json and analysis_results.json.
 
+## Walk through the code
+
+load_workforce_records() prepares the quarterly Statistics Canada data and the two CIHI workbooks. Each record keeps its metric, geography, period, unit and original source reference.
+
+workforce() groups comparable records for the charts. Its job vacancy check uses vacancies divided by vacancies plus payroll employees. Its overtime check uses overtime hours divided by overtime plus regular worked hours. Both allow for rounding in the source.
+
+The SQL file contains the same-quarter vacancy comparison, sick leave hours per calculated FTE and professional supply comparisons. Keeping the SQL separate makes the calculations easy to run and inspect.
+
 ## Reproduce analysis
 Unzip the workflow. Run `python run_analysis.py .` to execute SQL against the included CSV snapshots.
 
-To recreate from original files, install requirements.txt and run:
+To recreate the source data and calculations, install the project dependencies with `python -m pip install -r requirements.txt`, then run:
 
     python build_expansion.py --raw-dir raw --output-dir rebuilt --project workforce --download
     python validate_expansion.py --raw-dir raw --output-dir rebuilt --project workforce

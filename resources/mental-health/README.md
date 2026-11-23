@@ -25,12 +25,20 @@ The dataset includes 248 observations, with 225 numerical estimates (22 marked u
 - Null values represent unavailable/suppressed estimates. Use-with-caution flags are preserved.
 - Confidence intervals come from the publishers, where provided. No synthetic patient or respondent records are included.
 
+## Walk through the code
+
+mental_health() selects the relevant years and population groups from Statistics Canada. statcan_extract() matches each percentage to its published confidence bounds using the same survey dimensions.
+
+The SQL joins 2012 and 2022 estimates for the same indicator and group before calculating the percentage-point change. A suppressed estimate remains blank; a quality flag stays with its estimate.
+
+The validation script matches the original table vectors and coordinates. It checks both the percentages and the confidence bounds.
+
 ## Files and reproduction
 - data.csv: normalized published aggregates, with source row/vector/page and URL.
 - source_manifest.json: original download filenames, URLs, sizes and SHA-256 hashes.
 - validation.json: independent row-level check results.
 - analysis.sql and analysis_results.json: SQLite analysis and executed outputs.
-- extract_public_data.py: source extraction, transformation and integrity assertions.
+- extract_public_data.py: project-specific source extraction and validation checks.
 - validate_public_data.py: independent validation against Statistics Canada CSV records.
 - run_analysis.py: executes the SQL against data.csv.
 
@@ -38,7 +46,7 @@ To run SQL using the included exact snapshot:
 
     python run_analysis.py .
 
-To re-extract source data, download the named source files above into downloads/. Install requirements.txt.
+To recreate this project, download its source files into downloads/. Run `python -m pip install -r requirements.txt`.
 
     python extract_public_data.py --project mental-health --raw-dir downloads --output-dir rebuilt
     python validate_public_data.py --project mental-health --raw-dir downloads --data-dir rebuilt

@@ -26,10 +26,18 @@ SQL analyses: regional seasonally adjusted sales, same-month year-over-year nomi
 ## Independent validation
 1,806 source records independently reconciled to official CSV rows or Excel cells. See validation.json and analysis_results.json.
 
+## Walk through the code
+
+load_retail_records() selects monthly retail sales and keeps the seasonally adjusted and unadjusted series separate.
+
+forecast() implements two models. Seasonal naive repeats the matching month in the preceding year. The log-trend model estimates a time trend and month effects. evaluate_forecasts() trains each model using only the months available at each forecast origin.
+
+Model selection uses the validation periods. The later holdout measures accuracy using WAPE, calculated as total absolute error divided by total actual sales. The SQL independently recalculates these errors from backtest.csv.
+
 ## Reproduce analysis
 Unzip the workflow. Run `python run_analysis.py .` to execute SQL against the included CSV snapshots.
 
-To recreate from original files, install requirements.txt and run:
+To recreate the source data and calculations, install the project dependencies with `python -m pip install -r requirements.txt`, then run:
 
     python build_expansion.py --raw-dir raw --output-dir rebuilt --project retail --download
     python validate_expansion.py --raw-dir raw --output-dir rebuilt --project retail

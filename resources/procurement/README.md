@@ -26,6 +26,14 @@ The complete source had 1,336,110 records; 41,810 matched the reporting-entity a
 - Public Services and Procurement Canada had the highest disclosed original value among the selected entities that year ($1,926.33 million).
 - The five largest normalized supplier-name groups accounted for 32.8% of original value. Non-competitive code TN represented 38.2% of included records and 11.1% of value.
 
+## Walk through the code
+
+extract() filters original contract disclosures to the selected entities, fiscal reporting periods and award-value threshold. It converts published amounts to integer cents to keep sums exact.
+
+summarize_group() calculates totals, medians, purchasing routes and supplier-name concentration. Names are normalized by case and whitespace, and the top five share is the sum of their award values divided by total award value.
+
+The SQL repeats the group totals and uses a window function to rank suppliers. The source validator checks the exact source record IDs, values and chart aggregates.
+
 ## Reproduce
 After extracting the ZIP, run `python run_analysis.py .` to reproduce the SQL outputs from the included records. To refresh from the original CSV, run `python build_procurement.py --raw-dir raw --output-dir rebuilt --download`, then `python validate_procurement.py --raw-dir raw --output-dir rebuilt`. Source data may change; verify the source manifest and document revisions. Standard Python 3.10+ is sufficient.
 
