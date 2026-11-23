@@ -110,8 +110,8 @@ jobs:
         shell: pwsh
         run: |
           New-Item -ItemType Directory -Force evidence\tableau | Out-Null
-          foreach($ver in @('9.0','10.5')){
-            $file="native-desktop-check\retail-version-$ver.twbx"
+          foreach($ver in @('modern')){
+            $file="native-desktop-check\retail-$ver.twbx"
             Copy-Item $file evidence\tableau
             python native-desktop-check\check_desktop.py --kind tableau --exe "$env:TABLEAU_EXE" --file $file --output "evidence\tableau\version-$ver"
             if($LASTEXITCODE -eq 0){exit 0}
