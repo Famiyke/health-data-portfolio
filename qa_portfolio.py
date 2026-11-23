@@ -29,6 +29,7 @@ def check_home(browser):
     for width in (375, 768, 1440):
         page, errors = open_page(browser, '', width) if not BASE.startswith('file:') else open_page(browser, 'index.html', width)
         assert page.locator('.project-card').count() == len(projects)
+        assert page.locator('.strip-grid strong').all_inner_texts() == ['10', '9', '7']
         assert page.locator('.project-card .badge').all_inner_texts().count('Real public data') == 9
         assert page.locator('.project-card .badge').all_inner_texts().count('Professional experience') == 1
         assert page.locator('h1').count() == 1
