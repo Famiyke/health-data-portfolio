@@ -1,0 +1,1270 @@
+[
+  [
+    {
+      "dimension": "Accommodation and food services",
+      "metric": "Job vacancies",
+      "value": 72000.0,
+      "unit": "count",
+      "status": "Published · excellent"
+    },
+    {
+      "dimension": "Accommodation and food services",
+      "metric": "Job vacancy rate",
+      "value": 5.4,
+      "unit": "percent",
+      "status": "Published · excellent"
+    },
+    {
+      "dimension": "Accommodation and food services",
+      "metric": "Offered hourly wage",
+      "value": 18.7,
+      "unit": "CAD per hour",
+      "status": "Published · excellent"
+    },
+    {
+      "dimension": "Accommodation and food services",
+      "metric": "Payroll employees",
+      "value": 1267865.0,
+      "unit": "count",
+      "status": "Published · excellent"
+    },
+    {
+      "dimension": "All industries",
+      "metric": "Job vacancies",
+      "value": 548400.0,
+      "unit": "count",
+      "status": "Published · excellent"
+    },
+    {
+      "dimension": "All industries",
+      "metric": "Job vacancy rate",
+      "value": 3.1,
+      "unit": "percent",
+      "status": "Published · excellent"
+    },
+    {
+      "dimension": "All industries",
+      "metric": "Offered hourly wage",
+      "value": 28.55,
+      "unit": "CAD per hour",
+      "status": "Published · excellent"
+    },
+    {
+      "dimension": "All industries",
+      "metric": "Payroll employees",
+      "value": 17404650.0,
+      "unit": "count",
+      "status": "Published · excellent"
+    },
+    {
+      "dimension": "Construction",
+      "metric": "Job vacancies",
+      "value": 41400.0,
+      "unit": "count",
+      "status": "Published · excellent"
+    },
+    {
+      "dimension": "Construction",
+      "metric": "Job vacancy rate",
+      "value": 3.5,
+      "unit": "percent",
+      "status": "Published · excellent"
+    },
+    {
+      "dimension": "Construction",
+      "metric": "Offered hourly wage",
+      "value": 31.7,
+      "unit": "CAD per hour",
+      "status": "Published · excellent"
+    },
+    {
+      "dimension": "Construction",
+      "metric": "Payroll employees",
+      "value": 1153375.0,
+      "unit": "count",
+      "status": "Published · excellent"
+    },
+    {
+      "dimension": "Finance and insurance",
+      "metric": "Job vacancies",
+      "value": 20930.0,
+      "unit": "count",
+      "status": "Published · excellent"
+    },
+    {
+      "dimension": "Finance and insurance",
+      "metric": "Job vacancy rate",
+      "value": 2.4,
+      "unit": "percent",
+      "status": "Published · excellent"
+    },
+    {
+      "dimension": "Finance and insurance",
+      "metric": "Offered hourly wage",
+      "value": 35.0,
+      "unit": "CAD per hour",
+      "status": "Published · excellent"
+    },
+    {
+      "dimension": "Finance and insurance",
+      "metric": "Payroll employees",
+      "value": 862400.0,
+      "unit": "count",
+      "status": "Published · excellent"
+    },
+    {
+      "dimension": "Health care and social assistance",
+      "metric": "Job vacancies",
+      "value": 95890.0,
+      "unit": "count",
+      "status": "Published · excellent"
+    },
+    {
+      "dimension": "Health care and social assistance",
+      "metric": "Job vacancy rate",
+      "value": 3.7,
+      "unit": "percent",
+      "status": "Published · excellent"
+    },
+    {
+      "dimension": "Health care and social assistance",
+      "metric": "Offered hourly wage",
+      "value": 30.85,
+      "unit": "CAD per hour",
+      "status": "Published · excellent"
+    },
+    {
+      "dimension": "Health care and social assistance",
+      "metric": "Payroll employees",
+      "value": 2513225.0,
+      "unit": "count",
+      "status": "Published · excellent"
+    },
+    {
+      "dimension": "Manufacturing",
+      "metric": "Job vacancies",
+      "value": 41590.0,
+      "unit": "count",
+      "status": "Published · excellent"
+    },
+    {
+      "dimension": "Manufacturing",
+      "metric": "Job vacancy rate",
+      "value": 2.6,
+      "unit": "percent",
+      "status": "Published · excellent"
+    },
+    {
+      "dimension": "Manufacturing",
+      "metric": "Offered hourly wage",
+      "value": 29.6,
+      "unit": "CAD per hour",
+      "status": "Published · excellent"
+    },
+    {
+      "dimension": "Manufacturing",
+      "metric": "Payroll employees",
+      "value": 1531295.0,
+      "unit": "count",
+      "status": "Published · excellent"
+    },
+    {
+      "dimension": "Professional, scientific and technical services",
+      "metric": "Job vacancies",
+      "value": 36730.0,
+      "unit": "count",
+      "status": "Published · excellent"
+    },
+    {
+      "dimension": "Professional, scientific and technical services",
+      "metric": "Job vacancy rate",
+      "value": 2.9,
+      "unit": "percent",
+      "status": "Published · excellent"
+    },
+    {
+      "dimension": "Professional, scientific and technical services",
+      "metric": "Offered hourly wage",
+      "value": 40.35,
+      "unit": "CAD per hour",
+      "status": "Published · excellent"
+    },
+    {
+      "dimension": "Professional, scientific and technical services",
+      "metric": "Payroll employees",
+      "value": 1226290.0,
+      "unit": "count",
+      "status": "Published · excellent"
+    },
+    {
+      "dimension": "Retail trade",
+      "metric": "Job vacancies",
+      "value": 56790.0,
+      "unit": "count",
+      "status": "Published · excellent"
+    },
+    {
+      "dimension": "Retail trade",
+      "metric": "Job vacancy rate",
+      "value": 2.8,
+      "unit": "percent",
+      "status": "Published · excellent"
+    },
+    {
+      "dimension": "Retail trade",
+      "metric": "Offered hourly wage",
+      "value": 21.15,
+      "unit": "CAD per hour",
+      "status": "Published · excellent"
+    },
+    {
+      "dimension": "Retail trade",
+      "metric": "Payroll employees",
+      "value": 1955715.0,
+      "unit": "count",
+      "status": "Published · excellent"
+    }
+  ],
+  [
+    {
+      "geography": "Northwest Territories",
+      "dimension": "Health care and social assistance",
+      "rate_2025": 7.8,
+      "rate_2026": 10.6,
+      "change_pp": 2.8
+    },
+    {
+      "geography": "Prince Edward Island",
+      "dimension": "Health care and social assistance",
+      "rate_2025": 5.6,
+      "rate_2026": 6.8,
+      "change_pp": 1.2
+    },
+    {
+      "geography": "Northwest Territories",
+      "dimension": "All industries",
+      "rate_2025": 3.9,
+      "rate_2026": 5.1,
+      "change_pp": 1.2
+    },
+    {
+      "geography": "Canada",
+      "dimension": "Retail trade",
+      "rate_2025": 2.5,
+      "rate_2026": 2.8,
+      "change_pp": 0.3
+    },
+    {
+      "geography": "British Columbia",
+      "dimension": "Health care and social assistance",
+      "rate_2025": 3.4,
+      "rate_2026": 3.7,
+      "change_pp": 0.3
+    },
+    {
+      "geography": "Canada",
+      "dimension": "Manufacturing",
+      "rate_2025": 2.4,
+      "rate_2026": 2.6,
+      "change_pp": 0.2
+    },
+    {
+      "geography": "Canada",
+      "dimension": "Accommodation and food services",
+      "rate_2025": 5.2,
+      "rate_2026": 5.4,
+      "change_pp": 0.2
+    },
+    {
+      "geography": "Newfoundland and Labrador",
+      "dimension": "All industries",
+      "rate_2025": 2.8,
+      "rate_2026": 3.0,
+      "change_pp": 0.2
+    },
+    {
+      "geography": "Prince Edward Island",
+      "dimension": "All industries",
+      "rate_2025": 3.5,
+      "rate_2026": 3.7,
+      "change_pp": 0.2
+    },
+    {
+      "geography": "New Brunswick",
+      "dimension": "All industries",
+      "rate_2025": 3.0,
+      "rate_2026": 3.2,
+      "change_pp": 0.2
+    },
+    {
+      "geography": "Canada",
+      "dimension": "Finance and insurance",
+      "rate_2025": 2.3,
+      "rate_2026": 2.4,
+      "change_pp": 0.1
+    },
+    {
+      "geography": "Canada",
+      "dimension": "All industries",
+      "rate_2025": 3.1,
+      "rate_2026": 3.1,
+      "change_pp": 0.0
+    },
+    {
+      "geography": "Canada",
+      "dimension": "Professional, scientific and technical services",
+      "rate_2025": 2.9,
+      "rate_2026": 2.9,
+      "change_pp": 0.0
+    },
+    {
+      "geography": "Quebec",
+      "dimension": "All industries",
+      "rate_2025": 3.1,
+      "rate_2026": 3.1,
+      "change_pp": 0.0
+    },
+    {
+      "geography": "Alberta",
+      "dimension": "Health care and social assistance",
+      "rate_2025": 2.2,
+      "rate_2026": 2.2,
+      "change_pp": 0.0
+    },
+    {
+      "geography": "British Columbia",
+      "dimension": "All industries",
+      "rate_2025": 3.5,
+      "rate_2026": 3.5,
+      "change_pp": 0.0
+    },
+    {
+      "geography": "Ontario",
+      "dimension": "All industries",
+      "rate_2025": 2.8,
+      "rate_2026": 2.7,
+      "change_pp": -0.1
+    },
+    {
+      "geography": "Manitoba",
+      "dimension": "All industries",
+      "rate_2025": 3.3,
+      "rate_2026": 3.2,
+      "change_pp": -0.1
+    },
+    {
+      "geography": "Saskatchewan",
+      "dimension": "All industries",
+      "rate_2025": 3.6,
+      "rate_2026": 3.5,
+      "change_pp": -0.1
+    },
+    {
+      "geography": "Alberta",
+      "dimension": "All industries",
+      "rate_2025": 3.2,
+      "rate_2026": 3.1,
+      "change_pp": -0.1
+    },
+    {
+      "geography": "Yukon",
+      "dimension": "All industries",
+      "rate_2025": 4.6,
+      "rate_2026": 4.5,
+      "change_pp": -0.1
+    },
+    {
+      "geography": "Canada",
+      "dimension": "Construction",
+      "rate_2025": 3.7,
+      "rate_2026": 3.5,
+      "change_pp": -0.2
+    },
+    {
+      "geography": "Nova Scotia",
+      "dimension": "All industries",
+      "rate_2025": 3.6,
+      "rate_2026": 3.4,
+      "change_pp": -0.2
+    },
+    {
+      "geography": "Canada",
+      "dimension": "Health care and social assistance",
+      "rate_2025": 4.1,
+      "rate_2026": 3.7,
+      "change_pp": -0.4
+    },
+    {
+      "geography": "Nova Scotia",
+      "dimension": "Health care and social assistance",
+      "rate_2025": 4.3,
+      "rate_2026": 3.6,
+      "change_pp": -0.7
+    },
+    {
+      "geography": "Quebec",
+      "dimension": "Health care and social assistance",
+      "rate_2025": 5.3,
+      "rate_2026": 4.6,
+      "change_pp": -0.7
+    },
+    {
+      "geography": "Ontario",
+      "dimension": "Health care and social assistance",
+      "rate_2025": 4.2,
+      "rate_2026": 3.4,
+      "change_pp": -0.8
+    },
+    {
+      "geography": "Manitoba",
+      "dimension": "Health care and social assistance",
+      "rate_2025": 5.1,
+      "rate_2026": 4.3,
+      "change_pp": -0.8
+    },
+    {
+      "geography": "Nunavut",
+      "dimension": "All industries",
+      "rate_2025": 3.6,
+      "rate_2026": 2.2,
+      "change_pp": -1.4
+    },
+    {
+      "geography": "Yukon",
+      "dimension": "Health care and social assistance",
+      "rate_2025": 7.0,
+      "rate_2026": 3.9,
+      "change_pp": -3.1
+    }
+  ],
+  [
+    {
+      "geography": "Alberta",
+      "period": "2020–2021",
+      "sick_hours_per_fte": 84.2
+    },
+    {
+      "geography": "British Columbia",
+      "period": "2020–2021",
+      "sick_hours_per_fte": 69.68
+    },
+    {
+      "geography": "Manitoba",
+      "period": "2020–2021",
+      "sick_hours_per_fte": 76.85
+    },
+    {
+      "geography": "New Brunswick",
+      "period": "2020–2021",
+      "sick_hours_per_fte": 79.32
+    },
+    {
+      "geography": "Newfoundland and Labrador",
+      "period": "2020–2021",
+      "sick_hours_per_fte": 84.87
+    },
+    {
+      "geography": "Northwest Territories",
+      "period": "2020–2021",
+      "sick_hours_per_fte": 75.15
+    },
+    {
+      "geography": "Nova Scotia",
+      "period": "2020–2021",
+      "sick_hours_per_fte": 86.57
+    },
+    {
+      "geography": "Ontario",
+      "period": "2020–2021",
+      "sick_hours_per_fte": 63.12
+    },
+    {
+      "geography": "Prince Edward Island",
+      "period": "2020–2021",
+      "sick_hours_per_fte": 67.96
+    },
+    {
+      "geography": "Provinces/territories with available data",
+      "period": "2020–2021",
+      "sick_hours_per_fte": 67.51
+    },
+    {
+      "geography": "Saskatchewan",
+      "period": "2020–2021",
+      "sick_hours_per_fte": 7.49
+    },
+    {
+      "geography": "Yukon",
+      "period": "2020–2021",
+      "sick_hours_per_fte": 68.65
+    },
+    {
+      "geography": "Alberta",
+      "period": "2021–2022",
+      "sick_hours_per_fte": 95.81
+    },
+    {
+      "geography": "British Columbia",
+      "period": "2021–2022",
+      "sick_hours_per_fte": 80.25
+    },
+    {
+      "geography": "Manitoba",
+      "period": "2021–2022",
+      "sick_hours_per_fte": 83.05
+    },
+    {
+      "geography": "New Brunswick",
+      "period": "2021–2022",
+      "sick_hours_per_fte": 89.9
+    },
+    {
+      "geography": "Newfoundland and Labrador",
+      "period": "2021–2022",
+      "sick_hours_per_fte": 103.53
+    },
+    {
+      "geography": "Northwest Territories",
+      "period": "2021–2022",
+      "sick_hours_per_fte": 85.66
+    },
+    {
+      "geography": "Nova Scotia",
+      "period": "2021–2022",
+      "sick_hours_per_fte": 102.5
+    },
+    {
+      "geography": "Ontario",
+      "period": "2021–2022",
+      "sick_hours_per_fte": 72.85
+    },
+    {
+      "geography": "Prince Edward Island",
+      "period": "2021–2022",
+      "sick_hours_per_fte": 81.62
+    },
+    {
+      "geography": "Provinces/territories with available data",
+      "period": "2021–2022",
+      "sick_hours_per_fte": 77.29
+    },
+    {
+      "geography": "Saskatchewan",
+      "period": "2021–2022",
+      "sick_hours_per_fte": 8.14
+    },
+    {
+      "geography": "Yukon",
+      "period": "2021–2022",
+      "sick_hours_per_fte": 83.95
+    },
+    {
+      "geography": "Alberta",
+      "period": "2022–2023",
+      "sick_hours_per_fte": 96.17
+    },
+    {
+      "geography": "British Columbia",
+      "period": "2022–2023",
+      "sick_hours_per_fte": 91.37
+    },
+    {
+      "geography": "Manitoba",
+      "period": "2022–2023",
+      "sick_hours_per_fte": 84.95
+    },
+    {
+      "geography": "New Brunswick",
+      "period": "2022–2023",
+      "sick_hours_per_fte": 97.6
+    },
+    {
+      "geography": "Newfoundland and Labrador",
+      "period": "2022–2023",
+      "sick_hours_per_fte": 102.25
+    },
+    {
+      "geography": "Northwest Territories",
+      "period": "2022–2023",
+      "sick_hours_per_fte": 87.92
+    },
+    {
+      "geography": "Nova Scotia",
+      "period": "2022–2023",
+      "sick_hours_per_fte": 110.72
+    },
+    {
+      "geography": "Ontario",
+      "period": "2022–2023",
+      "sick_hours_per_fte": 82.39
+    },
+    {
+      "geography": "Prince Edward Island",
+      "period": "2022–2023",
+      "sick_hours_per_fte": 92.79
+    },
+    {
+      "geography": "Provinces/territories with available data",
+      "period": "2022–2023",
+      "sick_hours_per_fte": 83.75
+    },
+    {
+      "geography": "Yukon",
+      "period": "2022–2023",
+      "sick_hours_per_fte": 82.03
+    },
+    {
+      "geography": "Alberta",
+      "period": "2023–2024",
+      "sick_hours_per_fte": 91.13
+    },
+    {
+      "geography": "British Columbia",
+      "period": "2023–2024",
+      "sick_hours_per_fte": 83.06
+    },
+    {
+      "geography": "Manitoba",
+      "period": "2023–2024",
+      "sick_hours_per_fte": 77.1
+    },
+    {
+      "geography": "New Brunswick",
+      "period": "2023–2024",
+      "sick_hours_per_fte": 86.67
+    },
+    {
+      "geography": "Newfoundland and Labrador",
+      "period": "2023–2024",
+      "sick_hours_per_fte": 87.78
+    },
+    {
+      "geography": "Northwest Territories",
+      "period": "2023–2024",
+      "sick_hours_per_fte": 72.48
+    },
+    {
+      "geography": "Nova Scotia",
+      "period": "2023–2024",
+      "sick_hours_per_fte": 101.1
+    },
+    {
+      "geography": "Ontario",
+      "period": "2023–2024",
+      "sick_hours_per_fte": 71.79
+    },
+    {
+      "geography": "Prince Edward Island",
+      "period": "2023–2024",
+      "sick_hours_per_fte": 67.59
+    },
+    {
+      "geography": "Provinces/territories with available data",
+      "period": "2023–2024",
+      "sick_hours_per_fte": 79.63
+    },
+    {
+      "geography": "Yukon",
+      "period": "2023–2024",
+      "sick_hours_per_fte": 84.5
+    },
+    {
+      "geography": "Alberta",
+      "period": "2024–2025",
+      "sick_hours_per_fte": 93.95
+    },
+    {
+      "geography": "British Columbia",
+      "period": "2024–2025",
+      "sick_hours_per_fte": 84.43
+    },
+    {
+      "geography": "Manitoba",
+      "period": "2024–2025",
+      "sick_hours_per_fte": 77.19
+    },
+    {
+      "geography": "New Brunswick",
+      "period": "2024–2025",
+      "sick_hours_per_fte": 84.83
+    },
+    {
+      "geography": "Newfoundland and Labrador",
+      "period": "2024–2025",
+      "sick_hours_per_fte": 87.29
+    },
+    {
+      "geography": "Nova Scotia",
+      "period": "2024–2025",
+      "sick_hours_per_fte": 99.46
+    },
+    {
+      "geography": "Ontario",
+      "period": "2024–2025",
+      "sick_hours_per_fte": 69.03
+    },
+    {
+      "geography": "Prince Edward Island",
+      "period": "2024–2025",
+      "sick_hours_per_fte": 60.65
+    },
+    {
+      "geography": "Provinces/territories with available data",
+      "period": "2024–2025",
+      "sick_hours_per_fte": 78.41
+    },
+    {
+      "geography": "Yukon",
+      "period": "2024–2025",
+      "sick_hours_per_fte": 85.72
+    }
+  ],
+  [
+    {
+      "geography": "Alberta",
+      "dimension": "Licensed practical nurses",
+      "period": "2024",
+      "value": 373.0,
+      "status": "Published"
+    },
+    {
+      "geography": "British Columbia",
+      "dimension": "Licensed practical nurses",
+      "period": "2024",
+      "value": 252.3,
+      "status": "Published"
+    },
+    {
+      "geography": "Manitoba",
+      "dimension": "Licensed practical nurses",
+      "period": "2024",
+      "value": 244.1,
+      "status": "Published"
+    },
+    {
+      "geography": "New Brunswick",
+      "dimension": "Licensed practical nurses",
+      "period": "2024",
+      "value": 424.1,
+      "status": "Published"
+    },
+    {
+      "geography": "Newfoundland and Labrador",
+      "dimension": "Licensed practical nurses",
+      "period": "2024",
+      "value": 509.5,
+      "status": "Published"
+    },
+    {
+      "geography": "Northwest Territories",
+      "dimension": "Licensed practical nurses",
+      "period": "2024",
+      "value": null,
+      "status": "Unavailable"
+    },
+    {
+      "geography": "Nova Scotia",
+      "dimension": "Licensed practical nurses",
+      "period": "2024",
+      "value": 434.7,
+      "status": "Published"
+    },
+    {
+      "geography": "Nunavut",
+      "dimension": "Licensed practical nurses",
+      "period": "2024",
+      "value": null,
+      "status": "Unavailable"
+    },
+    {
+      "geography": "Ontario",
+      "dimension": "Licensed practical nurses",
+      "period": "2024",
+      "value": 362.7,
+      "status": "Published"
+    },
+    {
+      "geography": "Prince Edward Island",
+      "dimension": "Licensed practical nurses",
+      "period": "2024",
+      "value": 490.1,
+      "status": "Published"
+    },
+    {
+      "geography": "Quebec",
+      "dimension": "Licensed practical nurses",
+      "period": "2024",
+      "value": 348.4,
+      "status": "Published"
+    },
+    {
+      "geography": "Saskatchewan",
+      "dimension": "Licensed practical nurses",
+      "period": "2024",
+      "value": 315.4,
+      "status": "Published"
+    },
+    {
+      "geography": "Yukon",
+      "dimension": "Licensed practical nurses",
+      "period": "2024",
+      "value": 618.8,
+      "status": "Published"
+    },
+    {
+      "geography": "Alberta",
+      "dimension": "Medical laboratory technologists",
+      "period": "2024",
+      "value": 51.5,
+      "status": "Published"
+    },
+    {
+      "geography": "British Columbia",
+      "dimension": "Medical laboratory technologists",
+      "period": "2024",
+      "value": 25.3,
+      "status": "Use with caution"
+    },
+    {
+      "geography": "Manitoba",
+      "dimension": "Medical laboratory technologists",
+      "period": "2024",
+      "value": 59.2,
+      "status": "Published"
+    },
+    {
+      "geography": "New Brunswick",
+      "dimension": "Medical laboratory technologists",
+      "period": "2024",
+      "value": 80.1,
+      "status": "Published"
+    },
+    {
+      "geography": "Newfoundland and Labrador",
+      "dimension": "Medical laboratory technologists",
+      "period": "2024",
+      "value": 101.4,
+      "status": "Published"
+    },
+    {
+      "geography": "Northwest Territories",
+      "dimension": "Medical laboratory technologists",
+      "period": "2024",
+      "value": 71.5,
+      "status": "Use with caution"
+    },
+    {
+      "geography": "Nova Scotia",
+      "dimension": "Medical laboratory technologists",
+      "period": "2024",
+      "value": 74.9,
+      "status": "Published"
+    },
+    {
+      "geography": "Nunavut",
+      "dimension": "Medical laboratory technologists",
+      "period": "2024",
+      "value": 21.9,
+      "status": "Use with caution"
+    },
+    {
+      "geography": "Ontario",
+      "dimension": "Medical laboratory technologists",
+      "period": "2024",
+      "value": 40.3,
+      "status": "Published"
+    },
+    {
+      "geography": "Prince Edward Island",
+      "dimension": "Medical laboratory technologists",
+      "period": "2024",
+      "value": 56.6,
+      "status": "Published"
+    },
+    {
+      "geography": "Quebec",
+      "dimension": "Medical laboratory technologists",
+      "period": "2024",
+      "value": 45.5,
+      "status": "Published"
+    },
+    {
+      "geography": "Saskatchewan",
+      "dimension": "Medical laboratory technologists",
+      "period": "2024",
+      "value": 60.7,
+      "status": "Published"
+    },
+    {
+      "geography": "Yukon",
+      "dimension": "Medical laboratory technologists",
+      "period": "2024",
+      "value": 49.2,
+      "status": "Use with caution"
+    },
+    {
+      "geography": "Alberta",
+      "dimension": "Nurse practitioners",
+      "period": "2024",
+      "value": 16.1,
+      "status": "Published"
+    },
+    {
+      "geography": "British Columbia",
+      "dimension": "Nurse practitioners",
+      "period": "2024",
+      "value": 17.4,
+      "status": "Published"
+    },
+    {
+      "geography": "Manitoba",
+      "dimension": "Nurse practitioners",
+      "period": "2024",
+      "value": 22.6,
+      "status": "Published"
+    },
+    {
+      "geography": "New Brunswick",
+      "dimension": "Nurse practitioners",
+      "period": "2024",
+      "value": 26.6,
+      "status": "Published"
+    },
+    {
+      "geography": "Newfoundland and Labrador",
+      "dimension": "Nurse practitioners",
+      "period": "2024",
+      "value": 53.2,
+      "status": "Published"
+    },
+    {
+      "geography": "Northwest Territories",
+      "dimension": "Nurse practitioners",
+      "period": "2024",
+      "value": null,
+      "status": "Unavailable"
+    },
+    {
+      "geography": "Nova Scotia",
+      "dimension": "Nurse practitioners",
+      "period": "2024",
+      "value": 34.2,
+      "status": "Published"
+    },
+    {
+      "geography": "Nunavut",
+      "dimension": "Nurse practitioners",
+      "period": "2024",
+      "value": null,
+      "status": "Unavailable"
+    },
+    {
+      "geography": "Ontario",
+      "dimension": "Nurse practitioners",
+      "period": "2024",
+      "value": 29.2,
+      "status": "Published"
+    },
+    {
+      "geography": "Prince Edward Island",
+      "dimension": "Nurse practitioners",
+      "period": "2024",
+      "value": 43.7,
+      "status": "Published"
+    },
+    {
+      "geography": "Quebec",
+      "dimension": "Nurse practitioners",
+      "period": "2024",
+      "value": 18.4,
+      "status": "Published"
+    },
+    {
+      "geography": "Saskatchewan",
+      "dimension": "Nurse practitioners",
+      "period": "2024",
+      "value": 22.8,
+      "status": "Published"
+    },
+    {
+      "geography": "Yukon",
+      "dimension": "Nurse practitioners",
+      "period": "2024",
+      "value": 55.7,
+      "status": "Published"
+    },
+    {
+      "geography": "Alberta",
+      "dimension": "Paramedics",
+      "period": "2024",
+      "value": 187.4,
+      "status": "Published"
+    },
+    {
+      "geography": "British Columbia",
+      "dimension": "Paramedics",
+      "period": "2024",
+      "value": null,
+      "status": "Unavailable"
+    },
+    {
+      "geography": "Manitoba",
+      "dimension": "Paramedics",
+      "period": "2024",
+      "value": 143.3,
+      "status": "Published"
+    },
+    {
+      "geography": "New Brunswick",
+      "dimension": "Paramedics",
+      "period": "2024",
+      "value": 153.1,
+      "status": "Published"
+    },
+    {
+      "geography": "Newfoundland and Labrador",
+      "dimension": "Paramedics",
+      "period": "2024",
+      "value": 191.1,
+      "status": "Published"
+    },
+    {
+      "geography": "Northwest Territories",
+      "dimension": "Paramedics",
+      "period": "2024",
+      "value": null,
+      "status": "Unavailable"
+    },
+    {
+      "geography": "Nova Scotia",
+      "dimension": "Paramedics",
+      "period": "2024",
+      "value": 122.2,
+      "status": "Published"
+    },
+    {
+      "geography": "Nunavut",
+      "dimension": "Paramedics",
+      "period": "2024",
+      "value": null,
+      "status": "Unavailable"
+    },
+    {
+      "geography": "Ontario",
+      "dimension": "Paramedics",
+      "period": "2024",
+      "value": 74.8,
+      "status": "Published"
+    },
+    {
+      "geography": "Prince Edward Island",
+      "dimension": "Paramedics",
+      "period": "2024",
+      "value": null,
+      "status": "Unavailable"
+    },
+    {
+      "geography": "Quebec",
+      "dimension": "Paramedics",
+      "period": "2024",
+      "value": 69.7,
+      "status": "Published"
+    },
+    {
+      "geography": "Saskatchewan",
+      "dimension": "Paramedics",
+      "period": "2024",
+      "value": 184.7,
+      "status": "Published"
+    },
+    {
+      "geography": "Yukon",
+      "dimension": "Paramedics",
+      "period": "2024",
+      "value": null,
+      "status": "Unavailable"
+    },
+    {
+      "geography": "Alberta",
+      "dimension": "Physicians",
+      "period": "2024",
+      "value": 240.3,
+      "status": "Published"
+    },
+    {
+      "geography": "British Columbia",
+      "dimension": "Physicians",
+      "period": "2024",
+      "value": 271.3,
+      "status": "Published"
+    },
+    {
+      "geography": "Manitoba",
+      "dimension": "Physicians",
+      "period": "2024",
+      "value": 224.7,
+      "status": "Published"
+    },
+    {
+      "geography": "New Brunswick",
+      "dimension": "Physicians",
+      "period": "2024",
+      "value": 259.1,
+      "status": "Published"
+    },
+    {
+      "geography": "Newfoundland and Labrador",
+      "dimension": "Physicians",
+      "period": "2024",
+      "value": 260.6,
+      "status": "Published"
+    },
+    {
+      "geography": "Northwest Territories",
+      "dimension": "Physicians",
+      "period": "2024",
+      "value": 114.0,
+      "status": "Published"
+    },
+    {
+      "geography": "Nova Scotia",
+      "dimension": "Physicians",
+      "period": "2024",
+      "value": 268.3,
+      "status": "Published"
+    },
+    {
+      "geography": "Nunavut",
+      "dimension": "Physicians",
+      "period": "2024",
+      "value": 55.9,
+      "status": "Published"
+    },
+    {
+      "geography": "Ontario",
+      "dimension": "Physicians",
+      "period": "2024",
+      "value": 221.11599792509554,
+      "status": "Published"
+    },
+    {
+      "geography": "Prince Edward Island",
+      "dimension": "Physicians",
+      "period": "2024",
+      "value": 211.1,
+      "status": "Published"
+    },
+    {
+      "geography": "Quebec",
+      "dimension": "Physicians",
+      "period": "2024",
+      "value": 260.2,
+      "status": "Published"
+    },
+    {
+      "geography": "Saskatchewan",
+      "dimension": "Physicians",
+      "period": "2024",
+      "value": 218.5,
+      "status": "Published"
+    },
+    {
+      "geography": "Yukon",
+      "dimension": "Physicians",
+      "period": "2024",
+      "value": 192.7,
+      "status": "Published"
+    },
+    {
+      "geography": "Alberta",
+      "dimension": "Registered nurses",
+      "period": "2024",
+      "value": 873.3,
+      "status": "Published"
+    },
+    {
+      "geography": "British Columbia",
+      "dimension": "Registered nurses",
+      "period": "2024",
+      "value": 767.1,
+      "status": "Published"
+    },
+    {
+      "geography": "Manitoba",
+      "dimension": "Registered nurses",
+      "period": "2024",
+      "value": 929.9,
+      "status": "Published"
+    },
+    {
+      "geography": "New Brunswick",
+      "dimension": "Registered nurses",
+      "period": "2024",
+      "value": 968.6,
+      "status": "Published"
+    },
+    {
+      "geography": "Newfoundland and Labrador",
+      "dimension": "Registered nurses",
+      "period": "2024",
+      "value": 1158.2,
+      "status": "Published"
+    },
+    {
+      "geography": "Northwest Territories",
+      "dimension": "Registered nurses",
+      "period": "2024",
+      "value": null,
+      "status": "Unavailable"
+    },
+    {
+      "geography": "Nova Scotia",
+      "dimension": "Registered nurses",
+      "period": "2024",
+      "value": 1075.3,
+      "status": "Published"
+    },
+    {
+      "geography": "Nunavut",
+      "dimension": "Registered nurses",
+      "period": "2024",
+      "value": null,
+      "status": "Unavailable"
+    },
+    {
+      "geography": "Ontario",
+      "dimension": "Registered nurses",
+      "period": "2024",
+      "value": 715.7,
+      "status": "Published"
+    },
+    {
+      "geography": "Prince Edward Island",
+      "dimension": "Registered nurses",
+      "period": "2024",
+      "value": 1076.4,
+      "status": "Published"
+    },
+    {
+      "geography": "Quebec",
+      "dimension": "Registered nurses",
+      "period": "2024",
+      "value": 884.2,
+      "status": "Published"
+    },
+    {
+      "geography": "Saskatchewan",
+      "dimension": "Registered nurses",
+      "period": "2024",
+      "value": 1008.6,
+      "status": "Published"
+    },
+    {
+      "geography": "Yukon",
+      "dimension": "Registered nurses",
+      "period": "2024",
+      "value": 1565.2,
+      "status": "Published"
+    }
+  ]
+]

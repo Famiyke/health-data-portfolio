@@ -1,0 +1,85 @@
+geography,month,model,forecast_cad_thousands,training_through,status
+Canada,2026-10,Log trend + month effects,77750029.72101787,2026-09,Forecast
+Canada,2026-11,Log trend + month effects,78405989.45087725,2026-09,Forecast
+Canada,2026-12,Log trend + month effects,79471672.79799351,2026-09,Forecast
+Canada,2027-01,Log trend + month effects,64064627.24013139,2026-09,Forecast
+Canada,2027-02,Log trend + month effects,62667694.76669673,2026-09,Forecast
+Canada,2027-03,Log trend + month effects,73821986.3599075,2026-09,Forecast
+Newfoundland and Labrador,2026-10,Log trend + month effects,1145237.8647819539,2026-09,Forecast
+Newfoundland and Labrador,2026-11,Log trend + month effects,1161391.371776859,2026-09,Forecast
+Newfoundland and Labrador,2026-12,Log trend + month effects,1192275.5953739185,2026-09,Forecast
+Newfoundland and Labrador,2027-01,Log trend + month effects,905152.302912122,2026-09,Forecast
+Newfoundland and Labrador,2027-02,Log trend + month effects,883847.6733240654,2026-09,Forecast
+Newfoundland and Labrador,2027-03,Log trend + month effects,1035978.4845631743,2026-09,Forecast
+Prince Edward Island,2026-10,Seasonal naive,313631.0,2026-09,Forecast
+Prince Edward Island,2026-11,Seasonal naive,297641.0,2026-09,Forecast
+Prince Edward Island,2026-12,Seasonal naive,308163.0,2026-09,Forecast
+Prince Edward Island,2027-01,Seasonal naive,264151.0,2026-09,Forecast
+Prince Edward Island,2027-02,Seasonal naive,247996.0,2026-09,Forecast
+Prince Edward Island,2027-03,Seasonal naive,300068.0,2026-09,Forecast
+Nova Scotia,2026-10,Seasonal naive,1973656.0,2026-09,Forecast
+Nova Scotia,2026-11,Seasonal naive,1924547.0,2026-09,Forecast
+Nova Scotia,2026-12,Seasonal naive,1989951.0,2026-09,Forecast
+Nova Scotia,2027-01,Seasonal naive,1720354.0,2026-09,Forecast
+Nova Scotia,2027-02,Seasonal naive,1612927.0,2026-09,Forecast
+Nova Scotia,2027-03,Seasonal naive,1910463.0,2026-09,Forecast
+New Brunswick,2026-10,Log trend + month effects,1719859.777855268,2026-09,Forecast
+New Brunswick,2026-11,Log trend + month effects,1733719.8567583277,2026-09,Forecast
+New Brunswick,2026-12,Log trend + month effects,1739647.8946469477,2026-09,Forecast
+New Brunswick,2027-01,Log trend + month effects,1417217.4579379745,2026-09,Forecast
+New Brunswick,2027-02,Log trend + month effects,1358903.4365775255,2026-09,Forecast
+New Brunswick,2027-03,Log trend + month effects,1606807.059543722,2026-09,Forecast
+Quebec,2026-10,Log trend + month effects,17715223.01643485,2026-09,Forecast
+Quebec,2026-11,Log trend + month effects,17641080.94757287,2026-09,Forecast
+Quebec,2026-12,Log trend + month effects,17293845.946353562,2026-09,Forecast
+Quebec,2027-01,Log trend + month effects,13908331.291161876,2026-09,Forecast
+Quebec,2027-02,Log trend + month effects,13987551.227153717,2026-09,Forecast
+Quebec,2027-03,Log trend + month effects,16349925.051187316,2026-09,Forecast
+Ontario,2026-10,Log trend + month effects,29450323.229798935,2026-09,Forecast
+Ontario,2026-11,Log trend + month effects,30366531.680073604,2026-09,Forecast
+Ontario,2026-12,Log trend + month effects,30622976.123739243,2026-09,Forecast
+Ontario,2027-01,Log trend + month effects,24239186.13645844,2026-09,Forecast
+Ontario,2027-02,Log trend + month effects,23569853.01959313,2026-09,Forecast
+Ontario,2027-03,Log trend + month effects,27991019.54427118,2026-09,Forecast
+Manitoba,2026-10,Log trend + month effects,2589017.797264467,2026-09,Forecast
+Manitoba,2026-11,Log trend + month effects,2535089.9323549783,2026-09,Forecast
+Manitoba,2026-12,Log trend + month effects,2633829.085179521,2026-09,Forecast
+Manitoba,2027-01,Log trend + month effects,2161303.932460979,2026-09,Forecast
+Manitoba,2027-02,Log trend + month effects,2119714.9966919506,2026-09,Forecast
+Manitoba,2027-03,Log trend + month effects,2521003.5469698855,2026-09,Forecast
+Saskatchewan,2026-10,Log trend + month effects,2435749.0368860555,2026-09,Forecast
+Saskatchewan,2026-11,Log trend + month effects,2347910.9142119004,2026-09,Forecast
+Saskatchewan,2026-12,Log trend + month effects,2410278.394092649,2026-09,Forecast
+Saskatchewan,2027-01,Log trend + month effects,2021906.2672346674,2026-09,Forecast
+Saskatchewan,2027-02,Log trend + month effects,1949397.6035587136,2026-09,Forecast
+Saskatchewan,2027-03,Log trend + month effects,2318280.8363710963,2026-09,Forecast
+Alberta,2026-10,Log trend + month effects,9807045.305817429,2026-09,Forecast
+Alberta,2026-11,Log trend + month effects,9638075.844482433,2026-09,Forecast
+Alberta,2026-12,Log trend + month effects,9989261.963754999,2026-09,Forecast
+Alberta,2027-01,Log trend + month effects,8255239.75291532,2026-09,Forecast
+Alberta,2027-02,Log trend + month effects,8053609.690491404,2026-09,Forecast
+Alberta,2027-03,Log trend + month effects,9389600.358763427,2026-09,Forecast
+British Columbia,2026-10,Log trend + month effects,10229092.504947925,2026-09,Forecast
+British Columbia,2026-11,Log trend + month effects,10333200.132908318,2026-09,Forecast
+British Columbia,2026-12,Log trend + month effects,10816296.817346947,2026-09,Forecast
+British Columbia,2027-01,Log trend + month effects,8854836.640266057,2026-09,Forecast
+British Columbia,2027-02,Log trend + month effects,8586164.04086886,2026-09,Forecast
+British Columbia,2027-03,Log trend + month effects,10039192.020600403,2026-09,Forecast
+Yukon,2026-10,Seasonal naive,100697.0,2026-09,Forecast
+Yukon,2026-11,Seasonal naive,91463.0,2026-09,Forecast
+Yukon,2026-12,Seasonal naive,97424.0,2026-09,Forecast
+Yukon,2027-01,Seasonal naive,83849.0,2026-09,Forecast
+Yukon,2027-02,Seasonal naive,82427.0,2026-09,Forecast
+Yukon,2027-03,Seasonal naive,105721.0,2026-09,Forecast
+Northwest Territories,2026-10,Log trend + month effects,85694.45640294236,2026-09,Forecast
+Northwest Territories,2026-11,Log trend + month effects,84155.8959580863,2026-09,Forecast
+Northwest Territories,2026-12,Log trend + month effects,93253.09087519493,2026-09,Forecast
+Northwest Territories,2027-01,Log trend + month effects,80114.09936150037,2026-09,Forecast
+Northwest Territories,2027-02,Log trend + month effects,83916.5983908674,2026-09,Forecast
+Northwest Territories,2027-03,Log trend + month effects,97010.64830346494,2026-09,Forecast
+Nunavut,2026-10,Log trend + month effects,66192.39907355918,2026-09,Forecast
+Nunavut,2026-11,Log trend + month effects,65363.06816626625,2026-09,Forecast
+Nunavut,2026-12,Log trend + month effects,70933.52281020745,2026-09,Forecast
+Nunavut,2027-01,Log trend + month effects,62164.32259187756,2026-09,Forecast
+Nunavut,2027-02,Log trend + month effects,61038.16445818531,2026-09,Forecast
+Nunavut,2027-03,Log trend + month effects,71387.68152105856,2026-09,Forecast

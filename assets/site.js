@@ -1,6 +1,6 @@
 'use strict';
 
-const projects = window.PORTFOLIO_PROJECTS;
+const projects = [...window.PORTFOLIO_PROJECTS, ...window.PORTFOLIO_NEW_PROJECTS];
 const home = document.body.dataset.page === 'home';
 const format = (value, digits = 1) => Number(value).toLocaleString('en-CA', {minimumFractionDigits: digits, maximumFractionDigits: digits});
 const typeName = () => 'Real public data';
@@ -47,14 +47,14 @@ function createHome() {
   });
 
   const groups = document.querySelector('#project-groups');
-  for (const type of ['system', 'population']) {
+  for (const type of ['system', 'population', 'business']) {
     const section = document.createElement('section');
     section.className = 'data-group';
     section.dataset.group = type;
     section.setAttribute('aria-labelledby', 'group-' + type);
     const groupProjects = projects.filter(p => p.group === type);
-    const label = type === 'system' ? 'Health system & finance' : 'Population health & equity';
-    const desc = type === 'system' ? 'Explore expenditure, access to surgery and hospital performance using published health system data.' : 'Explore disease surveillance, mental health and regional health equity using published population estimates.';
+    const label = {system:'Health system & finance', population:'Population health & equity', business:'Workforce & commercial analytics'}[type];
+    const desc = {system:'Explore expenditure, access to surgery and hospital performance using published health system data.', population:'Explore disease surveillance, mental health and regional health equity using published population estimates.', business:'Explore workforce planning, labour market indicators, sales performance and time-series forecasting.'}[type];
     section.innerHTML = '<div class="group-head"><div><h3 id="group-' + type + '">' + label + '</h3><p>' + desc + '</p></div></div><div class="project-grid"></div>';
     for (const p of groupProjects) section.querySelector('.project-grid').append(createCard(p));
     groups.append(section);
@@ -69,7 +69,7 @@ function createHome() {
     document.querySelectorAll('.data-group').forEach(group => {
       group.hidden = active !== 'all' && active !== group.dataset.group;
     });
-    document.getElementById('filter-status').textContent = 'Showing ' + (active === 'all' ? 6 : 3) + ' projects';
+    document.getElementById('filter-status').textContent = 'Showing ' + (active === 'all' ? projects.length : projects.filter(p => p.group === active).length) + ' projects';
   }));
 }
 
@@ -92,7 +92,7 @@ function createProject() {
   const id = new URLSearchParams(location.search).get('case');
   const p = projects.find(project => project.id === id);
   if (!p) {
-    root.innerHTML = '<section class="shell no-results"><h1>Choose a case study</h1><p>Explore one of six healthcare analytics projects.</p><a class="button primary" href="index.html#projects">View projects</a></section>';
+    root.innerHTML = '<section class="shell no-results"><h1>Choose a case study</h1><p>Explore one of eight data analytics projects.</p><a class="button primary" href="index.html#projects">View projects</a></section>';
     return;
   }
   document.title = p.title + ' | Ikenna Nwogu';
@@ -120,7 +120,7 @@ function createProject() {
     '<div class="tags">' + p.tools.map(tool => '<span>' + escapeHtml(tool) + '</span>').join('') + '</div><div class="source-block"><h3>' + 'Data source' + '</h3><p>' + escapeHtml(p.source) + '</p>' +
     external(p.sourceUrl, 'Open official source') +
     (p.sourceLinks || []).map(link => external(link.url, escapeHtml(link.name))).join('') +
-    external(p.evidence, 'Findings and methodology') + workflow(p) + '</div></section>' +
+    external(p.evidence, 'Findings and methodology') + workflow(p) + (p.biLink ? '<a download href="' + escapeHtml(p.biLink.url) + '">' + escapeHtml(p.biLink.label) + '</a>' : '') + '</div></section>' +
     (p.findings ? '<section class="side-panel findings-panel"><h2>Key findings</h2><ul>' + p.findings.map(f => '<li>' + escapeHtml(f) + '</li>').join('') + '</ul></section>' : '') +
     '<section class="side-panel limits-panel ' + p.type + '"><h2>Interpretation &amp; limitations</h2><p>' + escapeHtml(p.limits) + '</p></section></aside></div></div></section>' +
     '<div class="project-nav"><div class="shell project-nav-inner"><a href="' + projectHref(previous) + '">Previous: ' + escapeHtml(previous.title) + '</a><a class="button secondary" href="index.html#projects">All projects</a><a href="' + projectHref(next) + '">Next: ' + escapeHtml(next.title) + '</a></div></div>';
@@ -228,7 +228,7 @@ function setupDashboard(p) {
       tr.append(n);
       tbody.append(tr);
     }
-    document.getElementById('selection-info').textContent = rows.length + ' published values' +
+    document.getElementById('selection-info').textContent = rows.length + ' values' +
       (withheld.length ? ' · ' + withheld.length + ' withheld (table only)' : '') +
       (caution ? ' · quality flags shown' : '');
     document.getElementById('table-caption').textContent = typeName(p) + ' · ' + view.name +
@@ -272,6 +272,9 @@ function buildBarChart(chart, rows, view) {
   if (!rows.length) { chart.textContent = 'No groups meet the reporting criteria for this selection.'; return; }
   chart.classList.add('bar-chart');
   const max = Math.max(...rows.map(r => Math.max(r.value, r.ciUpper ?? r.value)), .001);
+  const min = Math.min(0, ...rows.map(r => r.value));
+  const span = max - min;
+  const zero = -min / span * 100;
   for (const r of rows) {
     const item = document.createElement('div');
     item.className = 'data-row';
@@ -281,10 +284,12 @@ function buildBarChart(chart, rows, view) {
       (ci ? ', 95% CI ' + confidenceText(r) : '') + (r.status === 'Use with caution' ? ', use with caution' : '');
     item.setAttribute('aria-label', description);
     item.title = description + ' · ' + (r.n ?? '');
-    const whisker = ci ? '<i class="ci-range" style="left:' + (100*r.ciLower/max) + '%;width:' + (100*(r.ciUpper-r.ciLower)/max) + '%"></i>' : '';
+    const whisker = ci ? '<i class="ci-range" style="left:' + (100*(r.ciLower-min)/span) + '%;width:' + (100*(r.ciUpper-r.ciLower)/span) + '%"></i>' : '';
+    const left = r.value < 0 ? (r.value-min)/span*100 : zero;
+    const length = Math.abs(r.value)/span*100;
+    const zeroLine = min < 0 ? '<span class="zero-line" style="left:' + zero + '%"></span>' : '';
     item.innerHTML = '<span class="bar-label">' + escapeHtml(r.label) + '</span><span class="data-track" aria-hidden="true"><span class="data-fill' +
-      (r.status === 'Use with caution' ? ' caution-fill' : '') + '" style="display:block;width:' +
-      (100 * r.value / max) + '%"></span>' + whisker + '</span><span class="bar-value">' + format(r.value, view.digits ?? 1) + '</span>';
+      (r.status === 'Use with caution' ? ' caution-fill' : '') + (r.value < 0 ? ' negative-fill' : '') + '" style="display:block;position:absolute;left:' + left + '%;width:' + length + '%"></span>' + zeroLine + whisker + '</span><span class="bar-value">' + format(r.value, view.digits ?? 1) + '</span>';
     chart.append(item);
   }
 }
@@ -293,12 +298,12 @@ function buildLineChart(chart, rows, view) {
   const width = Math.max(280, Math.min(680, Math.floor(chart.clientWidth))), height = width < 450 ? 260 : 320;
   const left = width < 450 ? 54 : 70, right = width < 450 ? 13 : 27, top = 23, bottom = 42;
   const plotWidth = width - left - right, plotHeight = height - top - bottom;
-  const maxValue = Math.max(...rows.map(r => Math.max(r.value, r.ciUpper ?? r.value)), 1);
+  const maxValue = Math.max(...rows.map(r => Math.max(r.value, r.ciUpper ?? r.value)), .001);
   const step = Math.pow(10, Math.floor(Math.log10(maxValue))) / 2;
   const max = Math.ceil(maxValue / step) * step;
   const x = i => left + (rows.length === 1 ? plotWidth / 2 : i / (rows.length - 1) * plotWidth);
   const y = value => top + plotHeight - value / max * plotHeight;
-  const fmt = v => Number(v).toLocaleString('en-CA', {maximumFractionDigits: 1});
+  const fmt = v => Number(v).toLocaleString('en-CA', {maximumFractionDigits: max < 1 ? 3 : 1});
   const svg = document.createElementNS('http://www.w3.org/2000/svg','svg');
   svg.setAttribute('viewBox', '0 0 ' + width + ' ' + height);
   svg.setAttribute('class', 'line-chart');

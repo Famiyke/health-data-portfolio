@@ -1,0 +1,10 @@
+{
+  "vacancy_formula_checks": 521,
+  "max_vacancy_rate_difference_pp": 0.10265486725663742,
+  "overtime_formula_checks": 116,
+  "max_overtime_rate_difference_pp": 0.024596130103580194,
+  "source_observations": 3199,
+  "withheld": 142,
+  "independently_matched_source_records": 3199,
+  "status": "passed"
+}

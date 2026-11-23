@@ -9,7 +9,7 @@ from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parent
 BASE = os.environ.get('PORTFOLIO_BASE_URL', ROOT.as_uri() + '/').rstrip('/') + '/'
-projects = json.loads((ROOT / 'assets/projects.js').read_text().removeprefix('window.PORTFOLIO_PROJECTS = ').strip().removesuffix(';'))
+projects = json.loads((ROOT / 'assets/projects.js').read_text().removeprefix('window.PORTFOLIO_PROJECTS = ').strip().removesuffix(';')) + json.loads((ROOT / 'assets/expansion.js').read_text().removeprefix('window.PORTFOLIO_NEW_PROJECTS = ').strip().removesuffix(';'))
 
 
 def open_page(browser, path, width):
@@ -27,13 +27,13 @@ def check_width(page, width):
 def check_home(browser):
     for width in (375, 768, 1440):
         page, errors = open_page(browser, '', width) if not BASE.startswith('file:') else open_page(browser, 'index.html', width)
-        assert page.locator('.project-card').count() == 6
-        assert page.locator('.project-card .badge').all_inner_texts() == ['Real public data'] * 6
+        assert page.locator('.project-card').count() == len(projects)
+        assert page.locator('.project-card .badge').all_inner_texts() == ['Real public data'] * len(projects)
         assert page.locator('h1').count() == 1
-        for group in ('system', 'population', 'all'):
+        for group in ('system', 'population', 'business', 'all'):
             page.locator(f'[data-filter="{group}"]').click()
-            assert page.locator('.project-card:visible').count() == (6 if group == 'all' else 3)
-        assert len(page.locator('.project-card a[href^="project.html?case="]').all()) == 6
+            assert page.locator('.project-card:visible').count() == (len(projects) if group == 'all' else sum(p['group'] == group for p in projects))
+        assert len(page.locator('.project-card a[href^="project.html?case="]').all()) == len(projects)
         if width == 375:
             page.locator('.menu-button').click()
             assert page.locator('.menu-button').get_attribute('aria-expanded') == 'true'
@@ -53,7 +53,7 @@ def check_dashboards(browser):
             page, errors = open_page(browser, path, width)
             assert page.locator('h1').inner_text() == project['title']
             assert page.locator('.intro-kickers .badge').inner_text() == 'Real public data'
-            assert page.locator('#project-picker option').count() == 6
+            assert page.locator('#project-picker option').count() == len(projects)
             assert page.locator('#table-body tr').count() > 0
             check_width(page, width)
             if width == 1440:
@@ -86,7 +86,7 @@ def check_dashboards(browser):
         page.close()
     page, errors = open_page(browser, 'dashboards/index.html', 1440)
     page.wait_for_url('**/index.html#projects')
-    assert page.locator('.project-card').count() == 6 and not errors
+    assert page.locator('.project-card').count() == len(projects) and not errors
     page.close()
     print(f'PASS: {total} indicator-period combinations, CSV exports and legacy redirects')
 

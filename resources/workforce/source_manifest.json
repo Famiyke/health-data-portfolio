@@ -1,0 +1,29 @@
+{
+  "source_retrieval_date": "2026-11-22",
+  "sources": [
+    {
+      "file": "workforce-statcan.zip",
+      "publisher": "Statistics Canada 14-10-0442-01",
+      "download_url": "https://www150.statcan.gc.ca/n1/tbl/csv/14100442-eng.zip",
+      "reference_url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410044201",
+      "sha256": "ead389ff85ac68d45e20f61f50eea54fc4093b230282d88ee4673fea99a1166a",
+      "bytes": 4532560
+    },
+    {
+      "file": "cihi-quickstats.xlsx",
+      "publisher": "CIHI Health Workforce Quick Stats 2024",
+      "download_url": "https://www.cihi.ca/sites/default/files/document/health-workforce-quickstats-2024-data-tables-en.xlsx",
+      "reference_url": "https://www.cihi.ca/en/the-state-of-the-health-workforce-in-canada-2024/go-in-depth-2024-health-workforce-data",
+      "sha256": "48d916121fe3961ddb5a1252994296fb436477bb6869861704a42be2e657b1ae",
+      "bytes": 1679635
+    },
+    {
+      "file": "cihi-overview.xlsx",
+      "publisher": "CIHI Health Workforce Overview 2020–2024",
+      "download_url": "https://www.cihi.ca/sites/default/files/document/data-file/health-workforce-canada-2020-2024-overview-data-tables-en.xlsx",
+      "reference_url": "https://www.cihi.ca/en/health-workforce-in-canada-overview",
+      "sha256": "66a1accd4cd972e1f9dbee68e5cb761c6cfdc6f12715cb3227abd89ed26f0e11",
+      "bytes": 1535865
+    }
+  ]
+}

@@ -1,0 +1,1009 @@
+geography,phase,model,training_through,target_month,horizon_months,actual_cad_thousands,forecast_cad_thousands
+Canada,Validation,Seasonal naive,2023-09,2023-10,1,67675476.0,66299272.0
+Canada,Validation,Seasonal naive,2023-09,2023-11,2,69242876.0,67944525.0
+Canada,Validation,Seasonal naive,2023-09,2023-12,3,69109518.0,68507725.0
+Canada,Validation,Seasonal naive,2023-09,2024-01,4,56795411.0,55163361.0
+Canada,Validation,Seasonal naive,2023-09,2024-02,5,57401452.0,53718424.0
+Canada,Validation,Seasonal naive,2023-09,2024-03,6,64047104.0,64501096.0
+Canada,Validation,Seasonal naive,2024-03,2024-04,1,67576734.0,64838369.0
+Canada,Validation,Seasonal naive,2024-03,2024-05,2,73949545.0,72465329.0
+Canada,Validation,Seasonal naive,2024-03,2024-06,3,69462431.0,70863412.0
+Canada,Validation,Seasonal naive,2024-03,2024-07,4,70864339.0,68124865.0
+Canada,Validation,Seasonal naive,2024-03,2024-08,5,70817113.0,69487092.0
+Canada,Validation,Seasonal naive,2024-03,2024-09,6,66645091.0,67179240.0
+Canada,Validation,Seasonal naive,2024-09,2024-10,1,71758061.0,67675476.0
+Canada,Validation,Seasonal naive,2024-09,2024-11,2,71853986.0,69242876.0
+Canada,Validation,Seasonal naive,2024-09,2024-12,3,73022887.0,69109518.0
+Canada,Validation,Seasonal naive,2024-09,2025-01,4,60525808.0,56795411.0
+Canada,Validation,Seasonal naive,2024-09,2025-02,5,57311827.0,57401452.0
+Canada,Validation,Seasonal naive,2024-09,2025-03,6,67399909.0,64047104.0
+Canada,Validation,Seasonal naive,2025-03,2025-04,1,71181787.0,67576734.0
+Canada,Validation,Seasonal naive,2025-03,2025-05,2,76831848.0,73949545.0
+Canada,Validation,Seasonal naive,2025-03,2025-06,3,73174736.0,69462431.0
+Canada,Validation,Seasonal naive,2025-03,2025-07,4,74134516.0,70864339.0
+Canada,Validation,Seasonal naive,2025-03,2025-08,5,73046640.0,70817113.0
+Canada,Validation,Seasonal naive,2025-03,2025-09,6,69561507.0,66645091.0
+Canada,Holdout,Seasonal naive,2025-09,2025-10,1,73101615.0,71758061.0
+Canada,Holdout,Seasonal naive,2025-09,2025-11,2,72845874.0,71853986.0
+Canada,Holdout,Seasonal naive,2025-09,2025-12,3,74513803.0,73022887.0
+Canada,Holdout,Seasonal naive,2025-09,2026-01,4,61583860.0,60525808.0
+Canada,Holdout,Seasonal naive,2025-09,2026-02,5,59716252.0,57311827.0
+Canada,Holdout,Seasonal naive,2025-09,2026-03,6,70067715.0,67399909.0
+Canada,Holdout,Seasonal naive,2026-03,2026-04,1,73338373.0,71181787.0
+Canada,Holdout,Seasonal naive,2026-03,2026-05,2,79927499.0,76831848.0
+Canada,Holdout,Seasonal naive,2026-03,2026-06,3,78475890.0,73174736.0
+Canada,Holdout,Seasonal naive,2026-03,2026-07,4,77684078.0,74134516.0
+Canada,Holdout,Seasonal naive,2026-03,2026-08,5,76497950.0,73046640.0
+Canada,Holdout,Seasonal naive,2026-03,2026-09,6,75340101.0,69561507.0
+Canada,Validation,Log trend + month effects,2023-09,2023-10,1,67675476.0,68921095.99596512
+Canada,Validation,Log trend + month effects,2023-09,2023-11,2,69242876.0,69554441.32230155
+Canada,Validation,Log trend + month effects,2023-09,2023-12,3,69109518.0,70542756.65401249
+Canada,Validation,Log trend + month effects,2023-09,2024-01,4,56795411.0,56317432.82900603
+Canada,Validation,Log trend + month effects,2023-09,2024-02,5,57401452.0,55157194.590099536
+Canada,Validation,Log trend + month effects,2023-09,2024-03,6,64047104.0,65532952.98263226
+Canada,Validation,Log trend + month effects,2024-03,2024-04,1,67576734.0,64240157.14908928
+Canada,Validation,Log trend + month effects,2024-03,2024-05,2,73949545.0,73786806.47216566
+Canada,Validation,Log trend + month effects,2024-03,2024-06,3,69462431.0,74521966.01527223
+Canada,Validation,Log trend + month effects,2024-03,2024-07,4,70864339.0,72935665.6521003
+Canada,Validation,Log trend + month effects,2024-03,2024-08,5,70817113.0,72954064.38321963
+Canada,Validation,Log trend + month effects,2024-03,2024-09,6,66645091.0,70593044.3243794
+Canada,Validation,Log trend + month effects,2024-09,2024-10,1,71758061.0,71674906.50685844
+Canada,Validation,Log trend + month effects,2024-09,2024-11,2,71853986.0,72475770.17479804
+Canada,Validation,Log trend + month effects,2024-09,2024-12,3,73022887.0,73337386.45947018
+Canada,Validation,Log trend + month effects,2024-09,2025-01,4,60525808.0,58749607.83524151
+Canada,Validation,Log trend + month effects,2024-09,2025-02,5,57311827.0,57765771.79394046
+Canada,Validation,Log trend + month effects,2024-09,2025-03,6,67399909.0,68095440.03347164
+Canada,Validation,Log trend + month effects,2025-03,2025-04,1,71181787.0,67397207.9139435
+Canada,Validation,Log trend + month effects,2025-03,2025-05,2,76831848.0,76945778.56932028
+Canada,Validation,Log trend + month effects,2025-03,2025-06,3,73174736.0,77011219.07048008
+Canada,Validation,Log trend + month effects,2025-03,2025-07,4,74134516.0,75763915.27336974
+Canada,Validation,Log trend + month effects,2025-03,2025-08,5,73046640.0,75774323.53481176
+Canada,Validation,Log trend + month effects,2025-03,2025-09,6,69561507.0,73067488.20120227
+Canada,Holdout,Log trend + month effects,2025-09,2025-10,1,73101615.0,74785250.10301192
+Canada,Holdout,Log trend + month effects,2025-09,2025-11,2,72845874.0,75528517.91358107
+Canada,Holdout,Log trend + month effects,2025-09,2025-12,3,74513803.0,76467694.3247269
+Canada,Holdout,Log trend + month effects,2025-09,2026-01,4,61583860.0,61474160.08677653
+Canada,Holdout,Log trend + month effects,2025-09,2026-02,5,59716252.0,60192200.078129224
+Canada,Holdout,Log trend + month effects,2025-09,2026-03,6,70067715.0,70937022.82573335
+Canada,Holdout,Log trend + month effects,2026-03,2026-04,1,73338373.0,70525622.7876726
+Canada,Holdout,Log trend + month effects,2026-03,2026-05,2,79927499.0,80016949.31712118
+Canada,Holdout,Log trend + month effects,2026-03,2026-06,3,78475890.0,79644689.08618651
+Canada,Holdout,Log trend + month effects,2026-03,2026-07,4,77684078.0,78610760.40755863
+Canada,Holdout,Log trend + month effects,2026-03,2026-08,5,76497950.0,78491326.70550653
+Canada,Holdout,Log trend + month effects,2026-03,2026-09,6,75340101.0,75582294.50936313
+Newfoundland and Labrador,Validation,Seasonal naive,2023-09,2023-10,1,971540.0,974972.0
+Newfoundland and Labrador,Validation,Seasonal naive,2023-09,2023-11,2,1004351.0,994043.0
+Newfoundland and Labrador,Validation,Seasonal naive,2023-09,2023-12,3,1050123.0,1062560.0
+Newfoundland and Labrador,Validation,Seasonal naive,2023-09,2024-01,4,793546.0,797438.0
+Newfoundland and Labrador,Validation,Seasonal naive,2023-09,2024-02,5,824519.0,753516.0
+Newfoundland and Labrador,Validation,Seasonal naive,2023-09,2024-03,6,888199.0,876400.0
+Newfoundland and Labrador,Validation,Seasonal naive,2024-03,2024-04,1,958760.0,870566.0
+Newfoundland and Labrador,Validation,Seasonal naive,2024-03,2024-05,2,1082966.0,1046467.0
+Newfoundland and Labrador,Validation,Seasonal naive,2024-03,2024-06,3,1067644.0,1019315.0
+Newfoundland and Labrador,Validation,Seasonal naive,2024-03,2024-07,4,1148219.0,1058353.0
+Newfoundland and Labrador,Validation,Seasonal naive,2024-03,2024-08,5,1139507.0,1039782.0
+Newfoundland and Labrador,Validation,Seasonal naive,2024-03,2024-09,6,1012104.0,945361.0
+Newfoundland and Labrador,Validation,Seasonal naive,2024-09,2024-10,1,1082986.0,971540.0
+Newfoundland and Labrador,Validation,Seasonal naive,2024-09,2024-11,2,1086238.0,1004351.0
+Newfoundland and Labrador,Validation,Seasonal naive,2024-09,2024-12,3,1116888.0,1050123.0
+Newfoundland and Labrador,Validation,Seasonal naive,2024-09,2025-01,4,878951.0,793546.0
+Newfoundland and Labrador,Validation,Seasonal naive,2024-09,2025-02,5,855312.0,824519.0
+Newfoundland and Labrador,Validation,Seasonal naive,2024-09,2025-03,6,963893.0,888199.0
+Newfoundland and Labrador,Validation,Seasonal naive,2025-03,2025-04,1,1027426.0,958760.0
+Newfoundland and Labrador,Validation,Seasonal naive,2025-03,2025-05,2,1138831.0,1082966.0
+Newfoundland and Labrador,Validation,Seasonal naive,2025-03,2025-06,3,1108436.0,1067644.0
+Newfoundland and Labrador,Validation,Seasonal naive,2025-03,2025-07,4,1092980.0,1148219.0
+Newfoundland and Labrador,Validation,Seasonal naive,2025-03,2025-08,5,1122614.0,1139507.0
+Newfoundland and Labrador,Validation,Seasonal naive,2025-03,2025-09,6,1049635.0,1012104.0
+Newfoundland and Labrador,Holdout,Seasonal naive,2025-09,2025-10,1,1091184.0,1082986.0
+Newfoundland and Labrador,Holdout,Seasonal naive,2025-09,2025-11,2,1069608.0,1086238.0
+Newfoundland and Labrador,Holdout,Seasonal naive,2025-09,2025-12,3,1090812.0,1116888.0
+Newfoundland and Labrador,Holdout,Seasonal naive,2025-09,2026-01,4,859151.0,878951.0
+Newfoundland and Labrador,Holdout,Seasonal naive,2025-09,2026-02,5,841612.0,855312.0
+Newfoundland and Labrador,Holdout,Seasonal naive,2025-09,2026-03,6,997873.0,963893.0
+Newfoundland and Labrador,Holdout,Seasonal naive,2026-03,2026-04,1,1045152.0,1027426.0
+Newfoundland and Labrador,Holdout,Seasonal naive,2026-03,2026-05,2,1176551.0,1138831.0
+Newfoundland and Labrador,Holdout,Seasonal naive,2026-03,2026-06,3,1212855.0,1108436.0
+Newfoundland and Labrador,Holdout,Seasonal naive,2026-03,2026-07,4,1251334.0,1092980.0
+Newfoundland and Labrador,Holdout,Seasonal naive,2026-03,2026-08,5,1177947.0,1122614.0
+Newfoundland and Labrador,Holdout,Seasonal naive,2026-03,2026-09,6,1101706.0,1049635.0
+Newfoundland and Labrador,Validation,Log trend + month effects,2023-09,2023-10,1,971540.0,987579.3686568642
+Newfoundland and Labrador,Validation,Log trend + month effects,2023-09,2023-11,2,1004351.0,1005821.1142371927
+Newfoundland and Labrador,Validation,Log trend + month effects,2023-09,2023-12,3,1050123.0,1030284.2916214752
+Newfoundland and Labrador,Validation,Log trend + month effects,2023-09,2024-01,4,793546.0,772573.2666225756
+Newfoundland and Labrador,Validation,Log trend + month effects,2023-09,2024-02,5,824519.0,747752.3424341202
+Newfoundland and Labrador,Validation,Log trend + month effects,2023-09,2024-03,6,888199.0,890623.8889164191
+Newfoundland and Labrador,Validation,Log trend + month effects,2024-03,2024-04,1,958760.0,894582.1423758535
+Newfoundland and Labrador,Validation,Log trend + month effects,2024-03,2024-05,2,1082966.0,1028720.861498579
+Newfoundland and Labrador,Validation,Log trend + month effects,2024-03,2024-06,3,1067644.0,1077102.2785154562
+Newfoundland and Labrador,Validation,Log trend + month effects,2024-03,2024-07,4,1148219.0,1087275.434750746
+Newfoundland and Labrador,Validation,Log trend + month effects,2024-03,2024-08,5,1139507.0,1089029.3115832594
+Newfoundland and Labrador,Validation,Log trend + month effects,2024-03,2024-09,6,1012104.0,1004725.4416892212
+Newfoundland and Labrador,Validation,Log trend + month effects,2024-09,2024-10,1,1082986.0,1036793.0810432197
+Newfoundland and Labrador,Validation,Log trend + month effects,2024-09,2024-11,2,1086238.0,1058195.6834925797
+Newfoundland and Labrador,Validation,Log trend + month effects,2024-09,2024-12,3,1116888.0,1087117.1878052286
+Newfoundland and Labrador,Validation,Log trend + month effects,2024-09,2025-01,4,878951.0,816840.0098755643
+Newfoundland and Labrador,Validation,Log trend + month effects,2024-09,2025-02,5,855312.0,797639.0632841456
+Newfoundland and Labrador,Validation,Log trend + month effects,2024-09,2025-03,6,963893.0,938187.4178966114
+Newfoundland and Labrador,Validation,Log trend + month effects,2025-03,2025-04,1,1027426.0,954916.1893294331
+Newfoundland and Labrador,Validation,Log trend + month effects,2025-03,2025-05,2,1138831.0,1095647.9433617461
+Newfoundland and Labrador,Validation,Log trend + month effects,2025-03,2025-06,3,1108436.0,1138575.818748305
+Newfoundland and Labrador,Validation,Log trend + month effects,2025-03,2025-07,4,1092980.0,1158467.999042223
+Newfoundland and Labrador,Validation,Log trend + month effects,2025-03,2025-08,5,1122614.0,1158999.0209406985
+Newfoundland and Labrador,Validation,Log trend + month effects,2025-03,2025-09,6,1049635.0,1064212.7034947916
+Newfoundland and Labrador,Holdout,Log trend + month effects,2025-09,2025-10,1,1091184.0,1096222.733522448
+Newfoundland and Labrador,Holdout,Log trend + month effects,2025-09,2025-11,2,1069608.0,1116416.4610640432
+Newfoundland and Labrador,Holdout,Log trend + month effects,2025-09,2025-12,3,1090812.0,1147052.7486810822
+Newfoundland and Labrador,Holdout,Log trend + month effects,2025-09,2026-01,4,859151.0,866733.9149186737
+Newfoundland and Labrador,Holdout,Log trend + month effects,2025-09,2026-02,5,841612.0,846033.3442049454
+Newfoundland and Labrador,Holdout,Log trend + month effects,2025-09,2026-03,6,997873.0,990390.2222726884
+Newfoundland and Labrador,Holdout,Log trend + month effects,2026-03,2026-04,1,1045152.0,1003178.0879502891
+Newfoundland and Labrador,Holdout,Log trend + month effects,2026-03,2026-05,2,1176551.0,1146614.6093185702
+Newfoundland and Labrador,Holdout,Log trend + month effects,2026-03,2026-06,3,1212855.0,1182901.1255122803
+Newfoundland and Labrador,Holdout,Log trend + month effects,2026-03,2026-07,4,1251334.0,1199380.9387517697
+Newfoundland and Labrador,Holdout,Log trend + month effects,2026-03,2026-08,5,1177947.0,1203441.4653447482
+Newfoundland and Labrador,Holdout,Log trend + month effects,2026-03,2026-09,6,1101706.0,1107245.566229369
+Prince Edward Island,Validation,Seasonal naive,2023-09,2023-10,1,293592.0,296156.0
+Prince Edward Island,Validation,Seasonal naive,2023-09,2023-11,2,299648.0,294421.0
+Prince Edward Island,Validation,Seasonal naive,2023-09,2023-12,3,284656.0,289130.0
+Prince Edward Island,Validation,Seasonal naive,2023-09,2024-01,4,255113.0,236407.0
+Prince Edward Island,Validation,Seasonal naive,2023-09,2024-02,5,236939.0,231674.0
+Prince Edward Island,Validation,Seasonal naive,2023-09,2024-03,6,274846.0,269020.0
+Prince Edward Island,Validation,Seasonal naive,2024-03,2024-04,1,302424.0,268915.0
+Prince Edward Island,Validation,Seasonal naive,2024-03,2024-05,2,326724.0,326355.0
+Prince Edward Island,Validation,Seasonal naive,2024-03,2024-06,3,312544.0,333304.0
+Prince Edward Island,Validation,Seasonal naive,2024-03,2024-07,4,335791.0,330301.0
+Prince Edward Island,Validation,Seasonal naive,2024-03,2024-08,5,341573.0,338923.0
+Prince Edward Island,Validation,Seasonal naive,2024-03,2024-09,6,292711.0,293977.0
+Prince Edward Island,Validation,Seasonal naive,2024-09,2024-10,1,300320.0,293592.0
+Prince Edward Island,Validation,Seasonal naive,2024-09,2024-11,2,282494.0,299648.0
+Prince Edward Island,Validation,Seasonal naive,2024-09,2024-12,3,298002.0,284656.0
+Prince Edward Island,Validation,Seasonal naive,2024-09,2025-01,4,256619.0,255113.0
+Prince Edward Island,Validation,Seasonal naive,2024-09,2025-02,5,236585.0,236939.0
+Prince Edward Island,Validation,Seasonal naive,2024-09,2025-03,6,283582.0,274846.0
+Prince Edward Island,Validation,Seasonal naive,2025-03,2025-04,1,293327.0,302424.0
+Prince Edward Island,Validation,Seasonal naive,2025-03,2025-05,2,332428.0,326724.0
+Prince Edward Island,Validation,Seasonal naive,2025-03,2025-06,3,324947.0,312544.0
+Prince Edward Island,Validation,Seasonal naive,2025-03,2025-07,4,349441.0,335791.0
+Prince Edward Island,Validation,Seasonal naive,2025-03,2025-08,5,336776.0,341573.0
+Prince Edward Island,Validation,Seasonal naive,2025-03,2025-09,6,304819.0,292711.0
+Prince Edward Island,Holdout,Seasonal naive,2025-09,2025-10,1,313631.0,300320.0
+Prince Edward Island,Holdout,Seasonal naive,2025-09,2025-11,2,297641.0,282494.0
+Prince Edward Island,Holdout,Seasonal naive,2025-09,2025-12,3,308163.0,298002.0
+Prince Edward Island,Holdout,Seasonal naive,2025-09,2026-01,4,264151.0,256619.0
+Prince Edward Island,Holdout,Seasonal naive,2025-09,2026-02,5,247996.0,236585.0
+Prince Edward Island,Holdout,Seasonal naive,2025-09,2026-03,6,300068.0,283582.0
+Prince Edward Island,Holdout,Seasonal naive,2026-03,2026-04,1,320842.0,293327.0
+Prince Edward Island,Holdout,Seasonal naive,2026-03,2026-05,2,357491.0,332428.0
+Prince Edward Island,Holdout,Seasonal naive,2026-03,2026-06,3,365672.0,324947.0
+Prince Edward Island,Holdout,Seasonal naive,2026-03,2026-07,4,382727.0,349441.0
+Prince Edward Island,Holdout,Seasonal naive,2026-03,2026-08,5,365046.0,336776.0
+Prince Edward Island,Holdout,Seasonal naive,2026-03,2026-09,6,346731.0,304819.0
+Prince Edward Island,Validation,Log trend + month effects,2023-09,2023-10,1,293592.0,303682.35952138127
+Prince Edward Island,Validation,Log trend + month effects,2023-09,2023-11,2,299648.0,298788.5289221437
+Prince Edward Island,Validation,Log trend + month effects,2023-09,2023-12,3,284656.0,303830.10135685734
+Prince Edward Island,Validation,Log trend + month effects,2023-09,2024-01,4,255113.0,245047.48601741408
+Prince Edward Island,Validation,Log trend + month effects,2023-09,2024-02,5,236939.0,232822.51409827775
+Prince Edward Island,Validation,Log trend + month effects,2023-09,2024-03,6,274846.0,276896.5416088975
+Prince Edward Island,Validation,Log trend + month effects,2024-03,2024-04,1,302424.0,285997.2325051087
+Prince Edward Island,Validation,Log trend + month effects,2024-03,2024-05,2,326724.0,335845.5871300068
+Prince Edward Island,Validation,Log trend + month effects,2024-03,2024-06,3,312544.0,349830.98197413614
+Prince Edward Island,Validation,Log trend + month effects,2024-03,2024-07,4,335791.0,363899.17610961635
+Prince Edward Island,Validation,Log trend + month effects,2024-03,2024-08,5,341573.0,364809.88274776534
+Prince Edward Island,Validation,Log trend + month effects,2024-03,2024-09,6,292711.0,320083.0383728185
+Prince Edward Island,Validation,Log trend + month effects,2024-09,2024-10,1,300320.0,320349.2630346856
+Prince Edward Island,Validation,Log trend + month effects,2024-09,2024-11,2,282494.0,316842.0185577181
+Prince Edward Island,Validation,Log trend + month effects,2024-09,2024-12,3,298002.0,319070.821134646
+Prince Edward Island,Validation,Log trend + month effects,2024-09,2025-01,4,256619.0,260702.6146436116
+Prince Edward Island,Validation,Log trend + month effects,2024-09,2025-02,5,236585.0,246993.9211363079
+Prince Edward Island,Validation,Log trend + month effects,2024-09,2025-03,6,283582.0,292835.5919586291
+Prince Edward Island,Validation,Log trend + month effects,2025-03,2025-04,1,293327.0,302165.3149552164
+Prince Edward Island,Validation,Log trend + month effects,2025-03,2025-05,2,332428.0,351152.526607727
+Prince Edward Island,Validation,Log trend + month effects,2025-03,2025-06,3,324947.0,361901.8962845032
+Prince Edward Island,Validation,Log trend + month effects,2025-03,2025-07,4,349441.0,377979.3268367098
+Prince Edward Island,Validation,Log trend + month effects,2025-03,2025-08,5,336776.0,379616.158263884
+Prince Edward Island,Validation,Log trend + month effects,2025-03,2025-09,6,304819.0,332093.73771546985
+Prince Edward Island,Holdout,Log trend + month effects,2025-09,2025-10,1,313631.0,331944.7357380821
+Prince Edward Island,Holdout,Log trend + month effects,2025-09,2025-11,2,297641.0,326257.54895399924
+Prince Edward Island,Holdout,Log trend + month effects,2025-09,2025-12,3,308163.0,330465.09298619267
+Prince Edward Island,Holdout,Log trend + month effects,2025-09,2026-01,4,264151.0,271163.17350380484
+Prince Edward Island,Holdout,Log trend + month effects,2025-09,2026-02,5,247996.0,256127.2312497482
+Prince Edward Island,Holdout,Log trend + month effects,2025-09,2026-03,6,300068.0,304033.58280455484
+Prince Edward Island,Holdout,Log trend + month effects,2026-03,2026-04,1,320842.0,314190.178437166
+Prince Edward Island,Holdout,Log trend + month effects,2026-03,2026-05,2,357491.0,364109.5373603577
+Prince Edward Island,Holdout,Log trend + month effects,2026-03,2026-06,3,365672.0,373055.7760824185
+Prince Edward Island,Holdout,Log trend + month effects,2026-03,2026-07,4,382727.0,390895.1715537513
+Prince Edward Island,Holdout,Log trend + month effects,2026-03,2026-08,5,365046.0,390793.2185185606
+Prince Edward Island,Holdout,Log trend + month effects,2026-03,2026-09,6,346731.0,343167.20868317987
+Nova Scotia,Validation,Seasonal naive,2023-09,2023-10,1,1811381.0,1783385.0
+Nova Scotia,Validation,Seasonal naive,2023-09,2023-11,2,1815796.0,1837466.0
+Nova Scotia,Validation,Seasonal naive,2023-09,2023-12,3,1856401.0,1843504.0
+Nova Scotia,Validation,Seasonal naive,2023-09,2024-01,4,1585433.0,1485327.0
+Nova Scotia,Validation,Seasonal naive,2023-09,2024-02,5,1519044.0,1413712.0
+Nova Scotia,Validation,Seasonal naive,2023-09,2024-03,6,1728255.0,1693473.0
+Nova Scotia,Validation,Seasonal naive,2024-03,2024-04,1,1772529.0,1768076.0
+Nova Scotia,Validation,Seasonal naive,2024-03,2024-05,2,2005972.0,1946199.0
+Nova Scotia,Validation,Seasonal naive,2024-03,2024-06,3,1892121.0,1958703.0
+Nova Scotia,Validation,Seasonal naive,2024-03,2024-07,4,1897851.0,1810325.0
+Nova Scotia,Validation,Seasonal naive,2024-03,2024-08,5,1936404.0,1904184.0
+Nova Scotia,Validation,Seasonal naive,2024-03,2024-09,6,1764881.0,1803308.0
+Nova Scotia,Validation,Seasonal naive,2024-09,2024-10,1,1928574.0,1811381.0
+Nova Scotia,Validation,Seasonal naive,2024-09,2024-11,2,1865660.0,1815796.0
+Nova Scotia,Validation,Seasonal naive,2024-09,2024-12,3,1910858.0,1856401.0
+Nova Scotia,Validation,Seasonal naive,2024-09,2025-01,4,1698125.0,1585433.0
+Nova Scotia,Validation,Seasonal naive,2024-09,2025-02,5,1498841.0,1519044.0
+Nova Scotia,Validation,Seasonal naive,2024-09,2025-03,6,1828113.0,1728255.0
+Nova Scotia,Validation,Seasonal naive,2025-03,2025-04,1,1878633.0,1772529.0
+Nova Scotia,Validation,Seasonal naive,2025-03,2025-05,2,2079581.0,2005972.0
+Nova Scotia,Validation,Seasonal naive,2025-03,2025-06,3,1910430.0,1892121.0
+Nova Scotia,Validation,Seasonal naive,2025-03,2025-07,4,1965882.0,1897851.0
+Nova Scotia,Validation,Seasonal naive,2025-03,2025-08,5,1914111.0,1936404.0
+Nova Scotia,Validation,Seasonal naive,2025-03,2025-09,6,1861723.0,1764881.0
+Nova Scotia,Holdout,Seasonal naive,2025-09,2025-10,1,1973656.0,1928574.0
+Nova Scotia,Holdout,Seasonal naive,2025-09,2025-11,2,1924547.0,1865660.0
+Nova Scotia,Holdout,Seasonal naive,2025-09,2025-12,3,1989951.0,1910858.0
+Nova Scotia,Holdout,Seasonal naive,2025-09,2026-01,4,1720354.0,1698125.0
+Nova Scotia,Holdout,Seasonal naive,2025-09,2026-02,5,1612927.0,1498841.0
+Nova Scotia,Holdout,Seasonal naive,2025-09,2026-03,6,1910463.0,1828113.0
+Nova Scotia,Holdout,Seasonal naive,2026-03,2026-04,1,1987970.0,1878633.0
+Nova Scotia,Holdout,Seasonal naive,2026-03,2026-05,2,2123949.0,2079581.0
+Nova Scotia,Holdout,Seasonal naive,2026-03,2026-06,3,2084365.0,1910430.0
+Nova Scotia,Holdout,Seasonal naive,2026-03,2026-07,4,2107146.0,1965882.0
+Nova Scotia,Holdout,Seasonal naive,2026-03,2026-08,5,2051119.0,1914111.0
+Nova Scotia,Holdout,Seasonal naive,2026-03,2026-09,6,2035621.0,1861723.0
+Nova Scotia,Validation,Log trend + month effects,2023-09,2023-10,1,1811381.0,1810991.1639497252
+Nova Scotia,Validation,Log trend + month effects,2023-09,2023-11,2,1815796.0,1839802.5019172668
+Nova Scotia,Validation,Log trend + month effects,2023-09,2023-12,3,1856401.0,1889044.273115241
+Nova Scotia,Validation,Log trend + month effects,2023-09,2024-01,4,1585433.0,1499991.4068578982
+Nova Scotia,Validation,Log trend + month effects,2023-09,2024-02,5,1519044.0,1420190.2305966334
+Nova Scotia,Validation,Log trend + month effects,2023-09,2024-03,6,1728255.0,1706569.6601843184
+Nova Scotia,Validation,Log trend + month effects,2024-03,2024-04,1,1772529.0,1709278.248536529
+Nova Scotia,Validation,Log trend + month effects,2024-03,2024-05,2,2005972.0,1924954.7718441833
+Nova Scotia,Validation,Log trend + month effects,2024-03,2024-06,3,1892121.0,2042919.227296361
+Nova Scotia,Validation,Log trend + month effects,2024-03,2024-07,4,1897851.0,2014086.9265816535
+Nova Scotia,Validation,Log trend + month effects,2024-03,2024-08,5,1936404.0,2023694.600249366
+Nova Scotia,Validation,Log trend + month effects,2024-03,2024-09,6,1764881.0,1900132.9508282456
+Nova Scotia,Validation,Log trend + month effects,2024-09,2024-10,1,1928574.0,1899422.158135016
+Nova Scotia,Validation,Log trend + month effects,2024-09,2024-11,2,1865660.0,1925963.8952469684
+Nova Scotia,Validation,Log trend + month effects,2024-09,2024-12,3,1910858.0,1976298.1944176985
+Nova Scotia,Validation,Log trend + month effects,2024-09,2025-01,4,1698125.0,1583862.1999912919
+Nova Scotia,Validation,Log trend + month effects,2024-09,2025-02,5,1498841.0,1501829.852489066
+Nova Scotia,Validation,Log trend + month effects,2024-09,2025-03,6,1828113.0,1792382.6376644452
+Nova Scotia,Validation,Log trend + month effects,2025-03,2025-04,1,1878633.0,1796704.7025166003
+Nova Scotia,Validation,Log trend + month effects,2025-03,2025-05,2,2079581.0,2024649.9055000802
+Nova Scotia,Validation,Log trend + month effects,2025-03,2025-06,3,1910430.0,2117287.2153941602
+Nova Scotia,Validation,Log trend + month effects,2025-03,2025-07,4,1965882.0,2091907.9183218614
+Nova Scotia,Validation,Log trend + month effects,2025-03,2025-08,5,1914111.0,2105924.0929397796
+Nova Scotia,Validation,Log trend + month effects,2025-03,2025-09,6,1861723.0,1970002.5331506573
+Nova Scotia,Holdout,Log trend + month effects,2025-09,2025-10,1,1973656.0,1987417.7262625368
+Nova Scotia,Holdout,Log trend + month effects,2025-09,2025-11,2,1924547.0,2003373.821146726
+Nova Scotia,Holdout,Log trend + month effects,2025-09,2025-12,3,1989951.0,2055252.9232117329
+Nova Scotia,Holdout,Log trend + month effects,2025-09,2026-01,4,1720354.0,1665968.718486847
+Nova Scotia,Holdout,Log trend + month effects,2025-09,2026-02,5,1612927.0,1567157.6566060563
+Nova Scotia,Holdout,Log trend + month effects,2025-09,2026-03,6,1910463.0,1874870.574545018
+Nova Scotia,Holdout,Log trend + month effects,2026-03,2026-04,1,1987970.0,1882735.1946286138
+Nova Scotia,Holdout,Log trend + month effects,2026-03,2026-05,2,2123949.0,2117398.239256378
+Nova Scotia,Holdout,Log trend + month effects,2026-03,2026-06,3,2084365.0,2182627.674620788
+Nova Scotia,Holdout,Log trend + month effects,2026-03,2026-07,4,2107146.0,2166232.465941095
+Nova Scotia,Holdout,Log trend + month effects,2026-03,2026-08,5,2051119.0,2172676.949590417
+Nova Scotia,Holdout,Log trend + month effects,2026-03,2026-09,6,2035621.0,2041266.2669847598
+New Brunswick,Validation,Seasonal naive,2023-09,2023-10,1,1473692.0,1426951.0
+New Brunswick,Validation,Seasonal naive,2023-09,2023-11,2,1562789.0,1452390.0
+New Brunswick,Validation,Seasonal naive,2023-09,2023-12,3,1499366.0,1429793.0
+New Brunswick,Validation,Seasonal naive,2023-09,2024-01,4,1281172.0,1126352.0
+New Brunswick,Validation,Seasonal naive,2023-09,2024-02,5,1199558.0,1166491.0
+New Brunswick,Validation,Seasonal naive,2023-09,2024-03,6,1374573.0,1315137.0
+New Brunswick,Validation,Seasonal naive,2024-03,2024-04,1,1489421.0,1363638.0
+New Brunswick,Validation,Seasonal naive,2024-03,2024-05,2,1642851.0,1562398.0
+New Brunswick,Validation,Seasonal naive,2024-03,2024-06,3,1549743.0,1590392.0
+New Brunswick,Validation,Seasonal naive,2024-03,2024-07,4,1607784.0,1562433.0
+New Brunswick,Validation,Seasonal naive,2024-03,2024-08,5,1634519.0,1578221.0
+New Brunswick,Validation,Seasonal naive,2024-03,2024-09,6,1465802.0,1484537.0
+New Brunswick,Validation,Seasonal naive,2024-09,2024-10,1,1545560.0,1473692.0
+New Brunswick,Validation,Seasonal naive,2024-09,2024-11,2,1510193.0,1562789.0
+New Brunswick,Validation,Seasonal naive,2024-09,2024-12,3,1545255.0,1499366.0
+New Brunswick,Validation,Seasonal naive,2024-09,2025-01,4,1337944.0,1281172.0
+New Brunswick,Validation,Seasonal naive,2024-09,2025-02,5,1221709.0,1199558.0
+New Brunswick,Validation,Seasonal naive,2024-09,2025-03,6,1461741.0,1374573.0
+New Brunswick,Validation,Seasonal naive,2025-03,2025-04,1,1545232.0,1489421.0
+New Brunswick,Validation,Seasonal naive,2025-03,2025-05,2,1673922.0,1642851.0
+New Brunswick,Validation,Seasonal naive,2025-03,2025-06,3,1642960.0,1549743.0
+New Brunswick,Validation,Seasonal naive,2025-03,2025-07,4,1697306.0,1607784.0
+New Brunswick,Validation,Seasonal naive,2025-03,2025-08,5,1685351.0,1634519.0
+New Brunswick,Validation,Seasonal naive,2025-03,2025-09,6,1497540.0,1465802.0
+New Brunswick,Holdout,Seasonal naive,2025-09,2025-10,1,1684195.0,1545560.0
+New Brunswick,Holdout,Seasonal naive,2025-09,2025-11,2,1603011.0,1510193.0
+New Brunswick,Holdout,Seasonal naive,2025-09,2025-12,3,1653880.0,1545255.0
+New Brunswick,Holdout,Seasonal naive,2025-09,2026-01,4,1385568.0,1337944.0
+New Brunswick,Holdout,Seasonal naive,2025-09,2026-02,5,1294828.0,1221709.0
+New Brunswick,Holdout,Seasonal naive,2025-09,2026-03,6,1532337.0,1461741.0
+New Brunswick,Holdout,Seasonal naive,2026-03,2026-04,1,1618711.0,1545232.0
+New Brunswick,Holdout,Seasonal naive,2026-03,2026-05,2,1761344.0,1673922.0
+New Brunswick,Holdout,Seasonal naive,2026-03,2026-06,3,1731438.0,1642960.0
+New Brunswick,Holdout,Seasonal naive,2026-03,2026-07,4,1816600.0,1697306.0
+New Brunswick,Holdout,Seasonal naive,2026-03,2026-08,5,1728001.0,1685351.0
+New Brunswick,Holdout,Seasonal naive,2026-03,2026-09,6,1691994.0,1497540.0
+New Brunswick,Validation,Log trend + month effects,2023-09,2023-10,1,1473692.0,1462997.1514945715
+New Brunswick,Validation,Log trend + month effects,2023-09,2023-11,2,1562789.0,1484140.1602635551
+New Brunswick,Validation,Log trend + month effects,2023-09,2023-12,3,1499366.0,1488589.0298927235
+New Brunswick,Validation,Log trend + month effects,2023-09,2024-01,4,1281172.0,1188793.2962603308
+New Brunswick,Validation,Log trend + month effects,2023-09,2024-02,5,1199558.0,1156012.4495919172
+New Brunswick,Validation,Log trend + month effects,2023-09,2024-03,6,1374573.0,1370565.0189331553
+New Brunswick,Validation,Log trend + month effects,2024-03,2024-04,1,1489421.0,1399338.5615840787
+New Brunswick,Validation,Log trend + month effects,2024-03,2024-05,2,1642851.0,1632751.8721384695
+New Brunswick,Validation,Log trend + month effects,2024-03,2024-06,3,1549743.0,1620717.6077775306
+New Brunswick,Validation,Log trend + month effects,2024-03,2024-07,4,1607784.0,1623612.177219728
+New Brunswick,Validation,Log trend + month effects,2024-03,2024-08,5,1634519.0,1633751.9113687335
+New Brunswick,Validation,Log trend + month effects,2024-03,2024-09,6,1465802.0,1558759.765916213
+New Brunswick,Validation,Log trend + month effects,2024-09,2024-10,1,1545560.0,1549323.7862119363
+New Brunswick,Validation,Log trend + month effects,2024-09,2024-11,2,1510193.0,1581704.5556951172
+New Brunswick,Validation,Log trend + month effects,2024-09,2024-12,3,1545255.0,1576409.992483596
+New Brunswick,Validation,Log trend + month effects,2024-09,2025-01,4,1337944.0,1270232.0721678566
+New Brunswick,Validation,Log trend + month effects,2024-09,2025-02,5,1221709.0,1229373.773608615
+New Brunswick,Validation,Log trend + month effects,2024-09,2025-03,6,1461741.0,1451350.323647516
+New Brunswick,Validation,Log trend + month effects,2025-03,2025-04,1,1545232.0,1484257.8850123389
+New Brunswick,Validation,Log trend + month effects,2025-03,2025-05,2,1673922.0,1719707.8251487676
+New Brunswick,Validation,Log trend + month effects,2025-03,2025-06,3,1642960.0,1696196.3361981725
+New Brunswick,Validation,Log trend + month effects,2025-03,2025-07,4,1697306.0,1706672.552376209
+New Brunswick,Validation,Log trend + month effects,2025-03,2025-08,5,1685351.0,1719536.1897948957
+New Brunswick,Validation,Log trend + month effects,2025-03,2025-09,6,1497540.0,1627949.510620612
+New Brunswick,Holdout,Log trend + month effects,2025-09,2025-10,1,1684195.0,1626494.9278377302
+New Brunswick,Holdout,Log trend + month effects,2025-09,2025-11,2,1603011.0,1651415.3463220657
+New Brunswick,Holdout,Log trend + month effects,2025-09,2025-12,3,1653880.0,1651308.1184970117
+New Brunswick,Holdout,Log trend + month effects,2025-09,2026-01,4,1385568.0,1341077.5416786687
+New Brunswick,Holdout,Log trend + month effects,2025-09,2026-02,5,1294828.0,1289575.7775417613
+New Brunswick,Holdout,Log trend + month effects,2025-09,2026-03,6,1532337.0,1524688.819041172
+New Brunswick,Holdout,Log trend + month effects,2026-03,2026-04,1,1618711.0,1567466.4823662227
+New Brunswick,Holdout,Log trend + month effects,2026-03,2026-05,2,1761344.0,1802597.2380707231
+New Brunswick,Holdout,Log trend + month effects,2026-03,2026-06,3,1731438.0,1776984.0248710047
+New Brunswick,Holdout,Log trend + month effects,2026-03,2026-07,4,1816600.0,1793208.6992223137
+New Brunswick,Holdout,Log trend + month effects,2026-03,2026-08,5,1728001.0,1803800.571813937
+New Brunswick,Holdout,Log trend + month effects,2026-03,2026-09,6,1691994.0,1695734.9052785845
+Quebec,Validation,Seasonal naive,2023-09,2023-10,1,15406272.0,14646488.0
+Quebec,Validation,Seasonal naive,2023-09,2023-11,2,15582844.0,15034173.0
+Quebec,Validation,Seasonal naive,2023-09,2023-12,3,14838599.0,14817069.0
+Quebec,Validation,Seasonal naive,2023-09,2024-01,4,12134948.0,11868398.0
+Quebec,Validation,Seasonal naive,2023-09,2024-02,5,12510466.0,11978644.0
+Quebec,Validation,Seasonal naive,2023-09,2024-03,6,14015568.0,14298253.0
+Quebec,Validation,Seasonal naive,2024-03,2024-04,1,15279796.0,14735250.0
+Quebec,Validation,Seasonal naive,2024-03,2024-05,2,16886474.0,16265661.0
+Quebec,Validation,Seasonal naive,2024-03,2024-06,3,15634365.0,16098441.0
+Quebec,Validation,Seasonal naive,2024-03,2024-07,4,15901121.0,15456451.0
+Quebec,Validation,Seasonal naive,2024-03,2024-08,5,15894234.0,15688855.0
+Quebec,Validation,Seasonal naive,2024-03,2024-09,6,14741436.0,14862677.0
+Quebec,Validation,Seasonal naive,2024-09,2024-10,1,16220440.0,15406272.0
+Quebec,Validation,Seasonal naive,2024-09,2024-11,2,15856740.0,15582844.0
+Quebec,Validation,Seasonal naive,2024-09,2024-12,3,15764546.0,14838599.0
+Quebec,Validation,Seasonal naive,2024-09,2025-01,4,12889490.0,12134948.0
+Quebec,Validation,Seasonal naive,2024-09,2025-02,5,12482524.0,12510466.0
+Quebec,Validation,Seasonal naive,2024-09,2025-03,6,14525646.0,14015568.0
+Quebec,Validation,Seasonal naive,2025-03,2025-04,1,16144115.0,15279796.0
+Quebec,Validation,Seasonal naive,2025-03,2025-05,2,17274946.0,16886474.0
+Quebec,Validation,Seasonal naive,2025-03,2025-06,3,16210591.0,15634365.0
+Quebec,Validation,Seasonal naive,2025-03,2025-07,4,16632335.0,15901121.0
+Quebec,Validation,Seasonal naive,2025-03,2025-08,5,16536859.0,15894234.0
+Quebec,Validation,Seasonal naive,2025-03,2025-09,6,15634876.0,14741436.0
+Quebec,Holdout,Seasonal naive,2025-09,2025-10,1,16581056.0,16220440.0
+Quebec,Holdout,Seasonal naive,2025-09,2025-11,2,15956237.0,15856740.0
+Quebec,Holdout,Seasonal naive,2025-09,2025-12,3,16038793.0,15764546.0
+Quebec,Holdout,Seasonal naive,2025-09,2026-01,4,13142631.0,12889490.0
+Quebec,Holdout,Seasonal naive,2025-09,2026-02,5,13237021.0,12482524.0
+Quebec,Holdout,Seasonal naive,2025-09,2026-03,6,15085798.0,14525646.0
+Quebec,Holdout,Seasonal naive,2026-03,2026-04,1,16537164.0,16144115.0
+Quebec,Holdout,Seasonal naive,2026-03,2026-05,2,17667444.0,17274946.0
+Quebec,Holdout,Seasonal naive,2026-03,2026-06,3,17145290.0,16210591.0
+Quebec,Holdout,Seasonal naive,2026-03,2026-07,4,17351727.0,16632335.0
+Quebec,Holdout,Seasonal naive,2026-03,2026-08,5,16824977.0,16536859.0
+Quebec,Holdout,Seasonal naive,2026-03,2026-09,6,16462516.0,15634876.0
+Quebec,Validation,Log trend + month effects,2023-09,2023-10,1,15406272.0,15474831.753781712
+Quebec,Validation,Log trend + month effects,2023-09,2023-11,2,15582844.0,15505674.670699142
+Quebec,Validation,Log trend + month effects,2023-09,2023-12,3,14838599.0,15175083.882018877
+Quebec,Validation,Log trend + month effects,2023-09,2024-01,4,12134948.0,12143099.297790943
+Quebec,Validation,Log trend + month effects,2023-09,2024-02,5,12510466.0,12232325.769637804
+Quebec,Validation,Log trend + month effects,2023-09,2024-03,6,14015568.0,14446581.952278698
+Quebec,Validation,Log trend + month effects,2024-03,2024-04,1,15279796.0,14604288.106342532
+Quebec,Validation,Log trend + month effects,2024-03,2024-05,2,16886474.0,17252320.83236859
+Quebec,Validation,Log trend + month effects,2024-03,2024-06,3,15634365.0,16940228.787690494
+Quebec,Validation,Log trend + month effects,2024-03,2024-07,4,15901121.0,16554045.790535165
+Quebec,Validation,Log trend + month effects,2024-03,2024-08,5,15894234.0,16354531.818417586
+Quebec,Validation,Log trend + month effects,2024-03,2024-09,6,14741436.0,15620646.970492665
+Quebec,Validation,Log trend + month effects,2024-09,2024-10,1,16220440.0,16255589.20666485
+Quebec,Validation,Log trend + month effects,2024-09,2024-11,2,15856740.0,16309886.449108325
+Quebec,Validation,Log trend + month effects,2024-09,2024-12,3,15764546.0,15899819.370999908
+Quebec,Validation,Log trend + month effects,2024-09,2025-01,4,12889490.0,12752321.853349585
+Quebec,Validation,Log trend + month effects,2024-09,2025-02,5,12482524.0,12883259.863835962
+Quebec,Validation,Log trend + month effects,2024-09,2025-03,6,14525646.0,15115307.17732547
+Quebec,Validation,Log trend + month effects,2025-03,2025-04,1,16144115.0,15391741.365632808
+Quebec,Validation,Log trend + month effects,2025-03,2025-05,2,17274946.0,18031700.147502847
+Quebec,Validation,Log trend + month effects,2025-03,2025-06,3,16210591.0,17575881.387068138
+Quebec,Validation,Log trend + month effects,2025-03,2025-07,4,16632335.0,17261253.100534048
+Quebec,Validation,Log trend + month effects,2025-03,2025-08,5,16536859.0,17078157.780537017
+Quebec,Validation,Log trend + month effects,2025-03,2025-09,6,15634876.0,16252000.753567247
+Quebec,Holdout,Log trend + month effects,2025-09,2025-10,1,16581056.0,17028906.34391339
+Quebec,Holdout,Log trend + month effects,2025-09,2025-11,2,15956237.0,17030322.03161157
+Quebec,Holdout,Log trend + month effects,2025-09,2025-12,3,16038793.0,16642934.427746214
+Quebec,Holdout,Log trend + month effects,2025-09,2026-01,4,13142631.0,13366558.989788398
+Quebec,Holdout,Log trend + month effects,2025-09,2026-02,5,13237021.0,13440487.74568808
+Quebec,Holdout,Log trend + month effects,2025-09,2026-03,6,15085798.0,15754727.222826898
+Quebec,Holdout,Log trend + month effects,2026-03,2026-04,1,16537164.0,16155733.75351483
+Quebec,Holdout,Log trend + month effects,2026-03,2026-05,2,17667444.0,18737160.53689785
+Quebec,Holdout,Log trend + month effects,2026-03,2026-06,3,17145290.0,18186581.41341515
+Quebec,Holdout,Log trend + month effects,2026-03,2026-07,4,17351727.0,17948051.098838005
+Quebec,Holdout,Log trend + month effects,2026-03,2026-08,5,16824977.0,17767355.29331281
+Quebec,Holdout,Log trend + month effects,2026-03,2026-09,6,16462516.0,16895645.069146372
+Ontario,Validation,Seasonal naive,2023-09,2023-10,1,25269761.0,24903867.0
+Ontario,Validation,Seasonal naive,2023-09,2023-11,2,26520262.0,25988054.0
+Ontario,Validation,Seasonal naive,2023-09,2023-12,3,26582736.0,26128963.0
+Ontario,Validation,Seasonal naive,2023-09,2024-01,4,21997312.0,20500872.0
+Ontario,Validation,Seasonal naive,2023-09,2024-02,5,22115317.0,19924171.0
+Ontario,Validation,Seasonal naive,2023-09,2024-03,6,24321235.0,23888713.0
+Ontario,Validation,Seasonal naive,2024-03,2024-04,1,25415714.0,24484804.0
+Ontario,Validation,Seasonal naive,2024-03,2024-05,2,27928136.0,27155510.0
+Ontario,Validation,Seasonal naive,2024-03,2024-06,3,26325662.0,26506867.0
+Ontario,Validation,Seasonal naive,2024-03,2024-07,4,26395309.0,25298383.0
+Ontario,Validation,Seasonal naive,2024-03,2024-08,5,26502520.0,25693306.0
+Ontario,Validation,Seasonal naive,2024-03,2024-09,6,25332459.0,25511628.0
+Ontario,Validation,Seasonal naive,2024-09,2024-10,1,27087376.0,25269761.0
+Ontario,Validation,Seasonal naive,2024-09,2024-11,2,28074984.0,26520262.0
+Ontario,Validation,Seasonal naive,2024-09,2024-12,3,28474819.0,26582736.0
+Ontario,Validation,Seasonal naive,2024-09,2025-01,4,22961418.0,21997312.0
+Ontario,Validation,Seasonal naive,2024-09,2025-02,5,21717181.0,22115317.0
+Ontario,Validation,Seasonal naive,2024-09,2025-03,6,25636332.0,24321235.0
+Ontario,Validation,Seasonal naive,2025-03,2025-04,1,26917493.0,25415714.0
+Ontario,Validation,Seasonal naive,2025-03,2025-05,2,28896168.0,27928136.0
+Ontario,Validation,Seasonal naive,2025-03,2025-06,3,27708512.0,26325662.0
+Ontario,Validation,Seasonal naive,2025-03,2025-07,4,27755193.0,26395309.0
+Ontario,Validation,Seasonal naive,2025-03,2025-08,5,27296487.0,26502520.0
+Ontario,Validation,Seasonal naive,2025-03,2025-09,6,26347588.0,25332459.0
+Ontario,Holdout,Seasonal naive,2025-09,2025-10,1,27539353.0,27087376.0
+Ontario,Holdout,Seasonal naive,2025-09,2025-11,2,28090196.0,28074984.0
+Ontario,Holdout,Seasonal naive,2025-09,2025-12,3,28637935.0,28474819.0
+Ontario,Holdout,Seasonal naive,2025-09,2026-01,4,23201965.0,22961418.0
+Ontario,Holdout,Seasonal naive,2025-09,2026-02,5,22408097.0,21717181.0
+Ontario,Holdout,Seasonal naive,2025-09,2026-03,6,26582799.0,25636332.0
+Ontario,Holdout,Seasonal naive,2026-03,2026-04,1,27816428.0,26917493.0
+Ontario,Holdout,Seasonal naive,2026-03,2026-05,2,30235544.0,28896168.0
+Ontario,Holdout,Seasonal naive,2026-03,2026-06,3,30062833.0,27708512.0
+Ontario,Holdout,Seasonal naive,2026-03,2026-07,4,29008883.0,27755193.0
+Ontario,Holdout,Seasonal naive,2026-03,2026-08,5,28783763.0,27296487.0
+Ontario,Holdout,Seasonal naive,2026-03,2026-09,6,28767261.0,26347588.0
+Ontario,Validation,Log trend + month effects,2023-09,2023-10,1,25269761.0,26065261.34231063
+Ontario,Validation,Log trend + month effects,2023-09,2023-11,2,26520262.0,26822426.080805387
+Ontario,Validation,Log trend + month effects,2023-09,2023-12,3,26582736.0,27001298.77643719
+Ontario,Validation,Log trend + month effects,2023-09,2024-01,4,21997312.0,21109476.68080206
+Ontario,Validation,Log trend + month effects,2023-09,2024-02,5,22115317.0,20529996.75913866
+Ontario,Validation,Log trend + month effects,2023-09,2024-03,6,24321235.0,24674998.742964353
+Ontario,Validation,Log trend + month effects,2024-03,2024-04,1,25415714.0,23746673.79992762
+Ontario,Validation,Log trend + month effects,2024-03,2024-05,2,27928136.0,27214806.729136553
+Ontario,Validation,Log trend + month effects,2024-03,2024-06,3,26325662.0,27983214.261530872
+Ontario,Validation,Log trend + month effects,2024-03,2024-07,4,26395309.0,27245396.71350357
+Ontario,Validation,Log trend + month effects,2024-03,2024-08,5,26502520.0,27320362.212442815
+Ontario,Validation,Log trend + month effects,2024-03,2024-09,6,25332459.0,26906512.056221616
+Ontario,Validation,Log trend + month effects,2024-09,2024-10,1,27087376.0,27111752.345056064
+Ontario,Validation,Log trend + month effects,2024-09,2024-11,2,28074984.0,27977806.51898024
+Ontario,Validation,Log trend + month effects,2024-09,2024-12,3,28474819.0,28147113.859513298
+Ontario,Validation,Log trend + month effects,2024-09,2025-01,4,22961418.0,22166060.78244731
+Ontario,Validation,Log trend + month effects,2024-09,2025-02,5,21717181.0,21647186.120708335
+Ontario,Validation,Log trend + month effects,2024-09,2025-03,6,25636332.0,25730470.886260435
+Ontario,Validation,Log trend + month effects,2025-03,2025-04,1,26917493.0,25015054.52260852
+Ontario,Validation,Log trend + month effects,2025-03,2025-05,2,28896168.0,28518131.53000482
+Ontario,Validation,Log trend + month effects,2025-03,2025-06,3,27708512.0,29006413.712499414
+Ontario,Validation,Log trend + month effects,2025-03,2025-07,4,27755193.0,28345463.572600894
+Ontario,Validation,Log trend + month effects,2025-03,2025-08,5,27296487.0,28428095.708401
+Ontario,Validation,Log trend + month effects,2025-03,2025-09,6,26347588.0,27893057.51876219
+Ontario,Holdout,Log trend + month effects,2025-09,2025-10,1,27539353.0,28322847.537060164
+Ontario,Holdout,Log trend + month effects,2025-09,2025-11,2,28090196.0,29243547.262609385
+Ontario,Holdout,Log trend + month effects,2025-09,2025-12,3,28637935.0,29450346.918854207
+Ontario,Holdout,Log trend + month effects,2025-09,2026-01,4,23201965.0,23248212.849149577
+Ontario,Holdout,Log trend + month effects,2025-09,2026-02,5,22408097.0,22623362.305419236
+Ontario,Holdout,Log trend + month effects,2025-09,2026-03,6,26582799.0,26870192.886123005
+Ontario,Holdout,Log trend + month effects,2026-03,2026-04,1,27816428.0,26230839.127383366
+Ontario,Holdout,Log trend + month effects,2026-03,2026-05,2,30235544.0,29705047.127532687
+Ontario,Holdout,Log trend + month effects,2026-03,2026-06,3,30062833.0,30016411.351493936
+Ontario,Holdout,Log trend + month effects,2026-03,2026-07,4,29008883.0,29413167.61005626
+Ontario,Holdout,Log trend + month effects,2026-03,2026-08,5,28783763.0,29434818.991856486
+Ontario,Holdout,Log trend + month effects,2026-03,2026-09,6,28767261.0,28828314.480201088
+Manitoba,Validation,Seasonal naive,2023-09,2023-10,1,2288685.0,2270380.0
+Manitoba,Validation,Seasonal naive,2023-09,2023-11,2,2279131.0,2289321.0
+Manitoba,Validation,Seasonal naive,2023-09,2023-12,3,2315177.0,2375113.0
+Manitoba,Validation,Seasonal naive,2023-09,2024-01,4,1909867.0,1894728.0
+Manitoba,Validation,Seasonal naive,2023-09,2024-02,5,1899494.0,1812442.0
+Manitoba,Validation,Seasonal naive,2023-09,2024-03,6,2132930.0,2215340.0
+Manitoba,Validation,Seasonal naive,2024-03,2024-04,1,2292049.0,2179026.0
+Manitoba,Validation,Seasonal naive,2024-03,2024-05,2,2486795.0,2477878.0
+Manitoba,Validation,Seasonal naive,2024-03,2024-06,3,2347361.0,2423916.0
+Manitoba,Validation,Seasonal naive,2024-03,2024-07,4,2387935.0,2302695.0
+Manitoba,Validation,Seasonal naive,2024-03,2024-08,5,2405431.0,2372697.0
+Manitoba,Validation,Seasonal naive,2024-03,2024-09,6,2163493.0,2264833.0
+Manitoba,Validation,Seasonal naive,2024-09,2024-10,1,2416395.0,2288685.0
+Manitoba,Validation,Seasonal naive,2024-09,2024-11,2,2316709.0,2279131.0
+Manitoba,Validation,Seasonal naive,2024-09,2024-12,3,2444054.0,2315177.0
+Manitoba,Validation,Seasonal naive,2024-09,2025-01,4,2024645.0,1909867.0
+Manitoba,Validation,Seasonal naive,2024-09,2025-02,5,1992729.0,1899494.0
+Manitoba,Validation,Seasonal naive,2024-09,2025-03,6,2306709.0,2132930.0
+Manitoba,Validation,Seasonal naive,2025-03,2025-04,1,2408232.0,2292049.0
+Manitoba,Validation,Seasonal naive,2025-03,2025-05,2,2620411.0,2486795.0
+Manitoba,Validation,Seasonal naive,2025-03,2025-06,3,2429509.0,2347361.0
+Manitoba,Validation,Seasonal naive,2025-03,2025-07,4,2488541.0,2387935.0
+Manitoba,Validation,Seasonal naive,2025-03,2025-08,5,2402205.0,2405431.0
+Manitoba,Validation,Seasonal naive,2025-03,2025-09,6,2309883.0,2163493.0
+Manitoba,Holdout,Seasonal naive,2025-09,2025-10,1,2421425.0,2416395.0
+Manitoba,Holdout,Seasonal naive,2025-09,2025-11,2,2385558.0,2316709.0
+Manitoba,Holdout,Seasonal naive,2025-09,2025-12,3,2519961.0,2444054.0
+Manitoba,Holdout,Seasonal naive,2025-09,2026-01,4,2042987.0,2024645.0
+Manitoba,Holdout,Seasonal naive,2025-09,2026-02,5,2044362.0,1992729.0
+Manitoba,Holdout,Seasonal naive,2025-09,2026-03,6,2415272.0,2306709.0
+Manitoba,Holdout,Seasonal naive,2026-03,2026-04,1,2432697.0,2408232.0
+Manitoba,Holdout,Seasonal naive,2026-03,2026-05,2,2701928.0,2620411.0
+Manitoba,Holdout,Seasonal naive,2026-03,2026-06,3,2648690.0,2429509.0
+Manitoba,Holdout,Seasonal naive,2026-03,2026-07,4,2630740.0,2488541.0
+Manitoba,Holdout,Seasonal naive,2026-03,2026-08,5,2598917.0,2402205.0
+Manitoba,Holdout,Seasonal naive,2026-03,2026-09,6,2430690.0,2309883.0
+Manitoba,Validation,Log trend + month effects,2023-09,2023-10,1,2288685.0,2300027.6847264436
+Manitoba,Validation,Log trend + month effects,2023-09,2023-11,2,2279131.0,2251401.419063002
+Manitoba,Validation,Log trend + month effects,2023-09,2023-12,3,2315177.0,2335435.7281745533
+Manitoba,Validation,Log trend + month effects,2023-09,2024-01,4,1909867.0,1919753.6840464736
+Manitoba,Validation,Log trend + month effects,2023-09,2024-02,5,1899494.0,1872719.11354052
+Manitoba,Validation,Log trend + month effects,2023-09,2024-03,6,2132930.0,2256447.6620481475
+Manitoba,Validation,Log trend + month effects,2024-03,2024-04,1,2292049.0,2169295.7062253105
+Manitoba,Validation,Log trend + month effects,2024-03,2024-05,2,2486795.0,2505219.148181956
+Manitoba,Validation,Log trend + month effects,2024-03,2024-06,3,2347361.0,2555299.8351895506
+Manitoba,Validation,Log trend + month effects,2024-03,2024-07,4,2387935.0,2483999.7352337306
+Manitoba,Validation,Log trend + month effects,2024-03,2024-08,5,2405431.0,2489156.582396611
+Manitoba,Validation,Log trend + month effects,2024-03,2024-09,6,2163493.0,2370466.9285075977
+Manitoba,Validation,Log trend + month effects,2024-09,2024-10,1,2416395.0,2390220.9631189057
+Manitoba,Validation,Log trend + month effects,2024-09,2024-11,2,2316709.0,2345438.890095086
+Manitoba,Validation,Log trend + month effects,2024-09,2024-12,3,2444054.0,2425711.2137525696
+Manitoba,Validation,Log trend + month effects,2024-09,2025-01,4,2024645.0,1993181.1320189016
+Manitoba,Validation,Log trend + month effects,2024-09,2025-02,5,1992729.0,1949058.43176202
+Manitoba,Validation,Log trend + month effects,2024-09,2025-03,6,2306709.0,2327827.1955093346
+Manitoba,Validation,Log trend + month effects,2025-03,2025-04,1,2408232.0,2275347.101024182
+Manitoba,Validation,Log trend + month effects,2025-03,2025-05,2,2620411.0,2607268.5326796593
+Manitoba,Validation,Log trend + month effects,2025-03,2025-06,3,2429509.0,2633751.991153276
+Manitoba,Validation,Log trend + month effects,2025-03,2025-07,4,2488541.0,2574845.485420271
+Manitoba,Validation,Log trend + month effects,2025-03,2025-08,5,2402205.0,2581877.071124996
+Manitoba,Validation,Log trend + month effects,2025-03,2025-09,6,2309883.0,2441264.6226909677
+Manitoba,Holdout,Log trend + month effects,2025-09,2025-10,1,2421425.0,2494482.7561650528
+Manitoba,Holdout,Log trend + month effects,2025-09,2025-11,2,2385558.0,2440654.264025276
+Manitoba,Holdout,Log trend + month effects,2025-09,2025-12,3,2519961.0,2530458.8483414776
+Manitoba,Holdout,Log trend + month effects,2025-09,2026-01,4,2042987.0,2080038.6325506084
+Manitoba,Holdout,Log trend + month effects,2025-09,2026-02,5,2044362.0,2035461.849394967
+Manitoba,Holdout,Log trend + month effects,2025-09,2026-03,6,2415272.0,2422589.390055969
+Manitoba,Holdout,Log trend + month effects,2026-03,2026-04,1,2432697.0,2378480.159564247
+Manitoba,Holdout,Log trend + month effects,2026-03,2026-05,2,2701928.0,2709825.368030919
+Manitoba,Holdout,Log trend + month effects,2026-03,2026-06,3,2648690.0,2711394.0483669126
+Manitoba,Holdout,Log trend + month effects,2026-03,2026-07,4,2630740.0,2664519.6852380787
+Manitoba,Holdout,Log trend + month effects,2026-03,2026-08,5,2598917.0,2660528.1804327318
+Manitoba,Holdout,Log trend + month effects,2026-03,2026-09,6,2430690.0,2520335.4042107016
+Saskatchewan,Validation,Seasonal naive,2023-09,2023-10,1,2303669.0,2196665.0
+Saskatchewan,Validation,Seasonal naive,2023-09,2023-11,2,2092551.0,2152086.0
+Saskatchewan,Validation,Seasonal naive,2023-09,2023-12,3,2109155.0,2165486.0
+Saskatchewan,Validation,Seasonal naive,2023-09,2024-01,4,1785707.0,1811535.0
+Saskatchewan,Validation,Seasonal naive,2023-09,2024-02,5,1782364.0,1655072.0
+Saskatchewan,Validation,Seasonal naive,2023-09,2024-03,6,1963084.0,2078409.0
+Saskatchewan,Validation,Seasonal naive,2024-03,2024-04,1,2190139.0,2008151.0
+Saskatchewan,Validation,Seasonal naive,2024-03,2024-05,2,2391964.0,2292361.0
+Saskatchewan,Validation,Seasonal naive,2024-03,2024-06,3,2254161.0,2315197.0
+Saskatchewan,Validation,Seasonal naive,2024-03,2024-07,4,2310711.0,2124092.0
+Saskatchewan,Validation,Seasonal naive,2024-03,2024-08,5,2275879.0,2225509.0
+Saskatchewan,Validation,Seasonal naive,2024-03,2024-09,6,2140196.0,2165447.0
+Saskatchewan,Validation,Seasonal naive,2024-09,2024-10,1,2258596.0,2303669.0
+Saskatchewan,Validation,Seasonal naive,2024-09,2024-11,2,2153933.0,2092551.0
+Saskatchewan,Validation,Seasonal naive,2024-09,2024-12,3,2199551.0,2109155.0
+Saskatchewan,Validation,Seasonal naive,2024-09,2025-01,4,1934371.0,1785707.0
+Saskatchewan,Validation,Seasonal naive,2024-09,2025-02,5,1833545.0,1782364.0
+Saskatchewan,Validation,Seasonal naive,2024-09,2025-03,6,2145973.0,1963084.0
+Saskatchewan,Validation,Seasonal naive,2025-03,2025-04,1,2284125.0,2190139.0
+Saskatchewan,Validation,Seasonal naive,2025-03,2025-05,2,2469141.0,2391964.0
+Saskatchewan,Validation,Seasonal naive,2025-03,2025-06,3,2321994.0,2254161.0
+Saskatchewan,Validation,Seasonal naive,2025-03,2025-07,4,2291019.0,2310711.0
+Saskatchewan,Validation,Seasonal naive,2025-03,2025-08,5,2246397.0,2275879.0
+Saskatchewan,Validation,Seasonal naive,2025-03,2025-09,6,2142276.0,2140196.0
+Saskatchewan,Holdout,Seasonal naive,2025-09,2025-10,1,2281715.0,2258596.0
+Saskatchewan,Holdout,Seasonal naive,2025-09,2025-11,2,2157336.0,2153933.0
+Saskatchewan,Holdout,Seasonal naive,2025-09,2025-12,3,2229381.0,2199551.0
+Saskatchewan,Holdout,Seasonal naive,2025-09,2026-01,4,1948040.0,1934371.0
+Saskatchewan,Holdout,Seasonal naive,2025-09,2026-02,5,1886920.0,1833545.0
+Saskatchewan,Holdout,Seasonal naive,2025-09,2026-03,6,2194145.0,2145973.0
+Saskatchewan,Holdout,Seasonal naive,2026-03,2026-04,1,2204093.0,2284125.0
+Saskatchewan,Holdout,Seasonal naive,2026-03,2026-05,2,2487952.0,2469141.0
+Saskatchewan,Holdout,Seasonal naive,2026-03,2026-06,3,2467631.0,2321994.0
+Saskatchewan,Holdout,Seasonal naive,2026-03,2026-07,4,2414431.0,2291019.0
+Saskatchewan,Holdout,Seasonal naive,2026-03,2026-08,5,2390686.0,2246397.0
+Saskatchewan,Holdout,Seasonal naive,2026-03,2026-09,6,2319282.0,2142276.0
+Saskatchewan,Validation,Log trend + month effects,2023-09,2023-10,1,2303669.0,2175017.7375522684
+Saskatchewan,Validation,Log trend + month effects,2023-09,2023-11,2,2092551.0,2128067.5794539195
+Saskatchewan,Validation,Log trend + month effects,2023-09,2023-12,3,2109155.0,2190771.112397284
+Saskatchewan,Validation,Log trend + month effects,2023-09,2024-01,4,1785707.0,1814433.5075832428
+Saskatchewan,Validation,Log trend + month effects,2023-09,2024-02,5,1782364.0,1743806.4041253403
+Saskatchewan,Validation,Log trend + month effects,2023-09,2024-03,6,1963084.0,2108182.240188852
+Saskatchewan,Validation,Log trend + month effects,2024-03,2024-04,1,2190139.0,2089340.092336963
+Saskatchewan,Validation,Log trend + month effects,2024-03,2024-05,2,2391964.0,2438607.280834565
+Saskatchewan,Validation,Log trend + month effects,2024-03,2024-06,3,2254161.0,2420193.2476374893
+Saskatchewan,Validation,Log trend + month effects,2024-03,2024-07,4,2310711.0,2317181.271524337
+Saskatchewan,Validation,Log trend + month effects,2024-03,2024-08,5,2275879.0,2324242.760381343
+Saskatchewan,Validation,Log trend + month effects,2024-03,2024-09,6,2140196.0,2222329.5248929076
+Saskatchewan,Validation,Log trend + month effects,2024-09,2024-10,1,2258596.0,2283195.6633553454
+Saskatchewan,Validation,Log trend + month effects,2024-09,2024-11,2,2153933.0,2210325.4456994208
+Saskatchewan,Validation,Log trend + month effects,2024-09,2024-12,3,2199551.0,2268592.5798102394
+Saskatchewan,Validation,Log trend + month effects,2024-09,2025-01,4,1934371.0,1884041.6416684461
+Saskatchewan,Validation,Log trend + month effects,2024-09,2025-02,5,1833545.0,1819287.484979636
+Saskatchewan,Validation,Log trend + month effects,2024-09,2025-03,6,2145973.0,2173966.207498835
+Saskatchewan,Validation,Log trend + month effects,2025-03,2025-04,1,2284125.0,2188465.2368878294
+Saskatchewan,Validation,Log trend + month effects,2025-03,2025-05,2,2469141.0,2533180.635605979
+Saskatchewan,Validation,Log trend + month effects,2025-03,2025-06,3,2321994.0,2497839.922153719
+Saskatchewan,Validation,Log trend + month effects,2025-03,2025-07,4,2291019.0,2412020.0257124263
+Saskatchewan,Validation,Log trend + month effects,2025-03,2025-08,5,2246397.0,2413863.144384164
+Saskatchewan,Validation,Log trend + month effects,2025-03,2025-09,6,2142276.0,2303227.2460294315
+Saskatchewan,Holdout,Log trend + month effects,2025-09,2025-10,1,2281715.0,2364723.4867967926
+Saskatchewan,Holdout,Log trend + month effects,2025-09,2025-11,2,2157336.0,2284959.5971700293
+Saskatchewan,Holdout,Log trend + month effects,2025-09,2025-12,3,2229381.0,2343710.7087418037
+Saskatchewan,Holdout,Log trend + month effects,2025-09,2026-01,4,1948040.0,1957946.0933918986
+Saskatchewan,Holdout,Log trend + month effects,2025-09,2026-02,5,1886920.0,1886757.6381725932
+Saskatchewan,Holdout,Log trend + month effects,2025-09,2026-03,6,2194145.0,2249393.768065965
+Saskatchewan,Holdout,Log trend + month effects,2026-03,2026-04,1,2204093.0,2270724.209105247
+Saskatchewan,Holdout,Log trend + month effects,2026-03,2026-05,2,2487952.0,2608500.0151753714
+Saskatchewan,Holdout,Log trend + month effects,2026-03,2026-06,3,2467631.0,2558599.20053658
+Saskatchewan,Holdout,Log trend + month effects,2026-03,2026-07,4,2414431.0,2476609.8671197593
+Saskatchewan,Holdout,Log trend + month effects,2026-03,2026-08,5,2390686.0,2472881.7129275836
+Saskatchewan,Holdout,Log trend + month effects,2026-03,2026-09,6,2319282.0,2359398.7849691897
+Alberta,Validation,Seasonal naive,2023-09,2023-10,1,8678609.0,8529235.0
+Alberta,Validation,Seasonal naive,2023-09,2023-11,2,8560596.0,8398212.0
+Alberta,Validation,Seasonal naive,2023-09,2023-12,3,8703610.0,8723795.0
+Alberta,Validation,Seasonal naive,2023-09,2024-01,4,7203973.0,7422640.0
+Alberta,Validation,Seasonal naive,2023-09,2024-02,5,7263225.0,7219479.0
+Alberta,Validation,Seasonal naive,2023-09,2024-03,6,8213327.0,8514558.0
+Alberta,Validation,Seasonal naive,2024-03,2024-04,1,8664079.0,8256499.0
+Alberta,Validation,Seasonal naive,2024-03,2024-05,2,9395144.0,9522238.0
+Alberta,Validation,Seasonal naive,2024-03,2024-06,3,8866751.0,9118981.0
+Alberta,Validation,Seasonal naive,2024-03,2024-07,4,9151663.0,8556157.0
+Alberta,Validation,Seasonal naive,2024-03,2024-08,5,9003333.0,8940366.0
+Alberta,Validation,Seasonal naive,2024-03,2024-09,6,8587653.0,8485362.0
+Alberta,Validation,Seasonal naive,2024-09,2024-10,1,9300541.0,8678609.0
+Alberta,Validation,Seasonal naive,2024-09,2024-11,2,8924433.0,8560596.0
+Alberta,Validation,Seasonal naive,2024-09,2024-12,3,9186571.0,8703610.0
+Alberta,Validation,Seasonal naive,2024-09,2025-01,4,7708571.0,7203973.0
+Alberta,Validation,Seasonal naive,2024-09,2025-02,5,7250012.0,7263225.0
+Alberta,Validation,Seasonal naive,2024-09,2025-03,6,8703898.0,8213327.0
+Alberta,Validation,Seasonal naive,2025-03,2025-04,1,8626983.0,8664079.0
+Alberta,Validation,Seasonal naive,2025-03,2025-05,2,9807800.0,9395144.0
+Alberta,Validation,Seasonal naive,2025-03,2025-06,3,9305717.0,8866751.0
+Alberta,Validation,Seasonal naive,2025-03,2025-07,4,9347158.0,9151663.0
+Alberta,Validation,Seasonal naive,2025-03,2025-08,5,9303697.0,9003333.0
+Alberta,Validation,Seasonal naive,2025-03,2025-09,6,8752249.0,8587653.0
+Alberta,Holdout,Seasonal naive,2025-09,2025-10,1,9316914.0,9300541.0
+Alberta,Holdout,Seasonal naive,2025-09,2025-11,2,9282851.0,8924433.0
+Alberta,Holdout,Seasonal naive,2025-09,2025-12,3,9483372.0,9186571.0
+Alberta,Holdout,Seasonal naive,2025-09,2026-01,4,8202914.0,7708571.0
+Alberta,Holdout,Seasonal naive,2025-09,2026-02,5,7646476.0,7250012.0
+Alberta,Holdout,Seasonal naive,2025-09,2026-03,6,9308754.0,8703898.0
+Alberta,Holdout,Seasonal naive,2026-03,2026-04,1,9365817.0,8626983.0
+Alberta,Holdout,Seasonal naive,2026-03,2026-05,2,10576402.0,9807800.0
+Alberta,Holdout,Seasonal naive,2026-03,2026-06,3,10166657.0,9305717.0
+Alberta,Holdout,Seasonal naive,2026-03,2026-07,4,10109129.0,9347158.0
+Alberta,Holdout,Seasonal naive,2026-03,2026-08,5,10065323.0,9303697.0
+Alberta,Holdout,Seasonal naive,2026-03,2026-09,6,9927779.0,8752249.0
+Alberta,Validation,Log trend + month effects,2023-09,2023-10,1,8678609.0,8622825.29131161
+Alberta,Validation,Log trend + month effects,2023-09,2023-11,2,8560596.0,8483438.023271032
+Alberta,Validation,Log trend + month effects,2023-09,2023-12,3,8703610.0,8852070.838582814
+Alberta,Validation,Log trend + month effects,2023-09,2024-01,4,7203973.0,7238459.278600114
+Alberta,Validation,Log trend + month effects,2023-09,2024-02,5,7263225.0,7111471.649438877
+Alberta,Validation,Log trend + month effects,2023-09,2024-03,6,8213327.0,8241616.391235212
+Alberta,Validation,Log trend + month effects,2024-03,2024-04,1,8664079.0,8096107.409725222
+Alberta,Validation,Log trend + month effects,2024-03,2024-05,2,9395144.0,9314104.313959518
+Alberta,Validation,Log trend + month effects,2024-03,2024-06,3,8866751.0,9312095.550143242
+Alberta,Validation,Log trend + month effects,2024-03,2024-07,4,9151663.0,9020196.65428553
+Alberta,Validation,Log trend + month effects,2024-03,2024-08,5,9003333.0,9061841.41736762
+Alberta,Validation,Log trend + month effects,2024-03,2024-09,6,8587653.0,8793424.448405694
+Alberta,Validation,Log trend + month effects,2024-09,2024-10,1,9300541.0,8975055.182050724
+Alberta,Validation,Log trend + month effects,2024-09,2024-11,2,8924433.0,8833261.460861556
+Alberta,Validation,Log trend + month effects,2024-09,2024-12,3,9186571.0,9182966.365448015
+Alberta,Validation,Log trend + month effects,2024-09,2025-01,4,7708571.0,7523453.061546291
+Alberta,Validation,Log trend + month effects,2024-09,2025-02,5,7250012.0,7415425.439342001
+Alberta,Validation,Log trend + month effects,2024-09,2025-03,6,8703898.0,8567538.675752694
+Alberta,Validation,Log trend + month effects,2025-03,2025-04,1,8626983.0,8504247.693349428
+Alberta,Validation,Log trend + month effects,2025-03,2025-05,2,9807800.0,9711588.279601682
+Alberta,Validation,Log trend + month effects,2025-03,2025-06,3,9305717.0,9639753.564992212
+Alberta,Validation,Log trend + month effects,2025-03,2025-07,4,9347158.0,9411966.646083936
+Alberta,Validation,Log trend + month effects,2025-03,2025-08,5,9303697.0,9430694.719210478
+Alberta,Validation,Log trend + month effects,2025-03,2025-09,6,8752249.0,9131696.413712677
+Alberta,Holdout,Log trend + month effects,2025-09,2025-10,1,9316914.0,9367978.20095522
+Alberta,Holdout,Log trend + month effects,2025-09,2025-11,2,9282851.0,9190801.522943454
+Alberta,Holdout,Log trend + month effects,2025-09,2025-12,3,9483372.0,9542873.291815968
+Alberta,Holdout,Log trend + month effects,2025-09,2026-01,4,8202914.0,7838967.881181498
+Alberta,Holdout,Log trend + month effects,2025-09,2026-02,5,7646476.0,7686279.719409621
+Alberta,Holdout,Log trend + month effects,2025-09,2026-03,6,9308754.0,8918395.939685958
+Alberta,Holdout,Log trend + month effects,2026-03,2026-04,1,9365817.0,8856950.677520817
+Alberta,Holdout,Log trend + month effects,2026-03,2026-05,2,10576402.0,10109340.926328573
+Alberta,Holdout,Log trend + month effects,2026-03,2026-06,3,10166657.0,9984378.121599074
+Alberta,Holdout,Log trend + month effects,2026-03,2026-07,4,10109129.0,9779211.38862003
+Alberta,Holdout,Log trend + month effects,2026-03,2026-08,5,10065323.0,9791434.573517172
+Alberta,Holdout,Log trend + month effects,2026-03,2026-09,6,9927779.0,9450621.355826875
+British Columbia,Validation,Seasonal naive,2023-09,2023-10,1,8943242.0,9050404.0
+British Columbia,Validation,Seasonal naive,2023-09,2023-11,2,9303396.0,9292086.0
+British Columbia,Validation,Seasonal naive,2023-09,2023-12,3,9631054.0,9447652.0
+British Columbia,Validation,Seasonal naive,2023-09,2024-01,4,7641585.0,7828346.0
+British Columbia,Validation,Seasonal naive,2023-09,2024-02,5,7836243.0,7367614.0
+British Columbia,Validation,Seasonal naive,2023-09,2024-03,6,8895217.0,9121172.0
+British Columbia,Validation,Seasonal naive,2024-03,2024-04,1,8979476.0,8689190.0
+British Columbia,Validation,Seasonal naive,2024-03,2024-05,2,9555065.0,9635151.0
+British Columbia,Validation,Seasonal naive,2024-03,2024-06,3,8960589.0,9254139.0
+British Columbia,Validation,Seasonal naive,2024-03,2024-07,4,9470217.0,9377713.0
+British Columbia,Validation,Seasonal naive,2024-03,2024-08,5,9429446.0,9475381.0
+British Columbia,Validation,Seasonal naive,2024-03,2024-09,6,8908236.0,9139634.0
+British Columbia,Validation,Seasonal naive,2024-09,2024-10,1,9369590.0,8943242.0
+British Columbia,Validation,Seasonal naive,2024-09,2024-11,2,9548453.0,9303396.0
+British Columbia,Validation,Seasonal naive,2024-09,2024-12,3,9830810.0,9631054.0
+British Columbia,Validation,Seasonal naive,2024-09,2025-01,4,8611631.0,7641585.0
+British Columbia,Validation,Seasonal naive,2024-09,2025-02,5,8006317.0,7836243.0
+British Columbia,Validation,Seasonal naive,2024-09,2025-03,6,9292837.0,8895217.0
+British Columbia,Validation,Seasonal naive,2025-03,2025-04,1,9807394.0,8979476.0
+British Columbia,Validation,Seasonal naive,2025-03,2025-05,2,10282840.0,9555065.0
+British Columbia,Validation,Seasonal naive,2025-03,2025-06,3,9960911.0,8960589.0
+British Columbia,Validation,Seasonal naive,2025-03,2025-07,4,10248280.0,9470217.0
+British Columbia,Validation,Seasonal naive,2025-03,2025-08,5,9944784.0,9429446.0
+British Columbia,Validation,Seasonal naive,2025-03,2025-09,6,9422580.0,8908236.0
+British Columbia,Holdout,Seasonal naive,2025-09,2025-10,1,9650440.0,9369590.0
+British Columbia,Holdout,Seasonal naive,2025-09,2025-11,2,9853839.0,9548453.0
+British Columbia,Holdout,Seasonal naive,2025-09,2025-12,3,10311522.0,9830810.0
+British Columbia,Holdout,Seasonal naive,2025-09,2026-01,4,8588046.0,8611631.0
+British Columbia,Holdout,Seasonal naive,2025-09,2026-02,5,8274541.0,8006317.0
+British Columbia,Holdout,Seasonal naive,2025-09,2026-03,6,9467994.0,9292837.0
+British Columbia,Holdout,Seasonal naive,2026-03,2026-04,1,9754260.0,9807394.0
+British Columbia,Holdout,Seasonal naive,2026-03,2026-05,2,10572835.0,10282840.0
+British Columbia,Holdout,Seasonal naive,2026-03,2026-06,3,10322473.0,9960911.0
+British Columbia,Holdout,Seasonal naive,2026-03,2026-07,4,10335891.0,10248280.0
+British Columbia,Holdout,Seasonal naive,2026-03,2026-08,5,10242135.0,9944784.0
+British Columbia,Holdout,Seasonal naive,2026-03,2026-09,6,9984035.0,9422580.0
+British Columbia,Validation,Log trend + month effects,2023-09,2023-10,1,8943242.0,9489835.676429402
+British Columbia,Validation,Log trend + month effects,2023-09,2023-11,2,9303396.0,9508654.730695494
+British Columbia,Validation,Log trend + month effects,2023-09,2023-12,3,9631054.0,9999625.298876354
+British Columbia,Validation,Log trend + month effects,2023-09,2024-01,4,7641585.0,8137410.021579525
+British Columbia,Validation,Log trend + month effects,2023-09,2024-02,5,7836243.0,7882034.476134795
+British Columbia,Validation,Log trend + month effects,2023-09,2024-03,6,8895217.0,9293288.248192763
+British Columbia,Validation,Log trend + month effects,2024-03,2024-04,1,8979476.0,8984063.264835374
+British Columbia,Validation,Log trend + month effects,2024-03,2024-05,2,9555065.0,9903113.266835863
+British Columbia,Validation,Log trend + month effects,2024-03,2024-06,3,8960589.0,9977567.444140684
+British Columbia,Validation,Log trend + month effects,2024-03,2024-07,4,9470217.0,9991238.553227656
+British Columbia,Validation,Log trend + month effects,2024-03,2024-08,5,9429446.0,10048753.308996053
+British Columbia,Validation,Log trend + month effects,2024-03,2024-09,6,8908236.0,9651104.22346097
+British Columbia,Validation,Log trend + month effects,2024-09,2024-10,1,9369590.0,9625390.219208574
+British Columbia,Validation,Log trend + month effects,2024-09,2024-11,2,9548453.0,9696283.881265681
+British Columbia,Validation,Log trend + month effects,2024-09,2024-12,3,9830810.0,10174051.282251865
+British Columbia,Validation,Log trend + month effects,2024-09,2025-01,4,8611631.0,8239896.851747582
+British Columbia,Validation,Log trend + month effects,2024-09,2025-02,5,8006317.0,8038415.399077359
+British Columbia,Validation,Log trend + month effects,2024-09,2025-03,6,9292837.0,9432812.890271178
+British Columbia,Validation,Log trend + month effects,2025-03,2025-04,1,9807394.0,9219808.940495063
+British Columbia,Validation,Log trend + month effects,2025-03,2025-05,2,10282840.0,10118271.524539856
+British Columbia,Validation,Log trend + month effects,2025-03,2025-06,3,9960911.0,10103352.455567304
+British Columbia,Validation,Log trend + month effects,2025-03,2025-07,4,10248280.0,10185650.014990382
+British Columbia,Validation,Log trend + month effects,2025-03,2025-08,5,9944784.0,10231416.861705024
+British Columbia,Validation,Log trend + month effects,2025-03,2025-09,6,9422580.0,9806311.621612264
+British Columbia,Holdout,Log trend + month effects,2025-09,2025-10,1,9650440.0,9935235.001503808
+British Columbia,Holdout,Log trend + month effects,2025-09,2025-11,2,9853839.0,10022897.806257563
+British Columbia,Holdout,Log trend + month effects,2025-09,2025-12,3,10311522.0,10491869.101339351
+British Columbia,Holdout,Log trend + month effects,2025-09,2026-01,4,8588046.0,8574521.493565058
+British Columbia,Holdout,Log trend + month effects,2025-09,2026-02,5,8274541.0,8320246.568830583
+British Columbia,Holdout,Log trend + month effects,2025-09,2026-03,6,9467994.0,9751661.364441922
+British Columbia,Holdout,Log trend + month effects,2026-03,2026-04,1,9754260.0,9599942.846507356
+British Columbia,Holdout,Log trend + month effects,2026-03,2026-05,2,10572835.0,10482147.89816674
+British Columbia,Holdout,Log trend + month effects,2026-03,2026-06,3,10322473.0,10431476.141693266
+British Columbia,Holdout,Log trend + month effects,2026-03,2026-07,4,10335891.0,10540227.361326126
+British Columbia,Holdout,Log trend + month effects,2026-03,2026-08,5,10242135.0,10547026.742996356
+British Columbia,Holdout,Log trend + month effects,2026-03,2026-09,6,9984035.0,10095896.963643895
+Yukon,Validation,Seasonal naive,2023-09,2023-10,1,95979.0,94935.0
+Yukon,Validation,Seasonal naive,2023-09,2023-11,2,91335.0,87416.0
+Yukon,Validation,Seasonal naive,2023-09,2023-12,3,94605.0,88850.0
+Yukon,Validation,Seasonal naive,2023-09,2024-01,4,78352.0,73867.0
+Yukon,Validation,Seasonal naive,2023-09,2024-02,5,80434.0,71993.0
+Yukon,Validation,Seasonal naive,2023-09,2024-03,6,95093.0,86600.0
+Yukon,Validation,Seasonal naive,2024-03,2024-04,1,95943.0,87675.0
+Yukon,Validation,Seasonal naive,2024-03,2024-05,2,106235.0,103811.0
+Yukon,Validation,Seasonal naive,2024-03,2024-06,3,117329.0,111839.0
+Yukon,Validation,Seasonal naive,2024-03,2024-07,4,116967.0,120722.0
+Yukon,Validation,Seasonal naive,2024-03,2024-08,5,113284.0,121389.0
+Yukon,Validation,Seasonal naive,2024-03,2024-09,6,102238.0,102002.0
+Yukon,Validation,Seasonal naive,2024-09,2024-10,1,99766.0,95979.0
+Yukon,Validation,Seasonal naive,2024-09,2024-11,2,90364.0,91335.0
+Yukon,Validation,Seasonal naive,2024-09,2024-12,3,92726.0,94605.0
+Yukon,Validation,Seasonal naive,2024-09,2025-01,4,81338.0,78352.0
+Yukon,Validation,Seasonal naive,2024-09,2025-02,5,78269.0,80434.0
+Yukon,Validation,Seasonal naive,2024-09,2025-03,6,95728.0,95093.0
+Yukon,Validation,Seasonal naive,2025-03,2025-04,1,98992.0,95943.0
+Yukon,Validation,Seasonal naive,2025-03,2025-05,2,110169.0,106235.0
+Yukon,Validation,Seasonal naive,2025-03,2025-06,3,110214.0,117329.0
+Yukon,Validation,Seasonal naive,2025-03,2025-07,4,117375.0,116967.0
+Yukon,Validation,Seasonal naive,2025-03,2025-08,5,114551.0,113284.0
+Yukon,Validation,Seasonal naive,2025-03,2025-09,6,104509.0,102238.0
+Yukon,Holdout,Seasonal naive,2025-09,2025-10,1,100697.0,99766.0
+Yukon,Holdout,Seasonal naive,2025-09,2025-11,2,91463.0,90364.0
+Yukon,Holdout,Seasonal naive,2025-09,2025-12,3,97424.0,92726.0
+Yukon,Holdout,Seasonal naive,2025-09,2026-01,4,83849.0,81338.0
+Yukon,Holdout,Seasonal naive,2025-09,2026-02,5,82427.0,78269.0
+Yukon,Holdout,Seasonal naive,2025-09,2026-03,6,105721.0,95728.0
+Yukon,Holdout,Seasonal naive,2026-03,2026-04,1,101657.0,98992.0
+Yukon,Holdout,Seasonal naive,2026-03,2026-05,2,117657.0,110169.0
+Yukon,Holdout,Seasonal naive,2026-03,2026-06,3,121770.0,110214.0
+Yukon,Holdout,Seasonal naive,2026-03,2026-07,4,126421.0,117375.0
+Yukon,Holdout,Seasonal naive,2026-03,2026-08,5,121199.0,114551.0
+Yukon,Holdout,Seasonal naive,2026-03,2026-09,6,119339.0,104509.0
+Yukon,Validation,Log trend + month effects,2023-09,2023-10,1,95979.0,101217.45105309533
+Yukon,Validation,Log trend + month effects,2023-09,2023-11,2,91335.0,93922.23671417111
+Yukon,Validation,Log trend + month effects,2023-09,2023-12,3,94605.0,97202.15461077073
+Yukon,Validation,Log trend + month effects,2023-09,2024-01,4,78352.0,77404.91896962562
+Yukon,Validation,Log trend + month effects,2023-09,2024-02,5,80434.0,74852.07899856011
+Yukon,Validation,Log trend + month effects,2023-09,2024-03,6,95093.0,92380.9993797197
+Yukon,Validation,Log trend + month effects,2024-03,2024-04,1,95943.0,91214.84823135588
+Yukon,Validation,Log trend + month effects,2024-03,2024-05,2,106235.0,108727.03038130654
+Yukon,Validation,Log trend + month effects,2024-03,2024-06,3,117329.0,114871.45685897995
+Yukon,Validation,Log trend + month effects,2024-03,2024-07,4,116967.0,116636.74207678805
+Yukon,Validation,Log trend + month effects,2024-03,2024-08,5,113284.0,115362.79412972923
+Yukon,Validation,Log trend + month effects,2024-03,2024-09,6,102238.0,106871.80003167372
+Yukon,Validation,Log trend + month effects,2024-09,2024-10,1,99766.0,106107.31030531961
+Yukon,Validation,Log trend + month effects,2024-09,2024-11,2,90364.0,98814.87679634521
+Yukon,Validation,Log trend + month effects,2024-09,2024-12,3,92726.0,102278.08052442854
+Yukon,Validation,Log trend + month effects,2024-09,2025-01,4,81338.0,81891.37406545226
+Yukon,Validation,Log trend + month effects,2024-09,2025-02,5,78269.0,79784.35700400326
+Yukon,Validation,Log trend + month effects,2024-09,2025-03,6,95728.0,97940.6089294327
+Yukon,Validation,Log trend + month effects,2025-03,2025-04,1,98992.0,96071.7226403528
+Yukon,Validation,Log trend + month effects,2025-03,2025-05,2,110169.0,113465.89870687589
+Yukon,Validation,Log trend + month effects,2025-03,2025-06,3,110214.0,120544.62574051616
+Yukon,Validation,Log trend + month effects,2025-03,2025-07,4,117375.0,122116.80849430957
+Yukon,Validation,Log trend + month effects,2025-03,2025-08,5,114551.0,120466.19310698027
+Yukon,Validation,Log trend + month effects,2025-03,2025-09,6,104509.0,111235.48320309389
+Yukon,Holdout,Log trend + month effects,2025-09,2025-10,1,100697.0,109516.81935363148
+Yukon,Holdout,Log trend + month effects,2025-09,2025-11,2,91463.0,101636.53072530362
+Yukon,Holdout,Log trend + month effects,2025-09,2025-12,3,97424.0,105085.01685246466
+Yukon,Holdout,Log trend + month effects,2025-09,2026-01,4,83849.0,84969.2323748084
+Yukon,Holdout,Log trend + month effects,2025-09,2026-02,5,82427.0,82669.08712204857
+Yukon,Holdout,Log trend + month effects,2025-09,2026-03,6,105721.0,101440.3819468991
+Yukon,Holdout,Log trend + month effects,2026-03,2026-04,1,101657.0,100253.72263071222
+Yukon,Holdout,Log trend + month effects,2026-03,2026-05,2,117657.0,117625.76395352623
+Yukon,Holdout,Log trend + month effects,2026-03,2026-06,3,121770.0,124132.17978995571
+Yukon,Holdout,Log trend + month effects,2026-03,2026-07,4,126421.0,126451.60186983939
+Yukon,Holdout,Log trend + month effects,2026-03,2026-08,5,121199.0,124593.55577298191
+Yukon,Holdout,Log trend + month effects,2026-03,2026-09,6,119339.0,114892.94649607876
+Northwest Territories,Validation,Seasonal naive,2023-09,2023-10,1,82993.0,75439.0
+Northwest Territories,Validation,Seasonal naive,2023-09,2023-11,2,79709.0,73122.0
+Northwest Territories,Validation,Seasonal naive,2023-09,2023-12,3,87430.0,81059.0
+Northwest Territories,Validation,Seasonal naive,2023-09,2024-01,4,79690.0,71220.0
+Northwest Territories,Validation,Seasonal naive,2023-09,2024-02,5,86319.0,75635.0
+Northwest Territories,Validation,Seasonal naive,2023-09,2024-03,6,89116.0,87674.0
+Northwest Territories,Validation,Seasonal naive,2024-03,2024-04,1,81306.0,75883.0
+Northwest Territories,Validation,Seasonal naive,2024-03,2024-05,2,85801.0,80344.0
+Northwest Territories,Validation,Seasonal naive,2024-03,2024-06,3,82341.0,82338.0
+Northwest Territories,Validation,Seasonal naive,2024-03,2024-07,4,85165.0,78352.0
+Northwest Territories,Validation,Seasonal naive,2024-03,2024-08,5,82627.0,56837.0
+Northwest Territories,Validation,Seasonal naive,2024-03,2024-09,6,76518.0,66790.0
+Northwest Territories,Validation,Seasonal naive,2024-09,2024-10,1,87480.0,82993.0
+Northwest Territories,Validation,Seasonal naive,2024-09,2024-11,2,82396.0,79709.0
+Northwest Territories,Validation,Seasonal naive,2024-09,2024-12,3,90021.0,87430.0
+Northwest Territories,Validation,Seasonal naive,2024-09,2025-01,4,85703.0,79690.0
+Northwest Territories,Validation,Seasonal naive,2024-09,2025-02,5,85515.0,86319.0
+Northwest Territories,Validation,Seasonal naive,2024-09,2025-03,6,92435.0,89116.0
+Northwest Territories,Validation,Seasonal naive,2025-03,2025-04,1,86882.0,81306.0
+Northwest Territories,Validation,Seasonal naive,2025-03,2025-05,2,86354.0,85801.0
+Northwest Territories,Validation,Seasonal naive,2025-03,2025-06,3,85653.0,82341.0
+Northwest Territories,Validation,Seasonal naive,2025-03,2025-07,4,91197.0,85165.0
+Northwest Territories,Validation,Seasonal naive,2025-03,2025-08,5,83083.0,82627.0
+Northwest Territories,Validation,Seasonal naive,2025-03,2025-09,6,74196.0,76518.0
+Northwest Territories,Holdout,Seasonal naive,2025-09,2025-10,1,81231.0,87480.0
+Northwest Territories,Holdout,Seasonal naive,2025-09,2025-11,2,73751.0,82396.0
+Northwest Territories,Holdout,Seasonal naive,2025-09,2025-12,3,88283.0,90021.0
+Northwest Territories,Holdout,Seasonal naive,2025-09,2026-01,4,80988.0,85703.0
+Northwest Territories,Holdout,Seasonal naive,2025-09,2026-02,5,77108.0,85515.0
+Northwest Territories,Holdout,Seasonal naive,2025-09,2026-03,6,94124.0,92435.0
+Northwest Territories,Holdout,Seasonal naive,2026-03,2026-04,1,84366.0,86882.0
+Northwest Territories,Holdout,Seasonal naive,2026-03,2026-05,2,80682.0,86354.0
+Northwest Territories,Holdout,Seasonal naive,2026-03,2026-06,3,81549.0,85653.0
+Northwest Territories,Holdout,Seasonal naive,2026-03,2026-07,4,85096.0,91197.0
+Northwest Territories,Holdout,Seasonal naive,2026-03,2026-08,5,84156.0,83083.0
+Northwest Territories,Holdout,Seasonal naive,2026-03,2026-09,6,86326.0,74196.0
+Northwest Territories,Validation,Log trend + month effects,2023-09,2023-10,1,82993.0,76344.93873290213
+Northwest Territories,Validation,Log trend + month effects,2023-09,2023-11,2,79709.0,76776.16581635777
+Northwest Territories,Validation,Log trend + month effects,2023-09,2023-12,3,87430.0,84329.16219082336
+Northwest Territories,Validation,Log trend + month effects,2023-09,2024-01,4,79690.0,70050.58282148157
+Northwest Territories,Validation,Log trend + month effects,2023-09,2024-02,5,86319.0,74542.89583779513
+Northwest Territories,Validation,Log trend + month effects,2023-09,2024-03,6,89116.0,87738.02019569227
+Northwest Territories,Validation,Log trend + month effects,2024-03,2024-04,1,81306.0,76399.27232088662
+Northwest Territories,Validation,Log trend + month effects,2024-03,2024-05,2,85801.0,82515.41319166163
+Northwest Territories,Validation,Log trend + month effects,2024-03,2024-06,3,82341.0,88090.3329051732
+Northwest Territories,Validation,Log trend + month effects,2024-03,2024-07,4,85165.0,86112.43824390089
+Northwest Territories,Validation,Log trend + month effects,2024-03,2024-08,5,82627.0,80516.6019855495
+Northwest Territories,Validation,Log trend + month effects,2024-03,2024-09,6,76518.0,80117.33842807017
+Northwest Territories,Validation,Log trend + month effects,2024-09,2024-10,1,87480.0,80535.1111970857
+Northwest Territories,Validation,Log trend + month effects,2024-09,2024-11,2,82396.0,80459.45879086104
+Northwest Territories,Validation,Log trend + month effects,2024-09,2024-12,3,90021.0,88357.41647263432
+Northwest Territories,Validation,Log trend + month effects,2024-09,2025-01,4,85703.0,74352.59727980958
+Northwest Territories,Validation,Log trend + month effects,2024-09,2025-02,5,85515.0,79296.52567096383
+Northwest Territories,Validation,Log trend + month effects,2024-09,2025-03,6,92435.0,91816.1744563259
+Northwest Territories,Validation,Log trend + month effects,2025-03,2025-04,1,86882.0,80174.57580423132
+Northwest Territories,Validation,Log trend + month effects,2025-03,2025-05,2,86354.0,86342.1809744354
+Northwest Territories,Validation,Log trend + month effects,2025-03,2025-06,3,85653.0,90956.24315195481
+Northwest Territories,Validation,Log trend + month effects,2025-03,2025-07,4,91197.0,89543.39807835432
+Northwest Territories,Validation,Log trend + month effects,2025-03,2025-08,5,83083.0,84112.06272971223
+Northwest Territories,Validation,Log trend + month effects,2025-03,2025-09,6,74196.0,82946.76013387473
+Northwest Territories,Holdout,Log trend + month effects,2025-09,2025-10,1,81231.0,84530.75715450764
+Northwest Territories,Holdout,Log trend + month effects,2025-09,2025-11,2,73751.0,83831.51062606463
+Northwest Territories,Holdout,Log trend + month effects,2025-09,2025-12,3,88283.0,92001.44938719698
+Northwest Territories,Holdout,Log trend + month effects,2025-09,2026-01,4,80988.0,78541.52911039647
+Northwest Territories,Holdout,Log trend + month effects,2025-09,2026-02,5,77108.0,83146.68754593676
+Northwest Territories,Holdout,Log trend + month effects,2025-09,2026-03,6,94124.0,95541.26758694397
+Northwest Territories,Holdout,Log trend + month effects,2026-03,2026-04,1,84366.0,82728.84141791171
+Northwest Territories,Holdout,Log trend + month effects,2026-03,2026-05,2,80682.0,88302.47482706927
+Northwest Territories,Holdout,Log trend + month effects,2026-03,2026-06,3,81549.0,92401.04616436837
+Northwest Territories,Holdout,Log trend + month effects,2026-03,2026-07,4,85096.0,91761.35654036445
+Northwest Territories,Holdout,Log trend + month effects,2026-03,2026-08,5,84156.0,85902.84096009961
+Northwest Territories,Holdout,Log trend + month effects,2026-03,2026-09,6,86326.0,83784.33012323246
+Nunavut,Validation,Seasonal naive,2023-09,2023-10,1,56060.0,50396.0
+Nunavut,Validation,Seasonal naive,2023-09,2023-11,2,50470.0,51736.0
+Nunavut,Validation,Seasonal naive,2023-09,2023-12,3,56606.0,54750.0
+Nunavut,Validation,Seasonal naive,2023-09,2024-01,4,48712.0,46232.0
+Nunavut,Validation,Seasonal naive,2023-09,2024-02,5,47531.0,47979.0
+Nunavut,Validation,Seasonal naive,2023-09,2024-03,6,55660.0,56347.0
+Nunavut,Validation,Seasonal naive,2024-03,2024-04,1,55098.0,50697.0
+Nunavut,Validation,Seasonal naive,2024-03,2024-05,2,55419.0,50955.0
+Nunavut,Validation,Seasonal naive,2024-03,2024-06,3,51820.0,49980.0
+Nunavut,Validation,Seasonal naive,2024-03,2024-07,4,55605.0,48888.0
+Nunavut,Validation,Seasonal naive,2024-03,2024-08,5,58357.0,51643.0
+Nunavut,Validation,Seasonal naive,2024-03,2024-09,6,57365.0,53683.0
+Nunavut,Validation,Seasonal naive,2024-09,2024-10,1,60437.0,56060.0
+Nunavut,Validation,Seasonal naive,2024-09,2024-11,2,61390.0,50470.0
+Nunavut,Validation,Seasonal naive,2024-09,2024-12,3,68787.0,56606.0
+Nunavut,Validation,Seasonal naive,2024-09,2025-01,4,57003.0,48712.0
+Nunavut,Validation,Seasonal naive,2024-09,2025-02,5,53290.0,47531.0
+Nunavut,Validation,Seasonal naive,2024-09,2025-03,6,63022.0,55660.0
+Nunavut,Validation,Seasonal naive,2025-03,2025-04,1,62951.0,55098.0
+Nunavut,Validation,Seasonal naive,2025-03,2025-05,2,59257.0,55419.0
+Nunavut,Validation,Seasonal naive,2025-03,2025-06,3,54861.0,51820.0
+Nunavut,Validation,Seasonal naive,2025-03,2025-07,4,57809.0,55605.0
+Nunavut,Validation,Seasonal naive,2025-03,2025-08,5,59726.0,58357.0
+Nunavut,Validation,Seasonal naive,2025-03,2025-09,6,59633.0,57365.0
+Nunavut,Holdout,Seasonal naive,2025-09,2025-10,1,66120.0,60437.0
+Nunavut,Holdout,Seasonal naive,2025-09,2025-11,2,59837.0,61390.0
+Nunavut,Holdout,Seasonal naive,2025-09,2025-12,3,64327.0,68787.0
+Nunavut,Holdout,Seasonal naive,2025-09,2026-01,4,63215.0,57003.0
+Nunavut,Holdout,Seasonal naive,2025-09,2026-02,5,61939.0,53290.0
+Nunavut,Holdout,Seasonal naive,2025-09,2026-03,6,72366.0,63022.0
+Nunavut,Holdout,Seasonal naive,2026-03,2026-04,1,69214.0,62951.0
+Nunavut,Holdout,Seasonal naive,2026-03,2026-05,2,67720.0,59257.0
+Nunavut,Holdout,Seasonal naive,2026-03,2026-06,3,64668.0,54861.0
+Nunavut,Holdout,Seasonal naive,2026-03,2026-07,4,63953.0,57809.0
+Nunavut,Holdout,Seasonal naive,2026-03,2026-08,5,64681.0,59726.0
+Nunavut,Holdout,Seasonal naive,2026-03,2026-09,6,66821.0,59633.0
+Nunavut,Validation,Log trend + month effects,2023-09,2023-10,1,56060.0,53160.17617292266
+Nunavut,Validation,Log trend + month effects,2023-09,2023-11,2,50470.0,53835.7649240038
+Nunavut,Validation,Log trend + month effects,2023-09,2023-12,3,56606.0,57885.87991011321
+Nunavut,Validation,Log trend + month effects,2023-09,2024-01,4,48712.0,50330.39910965224
+Nunavut,Validation,Log trend + month effects,2023-09,2024-02,5,47531.0,49825.836175398894
+Nunavut,Validation,Log trend + month effects,2023-09,2024-03,6,55660.0,58180.022703306626
+Nunavut,Validation,Log trend + month effects,2024-03,2024-04,1,55098.0,55061.6552825896
+Nunavut,Validation,Log trend + month effects,2024-03,2024-05,2,55419.0,56394.767499141424
+Nunavut,Validation,Log trend + month effects,2024-03,2024-06,3,51820.0,55450.71403660497
+Nunavut,Validation,Log trend + month effects,2024-03,2024-07,4,55605.0,54215.073787690475
+Nunavut,Validation,Log trend + month effects,2024-03,2024-08,5,58357.0,55081.77359780376
+Nunavut,Validation,Log trend + month effects,2024-03,2024-09,6,57365.0,54292.61718411856
+Nunavut,Validation,Log trend + month effects,2024-09,2024-10,1,60437.0,56441.26646908487
+Nunavut,Validation,Log trend + month effects,2024-09,2024-11,2,61390.0,56205.73318907171
+Nunavut,Validation,Log trend + month effects,2024-09,2024-12,3,68787.0,60799.57874334063
+Nunavut,Validation,Log trend + month effects,2024-09,2025-01,4,57003.0,52789.986576944226
+Nunavut,Validation,Log trend + month effects,2024-09,2025-02,5,53290.0,52166.340186418834
+Nunavut,Validation,Log trend + month effects,2024-09,2025-03,6,63022.0,60934.81960864461
+Nunavut,Validation,Log trend + month effects,2025-03,2025-04,1,62951.0,58994.8857821722
+Nunavut,Validation,Log trend + month effects,2025-03,2025-05,2,59257.0,60286.569922453076
+Nunavut,Validation,Log trend + month effects,2025-03,2025-06,3,54861.0,58906.09129807609
+Nunavut,Validation,Log trend + month effects,2025-03,2025-07,4,57809.0,58267.12063071313
+Nunavut,Validation,Log trend + month effects,2025-03,2025-08,5,59726.0,59439.18227930498
+Nunavut,Validation,Log trend + month effects,2025-03,2025-09,6,59633.0,58567.72234894655
+Nunavut,Holdout,Log trend + month effects,2025-09,2025-10,1,66120.0,60886.64233306322
+Nunavut,Holdout,Log trend + month effects,2025-09,2025-11,2,59837.0,60783.016718765815
+Nunavut,Holdout,Log trend + month effects,2025-09,2025-12,3,64327.0,66040.94838764553
+Nunavut,Holdout,Log trend + month effects,2025-09,2026-01,4,63215.0,57022.22409917284
+Nunavut,Holdout,Log trend + month effects,2025-09,2026-02,5,61939.0,56002.34509972214
+Nunavut,Holdout,Log trend + month effects,2025-09,2026-03,6,72366.0,65505.56324893273
+Nunavut,Holdout,Log trend + month effects,2026-03,2026-04,1,69214.0,63570.1397724515
+Nunavut,Holdout,Log trend + month effects,2026-03,2026-05,2,67720.0,64371.87125039103
+Nunavut,Holdout,Log trend + month effects,2026-03,2026-06,3,64668.0,62522.16885721243
+Nunavut,Holdout,Log trend + month effects,2026-03,2026-07,4,63953.0,62280.11832246857
+Nunavut,Holdout,Log trend + month effects,2026-03,2026-08,5,64681.0,63622.6694702183
+Nunavut,Holdout,Log trend + month effects,2026-03,2026-09,6,66821.0,62781.96731760951

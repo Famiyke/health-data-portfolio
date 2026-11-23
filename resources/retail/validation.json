@@ -1,0 +1,15 @@
+{
+  "source_observations": 1806,
+  "geographies": 14,
+  "monthly_observations_per_geography": 117,
+  "validation_months": 24,
+  "holdout_months": 12,
+  "forecast_records": 84,
+  "backtest_records": 1008,
+  "forecast_horizon_months": 6,
+  "selection": "Minimum validation WAPE, seasonal naive tie-break. Holdout excluded from selection.",
+  "independently_matched_source_records": 1806,
+  "status": "passed",
+  "independently_recomputed_model_scores": 56,
+  "forecast_rows_checked": 84
+}

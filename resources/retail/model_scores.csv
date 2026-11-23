@@ -1,0 +1,57 @@
+geography,phase,model,selected,wape_percent,mae_cad_millions
+Canada,Validation,Seasonal naive,False,3.387405035190776,2319.5123333333336
+Canada,Holdout,Seasonal naive,False,3.8128237906749476,2774.1248333333333
+Canada,Validation,Log trend + month effects,True,2.6443355031638114,1810.698381014312
+Canada,Holdout,Log trend + month effects,True,1.7189896408023386,1250.698199705777
+Newfoundland and Labrador,Validation,Seasonal naive,False,5.187689949851359,52.88345833333334
+Newfoundland and Labrador,Holdout,Seasonal naive,False,4.21195459664279,45.33391666666667
+Newfoundland and Labrador,Validation,Log trend + month effects,True,3.6621625205066612,37.332188495316316
+Newfoundland and Labrador,Holdout,Log trend + month effects,True,2.418948984980099,26.035520846642658
+Prince Edward Island,Validation,Seasonal naive,True,2.958243832607522,8.820375
+Prince Edward Island,Holdout,Seasonal naive,True,6.997619477649368,22.56825
+Prince Edward Island,Validation,Log trend + month effects,False,6.292318722794566,18.761337433651818
+Prince Edward Island,Holdout,Log trend + month effects,False,3.7847199980963087,12.206223469260344
+Nova Scotia,Validation,Seasonal naive,True,3.258205808284862,59.634125
+Nova Scotia,Holdout,Seasonal naive,True,5.0231000097440415,98.46141666666666
+Nova Scotia,Validation,Log trend + month effects,False,4.4951763649437195,82.27408734048352
+Nova Scotia,Holdout,Log trend + month effects,False,2.9333111537435514,57.4979536862619
+New Brunswick,Validation,Seasonal naive,False,4.2326695057649975,63.7475
+New Brunswick,Holdout,Seasonal naive,False,5.831193841709942,94.76616666666668
+New Brunswick,Validation,Log trend + month effects,True,2.896358748069311,43.62155586233942
+New Brunswick,Holdout,Log trend + month effects,True,2.087194448068257,33.9202266809529
+Quebec,Validation,Seasonal naive,False,3.346482666973071,508.9431666666667
+Quebec,Holdout,Seasonal naive,False,3.0503182059672618,488.1288333333333
+Quebec,Validation,Log trend + month effects,True,3.2745454077016043,498.0027315356946
+Quebec,Holdout,Log trend + month effects,True,4.002835099270092,640.5558683058256
+Ontario,Validation,Seasonal naive,False,3.913761508960838,1016.8930416666666
+Ontario,Holdout,Seasonal naive,False,3.7028716050442223,1021.7921666666666
+Ontario,Validation,Log trend + month effects,True,3.187967454921671,828.3136094387091
+Ontario,Holdout,Log trend + month effects,True,1.986218642781582,548.0888529099515
+Manitoba,Validation,Seasonal naive,False,3.539176845074586,81.20695833333333
+Manitoba,Holdout,Seasonal naive,False,3.802809304215077,92.76708333333333
+Manitoba,Validation,Log trend + month effects,True,3.400352382527255,78.02160963808018
+Manitoba,Holdout,Log trend + month effects,True,1.714110878375362,41.81463070487613
+Saskatchewan,Validation,Seasonal naive,False,3.7895104366860295,81.917375
+Saskatchewan,Holdout,Seasonal naive,False,3.1901540945737414,71.72958333333332
+Saskatchewan,Validation,Log trend + month effects,True,3.7320106018116834,80.67440823304236
+Saskatchewan,Holdout,Log trend + month effects,True,3.16110766779845,71.0764838189689
+Alberta,Validation,Seasonal naive,False,3.102754126041577,269.56416666666667
+Alberta,Holdout,Seasonal naive,False,6.376911167352422,602.8965
+Alberta,Validation,Log trend + month effects,True,1.9267332448698518,167.39265196140923
+Alberta,Holdout,Log trend + month effects,True,2.8522033621340412,269.65773541311313
+British Columbia,Validation,Seasonal naive,False,4.05157345432812,374.5682916666667
+British Columbia,Holdout,Seasonal naive,False,2.7139365884447377,265.4185
+British Columbia,Validation,Log trend + month effects,True,3.7097465444296325,342.9663663579708
+British Columbia,Holdout,Log trend + month effects,True,1.6634533911738816,162.68298448280976
+Yukon,Validation,Seasonal naive,True,3.8156936260257495,3.78675
+Yukon,Holdout,Seasonal naive,True,5.9563303781276975,6.301916666666667
+Yukon,Validation,Log trend + month effects,False,4.15406517530358,4.122554860088412
+Yukon,Holdout,Log trend + month effects,False,3.462852689758341,3.6637674028181197
+Northwest Territories,Validation,Seasonal naive,False,6.526037843669486,5.51975
+Northwest Territories,Holdout,Seasonal naive,False,6.318685724595554,5.25325
+Northwest Territories,Validation,Log trend + month effects,True,5.333321039387301,4.510945157284777
+Northwest Territories,Holdout,Log trend + month effects,True,5.82008802006806,4.838724178417585
+Nunavut,Validation,Seasonal naive,False,8.024324203709353,4.570083333333333
+Nunavut,Holdout,Seasonal naive,False,10.029928866385259,6.560083333333333
+Nunavut,Validation,Log trend + month effects,True,4.520649381938562,2.574639791683742
+Nunavut,Holdout,Log trend + month effects,True,5.706902921048324,3.7326046112640907

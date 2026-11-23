@@ -16,7 +16,7 @@ jobs:
           from urllib.request import Request, urlopen
           import time
           url = "https://famiyke.github.io/health-data-portfolio/"
-          expected = ("Real-data case studies", "Data transparency", 'id="experience"', "Source observations verified in 3 workflow packages")
+          expected = ("Real-data case studies", "Data transparency", 'id="experience"', "Source observations verified in 5 workflow packages")
           for attempt in range(12):
               try:
                   req = Request(f"{url}?validate={int(time.time())}",headers={"User-Agent":"Portfolio-QA/1.0","Cache-Control":"no-cache"})

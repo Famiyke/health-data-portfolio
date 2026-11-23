@@ -1,0 +1,13 @@
+{
+  "source_retrieval_date": "2026-11-22",
+  "sources": [
+    {
+      "file": "retail-statcan.zip",
+      "publisher": "Statistics Canada 20-10-0056-01",
+      "download_url": "https://www150.statcan.gc.ca/n1/tbl/csv/20100056-eng.zip",
+      "reference_url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2010005601",
+      "sha256": "86f2fe8316bfa9cd2e4853db32b48d38f3acf09a9d79bd8bda5ca63aa8657591",
+      "bytes": 1246171
+    }
+  ]
+}

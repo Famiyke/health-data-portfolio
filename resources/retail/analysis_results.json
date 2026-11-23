@@ -1,0 +1,920 @@
+[
+  [
+    {
+      "geography": "Canada",
+      "period": "2026-09",
+      "retail_cad_billions": 75.311,
+      "status": "Published · excellent"
+    },
+    {
+      "geography": "Ontario",
+      "period": "2026-09",
+      "retail_cad_billions": 28.718,
+      "status": "Published · excellent"
+    },
+    {
+      "geography": "Quebec",
+      "period": "2026-09",
+      "retail_cad_billions": 16.431,
+      "status": "Published · excellent"
+    },
+    {
+      "geography": "British Columbia",
+      "period": "2026-09",
+      "retail_cad_billions": 10.026,
+      "status": "Published · very good"
+    },
+    {
+      "geography": "Alberta",
+      "period": "2026-09",
+      "retail_cad_billions": 9.91,
+      "status": "Published · excellent"
+    },
+    {
+      "geography": "Manitoba",
+      "period": "2026-09",
+      "retail_cad_billions": 2.483,
+      "status": "Published · excellent"
+    },
+    {
+      "geography": "Saskatchewan",
+      "period": "2026-09",
+      "retail_cad_billions": 2.326,
+      "status": "Published · excellent"
+    },
+    {
+      "geography": "Nova Scotia",
+      "period": "2026-09",
+      "retail_cad_billions": 2.032,
+      "status": "Published · excellent"
+    },
+    {
+      "geography": "New Brunswick",
+      "period": "2026-09",
+      "retail_cad_billions": 1.679,
+      "status": "Published · excellent"
+    },
+    {
+      "geography": "Newfoundland and Labrador",
+      "period": "2026-09",
+      "retail_cad_billions": 1.096,
+      "status": "Published · very good"
+    },
+    {
+      "geography": "Prince Edward Island",
+      "period": "2026-09",
+      "retail_cad_billions": 0.34,
+      "status": "Published · excellent"
+    },
+    {
+      "geography": "Yukon",
+      "period": "2026-09",
+      "retail_cad_billions": 0.112,
+      "status": "Published · good"
+    },
+    {
+      "geography": "Northwest Territories",
+      "period": "2026-09",
+      "retail_cad_billions": 0.09,
+      "status": "Published · very good"
+    },
+    {
+      "geography": "Nunavut",
+      "period": "2026-09",
+      "retail_cad_billions": 0.068,
+      "status": "Published · very good"
+    }
+  ],
+  [
+    {
+      "geography": "Northwest Territories",
+      "period": "2026-09",
+      "yoy_percent": 16.35
+    },
+    {
+      "geography": "Yukon",
+      "period": "2026-09",
+      "yoy_percent": 14.19
+    },
+    {
+      "geography": "Prince Edward Island",
+      "period": "2026-09",
+      "yoy_percent": 13.75
+    },
+    {
+      "geography": "Alberta",
+      "period": "2026-09",
+      "yoy_percent": 13.43
+    },
+    {
+      "geography": "New Brunswick",
+      "period": "2026-09",
+      "yoy_percent": 12.98
+    },
+    {
+      "geography": "Nunavut",
+      "period": "2026-09",
+      "yoy_percent": 12.05
+    },
+    {
+      "geography": "Nova Scotia",
+      "period": "2026-09",
+      "yoy_percent": 9.34
+    },
+    {
+      "geography": "Ontario",
+      "period": "2026-09",
+      "yoy_percent": 9.18
+    },
+    {
+      "geography": "Canada",
+      "period": "2026-09",
+      "yoy_percent": 8.31
+    },
+    {
+      "geography": "Saskatchewan",
+      "period": "2026-09",
+      "yoy_percent": 8.26
+    },
+    {
+      "geography": "British Columbia",
+      "period": "2026-09",
+      "yoy_percent": 5.96
+    },
+    {
+      "geography": "Quebec",
+      "period": "2026-09",
+      "yoy_percent": 5.29
+    },
+    {
+      "geography": "Manitoba",
+      "period": "2026-09",
+      "yoy_percent": 5.23
+    },
+    {
+      "geography": "Newfoundland and Labrador",
+      "period": "2026-09",
+      "yoy_percent": 4.96
+    }
+  ],
+  [
+    {
+      "geography": "Alberta",
+      "model": "Log trend + month effects",
+      "wape_percent": 2.852203,
+      "mae_cad_millions": 269.657735
+    },
+    {
+      "geography": "Alberta",
+      "model": "Seasonal naive",
+      "wape_percent": 6.376911,
+      "mae_cad_millions": 602.8965
+    },
+    {
+      "geography": "British Columbia",
+      "model": "Log trend + month effects",
+      "wape_percent": 1.663453,
+      "mae_cad_millions": 162.682984
+    },
+    {
+      "geography": "British Columbia",
+      "model": "Seasonal naive",
+      "wape_percent": 2.713937,
+      "mae_cad_millions": 265.4185
+    },
+    {
+      "geography": "Canada",
+      "model": "Log trend + month effects",
+      "wape_percent": 1.71899,
+      "mae_cad_millions": 1250.6982
+    },
+    {
+      "geography": "Canada",
+      "model": "Seasonal naive",
+      "wape_percent": 3.812824,
+      "mae_cad_millions": 2774.124833
+    },
+    {
+      "geography": "Manitoba",
+      "model": "Log trend + month effects",
+      "wape_percent": 1.714111,
+      "mae_cad_millions": 41.814631
+    },
+    {
+      "geography": "Manitoba",
+      "model": "Seasonal naive",
+      "wape_percent": 3.802809,
+      "mae_cad_millions": 92.767083
+    },
+    {
+      "geography": "New Brunswick",
+      "model": "Log trend + month effects",
+      "wape_percent": 2.087194,
+      "mae_cad_millions": 33.920227
+    },
+    {
+      "geography": "New Brunswick",
+      "model": "Seasonal naive",
+      "wape_percent": 5.831194,
+      "mae_cad_millions": 94.766167
+    },
+    {
+      "geography": "Newfoundland and Labrador",
+      "model": "Log trend + month effects",
+      "wape_percent": 2.418949,
+      "mae_cad_millions": 26.035521
+    },
+    {
+      "geography": "Newfoundland and Labrador",
+      "model": "Seasonal naive",
+      "wape_percent": 4.211955,
+      "mae_cad_millions": 45.333917
+    },
+    {
+      "geography": "Northwest Territories",
+      "model": "Log trend + month effects",
+      "wape_percent": 5.820088,
+      "mae_cad_millions": 4.838724
+    },
+    {
+      "geography": "Northwest Territories",
+      "model": "Seasonal naive",
+      "wape_percent": 6.318686,
+      "mae_cad_millions": 5.25325
+    },
+    {
+      "geography": "Nova Scotia",
+      "model": "Log trend + month effects",
+      "wape_percent": 2.933311,
+      "mae_cad_millions": 57.497954
+    },
+    {
+      "geography": "Nova Scotia",
+      "model": "Seasonal naive",
+      "wape_percent": 5.0231,
+      "mae_cad_millions": 98.461417
+    },
+    {
+      "geography": "Nunavut",
+      "model": "Log trend + month effects",
+      "wape_percent": 5.706903,
+      "mae_cad_millions": 3.732605
+    },
+    {
+      "geography": "Nunavut",
+      "model": "Seasonal naive",
+      "wape_percent": 10.029929,
+      "mae_cad_millions": 6.560083
+    },
+    {
+      "geography": "Ontario",
+      "model": "Log trend + month effects",
+      "wape_percent": 1.986219,
+      "mae_cad_millions": 548.088853
+    },
+    {
+      "geography": "Ontario",
+      "model": "Seasonal naive",
+      "wape_percent": 3.702872,
+      "mae_cad_millions": 1021.792167
+    },
+    {
+      "geography": "Prince Edward Island",
+      "model": "Log trend + month effects",
+      "wape_percent": 3.78472,
+      "mae_cad_millions": 12.206223
+    },
+    {
+      "geography": "Prince Edward Island",
+      "model": "Seasonal naive",
+      "wape_percent": 6.997619,
+      "mae_cad_millions": 22.56825
+    },
+    {
+      "geography": "Quebec",
+      "model": "Seasonal naive",
+      "wape_percent": 3.050318,
+      "mae_cad_millions": 488.128833
+    },
+    {
+      "geography": "Quebec",
+      "model": "Log trend + month effects",
+      "wape_percent": 4.002835,
+      "mae_cad_millions": 640.555868
+    },
+    {
+      "geography": "Saskatchewan",
+      "model": "Log trend + month effects",
+      "wape_percent": 3.161108,
+      "mae_cad_millions": 71.076484
+    },
+    {
+      "geography": "Saskatchewan",
+      "model": "Seasonal naive",
+      "wape_percent": 3.190154,
+      "mae_cad_millions": 71.729583
+    },
+    {
+      "geography": "Yukon",
+      "model": "Log trend + month effects",
+      "wape_percent": 3.462853,
+      "mae_cad_millions": 3.663767
+    },
+    {
+      "geography": "Yukon",
+      "model": "Seasonal naive",
+      "wape_percent": 5.95633,
+      "mae_cad_millions": 6.301917
+    }
+  ],
+  [
+    {
+      "geography": "Alberta",
+      "month": "2026-10",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 9.807,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Alberta",
+      "month": "2026-11",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 9.638,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Alberta",
+      "month": "2026-12",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 9.989,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Alberta",
+      "month": "2027-01",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 8.255,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Alberta",
+      "month": "2027-02",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 8.054,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Alberta",
+      "month": "2027-03",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 9.39,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "British Columbia",
+      "month": "2026-10",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 10.229,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "British Columbia",
+      "month": "2026-11",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 10.333,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "British Columbia",
+      "month": "2026-12",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 10.816,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "British Columbia",
+      "month": "2027-01",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 8.855,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "British Columbia",
+      "month": "2027-02",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 8.586,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "British Columbia",
+      "month": "2027-03",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 10.039,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Canada",
+      "month": "2026-10",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 77.75,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Canada",
+      "month": "2026-11",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 78.406,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Canada",
+      "month": "2026-12",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 79.472,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Canada",
+      "month": "2027-01",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 64.065,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Canada",
+      "month": "2027-02",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 62.668,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Canada",
+      "month": "2027-03",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 73.822,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Manitoba",
+      "month": "2026-10",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 2.589,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Manitoba",
+      "month": "2026-11",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 2.535,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Manitoba",
+      "month": "2026-12",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 2.634,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Manitoba",
+      "month": "2027-01",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 2.161,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Manitoba",
+      "month": "2027-02",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 2.12,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Manitoba",
+      "month": "2027-03",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 2.521,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "New Brunswick",
+      "month": "2026-10",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 1.72,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "New Brunswick",
+      "month": "2026-11",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 1.734,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "New Brunswick",
+      "month": "2026-12",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 1.74,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "New Brunswick",
+      "month": "2027-01",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 1.417,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "New Brunswick",
+      "month": "2027-02",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 1.359,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "New Brunswick",
+      "month": "2027-03",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 1.607,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Newfoundland and Labrador",
+      "month": "2026-10",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 1.145,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Newfoundland and Labrador",
+      "month": "2026-11",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 1.161,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Newfoundland and Labrador",
+      "month": "2026-12",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 1.192,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Newfoundland and Labrador",
+      "month": "2027-01",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 0.905,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Newfoundland and Labrador",
+      "month": "2027-02",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 0.884,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Newfoundland and Labrador",
+      "month": "2027-03",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 1.036,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Northwest Territories",
+      "month": "2026-10",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 0.086,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Northwest Territories",
+      "month": "2026-11",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 0.084,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Northwest Territories",
+      "month": "2026-12",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 0.093,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Northwest Territories",
+      "month": "2027-01",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 0.08,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Northwest Territories",
+      "month": "2027-02",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 0.084,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Northwest Territories",
+      "month": "2027-03",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 0.097,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Nova Scotia",
+      "month": "2026-10",
+      "model": "Seasonal naive",
+      "forecast_cad_billions": 1.974,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Nova Scotia",
+      "month": "2026-11",
+      "model": "Seasonal naive",
+      "forecast_cad_billions": 1.925,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Nova Scotia",
+      "month": "2026-12",
+      "model": "Seasonal naive",
+      "forecast_cad_billions": 1.99,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Nova Scotia",
+      "month": "2027-01",
+      "model": "Seasonal naive",
+      "forecast_cad_billions": 1.72,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Nova Scotia",
+      "month": "2027-02",
+      "model": "Seasonal naive",
+      "forecast_cad_billions": 1.613,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Nova Scotia",
+      "month": "2027-03",
+      "model": "Seasonal naive",
+      "forecast_cad_billions": 1.91,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Nunavut",
+      "month": "2026-10",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 0.066,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Nunavut",
+      "month": "2026-11",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 0.065,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Nunavut",
+      "month": "2026-12",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 0.071,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Nunavut",
+      "month": "2027-01",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 0.062,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Nunavut",
+      "month": "2027-02",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 0.061,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Nunavut",
+      "month": "2027-03",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 0.071,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Ontario",
+      "month": "2026-10",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 29.45,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Ontario",
+      "month": "2026-11",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 30.367,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Ontario",
+      "month": "2026-12",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 30.623,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Ontario",
+      "month": "2027-01",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 24.239,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Ontario",
+      "month": "2027-02",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 23.57,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Ontario",
+      "month": "2027-03",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 27.991,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Prince Edward Island",
+      "month": "2026-10",
+      "model": "Seasonal naive",
+      "forecast_cad_billions": 0.314,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Prince Edward Island",
+      "month": "2026-11",
+      "model": "Seasonal naive",
+      "forecast_cad_billions": 0.298,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Prince Edward Island",
+      "month": "2026-12",
+      "model": "Seasonal naive",
+      "forecast_cad_billions": 0.308,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Prince Edward Island",
+      "month": "2027-01",
+      "model": "Seasonal naive",
+      "forecast_cad_billions": 0.264,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Prince Edward Island",
+      "month": "2027-02",
+      "model": "Seasonal naive",
+      "forecast_cad_billions": 0.248,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Prince Edward Island",
+      "month": "2027-03",
+      "model": "Seasonal naive",
+      "forecast_cad_billions": 0.3,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Quebec",
+      "month": "2026-10",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 17.715,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Quebec",
+      "month": "2026-11",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 17.641,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Quebec",
+      "month": "2026-12",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 17.294,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Quebec",
+      "month": "2027-01",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 13.908,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Quebec",
+      "month": "2027-02",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 13.988,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Quebec",
+      "month": "2027-03",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 16.35,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Saskatchewan",
+      "month": "2026-10",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 2.436,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Saskatchewan",
+      "month": "2026-11",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 2.348,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Saskatchewan",
+      "month": "2026-12",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 2.41,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Saskatchewan",
+      "month": "2027-01",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 2.022,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Saskatchewan",
+      "month": "2027-02",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 1.949,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Saskatchewan",
+      "month": "2027-03",
+      "model": "Log trend + month effects",
+      "forecast_cad_billions": 2.318,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Yukon",
+      "month": "2026-10",
+      "model": "Seasonal naive",
+      "forecast_cad_billions": 0.101,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Yukon",
+      "month": "2026-11",
+      "model": "Seasonal naive",
+      "forecast_cad_billions": 0.091,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Yukon",
+      "month": "2026-12",
+      "model": "Seasonal naive",
+      "forecast_cad_billions": 0.097,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Yukon",
+      "month": "2027-01",
+      "model": "Seasonal naive",
+      "forecast_cad_billions": 0.084,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Yukon",
+      "month": "2027-02",
+      "model": "Seasonal naive",
+      "forecast_cad_billions": 0.082,
+      "training_through": "2026-09"
+    },
+    {
+      "geography": "Yukon",
+      "month": "2027-03",
+      "model": "Seasonal naive",
+      "forecast_cad_billions": 0.106,
+      "training_through": "2026-09"
+    }
+  ]
+]
