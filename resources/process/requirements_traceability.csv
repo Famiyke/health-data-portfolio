@@ -1,0 +1,6 @@
+requirement_id,business_need,proposed_control,proposed_acceptance_criterion,intended_outcome
+R1,Complete intake and attendance information,Check required fields at capture; identify incomplete records for follow-up,"For each reporting cycle, validated and follow-up counts reconcile to total records received.",Accuracy and record completeness
+R2,Consistent digital file organization,Apply agreed naming convention and authorized directory structure,A reviewer can identify and locate required files using a documented naming rule.,Retrieval and consistency
+R3,Visible exception handling,Assign discrepancies or access issues for appropriate follow-up,Unresolved record counts are traceable without exposing individual-level information.,Issue accountability
+R4,Reliable recurring reporting,Capture aggregate cycle counts and preparation minutes; automate arithmetic checks,"The reporting script rejects duplicate cycle IDs, missing fields and unreconciled totals.",Reproducible reporting
+R5,Privacy-aware reporting,Use aggregate counts and approved systems only,"Portfolio template contains no participant names, identifiers, contact details, consent forms or internal file paths.",Privacy and confidentiality

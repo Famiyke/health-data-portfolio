@@ -9,7 +9,7 @@ from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parent
 BASE = os.environ.get('PORTFOLIO_BASE_URL', ROOT.as_uri() + '/').rstrip('/') + '/'
-projects = json.loads((ROOT / 'assets/projects.js').read_text().removeprefix('window.PORTFOLIO_PROJECTS = ').strip().removesuffix(';')) + json.loads((ROOT / 'assets/expansion.js').read_text().removeprefix('window.PORTFOLIO_NEW_PROJECTS = ').strip().removesuffix(';'))
+projects = json.loads((ROOT / 'assets/projects.js').read_text().removeprefix('window.PORTFOLIO_PROJECTS = ').strip().removesuffix(';')) + json.loads((ROOT / 'assets/expansion.js').read_text().removeprefix('window.PORTFOLIO_NEW_PROJECTS = ').strip().removesuffix(';')) + json.loads((ROOT / 'assets/portfolio-additions.js').read_text().removeprefix('window.PORTFOLIO_ADDITIONS = ').strip().removesuffix(';'))
 
 
 def open_page(browser, path, width):
@@ -28,7 +28,8 @@ def check_home(browser):
     for width in (375, 768, 1440):
         page, errors = open_page(browser, '', width) if not BASE.startswith('file:') else open_page(browser, 'index.html', width)
         assert page.locator('.project-card').count() == len(projects)
-        assert page.locator('.project-card .badge').all_inner_texts() == ['Real public data'] * len(projects)
+        assert page.locator('.project-card .badge').all_inner_texts().count('Real public data') == 9
+        assert page.locator('.project-card .badge').all_inner_texts().count('Professional experience') == 1
         assert page.locator('h1').count() == 1
         for group in ('system', 'population', 'business', 'all'):
             page.locator(f'[data-filter="{group}"]').click()
@@ -52,8 +53,21 @@ def check_dashboards(browser):
         for width in (375, 1440):
             page, errors = open_page(browser, path, width)
             assert page.locator('h1').inner_text() == project['title']
-            assert page.locator('.intro-kickers .badge').inner_text() == 'Real public data'
+            assert page.locator('.intro-kickers .badge').inner_text() == ('Professional experience' if project['type'] == 'experience' else 'Real public data')
             assert page.locator('#project-picker option').count() == len(projects)
+            if project['type'] == 'experience':
+                assert page.locator('.process-step').count() == len(project['steps'])
+                for index, step in enumerate(project['steps']):
+                    button = page.locator(f'.process-step[data-step="{index}"]')
+                    button.click()
+                    assert button.get_attribute('aria-pressed') == 'true'
+                    assert page.locator('#process-detail h3').inner_text() == step['name']
+                assert page.locator('.table-panel tbody tr').count() == len(project['requirements'])
+                assert page.locator('a[href="resources/process/workflow.zip"]').count() >= 1
+                check_width(page, width)
+                assert not errors, errors
+                page.close()
+                continue
             assert page.locator('#table-body tr').count() > 0
             check_width(page, width)
             if width == 1440:

@@ -1,0 +1,1648 @@
+[
+  [
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Employment and Social Development Canada",
+      "disclosure_records": 1076,
+      "original_value_cents": 30066553425
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Health Canada",
+      "disclosure_records": 1099,
+      "original_value_cents": 90767278152
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Public Health Agency of Canada",
+      "disclosure_records": 908,
+      "original_value_cents": 18738881547
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Public Services and Procurement Canada",
+      "disclosure_records": 4694,
+      "original_value_cents": 123847476468
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Statistics Canada",
+      "disclosure_records": 277,
+      "original_value_cents": 11773932012
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Transport Canada",
+      "disclosure_records": 1687,
+      "original_value_cents": 23236977546
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Employment and Social Development Canada",
+      "disclosure_records": 1129,
+      "original_value_cents": 38068621128
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Health Canada",
+      "disclosure_records": 858,
+      "original_value_cents": 8335950548
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Public Health Agency of Canada",
+      "disclosure_records": 706,
+      "original_value_cents": 13093203163
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Public Services and Procurement Canada",
+      "disclosure_records": 4378,
+      "original_value_cents": 372856516976
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Statistics Canada",
+      "disclosure_records": 286,
+      "original_value_cents": 2269415337
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Transport Canada",
+      "disclosure_records": 1382,
+      "original_value_cents": 14461588058
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Employment and Social Development Canada",
+      "disclosure_records": 927,
+      "original_value_cents": 20115973537
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Health Canada",
+      "disclosure_records": 819,
+      "original_value_cents": 7386655238
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Public Health Agency of Canada",
+      "disclosure_records": 668,
+      "original_value_cents": 9332492978
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Public Services and Procurement Canada",
+      "disclosure_records": 4650,
+      "original_value_cents": 192633491276
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Statistics Canada",
+      "disclosure_records": 206,
+      "original_value_cents": 3484004094
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Transport Canada",
+      "disclosure_records": 1289,
+      "original_value_cents": 13854612087
+    }
+  ],
+  [
+    {
+      "reporting_period": "2023-2024-Q1",
+      "entity": "Employment and Social Development Canada",
+      "disclosure_records": 162,
+      "original_value_cents": 2297055746
+    },
+    {
+      "reporting_period": "2023-2024-Q1",
+      "entity": "Health Canada",
+      "disclosure_records": 291,
+      "original_value_cents": 2238570761
+    },
+    {
+      "reporting_period": "2023-2024-Q1",
+      "entity": "Public Health Agency of Canada",
+      "disclosure_records": 156,
+      "original_value_cents": 1279191989
+    },
+    {
+      "reporting_period": "2023-2024-Q1",
+      "entity": "Public Services and Procurement Canada",
+      "disclosure_records": 1331,
+      "original_value_cents": 37596115386
+    },
+    {
+      "reporting_period": "2023-2024-Q1",
+      "entity": "Statistics Canada",
+      "disclosure_records": 38,
+      "original_value_cents": 2967315531
+    },
+    {
+      "reporting_period": "2023-2024-Q1",
+      "entity": "Transport Canada",
+      "disclosure_records": 387,
+      "original_value_cents": 4654074034
+    },
+    {
+      "reporting_period": "2023-2024-Q2",
+      "entity": "Employment and Social Development Canada",
+      "disclosure_records": 251,
+      "original_value_cents": 4344990839
+    },
+    {
+      "reporting_period": "2023-2024-Q2",
+      "entity": "Health Canada",
+      "disclosure_records": 194,
+      "original_value_cents": 3218889578
+    },
+    {
+      "reporting_period": "2023-2024-Q2",
+      "entity": "Public Health Agency of Canada",
+      "disclosure_records": 190,
+      "original_value_cents": 1290546052
+    },
+    {
+      "reporting_period": "2023-2024-Q2",
+      "entity": "Public Services and Procurement Canada",
+      "disclosure_records": 1130,
+      "original_value_cents": 28180738534
+    },
+    {
+      "reporting_period": "2023-2024-Q2",
+      "entity": "Statistics Canada",
+      "disclosure_records": 49,
+      "original_value_cents": 221625567
+    },
+    {
+      "reporting_period": "2023-2024-Q2",
+      "entity": "Transport Canada",
+      "disclosure_records": 349,
+      "original_value_cents": 3104655108
+    },
+    {
+      "reporting_period": "2023-2024-Q3",
+      "entity": "Employment and Social Development Canada",
+      "disclosure_records": 297,
+      "original_value_cents": 6122645848
+    },
+    {
+      "reporting_period": "2023-2024-Q3",
+      "entity": "Health Canada",
+      "disclosure_records": 314,
+      "original_value_cents": 77808174079
+    },
+    {
+      "reporting_period": "2023-2024-Q3",
+      "entity": "Public Health Agency of Canada",
+      "disclosure_records": 280,
+      "original_value_cents": 1681524646
+    },
+    {
+      "reporting_period": "2023-2024-Q3",
+      "entity": "Public Services and Procurement Canada",
+      "disclosure_records": 1213,
+      "original_value_cents": 32492677611
+    },
+    {
+      "reporting_period": "2023-2024-Q3",
+      "entity": "Statistics Canada",
+      "disclosure_records": 83,
+      "original_value_cents": 5286183668
+    },
+    {
+      "reporting_period": "2023-2024-Q3",
+      "entity": "Transport Canada",
+      "disclosure_records": 442,
+      "original_value_cents": 8541313417
+    },
+    {
+      "reporting_period": "2023-2024-Q4",
+      "entity": "Employment and Social Development Canada",
+      "disclosure_records": 366,
+      "original_value_cents": 17301860992
+    },
+    {
+      "reporting_period": "2023-2024-Q4",
+      "entity": "Health Canada",
+      "disclosure_records": 300,
+      "original_value_cents": 7501643734
+    },
+    {
+      "reporting_period": "2023-2024-Q4",
+      "entity": "Public Health Agency of Canada",
+      "disclosure_records": 282,
+      "original_value_cents": 14487618860
+    },
+    {
+      "reporting_period": "2023-2024-Q4",
+      "entity": "Public Services and Procurement Canada",
+      "disclosure_records": 1020,
+      "original_value_cents": 25577944937
+    },
+    {
+      "reporting_period": "2023-2024-Q4",
+      "entity": "Statistics Canada",
+      "disclosure_records": 107,
+      "original_value_cents": 3298807246
+    },
+    {
+      "reporting_period": "2023-2024-Q4",
+      "entity": "Transport Canada",
+      "disclosure_records": 509,
+      "original_value_cents": 6936934987
+    },
+    {
+      "reporting_period": "2024-2025-Q1",
+      "entity": "Employment and Social Development Canada",
+      "disclosure_records": 192,
+      "original_value_cents": 15175121453
+    },
+    {
+      "reporting_period": "2024-2025-Q1",
+      "entity": "Health Canada",
+      "disclosure_records": 213,
+      "original_value_cents": 2209937055
+    },
+    {
+      "reporting_period": "2024-2025-Q1",
+      "entity": "Public Health Agency of Canada",
+      "disclosure_records": 150,
+      "original_value_cents": 2163631661
+    },
+    {
+      "reporting_period": "2024-2025-Q1",
+      "entity": "Public Services and Procurement Canada",
+      "disclosure_records": 1298,
+      "original_value_cents": 28241321117
+    },
+    {
+      "reporting_period": "2024-2025-Q1",
+      "entity": "Statistics Canada",
+      "disclosure_records": 44,
+      "original_value_cents": 421766602
+    },
+    {
+      "reporting_period": "2024-2025-Q1",
+      "entity": "Transport Canada",
+      "disclosure_records": 330,
+      "original_value_cents": 4170309546
+    },
+    {
+      "reporting_period": "2024-2025-Q2",
+      "entity": "Employment and Social Development Canada",
+      "disclosure_records": 264,
+      "original_value_cents": 3209150535
+    },
+    {
+      "reporting_period": "2024-2025-Q2",
+      "entity": "Health Canada",
+      "disclosure_records": 194,
+      "original_value_cents": 1721106383
+    },
+    {
+      "reporting_period": "2024-2025-Q2",
+      "entity": "Public Health Agency of Canada",
+      "disclosure_records": 169,
+      "original_value_cents": 5201793831
+    },
+    {
+      "reporting_period": "2024-2025-Q2",
+      "entity": "Public Services and Procurement Canada",
+      "disclosure_records": 1142,
+      "original_value_cents": 35123043053
+    },
+    {
+      "reporting_period": "2024-2025-Q2",
+      "entity": "Statistics Canada",
+      "disclosure_records": 57,
+      "original_value_cents": 359245748
+    },
+    {
+      "reporting_period": "2024-2025-Q2",
+      "entity": "Transport Canada",
+      "disclosure_records": 288,
+      "original_value_cents": 3269403141
+    },
+    {
+      "reporting_period": "2024-2025-Q3",
+      "entity": "Employment and Social Development Canada",
+      "disclosure_records": 264,
+      "original_value_cents": 2949249946
+    },
+    {
+      "reporting_period": "2024-2025-Q3",
+      "entity": "Health Canada",
+      "disclosure_records": 208,
+      "original_value_cents": 1890731913
+    },
+    {
+      "reporting_period": "2024-2025-Q3",
+      "entity": "Public Health Agency of Canada",
+      "disclosure_records": 196,
+      "original_value_cents": 4047422308
+    },
+    {
+      "reporting_period": "2024-2025-Q3",
+      "entity": "Public Services and Procurement Canada",
+      "disclosure_records": 963,
+      "original_value_cents": 288324410758
+    },
+    {
+      "reporting_period": "2024-2025-Q3",
+      "entity": "Statistics Canada",
+      "disclosure_records": 91,
+      "original_value_cents": 524734544
+    },
+    {
+      "reporting_period": "2024-2025-Q3",
+      "entity": "Transport Canada",
+      "disclosure_records": 419,
+      "original_value_cents": 2819662662
+    },
+    {
+      "reporting_period": "2024-2025-Q4",
+      "entity": "Employment and Social Development Canada",
+      "disclosure_records": 409,
+      "original_value_cents": 16735099194
+    },
+    {
+      "reporting_period": "2024-2025-Q4",
+      "entity": "Health Canada",
+      "disclosure_records": 243,
+      "original_value_cents": 2514175197
+    },
+    {
+      "reporting_period": "2024-2025-Q4",
+      "entity": "Public Health Agency of Canada",
+      "disclosure_records": 191,
+      "original_value_cents": 1680355363
+    },
+    {
+      "reporting_period": "2024-2025-Q4",
+      "entity": "Public Services and Procurement Canada",
+      "disclosure_records": 975,
+      "original_value_cents": 21167742048
+    },
+    {
+      "reporting_period": "2024-2025-Q4",
+      "entity": "Statistics Canada",
+      "disclosure_records": 94,
+      "original_value_cents": 963668443
+    },
+    {
+      "reporting_period": "2024-2025-Q4",
+      "entity": "Transport Canada",
+      "disclosure_records": 345,
+      "original_value_cents": 4202212709
+    },
+    {
+      "reporting_period": "2025-2026-Q1",
+      "entity": "Employment and Social Development Canada",
+      "disclosure_records": 225,
+      "original_value_cents": 7728936133
+    },
+    {
+      "reporting_period": "2025-2026-Q1",
+      "entity": "Health Canada",
+      "disclosure_records": 158,
+      "original_value_cents": 2460712598
+    },
+    {
+      "reporting_period": "2025-2026-Q1",
+      "entity": "Public Health Agency of Canada",
+      "disclosure_records": 72,
+      "original_value_cents": 442898364
+    },
+    {
+      "reporting_period": "2025-2026-Q1",
+      "entity": "Public Services and Procurement Canada",
+      "disclosure_records": 1094,
+      "original_value_cents": 45380917476
+    },
+    {
+      "reporting_period": "2025-2026-Q1",
+      "entity": "Statistics Canada",
+      "disclosure_records": 41,
+      "original_value_cents": 614783533
+    },
+    {
+      "reporting_period": "2025-2026-Q1",
+      "entity": "Transport Canada",
+      "disclosure_records": 281,
+      "original_value_cents": 4067853298
+    },
+    {
+      "reporting_period": "2025-2026-Q2",
+      "entity": "Employment and Social Development Canada",
+      "disclosure_records": 185,
+      "original_value_cents": 2565768219
+    },
+    {
+      "reporting_period": "2025-2026-Q2",
+      "entity": "Health Canada",
+      "disclosure_records": 197,
+      "original_value_cents": 1179709727
+    },
+    {
+      "reporting_period": "2025-2026-Q2",
+      "entity": "Public Health Agency of Canada",
+      "disclosure_records": 148,
+      "original_value_cents": 704973749
+    },
+    {
+      "reporting_period": "2025-2026-Q2",
+      "entity": "Public Services and Procurement Canada",
+      "disclosure_records": 1079,
+      "original_value_cents": 70533669158
+    },
+    {
+      "reporting_period": "2025-2026-Q2",
+      "entity": "Statistics Canada",
+      "disclosure_records": 51,
+      "original_value_cents": 625927744
+    },
+    {
+      "reporting_period": "2025-2026-Q2",
+      "entity": "Transport Canada",
+      "disclosure_records": 282,
+      "original_value_cents": 2550475817
+    },
+    {
+      "reporting_period": "2025-2026-Q3",
+      "entity": "Employment and Social Development Canada",
+      "disclosure_records": 243,
+      "original_value_cents": 3336978961
+    },
+    {
+      "reporting_period": "2025-2026-Q3",
+      "entity": "Health Canada",
+      "disclosure_records": 233,
+      "original_value_cents": 2055027353
+    },
+    {
+      "reporting_period": "2025-2026-Q3",
+      "entity": "Public Health Agency of Canada",
+      "disclosure_records": 276,
+      "original_value_cents": 1244775284
+    },
+    {
+      "reporting_period": "2025-2026-Q3",
+      "entity": "Public Services and Procurement Canada",
+      "disclosure_records": 1341,
+      "original_value_cents": 31328558401
+    },
+    {
+      "reporting_period": "2025-2026-Q3",
+      "entity": "Statistics Canada",
+      "disclosure_records": 60,
+      "original_value_cents": 1747428700
+    },
+    {
+      "reporting_period": "2025-2026-Q3",
+      "entity": "Transport Canada",
+      "disclosure_records": 333,
+      "original_value_cents": 3476560136
+    },
+    {
+      "reporting_period": "2025-2026-Q4",
+      "entity": "Employment and Social Development Canada",
+      "disclosure_records": 274,
+      "original_value_cents": 6484290224
+    },
+    {
+      "reporting_period": "2025-2026-Q4",
+      "entity": "Health Canada",
+      "disclosure_records": 231,
+      "original_value_cents": 1691205560
+    },
+    {
+      "reporting_period": "2025-2026-Q4",
+      "entity": "Public Health Agency of Canada",
+      "disclosure_records": 172,
+      "original_value_cents": 6939845581
+    },
+    {
+      "reporting_period": "2025-2026-Q4",
+      "entity": "Public Services and Procurement Canada",
+      "disclosure_records": 1136,
+      "original_value_cents": 45390346241
+    },
+    {
+      "reporting_period": "2025-2026-Q4",
+      "entity": "Statistics Canada",
+      "disclosure_records": 54,
+      "original_value_cents": 495864117
+    },
+    {
+      "reporting_period": "2025-2026-Q4",
+      "entity": "Transport Canada",
+      "disclosure_records": 393,
+      "original_value_cents": 3759722836
+    }
+  ],
+  [
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Employment and Social Development Canada",
+      "solicitation": "Advance contract award notice",
+      "disclosure_records": 5,
+      "original_value_cents": 290756740
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Employment and Social Development Canada",
+      "solicitation": "Competitive · open bidding",
+      "disclosure_records": 360,
+      "original_value_cents": 10684930607
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Employment and Social Development Canada",
+      "solicitation": "Competitive · selective",
+      "disclosure_records": 339,
+      "original_value_cents": 5877430316
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Employment and Social Development Canada",
+      "solicitation": "Competitive · traditional",
+      "disclosure_records": 25,
+      "original_value_cents": 343515683
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Employment and Social Development Canada",
+      "solicitation": "Non-competitive",
+      "disclosure_records": 347,
+      "original_value_cents": 12869920079
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Health Canada",
+      "solicitation": "Advance contract award notice",
+      "disclosure_records": 8,
+      "original_value_cents": 456410903
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Health Canada",
+      "solicitation": "Competitive · open bidding",
+      "disclosure_records": 153,
+      "original_value_cents": 77434875483
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Health Canada",
+      "solicitation": "Competitive · selective",
+      "disclosure_records": 44,
+      "original_value_cents": 4171662830
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Health Canada",
+      "solicitation": "Competitive · traditional",
+      "disclosure_records": 245,
+      "original_value_cents": 3717097500
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Health Canada",
+      "solicitation": "Non-competitive",
+      "disclosure_records": 649,
+      "original_value_cents": 4987231436
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Public Health Agency of Canada",
+      "solicitation": "Advance contract award notice",
+      "disclosure_records": 3,
+      "original_value_cents": 209695903
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Public Health Agency of Canada",
+      "solicitation": "Competitive · open bidding",
+      "disclosure_records": 114,
+      "original_value_cents": 1526702285
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Public Health Agency of Canada",
+      "solicitation": "Competitive · selective",
+      "disclosure_records": 16,
+      "original_value_cents": 228159832
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Public Health Agency of Canada",
+      "solicitation": "Competitive · traditional",
+      "disclosure_records": 297,
+      "original_value_cents": 2175421579
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Public Health Agency of Canada",
+      "solicitation": "Non-competitive",
+      "disclosure_records": 478,
+      "original_value_cents": 14598901948
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Public Services and Procurement Canada",
+      "solicitation": "Advance contract award notice",
+      "disclosure_records": 21,
+      "original_value_cents": 674323551
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Public Services and Procurement Canada",
+      "solicitation": "Competitive · open bidding",
+      "disclosure_records": 97,
+      "original_value_cents": 10420326875
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Public Services and Procurement Canada",
+      "solicitation": "Competitive · selective",
+      "disclosure_records": 81,
+      "original_value_cents": 1320684039
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Public Services and Procurement Canada",
+      "solicitation": "Competitive · traditional",
+      "disclosure_records": 3093,
+      "original_value_cents": 100503877282
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Public Services and Procurement Canada",
+      "solicitation": "Non-competitive",
+      "disclosure_records": 1402,
+      "original_value_cents": 10928264721
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Statistics Canada",
+      "solicitation": "Advance contract award notice",
+      "disclosure_records": 1,
+      "original_value_cents": 1725294057
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Statistics Canada",
+      "solicitation": "Competitive · open bidding",
+      "disclosure_records": 11,
+      "original_value_cents": 632438481
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Statistics Canada",
+      "solicitation": "Competitive · selective",
+      "disclosure_records": 46,
+      "original_value_cents": 1657152620
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Statistics Canada",
+      "solicitation": "Competitive · traditional",
+      "disclosure_records": 103,
+      "original_value_cents": 367767914
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Statistics Canada",
+      "solicitation": "Non-competitive",
+      "disclosure_records": 116,
+      "original_value_cents": 7391278940
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Transport Canada",
+      "solicitation": "Advance contract award notice",
+      "disclosure_records": 55,
+      "original_value_cents": 1002905244
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Transport Canada",
+      "solicitation": "Competitive · open bidding",
+      "disclosure_records": 78,
+      "original_value_cents": 9447131527
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Transport Canada",
+      "solicitation": "Competitive · selective",
+      "disclosure_records": 72,
+      "original_value_cents": 1122100147
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Transport Canada",
+      "solicitation": "Competitive · traditional",
+      "disclosure_records": 845,
+      "original_value_cents": 9387039602
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Transport Canada",
+      "solicitation": "Non-competitive",
+      "disclosure_records": 637,
+      "original_value_cents": 2277801026
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Employment and Social Development Canada",
+      "solicitation": "Advance contract award notice",
+      "disclosure_records": 7,
+      "original_value_cents": 98539530
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Employment and Social Development Canada",
+      "solicitation": "Competitive · open bidding",
+      "disclosure_records": 366,
+      "original_value_cents": 15926895383
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Employment and Social Development Canada",
+      "solicitation": "Competitive · selective",
+      "disclosure_records": 402,
+      "original_value_cents": 18577097945
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Employment and Social Development Canada",
+      "solicitation": "Competitive · traditional",
+      "disclosure_records": 16,
+      "original_value_cents": 496034723
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Employment and Social Development Canada",
+      "solicitation": "Non-competitive",
+      "disclosure_records": 338,
+      "original_value_cents": 2970053547
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Health Canada",
+      "solicitation": "Advance contract award notice",
+      "disclosure_records": 2,
+      "original_value_cents": 111494835
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Health Canada",
+      "solicitation": "Competitive · open bidding",
+      "disclosure_records": 85,
+      "original_value_cents": 1278621578
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Health Canada",
+      "solicitation": "Competitive · selective",
+      "disclosure_records": 22,
+      "original_value_cents": 1323479309
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Health Canada",
+      "solicitation": "Competitive · traditional",
+      "disclosure_records": 160,
+      "original_value_cents": 1615011442
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Health Canada",
+      "solicitation": "Non-competitive",
+      "disclosure_records": 589,
+      "original_value_cents": 4007343384
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Public Health Agency of Canada",
+      "solicitation": "Advance contract award notice",
+      "disclosure_records": 3,
+      "original_value_cents": 333916410
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Public Health Agency of Canada",
+      "solicitation": "Competitive · open bidding",
+      "disclosure_records": 78,
+      "original_value_cents": 7058357441
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Public Health Agency of Canada",
+      "solicitation": "Competitive · selective",
+      "disclosure_records": 5,
+      "original_value_cents": 36926086
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Public Health Agency of Canada",
+      "solicitation": "Competitive · traditional",
+      "disclosure_records": 247,
+      "original_value_cents": 3664524498
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Public Health Agency of Canada",
+      "solicitation": "Non-competitive",
+      "disclosure_records": 373,
+      "original_value_cents": 1999478728
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Public Services and Procurement Canada",
+      "solicitation": "Advance contract award notice",
+      "disclosure_records": 30,
+      "original_value_cents": 815831856
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Public Services and Procurement Canada",
+      "solicitation": "Competitive · open bidding",
+      "disclosure_records": 115,
+      "original_value_cents": 276782557062
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Public Services and Procurement Canada",
+      "solicitation": "Competitive · selective",
+      "disclosure_records": 76,
+      "original_value_cents": 1126414789
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Public Services and Procurement Canada",
+      "solicitation": "Competitive · traditional",
+      "disclosure_records": 2853,
+      "original_value_cents": 82303966961
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Public Services and Procurement Canada",
+      "solicitation": "Non-competitive",
+      "disclosure_records": 1304,
+      "original_value_cents": 11827746308
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Statistics Canada",
+      "solicitation": "Advance contract award notice",
+      "disclosure_records": 2,
+      "original_value_cents": 14612367
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Statistics Canada",
+      "solicitation": "Competitive · open bidding",
+      "disclosure_records": 18,
+      "original_value_cents": 256615156
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Statistics Canada",
+      "solicitation": "Competitive · selective",
+      "disclosure_records": 80,
+      "original_value_cents": 761446378
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Statistics Canada",
+      "solicitation": "Competitive · traditional",
+      "disclosure_records": 93,
+      "original_value_cents": 283571897
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Statistics Canada",
+      "solicitation": "Non-competitive",
+      "disclosure_records": 93,
+      "original_value_cents": 953169539
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Transport Canada",
+      "solicitation": "Advance contract award notice",
+      "disclosure_records": 28,
+      "original_value_cents": 458085040
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Transport Canada",
+      "solicitation": "Competitive · open bidding",
+      "disclosure_records": 51,
+      "original_value_cents": 2259210467
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Transport Canada",
+      "solicitation": "Competitive · selective",
+      "disclosure_records": 107,
+      "original_value_cents": 2564677315
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Transport Canada",
+      "solicitation": "Competitive · traditional",
+      "disclosure_records": 619,
+      "original_value_cents": 6859716586
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Transport Canada",
+      "solicitation": "Non-competitive",
+      "disclosure_records": 577,
+      "original_value_cents": 2319898650
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Employment and Social Development Canada",
+      "solicitation": "Advance contract award notice",
+      "disclosure_records": 3,
+      "original_value_cents": 22115814
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Employment and Social Development Canada",
+      "solicitation": "Competitive · open bidding",
+      "disclosure_records": 269,
+      "original_value_cents": 8747687308
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Employment and Social Development Canada",
+      "solicitation": "Competitive · selective",
+      "disclosure_records": 345,
+      "original_value_cents": 6493337593
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Employment and Social Development Canada",
+      "solicitation": "Competitive · traditional",
+      "disclosure_records": 30,
+      "original_value_cents": 2036821394
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Employment and Social Development Canada",
+      "solicitation": "Non-competitive",
+      "disclosure_records": 280,
+      "original_value_cents": 2816011428
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Health Canada",
+      "solicitation": "Advance contract award notice",
+      "disclosure_records": 7,
+      "original_value_cents": 415118891
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Health Canada",
+      "solicitation": "Competitive · open bidding",
+      "disclosure_records": 69,
+      "original_value_cents": 766588138
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Health Canada",
+      "solicitation": "Competitive · selective",
+      "disclosure_records": 6,
+      "original_value_cents": 347554119
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Health Canada",
+      "solicitation": "Competitive · traditional",
+      "disclosure_records": 178,
+      "original_value_cents": 1545042308
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Health Canada",
+      "solicitation": "Non-competitive",
+      "disclosure_records": 559,
+      "original_value_cents": 4312351782
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Public Health Agency of Canada",
+      "solicitation": "Competitive · open bidding",
+      "disclosure_records": 46,
+      "original_value_cents": 3588708705
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Public Health Agency of Canada",
+      "solicitation": "Competitive · selective",
+      "disclosure_records": 8,
+      "original_value_cents": 378094364
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Public Health Agency of Canada",
+      "solicitation": "Competitive · traditional",
+      "disclosure_records": 215,
+      "original_value_cents": 1499425543
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Public Health Agency of Canada",
+      "solicitation": "Non-competitive",
+      "disclosure_records": 399,
+      "original_value_cents": 3866264366
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Public Services and Procurement Canada",
+      "solicitation": "Advance contract award notice",
+      "disclosure_records": 9,
+      "original_value_cents": 373341108
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Public Services and Procurement Canada",
+      "solicitation": "Competitive · open bidding",
+      "disclosure_records": 154,
+      "original_value_cents": 6853751688
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Public Services and Procurement Canada",
+      "solicitation": "Competitive · selective",
+      "disclosure_records": 78,
+      "original_value_cents": 1972234155
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Public Services and Procurement Canada",
+      "solicitation": "Competitive · traditional",
+      "disclosure_records": 3034,
+      "original_value_cents": 170993277017
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Public Services and Procurement Canada",
+      "solicitation": "Non-competitive",
+      "disclosure_records": 1375,
+      "original_value_cents": 12440887308
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Statistics Canada",
+      "solicitation": "Competitive · open bidding",
+      "disclosure_records": 17,
+      "original_value_cents": 1865113400
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Statistics Canada",
+      "solicitation": "Competitive · selective",
+      "disclosure_records": 36,
+      "original_value_cents": 465088437
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Statistics Canada",
+      "solicitation": "Competitive · traditional",
+      "disclosure_records": 66,
+      "original_value_cents": 258516755
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Statistics Canada",
+      "solicitation": "Non-competitive",
+      "disclosure_records": 87,
+      "original_value_cents": 895285502
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Transport Canada",
+      "solicitation": "Advance contract award notice",
+      "disclosure_records": 14,
+      "original_value_cents": 236859952
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Transport Canada",
+      "solicitation": "Competitive · open bidding",
+      "disclosure_records": 72,
+      "original_value_cents": 1598461700
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Transport Canada",
+      "solicitation": "Competitive · selective",
+      "disclosure_records": 211,
+      "original_value_cents": 3871969520
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Transport Canada",
+      "solicitation": "Competitive · traditional",
+      "disclosure_records": 421,
+      "original_value_cents": 5198017700
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Transport Canada",
+      "solicitation": "Non-competitive",
+      "disclosure_records": 571,
+      "original_value_cents": 2949303215
+    }
+  ],
+  [
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Employment and Social Development Canada",
+      "commodity": "Goods",
+      "disclosure_records": 161,
+      "original_value_cents": 3912568328
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Employment and Social Development Canada",
+      "commodity": "Services",
+      "disclosure_records": 915,
+      "original_value_cents": 26153985097
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Health Canada",
+      "commodity": "Construction",
+      "disclosure_records": 21,
+      "original_value_cents": 206948133
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Health Canada",
+      "commodity": "Goods",
+      "disclosure_records": 326,
+      "original_value_cents": 4442562046
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Health Canada",
+      "commodity": "Services",
+      "disclosure_records": 752,
+      "original_value_cents": 86117767973
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Public Health Agency of Canada",
+      "commodity": "Construction",
+      "disclosure_records": 38,
+      "original_value_cents": 181005661
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Public Health Agency of Canada",
+      "commodity": "Goods",
+      "disclosure_records": 550,
+      "original_value_cents": 13199296667
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Public Health Agency of Canada",
+      "commodity": "Services",
+      "disclosure_records": 320,
+      "original_value_cents": 5358579219
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Public Services and Procurement Canada",
+      "commodity": "Construction",
+      "disclosure_records": 1342,
+      "original_value_cents": 53595979294
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Public Services and Procurement Canada",
+      "commodity": "Goods",
+      "disclosure_records": 578,
+      "original_value_cents": 4675857514
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Public Services and Procurement Canada",
+      "commodity": "Services",
+      "disclosure_records": 2774,
+      "original_value_cents": 65575639660
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Statistics Canada",
+      "commodity": "Goods",
+      "disclosure_records": 145,
+      "original_value_cents": 1576153891
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Statistics Canada",
+      "commodity": "Services",
+      "disclosure_records": 132,
+      "original_value_cents": 10197778121
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Transport Canada",
+      "commodity": "Construction",
+      "disclosure_records": 2,
+      "original_value_cents": 4580077
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Transport Canada",
+      "commodity": "Goods",
+      "disclosure_records": 760,
+      "original_value_cents": 10296999834
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Transport Canada",
+      "commodity": "Services",
+      "disclosure_records": 925,
+      "original_value_cents": 12935397635
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Employment and Social Development Canada",
+      "commodity": "Goods",
+      "disclosure_records": 151,
+      "original_value_cents": 2425529967
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Employment and Social Development Canada",
+      "commodity": "Services",
+      "disclosure_records": 978,
+      "original_value_cents": 35643091161
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Health Canada",
+      "commodity": "Construction",
+      "disclosure_records": 37,
+      "original_value_cents": 144242472
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Health Canada",
+      "commodity": "Goods",
+      "disclosure_records": 281,
+      "original_value_cents": 3435018630
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Health Canada",
+      "commodity": "Services",
+      "disclosure_records": 540,
+      "original_value_cents": 4756689446
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Public Health Agency of Canada",
+      "commodity": "Construction",
+      "disclosure_records": 46,
+      "original_value_cents": 248613608
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Public Health Agency of Canada",
+      "commodity": "Goods",
+      "disclosure_records": 460,
+      "original_value_cents": 3096619460
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Public Health Agency of Canada",
+      "commodity": "Services",
+      "disclosure_records": 200,
+      "original_value_cents": 9747970095
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Public Services and Procurement Canada",
+      "commodity": "Construction",
+      "disclosure_records": 1197,
+      "original_value_cents": 46361843310
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Public Services and Procurement Canada",
+      "commodity": "Goods",
+      "disclosure_records": 523,
+      "original_value_cents": 4634564894
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Public Services and Procurement Canada",
+      "commodity": "Services",
+      "disclosure_records": 2658,
+      "original_value_cents": 321860108772
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Statistics Canada",
+      "commodity": "Goods",
+      "disclosure_records": 159,
+      "original_value_cents": 919975985
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Statistics Canada",
+      "commodity": "Services",
+      "disclosure_records": 127,
+      "original_value_cents": 1349439352
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Transport Canada",
+      "commodity": "Construction",
+      "disclosure_records": 3,
+      "original_value_cents": 9484422
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Transport Canada",
+      "commodity": "Goods",
+      "disclosure_records": 706,
+      "original_value_cents": 5212542302
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Transport Canada",
+      "commodity": "Services",
+      "disclosure_records": 673,
+      "original_value_cents": 9239561334
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Employment and Social Development Canada",
+      "commodity": "Goods",
+      "disclosure_records": 109,
+      "original_value_cents": 4305132028
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Employment and Social Development Canada",
+      "commodity": "Services",
+      "disclosure_records": 818,
+      "original_value_cents": 15810841509
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Health Canada",
+      "commodity": "Construction",
+      "disclosure_records": 27,
+      "original_value_cents": 149801454
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Health Canada",
+      "commodity": "Goods",
+      "disclosure_records": 303,
+      "original_value_cents": 4044753427
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Health Canada",
+      "commodity": "Services",
+      "disclosure_records": 489,
+      "original_value_cents": 3192100357
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Public Health Agency of Canada",
+      "commodity": "Construction",
+      "disclosure_records": 36,
+      "original_value_cents": 100700167
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Public Health Agency of Canada",
+      "commodity": "Goods",
+      "disclosure_records": 456,
+      "original_value_cents": 5080532266
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Public Health Agency of Canada",
+      "commodity": "Services",
+      "disclosure_records": 176,
+      "original_value_cents": 4151260545
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Public Services and Procurement Canada",
+      "commodity": "Construction",
+      "disclosure_records": 1480,
+      "original_value_cents": 117075378709
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Public Services and Procurement Canada",
+      "commodity": "Goods",
+      "disclosure_records": 559,
+      "original_value_cents": 7006971609
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Public Services and Procurement Canada",
+      "commodity": "Services",
+      "disclosure_records": 2611,
+      "original_value_cents": 68551140958
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Statistics Canada",
+      "commodity": "Goods",
+      "disclosure_records": 95,
+      "original_value_cents": 760361850
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Statistics Canada",
+      "commodity": "Services",
+      "disclosure_records": 111,
+      "original_value_cents": 2723642244
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Transport Canada",
+      "commodity": "Construction",
+      "disclosure_records": 2,
+      "original_value_cents": 6779761
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Transport Canada",
+      "commodity": "Goods",
+      "disclosure_records": 582,
+      "original_value_cents": 5304992901
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Transport Canada",
+      "commodity": "Services",
+      "disclosure_records": 705,
+      "original_value_cents": 8542839425
+    }
+  ],
+  [
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Employment and Social Development Canada",
+      "supplier_name_groups": 420,
+      "total_value_cents": 30066553425,
+      "top5_value_cents": 12475994918,
+      "top5_share_percent": 41.494596
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Health Canada",
+      "supplier_name_groups": 585,
+      "total_value_cents": 90767278152,
+      "top5_value_cents": 78370007992,
+      "top5_share_percent": 86.341697
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Public Health Agency of Canada",
+      "supplier_name_groups": 371,
+      "total_value_cents": 18738881547,
+      "top5_value_cents": 11408434579,
+      "top5_share_percent": 60.881086
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Public Services and Procurement Canada",
+      "supplier_name_groups": 1625,
+      "total_value_cents": 123847476468,
+      "top5_value_cents": 30871145228,
+      "top5_share_percent": 24.926745
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Statistics Canada",
+      "supplier_name_groups": 166,
+      "total_value_cents": 11773932012,
+      "top5_value_cents": 9151579596,
+      "top5_share_percent": 77.727471
+    },
+    {
+      "fiscal_year": "2023-2024",
+      "entity": "Transport Canada",
+      "supplier_name_groups": 758,
+      "total_value_cents": 23236977546,
+      "top5_value_cents": 8590749084,
+      "top5_share_percent": 36.970166
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Employment and Social Development Canada",
+      "supplier_name_groups": 385,
+      "total_value_cents": 38068621128,
+      "top5_value_cents": 24503798203,
+      "top5_share_percent": 64.367444
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Health Canada",
+      "supplier_name_groups": 484,
+      "total_value_cents": 8335950548,
+      "top5_value_cents": 1985853747,
+      "top5_share_percent": 23.822763
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Public Health Agency of Canada",
+      "supplier_name_groups": 260,
+      "total_value_cents": 13093203163,
+      "top5_value_cents": 8725980658,
+      "top5_share_percent": 66.645118
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Public Services and Procurement Canada",
+      "supplier_name_groups": 1521,
+      "total_value_cents": 372856516976,
+      "top5_value_cents": 283552337526,
+      "top5_share_percent": 76.048647
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Statistics Canada",
+      "supplier_name_groups": 176,
+      "total_value_cents": 2269415337,
+      "top5_value_cents": 622344006,
+      "top5_share_percent": 27.423099
+    },
+    {
+      "fiscal_year": "2024-2025",
+      "entity": "Transport Canada",
+      "supplier_name_groups": 649,
+      "total_value_cents": 14461588058,
+      "top5_value_cents": 5144926765,
+      "top5_share_percent": 35.576499
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Employment and Social Development Canada",
+      "supplier_name_groups": 316,
+      "total_value_cents": 20115973537,
+      "top5_value_cents": 7640195640,
+      "top5_share_percent": 37.98074
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Health Canada",
+      "supplier_name_groups": 427,
+      "total_value_cents": 7386655238,
+      "top5_value_cents": 1893356365,
+      "top5_share_percent": 25.63212
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Public Health Agency of Canada",
+      "supplier_name_groups": 248,
+      "total_value_cents": 9332492978,
+      "top5_value_cents": 5588774975,
+      "top5_share_percent": 59.885124
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Public Services and Procurement Canada",
+      "supplier_name_groups": 1618,
+      "total_value_cents": 192633491276,
+      "top5_value_cents": 81010056498,
+      "top5_share_percent": 42.053983
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Statistics Canada",
+      "supplier_name_groups": 139,
+      "total_value_cents": 3484004094,
+      "top5_value_cents": 1983221699,
+      "top5_share_percent": 56.923633
+    },
+    {
+      "fiscal_year": "2025-2026",
+      "entity": "Transport Canada",
+      "supplier_name_groups": 576,
+      "total_value_cents": 13854612087,
+      "top5_value_cents": 4132251961,
+      "top5_share_percent": 29.825822
+    }
+  ]
+]

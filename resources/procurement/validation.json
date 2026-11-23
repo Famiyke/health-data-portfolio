@@ -1,0 +1,16 @@
+{
+  "total_source_records": 1336110,
+  "selected_reporting_entity_and_period_records": 41810,
+  "included_nonzero_amendment_field": 11,
+  "excluded_instrument_A": 14675,
+  "original_value_at_or_below_10000": 39,
+  "excluded_instrument_SOSA": 57,
+  "included_contract_disclosure_records": 27039,
+  "additional_rows_with_repeated_procurement_id": 29,
+  "unique_entity_reference_keys": 27039,
+  "status": "passed",
+  "independently_matched_source_records": 27039,
+  "independently_checked_dashboard_values": 767,
+  "aggregate_original_value_cents": 994323623570,
+  "sql_annual_reconciliation": "passed"
+}

@@ -1,14 +1,14 @@
 'use strict';
 
-const projects = [...window.PORTFOLIO_PROJECTS, ...window.PORTFOLIO_NEW_PROJECTS];
+const projects = [...window.PORTFOLIO_PROJECTS, ...window.PORTFOLIO_NEW_PROJECTS, ...window.PORTFOLIO_ADDITIONS];
 const home = document.body.dataset.page === 'home';
 const format = (value, digits = 1) => Number(value).toLocaleString('en-CA', {minimumFractionDigits: digits, maximumFractionDigits: digits});
-const typeName = () => 'Real public data';
+const typeName = p => p.type === 'experience' ? 'Professional experience' : 'Real public data';
 const projectHref = p => 'project.html?case=' + encodeURIComponent(p.id);
 const external = (url, label) => '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' + label + '</a>';
 const escapeHtml = str => String(str).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
-const workflow = p => p.repoUrl.startsWith('resources/') ? '<a href="' + escapeHtml(p.repoUrl) + '" download>Download Python &amp; SQL</a>' : external(p.repoUrl, 'View code');
-const dataBadge = p => '<span class="badge actual"><span class="badge-dot"></span>' + typeName(p) + '</span>';
+const workflow = p => p.repoUrl.startsWith('resources/') ? '<a href="' + escapeHtml(p.repoUrl) + '" download>' + (p.type === 'experience' ? 'Download case study workflow' : 'Download Python &amp; SQL') + '</a>' : external(p.repoUrl, 'View code');
+const dataBadge = p => '<span class="badge ' + (p.type === 'experience' ? 'experience' : 'actual') + '"><span class="badge-dot"></span>' + typeName(p) + '</span>';
 
 function initMenu() {
   const button = document.querySelector('.menu-button');
@@ -53,8 +53,8 @@ function createHome() {
     section.dataset.group = type;
     section.setAttribute('aria-labelledby', 'group-' + type);
     const groupProjects = projects.filter(p => p.group === type);
-    const label = {system:'Health system & finance', population:'Population health & equity', business:'Workforce & commercial analytics'}[type];
-    const desc = {system:'Explore expenditure, access to surgery and hospital performance using published health system data.', population:'Explore disease surveillance, mental health and regional health equity using published population estimates.', business:'Explore workforce planning, labour market indicators, sales performance and time-series forecasting.'}[type];
+    const label = {system:'Health system & finance', population:'Population health & equity', business:'Workforce & business analytics'}[type];
+    const desc = {system:'Explore expenditure, access to surgery and hospital performance using published health system data.', population:'Explore disease surveillance, mental health and regional health equity using published population estimates.', business:'Explore labour markets, sales forecasting, procurement analysis and business process improvement.'}[type];
     section.innerHTML = '<div class="group-head"><div><h3 id="group-' + type + '">' + label + '</h3><p>' + desc + '</p></div></div><div class="project-grid"></div>';
     for (const p of groupProjects) section.querySelector('.project-grid').append(createCard(p));
     groups.append(section);
@@ -82,7 +82,7 @@ function createCard(p) {
     '<div class="card-metric"><div><div class="metric-number">' + escapeHtml(p.highlightValue) +
     '</div><div class="metric-label">' + escapeHtml(p.highlight) + '</div></div></div>' +
     '<div class="tags">' + p.tools.map(tool => '<span>' + escapeHtml(tool) + '</span>').join('') + '</div>' +
-    '<div class="card-actions"><a href="' + projectHref(p) + '" aria-label="Explore ' + escapeHtml(p.title) + ' dashboard">Explore dashboard</a>' +
+    '<div class="card-actions"><a href="' + projectHref(p) + '" aria-label="Explore ' + escapeHtml(p.title) + (p.type === 'experience' ? ' case study">Explore case study</a>' : ' dashboard">Explore dashboard</a>') +
     workflow(p) + '</div>';
   return card;
 }
@@ -92,7 +92,7 @@ function createProject() {
   const id = new URLSearchParams(location.search).get('case');
   const p = projects.find(project => project.id === id);
   if (!p) {
-    root.innerHTML = '<section class="shell no-results"><h1>Choose a case study</h1><p>Explore one of eight data analytics projects.</p><a class="button primary" href="index.html#projects">View projects</a></section>';
+    root.innerHTML = '<section class="shell no-results"><h1>Choose a case study</h1><p>Explore one of ten projects and case studies.</p><a class="button primary" href="index.html#projects">View projects</a></section>';
     return;
   }
   document.title = p.title + ' | Ikenna Nwogu';
@@ -102,6 +102,7 @@ function createProject() {
   const idx = projects.indexOf(p);
   const previous = projects[(idx + projects.length - 1) % projects.length];
   const next = projects[(idx + 1) % projects.length];
+  if (p.type === 'experience') { createExperienceCase(root, p, previous, next); return; }
   root.innerHTML = '<section class="project-intro"><div class="shell">' +
     '<div class="breadcrumb"><a href="index.html#projects">All projects</a><label class="project-picker">Switch project<select id="project-picker">' +
     projects.map(x => '<option value="' + x.id + '" ' + (x === p ? 'selected' : '') + '>' + escapeHtml(x.title) + '</option>').join('') + '</select></label></div>' +
@@ -128,6 +129,31 @@ function createProject() {
     location.href = 'project.html?case=' + encodeURIComponent(e.target.value);
   });
   setupDashboard(p);
+}
+
+
+function createExperienceCase(root, p, previous, next) {
+  const options = projects.map(x => '<option value="' + escapeHtml(x.id) + '" ' + (x === p ? 'selected' : '') + '>' + escapeHtml(x.title) + '</option>').join('');
+  const requirements = p.requirements.map(r => '<tr><th scope="row">' + escapeHtml(r.id) + '</th><td>' + escapeHtml(r.need) + '</td><td>' + escapeHtml(r.control) + '</td><td>' + escapeHtml(r.acceptance) + '</td></tr>').join('');
+  root.innerHTML = '<section class="project-intro"><div class="shell"><div class="breadcrumb"><a href="index.html#projects">All projects</a><label class="project-picker">Switch project<select id="project-picker">' + options + '</select></label></div>' +
+    '<div class="intro-kickers">' + dataBadge(p) + '<span class="domain">' + escapeHtml(p.category) + '</span><span class="period">' + escapeHtml(p.period) + '</span></div><h1>' + escapeHtml(p.title) + '</h1><p class="question">' + escapeHtml(p.question) + '</p><p class="intro-summary">' + escapeHtml(p.summary) + '</p>' +
+    '<div class="data-status experience"><strong>Experience evidence and portfolio prototype</strong><span>' + escapeHtml(p.statusText) + '</span></div></div></section>' +
+    '<section class="project-body"><div class="shell"><div class="summary-grid">' + p.cards.map(c => '<div class="summary-card experience"><strong>' + escapeHtml(c.value) + '</strong><span>' + escapeHtml(c.label) + '</span></div>').join('') + '</div>' +
+    '<div class="dashboard-layout"><div class="dashboard-main"><section class="dashboard-panel"><div class="panel-heading"><div><h2>Explore the workflow</h2><p>Select a stage to review the activity, proposed control and handoff.</p></div></div><div class="process-steps" role="group" aria-label="Workflow stages">' + p.steps.map((step,i) => '<button type="button" class="process-step" data-step="' + i + '" aria-pressed="' + (i === 0) + '"><span>' + (i+1) + '</span><strong>' + escapeHtml(step.name) + '</strong></button>').join('') + '</div><div id="process-detail" class="process-detail" aria-live="polite"></div></section>' +
+    '<section class="dashboard-panel table-panel"><h2>Requirements and acceptance criteria</h2><p class="chart-explain">Proposed controls for reliable reporting. These criteria form the portfolio analysis and prototype.</p><div class="table-scroll" tabindex="0" aria-label="Requirements matrix"><table><thead><tr><th scope="col">ID</th><th scope="col">Business need</th><th scope="col">Proposed control</th><th scope="col">Acceptance criterion</th></tr></thead><tbody>' + requirements + '</tbody></table></div></section>' +
+    '<section class="dashboard-panel"><h2>Reporting automation prototype</h2><p class="chart-explain">Enter authorized aggregate counts in the blank CSV template. The Python workflow validates required fields, reconciles counts, rejects duplicate cycle identifiers and generates a reporting summary. It contains no actual participant data.</p><div class="actions"><a class="button primary" href="resources/process/workflow.zip" download>Download workflow</a><a class="button secondary" href="resources/process/aggregate_cycle_template.csv" download>Download blank CSV</a></div></section></div>' +
+    '<aside aria-label="Case study information"><section class="side-panel"><h2>Case study details</h2><h3>Experience</h3><p>' + escapeHtml(p.coverage) + '</p><h3>Methods</h3><ul>' + p.methods.map(m => '<li>' + escapeHtml(m) + '</li>').join('') + '</ul><div class="tags">' + p.tools.map(t => '<span>' + escapeHtml(t) + '</span>').join('') + '</div><div class="source-block"><h3>Source context</h3><p>' + escapeHtml(p.source) + '</p>' + external(p.sourceUrl,'OFE organization information') + external(p.evidence,'Evidence and methodology') + workflow(p) + '</div></section>' +
+    '<section class="side-panel findings-panel"><h2>Reported outcomes</h2><ul>' + p.findings.map(f => '<li>' + escapeHtml(f) + '</li>').join('') + '</ul></section><section class="side-panel limits-panel experience"><h2>Interpretation &amp; limitations</h2><p>' + escapeHtml(p.limits) + '</p></section></aside></div></div></section>' +
+    '<div class="project-nav"><div class="shell project-nav-inner"><a href="' + projectHref(previous) + '">Previous: ' + escapeHtml(previous.title) + '</a><a class="button secondary" href="index.html#projects">All projects</a><a href="' + projectHref(next) + '">Next: ' + escapeHtml(next.title) + '</a></div></div>';
+  document.getElementById('project-picker').addEventListener('change', e => { location.href = 'project.html?case=' + encodeURIComponent(e.target.value); });
+  const buttons = [...document.querySelectorAll('.process-step')];
+  function showStep(index) {
+    const step = p.steps[index];
+    buttons.forEach((button,i) => button.setAttribute('aria-pressed', String(i === index)));
+    document.getElementById('process-detail').innerHTML = '<h3>' + escapeHtml(step.name) + '</h3><div class="process-facts"><div><strong>Role</strong><p>' + escapeHtml(step.role) + '</p></div><div><strong>Activity</strong><p>' + escapeHtml(step.activity) + '</p></div><div><strong>Proposed control</strong><p>' + escapeHtml(step.control) + '</p></div><div><strong>Deliverable</strong><p>' + escapeHtml(step.deliverable) + '</p></div></div>';
+  }
+  buttons.forEach((button,i) => button.addEventListener('click', () => showStep(i)));
+  showStep(0);
 }
 
 function setupDashboard(p) {

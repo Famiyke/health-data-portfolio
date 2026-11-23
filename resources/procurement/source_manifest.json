@@ -1,0 +1,45 @@
+{
+  "retrieved": "2026-11-23",
+  "source_reference": "https://open.canada.ca/data/en/dataset/d8f85d91-7dec-4fd1-8055-483b77225d8b",
+  "source_download": "https://open.canada.ca/data/dataset/d8f85d91-7dec-4fd1-8055-483b77225d8b/resource/fac950c0-00d5-4ec1-a4d3-9cbebf98a305/download/contracts.csv",
+  "source_schema": "https://open.canada.ca/data/recombinant-published-schema/contracts.json",
+  "source_sha256": "6826446cf119d939b24d285329f2bd135b77ed2d57a820b2b0c43e77272387bc",
+  "source_bytes": 654876058,
+  "scope": {
+    "entities": {
+      "pwgsc-tpsgc": "Public Services and Procurement Canada",
+      "esdc-edsc": "Employment and Social Development Canada",
+      "hc-sc": "Health Canada",
+      "phac-aspc": "Public Health Agency of Canada",
+      "tc": "Transport Canada",
+      "statcan": "Statistics Canada"
+    },
+    "reporting_periods": [
+      "2023-2024-Q1",
+      "2023-2024-Q2",
+      "2023-2024-Q3",
+      "2023-2024-Q4",
+      "2024-2025-Q1",
+      "2024-2025-Q2",
+      "2024-2025-Q3",
+      "2024-2025-Q4",
+      "2025-2026-Q1",
+      "2025-2026-Q2",
+      "2025-2026-Q3",
+      "2025-2026-Q4"
+    ],
+    "instrument_type": "C",
+    "original_value_cad_greater_than": 10000
+  },
+  "extraction_counts": {
+    "total_source_records": 1336110,
+    "selected_reporting_entity_and_period_records": 41810,
+    "included_nonzero_amendment_field": 11,
+    "excluded_instrument_A": 14675,
+    "original_value_at_or_below_10000": 39,
+    "excluded_instrument_SOSA": 57,
+    "included_contract_disclosure_records": 27039,
+    "additional_rows_with_repeated_procurement_id": 29,
+    "unique_entity_reference_keys": 27039
+  }
+}

@@ -1,0 +1,7 @@
+field,definition,validation
+cycle_id,Non-personal reporting-cycle identifier,Required and unique
+report_date,Date of reporting cycle,ISO date YYYY-MM-DD
+records_received,Aggregate number of records received,Nonnegative integer
+records_validated,Aggregate number of records meeting requirements,Nonnegative integer
+records_requiring_followup,Aggregate number of received records requiring follow-up,Nonnegative integer; validated plus follow-up equals received
+report_preparation_minutes,Time spent preparing the cycle report in minutes,"Finite, nonnegative number"

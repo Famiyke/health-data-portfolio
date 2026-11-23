@@ -1,0 +1,768 @@
+indicator,selection,category,value,unit,source_reference
+Original contract value by entity (CAD millions),2023-2024,Public Services and Procurement Canada,1238.47476468,CAD millions,"2023-2024 · Public Services and Procurement Canada · 4,694 included records"
+Original contract value by entity (CAD millions),2023-2024,Employment and Social Development Canada,300.66553425,CAD millions,"2023-2024 · Employment and Social Development Canada · 1,076 included records"
+Original contract value by entity (CAD millions),2023-2024,Health Canada,907.67278152,CAD millions,"2023-2024 · Health Canada · 1,099 included records"
+Original contract value by entity (CAD millions),2023-2024,Public Health Agency of Canada,187.38881547,CAD millions,2023-2024 · Public Health Agency of Canada · 908 included records
+Original contract value by entity (CAD millions),2023-2024,Transport Canada,232.36977546,CAD millions,"2023-2024 · Transport Canada · 1,687 included records"
+Original contract value by entity (CAD millions),2023-2024,Statistics Canada,117.73932012,CAD millions,2023-2024 · Statistics Canada · 277 included records
+Original contract value by entity (CAD millions),2024-2025,Public Services and Procurement Canada,3728.56516976,CAD millions,"2024-2025 · Public Services and Procurement Canada · 4,378 included records"
+Original contract value by entity (CAD millions),2024-2025,Employment and Social Development Canada,380.68621128,CAD millions,"2024-2025 · Employment and Social Development Canada · 1,129 included records"
+Original contract value by entity (CAD millions),2024-2025,Health Canada,83.35950548,CAD millions,2024-2025 · Health Canada · 858 included records
+Original contract value by entity (CAD millions),2024-2025,Public Health Agency of Canada,130.93203163,CAD millions,2024-2025 · Public Health Agency of Canada · 706 included records
+Original contract value by entity (CAD millions),2024-2025,Transport Canada,144.61588058,CAD millions,"2024-2025 · Transport Canada · 1,382 included records"
+Original contract value by entity (CAD millions),2024-2025,Statistics Canada,22.69415337,CAD millions,2024-2025 · Statistics Canada · 286 included records
+Original contract value by entity (CAD millions),2025-2026,Public Services and Procurement Canada,1926.33491276,CAD millions,"2025-2026 · Public Services and Procurement Canada · 4,650 included records"
+Original contract value by entity (CAD millions),2025-2026,Employment and Social Development Canada,201.15973537,CAD millions,2025-2026 · Employment and Social Development Canada · 927 included records
+Original contract value by entity (CAD millions),2025-2026,Health Canada,73.86655238,CAD millions,2025-2026 · Health Canada · 819 included records
+Original contract value by entity (CAD millions),2025-2026,Public Health Agency of Canada,93.32492978,CAD millions,2025-2026 · Public Health Agency of Canada · 668 included records
+Original contract value by entity (CAD millions),2025-2026,Transport Canada,138.54612087,CAD millions,"2025-2026 · Transport Canada · 1,289 included records"
+Original contract value by entity (CAD millions),2025-2026,Statistics Canada,34.84004094,CAD millions,2025-2026 · Statistics Canada · 206 included records
+Contract disclosure records by entity,2023-2024,Public Services and Procurement Canada,4694,records,"2023-2024 · Public Services and Procurement Canada · 4,694 included records"
+Contract disclosure records by entity,2023-2024,Employment and Social Development Canada,1076,records,"2023-2024 · Employment and Social Development Canada · 1,076 included records"
+Contract disclosure records by entity,2023-2024,Health Canada,1099,records,"2023-2024 · Health Canada · 1,099 included records"
+Contract disclosure records by entity,2023-2024,Public Health Agency of Canada,908,records,2023-2024 · Public Health Agency of Canada · 908 included records
+Contract disclosure records by entity,2023-2024,Transport Canada,1687,records,"2023-2024 · Transport Canada · 1,687 included records"
+Contract disclosure records by entity,2023-2024,Statistics Canada,277,records,2023-2024 · Statistics Canada · 277 included records
+Contract disclosure records by entity,2024-2025,Public Services and Procurement Canada,4378,records,"2024-2025 · Public Services and Procurement Canada · 4,378 included records"
+Contract disclosure records by entity,2024-2025,Employment and Social Development Canada,1129,records,"2024-2025 · Employment and Social Development Canada · 1,129 included records"
+Contract disclosure records by entity,2024-2025,Health Canada,858,records,2024-2025 · Health Canada · 858 included records
+Contract disclosure records by entity,2024-2025,Public Health Agency of Canada,706,records,2024-2025 · Public Health Agency of Canada · 706 included records
+Contract disclosure records by entity,2024-2025,Transport Canada,1382,records,"2024-2025 · Transport Canada · 1,382 included records"
+Contract disclosure records by entity,2024-2025,Statistics Canada,286,records,2024-2025 · Statistics Canada · 286 included records
+Contract disclosure records by entity,2025-2026,Public Services and Procurement Canada,4650,records,"2025-2026 · Public Services and Procurement Canada · 4,650 included records"
+Contract disclosure records by entity,2025-2026,Employment and Social Development Canada,927,records,2025-2026 · Employment and Social Development Canada · 927 included records
+Contract disclosure records by entity,2025-2026,Health Canada,819,records,2025-2026 · Health Canada · 819 included records
+Contract disclosure records by entity,2025-2026,Public Health Agency of Canada,668,records,2025-2026 · Public Health Agency of Canada · 668 included records
+Contract disclosure records by entity,2025-2026,Transport Canada,1289,records,"2025-2026 · Transport Canada · 1,289 included records"
+Contract disclosure records by entity,2025-2026,Statistics Canada,206,records,2025-2026 · Statistics Canada · 206 included records
+Median original contract value by entity (CAD thousands),2023-2024,Public Services and Procurement Canada,28.96107,CAD thousands,"2023-2024 · Public Services and Procurement Canada · 4,694 included records"
+Median original contract value by entity (CAD thousands),2023-2024,Employment and Social Development Canada,40.86,CAD thousands,"2023-2024 · Employment and Social Development Canada · 1,076 included records"
+Median original contract value by entity (CAD thousands),2023-2024,Health Canada,35.48087,CAD thousands,"2023-2024 · Health Canada · 1,099 included records"
+Median original contract value by entity (CAD thousands),2023-2024,Public Health Agency of Canada,24.01402,CAD thousands,2023-2024 · Public Health Agency of Canada · 908 included records
+Median original contract value by entity (CAD thousands),2023-2024,Transport Canada,28.225,CAD thousands,"2023-2024 · Transport Canada · 1,687 included records"
+Median original contract value by entity (CAD thousands),2023-2024,Statistics Canada,32.46264,CAD thousands,2023-2024 · Statistics Canada · 277 included records
+Median original contract value by entity (CAD thousands),2024-2025,Public Services and Procurement Canada,30.4865,CAD thousands,"2024-2025 · Public Services and Procurement Canada · 4,378 included records"
+Median original contract value by entity (CAD thousands),2024-2025,Employment and Social Development Canada,44.23663,CAD thousands,"2024-2025 · Employment and Social Development Canada · 1,129 included records"
+Median original contract value by entity (CAD thousands),2024-2025,Health Canada,30.7714,CAD thousands,2024-2025 · Health Canada · 858 included records
+Median original contract value by entity (CAD thousands),2024-2025,Public Health Agency of Canada,23.695035,CAD thousands,2024-2025 · Public Health Agency of Canada · 706 included records
+Median original contract value by entity (CAD thousands),2024-2025,Transport Canada,25.87131,CAD thousands,"2024-2025 · Transport Canada · 1,382 included records"
+Median original contract value by entity (CAD thousands),2024-2025,Statistics Canada,28.33108,CAD thousands,2024-2025 · Statistics Canada · 286 included records
+Median original contract value by entity (CAD thousands),2025-2026,Public Services and Procurement Canada,27.162635,CAD thousands,"2025-2026 · Public Services and Procurement Canada · 4,650 included records"
+Median original contract value by entity (CAD thousands),2025-2026,Employment and Social Development Canada,51.84,CAD thousands,2025-2026 · Employment and Social Development Canada · 927 included records
+Median original contract value by entity (CAD thousands),2025-2026,Health Canada,29.56692,CAD thousands,2025-2026 · Health Canada · 819 included records
+Median original contract value by entity (CAD thousands),2025-2026,Public Health Agency of Canada,21.422955,CAD thousands,2025-2026 · Public Health Agency of Canada · 668 included records
+Median original contract value by entity (CAD thousands),2025-2026,Transport Canada,28.80935,CAD thousands,"2025-2026 · Transport Canada · 1,289 included records"
+Median original contract value by entity (CAD thousands),2025-2026,Statistics Canada,39.776,CAD thousands,2025-2026 · Statistics Canada · 206 included records
+Distinct supplier-name groups by entity,2023-2024,Public Services and Procurement Canada,1625,supplier-name groups,"2023-2024 · Public Services and Procurement Canada · 4,694 included records"
+Distinct supplier-name groups by entity,2023-2024,Employment and Social Development Canada,420,supplier-name groups,"2023-2024 · Employment and Social Development Canada · 1,076 included records"
+Distinct supplier-name groups by entity,2023-2024,Health Canada,585,supplier-name groups,"2023-2024 · Health Canada · 1,099 included records"
+Distinct supplier-name groups by entity,2023-2024,Public Health Agency of Canada,371,supplier-name groups,2023-2024 · Public Health Agency of Canada · 908 included records
+Distinct supplier-name groups by entity,2023-2024,Transport Canada,758,supplier-name groups,"2023-2024 · Transport Canada · 1,687 included records"
+Distinct supplier-name groups by entity,2023-2024,Statistics Canada,166,supplier-name groups,2023-2024 · Statistics Canada · 277 included records
+Distinct supplier-name groups by entity,2024-2025,Public Services and Procurement Canada,1521,supplier-name groups,"2024-2025 · Public Services and Procurement Canada · 4,378 included records"
+Distinct supplier-name groups by entity,2024-2025,Employment and Social Development Canada,385,supplier-name groups,"2024-2025 · Employment and Social Development Canada · 1,129 included records"
+Distinct supplier-name groups by entity,2024-2025,Health Canada,484,supplier-name groups,2024-2025 · Health Canada · 858 included records
+Distinct supplier-name groups by entity,2024-2025,Public Health Agency of Canada,260,supplier-name groups,2024-2025 · Public Health Agency of Canada · 706 included records
+Distinct supplier-name groups by entity,2024-2025,Transport Canada,649,supplier-name groups,"2024-2025 · Transport Canada · 1,382 included records"
+Distinct supplier-name groups by entity,2024-2025,Statistics Canada,176,supplier-name groups,2024-2025 · Statistics Canada · 286 included records
+Distinct supplier-name groups by entity,2025-2026,Public Services and Procurement Canada,1618,supplier-name groups,"2025-2026 · Public Services and Procurement Canada · 4,650 included records"
+Distinct supplier-name groups by entity,2025-2026,Employment and Social Development Canada,316,supplier-name groups,2025-2026 · Employment and Social Development Canada · 927 included records
+Distinct supplier-name groups by entity,2025-2026,Health Canada,427,supplier-name groups,2025-2026 · Health Canada · 819 included records
+Distinct supplier-name groups by entity,2025-2026,Public Health Agency of Canada,248,supplier-name groups,2025-2026 · Public Health Agency of Canada · 668 included records
+Distinct supplier-name groups by entity,2025-2026,Transport Canada,576,supplier-name groups,"2025-2026 · Transport Canada · 1,289 included records"
+Distinct supplier-name groups by entity,2025-2026,Statistics Canada,139,supplier-name groups,2025-2026 · Statistics Canada · 206 included records
+Top five supplier-name groups · share of original value (%),2023-2024,Public Services and Procurement Canada,24.926745468226443,percent,"2023-2024 · Public Services and Procurement Canada · 4,694 included records"
+Top five supplier-name groups · share of original value (%),2023-2024,Employment and Social Development Canada,41.49459614358841,percent,"2023-2024 · Employment and Social Development Canada · 1,076 included records"
+Top five supplier-name groups · share of original value (%),2023-2024,Health Canada,86.3416966858482,percent,"2023-2024 · Health Canada · 1,099 included records"
+Top five supplier-name groups · share of original value (%),2023-2024,Public Health Agency of Canada,60.88108594093991,percent,2023-2024 · Public Health Agency of Canada · 908 included records
+Top five supplier-name groups · share of original value (%),2023-2024,Transport Canada,36.97016562069539,percent,"2023-2024 · Transport Canada · 1,687 included records"
+Top five supplier-name groups · share of original value (%),2023-2024,Statistics Canada,77.72747104937164,percent,2023-2024 · Statistics Canada · 277 included records
+Top five supplier-name groups · share of original value (%),2024-2025,Public Services and Procurement Canada,76.04864729888888,percent,"2024-2025 · Public Services and Procurement Canada · 4,378 included records"
+Top five supplier-name groups · share of original value (%),2024-2025,Employment and Social Development Canada,64.36744351892776,percent,"2024-2025 · Employment and Social Development Canada · 1,129 included records"
+Top five supplier-name groups · share of original value (%),2024-2025,Health Canada,23.82276304981746,percent,2024-2025 · Health Canada · 858 included records
+Top five supplier-name groups · share of original value (%),2024-2025,Public Health Agency of Canada,66.64511769479522,percent,2024-2025 · Public Health Agency of Canada · 706 included records
+Top five supplier-name groups · share of original value (%),2024-2025,Transport Canada,35.5764992362224,percent,"2024-2025 · Transport Canada · 1,382 included records"
+Top five supplier-name groups · share of original value (%),2024-2025,Statistics Canada,27.423098621634107,percent,2024-2025 · Statistics Canada · 286 included records
+Top five supplier-name groups · share of original value (%),2025-2026,Public Services and Procurement Canada,42.053983428006816,percent,"2025-2026 · Public Services and Procurement Canada · 4,650 included records"
+Top five supplier-name groups · share of original value (%),2025-2026,Employment and Social Development Canada,37.98074016128091,percent,2025-2026 · Employment and Social Development Canada · 927 included records
+Top five supplier-name groups · share of original value (%),2025-2026,Health Canada,25.63212041168233,percent,2025-2026 · Health Canada · 819 included records
+Top five supplier-name groups · share of original value (%),2025-2026,Public Health Agency of Canada,59.88512381605566,percent,2025-2026 · Public Health Agency of Canada · 668 included records
+Top five supplier-name groups · share of original value (%),2025-2026,Transport Canada,29.825822152591027,percent,"2025-2026 · Transport Canada · 1,289 included records"
+Top five supplier-name groups · share of original value (%),2025-2026,Statistics Canada,56.923632851506056,percent,2025-2026 · Statistics Canada · 206 included records
+Non-competitive share of reported original value (%),2023-2024,Public Services and Procurement Canada,8.823970445472638,percent,"2023-2024 · Public Services and Procurement Canada · 4,694 included records"
+Non-competitive share of reported original value (%),2023-2024,Employment and Social Development Canada,42.804773454009556,percent,"2023-2024 · Employment and Social Development Canada · 1,076 included records"
+Non-competitive share of reported original value (%),2023-2024,Health Canada,5.494525711841134,percent,"2023-2024 · Health Canada · 1,099 included records"
+Non-competitive share of reported original value (%),2023-2024,Public Health Agency of Canada,77.90700801103687,percent,2023-2024 · Public Health Agency of Canada · 908 included records
+Non-competitive share of reported original value (%),2023-2024,Transport Canada,9.802484085939565,percent,"2023-2024 · Transport Canada · 1,687 included records"
+Non-competitive share of reported original value (%),2023-2024,Statistics Canada,62.776640229167306,percent,2023-2024 · Statistics Canada · 277 included records
+Non-competitive share of reported original value (%),2024-2025,Public Services and Procurement Canada,3.172197821276469,percent,"2024-2025 · Public Services and Procurement Canada · 4,378 included records"
+Non-competitive share of reported original value (%),2024-2025,Employment and Social Development Canada,7.801841671684516,percent,"2024-2025 · Employment and Social Development Canada · 1,129 included records"
+Non-competitive share of reported original value (%),2024-2025,Health Canada,48.073022517647495,percent,2024-2025 · Health Canada · 858 included records
+Non-competitive share of reported original value (%),2024-2025,Public Health Agency of Canada,15.271119703162586,percent,2024-2025 · Public Health Agency of Canada · 706 included records
+Non-competitive share of reported original value (%),2024-2025,Transport Canada,16.04179735099463,percent,"2024-2025 · Transport Canada · 1,382 included records"
+Non-competitive share of reported original value (%),2024-2025,Statistics Canada,42.00066525768791,percent,2024-2025 · Statistics Canada · 286 included records
+Non-competitive share of reported original value (%),2025-2026,Public Services and Procurement Canada,6.458320007383886,percent,"2025-2026 · Public Services and Procurement Canada · 4,650 included records"
+Non-competitive share of reported original value (%),2025-2026,Employment and Social Development Canada,13.998882146173107,percent,2025-2026 · Employment and Social Development Canada · 927 included records
+Non-competitive share of reported original value (%),2025-2026,Health Canada,58.38030398136743,percent,2025-2026 · Health Canada · 819 included records
+Non-competitive share of reported original value (%),2025-2026,Public Health Agency of Canada,41.427991160712985,percent,2025-2026 · Public Health Agency of Canada · 668 included records
+Non-competitive share of reported original value (%),2025-2026,Transport Canada,21.28751924976216,percent,"2025-2026 · Transport Canada · 1,289 included records"
+Non-competitive share of reported original value (%),2025-2026,Statistics Canada,25.69702784051895,percent,2025-2026 · Statistics Canada · 206 included records
+Non-competitive share of disclosure records (%),2023-2024,Public Services and Procurement Canada,29.867916489135066,percent,"2023-2024 · Public Services and Procurement Canada · 4,694 included records"
+Non-competitive share of disclosure records (%),2023-2024,Employment and Social Development Canada,32.24907063197026,percent,"2023-2024 · Employment and Social Development Canada · 1,076 included records"
+Non-competitive share of disclosure records (%),2023-2024,Health Canada,59.05368516833485,percent,"2023-2024 · Health Canada · 1,099 included records"
+Non-competitive share of disclosure records (%),2023-2024,Public Health Agency of Canada,52.6431718061674,percent,2023-2024 · Public Health Agency of Canada · 908 included records
+Non-competitive share of disclosure records (%),2023-2024,Transport Canada,37.75933609958506,percent,"2023-2024 · Transport Canada · 1,687 included records"
+Non-competitive share of disclosure records (%),2023-2024,Statistics Canada,41.87725631768953,percent,2023-2024 · Statistics Canada · 277 included records
+Non-competitive share of disclosure records (%),2024-2025,Public Services and Procurement Canada,29.785290086797623,percent,"2024-2025 · Public Services and Procurement Canada · 4,378 included records"
+Non-competitive share of disclosure records (%),2024-2025,Employment and Social Development Canada,29.937998228520815,percent,"2024-2025 · Employment and Social Development Canada · 1,129 included records"
+Non-competitive share of disclosure records (%),2024-2025,Health Canada,68.64801864801865,percent,2024-2025 · Health Canada · 858 included records
+Non-competitive share of disclosure records (%),2024-2025,Public Health Agency of Canada,52.8328611898017,percent,2024-2025 · Public Health Agency of Canada · 706 included records
+Non-competitive share of disclosure records (%),2024-2025,Transport Canada,41.75108538350217,percent,"2024-2025 · Transport Canada · 1,382 included records"
+Non-competitive share of disclosure records (%),2024-2025,Statistics Canada,32.51748251748252,percent,2024-2025 · Statistics Canada · 286 included records
+Non-competitive share of disclosure records (%),2025-2026,Public Services and Procurement Canada,29.56989247311828,percent,"2025-2026 · Public Services and Procurement Canada · 4,650 included records"
+Non-competitive share of disclosure records (%),2025-2026,Employment and Social Development Canada,30.204962243797194,percent,2025-2026 · Employment and Social Development Canada · 927 included records
+Non-competitive share of disclosure records (%),2025-2026,Health Canada,68.25396825396825,percent,2025-2026 · Health Canada · 819 included records
+Non-competitive share of disclosure records (%),2025-2026,Public Health Agency of Canada,59.73053892215569,percent,2025-2026 · Public Health Agency of Canada · 668 included records
+Non-competitive share of disclosure records (%),2025-2026,Transport Canada,44.29790535298681,percent,"2025-2026 · Transport Canada · 1,289 included records"
+Non-competitive share of disclosure records (%),2025-2026,Statistics Canada,42.23300970873787,percent,2025-2026 · Statistics Canada · 206 included records
+Quarterly original contract value (CAD millions),Six selected entities,2023-2024 Q1,510.32323447,CAD millions,"2023-2024-Q1 · Six selected entities · 2,365 included records"
+Quarterly original contract value (CAD millions),Six selected entities,2023-2024 Q2,403.61445678,CAD millions,"2023-2024-Q2 · Six selected entities · 2,163 included records"
+Quarterly original contract value (CAD millions),Six selected entities,2023-2024 Q3,1319.32519269,CAD millions,"2023-2024-Q3 · Six selected entities · 2,629 included records"
+Quarterly original contract value (CAD millions),Six selected entities,2023-2024 Q4,751.04810756,CAD millions,"2023-2024-Q4 · Six selected entities · 2,584 included records"
+Quarterly original contract value (CAD millions),Six selected entities,2024-2025 Q1,523.82087434,CAD millions,"2024-2025-Q1 · Six selected entities · 2,227 included records"
+Quarterly original contract value (CAD millions),Six selected entities,2024-2025 Q2,488.83742691,CAD millions,"2024-2025-Q2 · Six selected entities · 2,114 included records"
+Quarterly original contract value (CAD millions),Six selected entities,2024-2025 Q3,3005.56212131,CAD millions,"2024-2025-Q3 · Six selected entities · 2,141 included records"
+Quarterly original contract value (CAD millions),Six selected entities,2024-2025 Q4,472.63252954,CAD millions,"2024-2025-Q4 · Six selected entities · 2,257 included records"
+Quarterly original contract value (CAD millions),Six selected entities,2025-2026 Q1,606.96101402,CAD millions,"2025-2026-Q1 · Six selected entities · 1,871 included records"
+Quarterly original contract value (CAD millions),Six selected entities,2025-2026 Q2,781.60524414,CAD millions,"2025-2026-Q2 · Six selected entities · 1,942 included records"
+Quarterly original contract value (CAD millions),Six selected entities,2025-2026 Q3,431.89328835,CAD millions,"2025-2026-Q3 · Six selected entities · 2,486 included records"
+Quarterly original contract value (CAD millions),Six selected entities,2025-2026 Q4,647.61274559,CAD millions,"2025-2026-Q4 · Six selected entities · 2,260 included records"
+Quarterly original contract value (CAD millions),Public Services and Procurement Canada,2023-2024 Q1,375.96115386,CAD millions,"2023-2024-Q1 · Public Services and Procurement Canada · 1,331 included records"
+Quarterly original contract value (CAD millions),Public Services and Procurement Canada,2023-2024 Q2,281.80738534,CAD millions,"2023-2024-Q2 · Public Services and Procurement Canada · 1,130 included records"
+Quarterly original contract value (CAD millions),Public Services and Procurement Canada,2023-2024 Q3,324.92677611,CAD millions,"2023-2024-Q3 · Public Services and Procurement Canada · 1,213 included records"
+Quarterly original contract value (CAD millions),Public Services and Procurement Canada,2023-2024 Q4,255.77944937,CAD millions,"2023-2024-Q4 · Public Services and Procurement Canada · 1,020 included records"
+Quarterly original contract value (CAD millions),Public Services and Procurement Canada,2024-2025 Q1,282.41321117,CAD millions,"2024-2025-Q1 · Public Services and Procurement Canada · 1,298 included records"
+Quarterly original contract value (CAD millions),Public Services and Procurement Canada,2024-2025 Q2,351.23043053,CAD millions,"2024-2025-Q2 · Public Services and Procurement Canada · 1,142 included records"
+Quarterly original contract value (CAD millions),Public Services and Procurement Canada,2024-2025 Q3,2883.24410758,CAD millions,2024-2025-Q3 · Public Services and Procurement Canada · 963 included records
+Quarterly original contract value (CAD millions),Public Services and Procurement Canada,2024-2025 Q4,211.67742048,CAD millions,2024-2025-Q4 · Public Services and Procurement Canada · 975 included records
+Quarterly original contract value (CAD millions),Public Services and Procurement Canada,2025-2026 Q1,453.80917476,CAD millions,"2025-2026-Q1 · Public Services and Procurement Canada · 1,094 included records"
+Quarterly original contract value (CAD millions),Public Services and Procurement Canada,2025-2026 Q2,705.33669158,CAD millions,"2025-2026-Q2 · Public Services and Procurement Canada · 1,079 included records"
+Quarterly original contract value (CAD millions),Public Services and Procurement Canada,2025-2026 Q3,313.28558401,CAD millions,"2025-2026-Q3 · Public Services and Procurement Canada · 1,341 included records"
+Quarterly original contract value (CAD millions),Public Services and Procurement Canada,2025-2026 Q4,453.90346241,CAD millions,"2025-2026-Q4 · Public Services and Procurement Canada · 1,136 included records"
+Quarterly original contract value (CAD millions),Employment and Social Development Canada,2023-2024 Q1,22.97055746,CAD millions,2023-2024-Q1 · Employment and Social Development Canada · 162 included records
+Quarterly original contract value (CAD millions),Employment and Social Development Canada,2023-2024 Q2,43.44990839,CAD millions,2023-2024-Q2 · Employment and Social Development Canada · 251 included records
+Quarterly original contract value (CAD millions),Employment and Social Development Canada,2023-2024 Q3,61.22645848,CAD millions,2023-2024-Q3 · Employment and Social Development Canada · 297 included records
+Quarterly original contract value (CAD millions),Employment and Social Development Canada,2023-2024 Q4,173.01860992,CAD millions,2023-2024-Q4 · Employment and Social Development Canada · 366 included records
+Quarterly original contract value (CAD millions),Employment and Social Development Canada,2024-2025 Q1,151.75121453,CAD millions,2024-2025-Q1 · Employment and Social Development Canada · 192 included records
+Quarterly original contract value (CAD millions),Employment and Social Development Canada,2024-2025 Q2,32.09150535,CAD millions,2024-2025-Q2 · Employment and Social Development Canada · 264 included records
+Quarterly original contract value (CAD millions),Employment and Social Development Canada,2024-2025 Q3,29.49249946,CAD millions,2024-2025-Q3 · Employment and Social Development Canada · 264 included records
+Quarterly original contract value (CAD millions),Employment and Social Development Canada,2024-2025 Q4,167.35099194,CAD millions,2024-2025-Q4 · Employment and Social Development Canada · 409 included records
+Quarterly original contract value (CAD millions),Employment and Social Development Canada,2025-2026 Q1,77.28936133,CAD millions,2025-2026-Q1 · Employment and Social Development Canada · 225 included records
+Quarterly original contract value (CAD millions),Employment and Social Development Canada,2025-2026 Q2,25.65768219,CAD millions,2025-2026-Q2 · Employment and Social Development Canada · 185 included records
+Quarterly original contract value (CAD millions),Employment and Social Development Canada,2025-2026 Q3,33.36978961,CAD millions,2025-2026-Q3 · Employment and Social Development Canada · 243 included records
+Quarterly original contract value (CAD millions),Employment and Social Development Canada,2025-2026 Q4,64.84290224,CAD millions,2025-2026-Q4 · Employment and Social Development Canada · 274 included records
+Quarterly original contract value (CAD millions),Health Canada,2023-2024 Q1,22.38570761,CAD millions,2023-2024-Q1 · Health Canada · 291 included records
+Quarterly original contract value (CAD millions),Health Canada,2023-2024 Q2,32.18889578,CAD millions,2023-2024-Q2 · Health Canada · 194 included records
+Quarterly original contract value (CAD millions),Health Canada,2023-2024 Q3,778.08174079,CAD millions,2023-2024-Q3 · Health Canada · 314 included records
+Quarterly original contract value (CAD millions),Health Canada,2023-2024 Q4,75.01643734,CAD millions,2023-2024-Q4 · Health Canada · 300 included records
+Quarterly original contract value (CAD millions),Health Canada,2024-2025 Q1,22.09937055,CAD millions,2024-2025-Q1 · Health Canada · 213 included records
+Quarterly original contract value (CAD millions),Health Canada,2024-2025 Q2,17.21106383,CAD millions,2024-2025-Q2 · Health Canada · 194 included records
+Quarterly original contract value (CAD millions),Health Canada,2024-2025 Q3,18.90731913,CAD millions,2024-2025-Q3 · Health Canada · 208 included records
+Quarterly original contract value (CAD millions),Health Canada,2024-2025 Q4,25.14175197,CAD millions,2024-2025-Q4 · Health Canada · 243 included records
+Quarterly original contract value (CAD millions),Health Canada,2025-2026 Q1,24.60712598,CAD millions,2025-2026-Q1 · Health Canada · 158 included records
+Quarterly original contract value (CAD millions),Health Canada,2025-2026 Q2,11.79709727,CAD millions,2025-2026-Q2 · Health Canada · 197 included records
+Quarterly original contract value (CAD millions),Health Canada,2025-2026 Q3,20.55027353,CAD millions,2025-2026-Q3 · Health Canada · 233 included records
+Quarterly original contract value (CAD millions),Health Canada,2025-2026 Q4,16.9120556,CAD millions,2025-2026-Q4 · Health Canada · 231 included records
+Quarterly original contract value (CAD millions),Public Health Agency of Canada,2023-2024 Q1,12.79191989,CAD millions,2023-2024-Q1 · Public Health Agency of Canada · 156 included records
+Quarterly original contract value (CAD millions),Public Health Agency of Canada,2023-2024 Q2,12.90546052,CAD millions,2023-2024-Q2 · Public Health Agency of Canada · 190 included records
+Quarterly original contract value (CAD millions),Public Health Agency of Canada,2023-2024 Q3,16.81524646,CAD millions,2023-2024-Q3 · Public Health Agency of Canada · 280 included records
+Quarterly original contract value (CAD millions),Public Health Agency of Canada,2023-2024 Q4,144.8761886,CAD millions,2023-2024-Q4 · Public Health Agency of Canada · 282 included records
+Quarterly original contract value (CAD millions),Public Health Agency of Canada,2024-2025 Q1,21.63631661,CAD millions,2024-2025-Q1 · Public Health Agency of Canada · 150 included records
+Quarterly original contract value (CAD millions),Public Health Agency of Canada,2024-2025 Q2,52.01793831,CAD millions,2024-2025-Q2 · Public Health Agency of Canada · 169 included records
+Quarterly original contract value (CAD millions),Public Health Agency of Canada,2024-2025 Q3,40.47422308,CAD millions,2024-2025-Q3 · Public Health Agency of Canada · 196 included records
+Quarterly original contract value (CAD millions),Public Health Agency of Canada,2024-2025 Q4,16.80355363,CAD millions,2024-2025-Q4 · Public Health Agency of Canada · 191 included records
+Quarterly original contract value (CAD millions),Public Health Agency of Canada,2025-2026 Q1,4.42898364,CAD millions,2025-2026-Q1 · Public Health Agency of Canada · 72 included records
+Quarterly original contract value (CAD millions),Public Health Agency of Canada,2025-2026 Q2,7.04973749,CAD millions,2025-2026-Q2 · Public Health Agency of Canada · 148 included records
+Quarterly original contract value (CAD millions),Public Health Agency of Canada,2025-2026 Q3,12.44775284,CAD millions,2025-2026-Q3 · Public Health Agency of Canada · 276 included records
+Quarterly original contract value (CAD millions),Public Health Agency of Canada,2025-2026 Q4,69.39845581,CAD millions,2025-2026-Q4 · Public Health Agency of Canada · 172 included records
+Quarterly original contract value (CAD millions),Transport Canada,2023-2024 Q1,46.54074034,CAD millions,2023-2024-Q1 · Transport Canada · 387 included records
+Quarterly original contract value (CAD millions),Transport Canada,2023-2024 Q2,31.04655108,CAD millions,2023-2024-Q2 · Transport Canada · 349 included records
+Quarterly original contract value (CAD millions),Transport Canada,2023-2024 Q3,85.41313417,CAD millions,2023-2024-Q3 · Transport Canada · 442 included records
+Quarterly original contract value (CAD millions),Transport Canada,2023-2024 Q4,69.36934987,CAD millions,2023-2024-Q4 · Transport Canada · 509 included records
+Quarterly original contract value (CAD millions),Transport Canada,2024-2025 Q1,41.70309546,CAD millions,2024-2025-Q1 · Transport Canada · 330 included records
+Quarterly original contract value (CAD millions),Transport Canada,2024-2025 Q2,32.69403141,CAD millions,2024-2025-Q2 · Transport Canada · 288 included records
+Quarterly original contract value (CAD millions),Transport Canada,2024-2025 Q3,28.19662662,CAD millions,2024-2025-Q3 · Transport Canada · 419 included records
+Quarterly original contract value (CAD millions),Transport Canada,2024-2025 Q4,42.02212709,CAD millions,2024-2025-Q4 · Transport Canada · 345 included records
+Quarterly original contract value (CAD millions),Transport Canada,2025-2026 Q1,40.67853298,CAD millions,2025-2026-Q1 · Transport Canada · 281 included records
+Quarterly original contract value (CAD millions),Transport Canada,2025-2026 Q2,25.50475817,CAD millions,2025-2026-Q2 · Transport Canada · 282 included records
+Quarterly original contract value (CAD millions),Transport Canada,2025-2026 Q3,34.76560136,CAD millions,2025-2026-Q3 · Transport Canada · 333 included records
+Quarterly original contract value (CAD millions),Transport Canada,2025-2026 Q4,37.59722836,CAD millions,2025-2026-Q4 · Transport Canada · 393 included records
+Quarterly original contract value (CAD millions),Statistics Canada,2023-2024 Q1,29.67315531,CAD millions,2023-2024-Q1 · Statistics Canada · 38 included records
+Quarterly original contract value (CAD millions),Statistics Canada,2023-2024 Q2,2.21625567,CAD millions,2023-2024-Q2 · Statistics Canada · 49 included records
+Quarterly original contract value (CAD millions),Statistics Canada,2023-2024 Q3,52.86183668,CAD millions,2023-2024-Q3 · Statistics Canada · 83 included records
+Quarterly original contract value (CAD millions),Statistics Canada,2023-2024 Q4,32.98807246,CAD millions,2023-2024-Q4 · Statistics Canada · 107 included records
+Quarterly original contract value (CAD millions),Statistics Canada,2024-2025 Q1,4.21766602,CAD millions,2024-2025-Q1 · Statistics Canada · 44 included records
+Quarterly original contract value (CAD millions),Statistics Canada,2024-2025 Q2,3.59245748,CAD millions,2024-2025-Q2 · Statistics Canada · 57 included records
+Quarterly original contract value (CAD millions),Statistics Canada,2024-2025 Q3,5.24734544,CAD millions,2024-2025-Q3 · Statistics Canada · 91 included records
+Quarterly original contract value (CAD millions),Statistics Canada,2024-2025 Q4,9.63668443,CAD millions,2024-2025-Q4 · Statistics Canada · 94 included records
+Quarterly original contract value (CAD millions),Statistics Canada,2025-2026 Q1,6.14783533,CAD millions,2025-2026-Q1 · Statistics Canada · 41 included records
+Quarterly original contract value (CAD millions),Statistics Canada,2025-2026 Q2,6.25927744,CAD millions,2025-2026-Q2 · Statistics Canada · 51 included records
+Quarterly original contract value (CAD millions),Statistics Canada,2025-2026 Q3,17.474287,CAD millions,2025-2026-Q3 · Statistics Canada · 60 included records
+Quarterly original contract value (CAD millions),Statistics Canada,2025-2026 Q4,4.95864117,CAD millions,2025-2026-Q4 · Statistics Canada · 54 included records
+Quarterly disclosure records,Six selected entities,2023-2024 Q1,2365,records,"2023-2024-Q1 · Six selected entities · 2,365 included records"
+Quarterly disclosure records,Six selected entities,2023-2024 Q2,2163,records,"2023-2024-Q2 · Six selected entities · 2,163 included records"
+Quarterly disclosure records,Six selected entities,2023-2024 Q3,2629,records,"2023-2024-Q3 · Six selected entities · 2,629 included records"
+Quarterly disclosure records,Six selected entities,2023-2024 Q4,2584,records,"2023-2024-Q4 · Six selected entities · 2,584 included records"
+Quarterly disclosure records,Six selected entities,2024-2025 Q1,2227,records,"2024-2025-Q1 · Six selected entities · 2,227 included records"
+Quarterly disclosure records,Six selected entities,2024-2025 Q2,2114,records,"2024-2025-Q2 · Six selected entities · 2,114 included records"
+Quarterly disclosure records,Six selected entities,2024-2025 Q3,2141,records,"2024-2025-Q3 · Six selected entities · 2,141 included records"
+Quarterly disclosure records,Six selected entities,2024-2025 Q4,2257,records,"2024-2025-Q4 · Six selected entities · 2,257 included records"
+Quarterly disclosure records,Six selected entities,2025-2026 Q1,1871,records,"2025-2026-Q1 · Six selected entities · 1,871 included records"
+Quarterly disclosure records,Six selected entities,2025-2026 Q2,1942,records,"2025-2026-Q2 · Six selected entities · 1,942 included records"
+Quarterly disclosure records,Six selected entities,2025-2026 Q3,2486,records,"2025-2026-Q3 · Six selected entities · 2,486 included records"
+Quarterly disclosure records,Six selected entities,2025-2026 Q4,2260,records,"2025-2026-Q4 · Six selected entities · 2,260 included records"
+Quarterly disclosure records,Public Services and Procurement Canada,2023-2024 Q1,1331,records,"2023-2024-Q1 · Public Services and Procurement Canada · 1,331 included records"
+Quarterly disclosure records,Public Services and Procurement Canada,2023-2024 Q2,1130,records,"2023-2024-Q2 · Public Services and Procurement Canada · 1,130 included records"
+Quarterly disclosure records,Public Services and Procurement Canada,2023-2024 Q3,1213,records,"2023-2024-Q3 · Public Services and Procurement Canada · 1,213 included records"
+Quarterly disclosure records,Public Services and Procurement Canada,2023-2024 Q4,1020,records,"2023-2024-Q4 · Public Services and Procurement Canada · 1,020 included records"
+Quarterly disclosure records,Public Services and Procurement Canada,2024-2025 Q1,1298,records,"2024-2025-Q1 · Public Services and Procurement Canada · 1,298 included records"
+Quarterly disclosure records,Public Services and Procurement Canada,2024-2025 Q2,1142,records,"2024-2025-Q2 · Public Services and Procurement Canada · 1,142 included records"
+Quarterly disclosure records,Public Services and Procurement Canada,2024-2025 Q3,963,records,2024-2025-Q3 · Public Services and Procurement Canada · 963 included records
+Quarterly disclosure records,Public Services and Procurement Canada,2024-2025 Q4,975,records,2024-2025-Q4 · Public Services and Procurement Canada · 975 included records
+Quarterly disclosure records,Public Services and Procurement Canada,2025-2026 Q1,1094,records,"2025-2026-Q1 · Public Services and Procurement Canada · 1,094 included records"
+Quarterly disclosure records,Public Services and Procurement Canada,2025-2026 Q2,1079,records,"2025-2026-Q2 · Public Services and Procurement Canada · 1,079 included records"
+Quarterly disclosure records,Public Services and Procurement Canada,2025-2026 Q3,1341,records,"2025-2026-Q3 · Public Services and Procurement Canada · 1,341 included records"
+Quarterly disclosure records,Public Services and Procurement Canada,2025-2026 Q4,1136,records,"2025-2026-Q4 · Public Services and Procurement Canada · 1,136 included records"
+Quarterly disclosure records,Employment and Social Development Canada,2023-2024 Q1,162,records,2023-2024-Q1 · Employment and Social Development Canada · 162 included records
+Quarterly disclosure records,Employment and Social Development Canada,2023-2024 Q2,251,records,2023-2024-Q2 · Employment and Social Development Canada · 251 included records
+Quarterly disclosure records,Employment and Social Development Canada,2023-2024 Q3,297,records,2023-2024-Q3 · Employment and Social Development Canada · 297 included records
+Quarterly disclosure records,Employment and Social Development Canada,2023-2024 Q4,366,records,2023-2024-Q4 · Employment and Social Development Canada · 366 included records
+Quarterly disclosure records,Employment and Social Development Canada,2024-2025 Q1,192,records,2024-2025-Q1 · Employment and Social Development Canada · 192 included records
+Quarterly disclosure records,Employment and Social Development Canada,2024-2025 Q2,264,records,2024-2025-Q2 · Employment and Social Development Canada · 264 included records
+Quarterly disclosure records,Employment and Social Development Canada,2024-2025 Q3,264,records,2024-2025-Q3 · Employment and Social Development Canada · 264 included records
+Quarterly disclosure records,Employment and Social Development Canada,2024-2025 Q4,409,records,2024-2025-Q4 · Employment and Social Development Canada · 409 included records
+Quarterly disclosure records,Employment and Social Development Canada,2025-2026 Q1,225,records,2025-2026-Q1 · Employment and Social Development Canada · 225 included records
+Quarterly disclosure records,Employment and Social Development Canada,2025-2026 Q2,185,records,2025-2026-Q2 · Employment and Social Development Canada · 185 included records
+Quarterly disclosure records,Employment and Social Development Canada,2025-2026 Q3,243,records,2025-2026-Q3 · Employment and Social Development Canada · 243 included records
+Quarterly disclosure records,Employment and Social Development Canada,2025-2026 Q4,274,records,2025-2026-Q4 · Employment and Social Development Canada · 274 included records
+Quarterly disclosure records,Health Canada,2023-2024 Q1,291,records,2023-2024-Q1 · Health Canada · 291 included records
+Quarterly disclosure records,Health Canada,2023-2024 Q2,194,records,2023-2024-Q2 · Health Canada · 194 included records
+Quarterly disclosure records,Health Canada,2023-2024 Q3,314,records,2023-2024-Q3 · Health Canada · 314 included records
+Quarterly disclosure records,Health Canada,2023-2024 Q4,300,records,2023-2024-Q4 · Health Canada · 300 included records
+Quarterly disclosure records,Health Canada,2024-2025 Q1,213,records,2024-2025-Q1 · Health Canada · 213 included records
+Quarterly disclosure records,Health Canada,2024-2025 Q2,194,records,2024-2025-Q2 · Health Canada · 194 included records
+Quarterly disclosure records,Health Canada,2024-2025 Q3,208,records,2024-2025-Q3 · Health Canada · 208 included records
+Quarterly disclosure records,Health Canada,2024-2025 Q4,243,records,2024-2025-Q4 · Health Canada · 243 included records
+Quarterly disclosure records,Health Canada,2025-2026 Q1,158,records,2025-2026-Q1 · Health Canada · 158 included records
+Quarterly disclosure records,Health Canada,2025-2026 Q2,197,records,2025-2026-Q2 · Health Canada · 197 included records
+Quarterly disclosure records,Health Canada,2025-2026 Q3,233,records,2025-2026-Q3 · Health Canada · 233 included records
+Quarterly disclosure records,Health Canada,2025-2026 Q4,231,records,2025-2026-Q4 · Health Canada · 231 included records
+Quarterly disclosure records,Public Health Agency of Canada,2023-2024 Q1,156,records,2023-2024-Q1 · Public Health Agency of Canada · 156 included records
+Quarterly disclosure records,Public Health Agency of Canada,2023-2024 Q2,190,records,2023-2024-Q2 · Public Health Agency of Canada · 190 included records
+Quarterly disclosure records,Public Health Agency of Canada,2023-2024 Q3,280,records,2023-2024-Q3 · Public Health Agency of Canada · 280 included records
+Quarterly disclosure records,Public Health Agency of Canada,2023-2024 Q4,282,records,2023-2024-Q4 · Public Health Agency of Canada · 282 included records
+Quarterly disclosure records,Public Health Agency of Canada,2024-2025 Q1,150,records,2024-2025-Q1 · Public Health Agency of Canada · 150 included records
+Quarterly disclosure records,Public Health Agency of Canada,2024-2025 Q2,169,records,2024-2025-Q2 · Public Health Agency of Canada · 169 included records
+Quarterly disclosure records,Public Health Agency of Canada,2024-2025 Q3,196,records,2024-2025-Q3 · Public Health Agency of Canada · 196 included records
+Quarterly disclosure records,Public Health Agency of Canada,2024-2025 Q4,191,records,2024-2025-Q4 · Public Health Agency of Canada · 191 included records
+Quarterly disclosure records,Public Health Agency of Canada,2025-2026 Q1,72,records,2025-2026-Q1 · Public Health Agency of Canada · 72 included records
+Quarterly disclosure records,Public Health Agency of Canada,2025-2026 Q2,148,records,2025-2026-Q2 · Public Health Agency of Canada · 148 included records
+Quarterly disclosure records,Public Health Agency of Canada,2025-2026 Q3,276,records,2025-2026-Q3 · Public Health Agency of Canada · 276 included records
+Quarterly disclosure records,Public Health Agency of Canada,2025-2026 Q4,172,records,2025-2026-Q4 · Public Health Agency of Canada · 172 included records
+Quarterly disclosure records,Transport Canada,2023-2024 Q1,387,records,2023-2024-Q1 · Transport Canada · 387 included records
+Quarterly disclosure records,Transport Canada,2023-2024 Q2,349,records,2023-2024-Q2 · Transport Canada · 349 included records
+Quarterly disclosure records,Transport Canada,2023-2024 Q3,442,records,2023-2024-Q3 · Transport Canada · 442 included records
+Quarterly disclosure records,Transport Canada,2023-2024 Q4,509,records,2023-2024-Q4 · Transport Canada · 509 included records
+Quarterly disclosure records,Transport Canada,2024-2025 Q1,330,records,2024-2025-Q1 · Transport Canada · 330 included records
+Quarterly disclosure records,Transport Canada,2024-2025 Q2,288,records,2024-2025-Q2 · Transport Canada · 288 included records
+Quarterly disclosure records,Transport Canada,2024-2025 Q3,419,records,2024-2025-Q3 · Transport Canada · 419 included records
+Quarterly disclosure records,Transport Canada,2024-2025 Q4,345,records,2024-2025-Q4 · Transport Canada · 345 included records
+Quarterly disclosure records,Transport Canada,2025-2026 Q1,281,records,2025-2026-Q1 · Transport Canada · 281 included records
+Quarterly disclosure records,Transport Canada,2025-2026 Q2,282,records,2025-2026-Q2 · Transport Canada · 282 included records
+Quarterly disclosure records,Transport Canada,2025-2026 Q3,333,records,2025-2026-Q3 · Transport Canada · 333 included records
+Quarterly disclosure records,Transport Canada,2025-2026 Q4,393,records,2025-2026-Q4 · Transport Canada · 393 included records
+Quarterly disclosure records,Statistics Canada,2023-2024 Q1,38,records,2023-2024-Q1 · Statistics Canada · 38 included records
+Quarterly disclosure records,Statistics Canada,2023-2024 Q2,49,records,2023-2024-Q2 · Statistics Canada · 49 included records
+Quarterly disclosure records,Statistics Canada,2023-2024 Q3,83,records,2023-2024-Q3 · Statistics Canada · 83 included records
+Quarterly disclosure records,Statistics Canada,2023-2024 Q4,107,records,2023-2024-Q4 · Statistics Canada · 107 included records
+Quarterly disclosure records,Statistics Canada,2024-2025 Q1,44,records,2024-2025-Q1 · Statistics Canada · 44 included records
+Quarterly disclosure records,Statistics Canada,2024-2025 Q2,57,records,2024-2025-Q2 · Statistics Canada · 57 included records
+Quarterly disclosure records,Statistics Canada,2024-2025 Q3,91,records,2024-2025-Q3 · Statistics Canada · 91 included records
+Quarterly disclosure records,Statistics Canada,2024-2025 Q4,94,records,2024-2025-Q4 · Statistics Canada · 94 included records
+Quarterly disclosure records,Statistics Canada,2025-2026 Q1,41,records,2025-2026-Q1 · Statistics Canada · 41 included records
+Quarterly disclosure records,Statistics Canada,2025-2026 Q2,51,records,2025-2026-Q2 · Statistics Canada · 51 included records
+Quarterly disclosure records,Statistics Canada,2025-2026 Q3,60,records,2025-2026-Q3 · Statistics Canada · 60 included records
+Quarterly disclosure records,Statistics Canada,2025-2026 Q4,54,records,2025-2026-Q4 · Statistics Canada · 54 included records
+Procurement route · original value (CAD millions),2023-2024 · Six selected entities,Advance contract award notice,43.59386398,CAD millions,"2023-2024 · Six selected entities · 9,741 cohort records"
+Procurement route · original value (CAD millions),2023-2024 · Six selected entities,Competitive · open bidding,1101.46405258,CAD millions,"2023-2024 · Six selected entities · 9,741 cohort records"
+Procurement route · original value (CAD millions),2023-2024 · Six selected entities,Competitive · traditional,1164.9471956,CAD millions,"2023-2024 · Six selected entities · 9,741 cohort records"
+Procurement route · original value (CAD millions),2023-2024 · Six selected entities,Competitive · selective,143.77189784,CAD millions,"2023-2024 · Six selected entities · 9,741 cohort records"
+Procurement route · original value (CAD millions),2023-2024 · Six selected entities,Non-competitive,530.5339815,CAD millions,"2023-2024 · Six selected entities · 9,741 cohort records"
+Procurement route · original value (CAD millions),2023-2024 · Public Services and Procurement Canada,Advance contract award notice,6.74323551,CAD millions,"2023-2024 · Public Services and Procurement Canada · 4,694 cohort records"
+Procurement route · original value (CAD millions),2023-2024 · Public Services and Procurement Canada,Competitive · open bidding,104.20326875,CAD millions,"2023-2024 · Public Services and Procurement Canada · 4,694 cohort records"
+Procurement route · original value (CAD millions),2023-2024 · Public Services and Procurement Canada,Competitive · traditional,1005.03877282,CAD millions,"2023-2024 · Public Services and Procurement Canada · 4,694 cohort records"
+Procurement route · original value (CAD millions),2023-2024 · Public Services and Procurement Canada,Competitive · selective,13.20684039,CAD millions,"2023-2024 · Public Services and Procurement Canada · 4,694 cohort records"
+Procurement route · original value (CAD millions),2023-2024 · Public Services and Procurement Canada,Non-competitive,109.28264721,CAD millions,"2023-2024 · Public Services and Procurement Canada · 4,694 cohort records"
+Procurement route · original value (CAD millions),2023-2024 · Employment and Social Development Canada,Advance contract award notice,2.9075674,CAD millions,"2023-2024 · Employment and Social Development Canada · 1,076 cohort records"
+Procurement route · original value (CAD millions),2023-2024 · Employment and Social Development Canada,Competitive · open bidding,106.84930607,CAD millions,"2023-2024 · Employment and Social Development Canada · 1,076 cohort records"
+Procurement route · original value (CAD millions),2023-2024 · Employment and Social Development Canada,Competitive · traditional,3.43515683,CAD millions,"2023-2024 · Employment and Social Development Canada · 1,076 cohort records"
+Procurement route · original value (CAD millions),2023-2024 · Employment and Social Development Canada,Competitive · selective,58.77430316,CAD millions,"2023-2024 · Employment and Social Development Canada · 1,076 cohort records"
+Procurement route · original value (CAD millions),2023-2024 · Employment and Social Development Canada,Non-competitive,128.69920079,CAD millions,"2023-2024 · Employment and Social Development Canada · 1,076 cohort records"
+Procurement route · original value (CAD millions),2023-2024 · Health Canada,Advance contract award notice,4.56410903,CAD millions,"2023-2024 · Health Canada · 1,099 cohort records"
+Procurement route · original value (CAD millions),2023-2024 · Health Canada,Competitive · open bidding,774.34875483,CAD millions,"2023-2024 · Health Canada · 1,099 cohort records"
+Procurement route · original value (CAD millions),2023-2024 · Health Canada,Competitive · traditional,37.170975,CAD millions,"2023-2024 · Health Canada · 1,099 cohort records"
+Procurement route · original value (CAD millions),2023-2024 · Health Canada,Competitive · selective,41.7166283,CAD millions,"2023-2024 · Health Canada · 1,099 cohort records"
+Procurement route · original value (CAD millions),2023-2024 · Health Canada,Non-competitive,49.87231436,CAD millions,"2023-2024 · Health Canada · 1,099 cohort records"
+Procurement route · original value (CAD millions),2023-2024 · Public Health Agency of Canada,Advance contract award notice,2.09695903,CAD millions,2023-2024 · Public Health Agency of Canada · 908 cohort records
+Procurement route · original value (CAD millions),2023-2024 · Public Health Agency of Canada,Competitive · open bidding,15.26702285,CAD millions,2023-2024 · Public Health Agency of Canada · 908 cohort records
+Procurement route · original value (CAD millions),2023-2024 · Public Health Agency of Canada,Competitive · traditional,21.75421579,CAD millions,2023-2024 · Public Health Agency of Canada · 908 cohort records
+Procurement route · original value (CAD millions),2023-2024 · Public Health Agency of Canada,Competitive · selective,2.28159832,CAD millions,2023-2024 · Public Health Agency of Canada · 908 cohort records
+Procurement route · original value (CAD millions),2023-2024 · Public Health Agency of Canada,Non-competitive,145.98901948,CAD millions,2023-2024 · Public Health Agency of Canada · 908 cohort records
+Procurement route · original value (CAD millions),2023-2024 · Transport Canada,Advance contract award notice,10.02905244,CAD millions,"2023-2024 · Transport Canada · 1,687 cohort records"
+Procurement route · original value (CAD millions),2023-2024 · Transport Canada,Competitive · open bidding,94.47131527,CAD millions,"2023-2024 · Transport Canada · 1,687 cohort records"
+Procurement route · original value (CAD millions),2023-2024 · Transport Canada,Competitive · traditional,93.87039602,CAD millions,"2023-2024 · Transport Canada · 1,687 cohort records"
+Procurement route · original value (CAD millions),2023-2024 · Transport Canada,Competitive · selective,11.22100147,CAD millions,"2023-2024 · Transport Canada · 1,687 cohort records"
+Procurement route · original value (CAD millions),2023-2024 · Transport Canada,Non-competitive,22.77801026,CAD millions,"2023-2024 · Transport Canada · 1,687 cohort records"
+Procurement route · original value (CAD millions),2023-2024 · Statistics Canada,Advance contract award notice,17.25294057,CAD millions,2023-2024 · Statistics Canada · 277 cohort records
+Procurement route · original value (CAD millions),2023-2024 · Statistics Canada,Competitive · open bidding,6.32438481,CAD millions,2023-2024 · Statistics Canada · 277 cohort records
+Procurement route · original value (CAD millions),2023-2024 · Statistics Canada,Competitive · traditional,3.67767914,CAD millions,2023-2024 · Statistics Canada · 277 cohort records
+Procurement route · original value (CAD millions),2023-2024 · Statistics Canada,Competitive · selective,16.5715262,CAD millions,2023-2024 · Statistics Canada · 277 cohort records
+Procurement route · original value (CAD millions),2023-2024 · Statistics Canada,Non-competitive,73.9127894,CAD millions,2023-2024 · Statistics Canada · 277 cohort records
+Procurement route · original value (CAD millions),2024-2025 · Six selected entities,Advance contract award notice,18.32480038,CAD millions,"2024-2025 · Six selected entities · 8,739 cohort records"
+Procurement route · original value (CAD millions),2024-2025 · Six selected entities,Competitive · open bidding,3035.62257087,CAD millions,"2024-2025 · Six selected entities · 8,739 cohort records"
+Procurement route · original value (CAD millions),2024-2025 · Six selected entities,Competitive · traditional,952.22826107,CAD millions,"2024-2025 · Six selected entities · 8,739 cohort records"
+Procurement route · original value (CAD millions),2024-2025 · Six selected entities,Competitive · selective,243.90041822,CAD millions,"2024-2025 · Six selected entities · 8,739 cohort records"
+Procurement route · original value (CAD millions),2024-2025 · Six selected entities,Non-competitive,240.77690156,CAD millions,"2024-2025 · Six selected entities · 8,739 cohort records"
+Procurement route · original value (CAD millions),2024-2025 · Public Services and Procurement Canada,Advance contract award notice,8.15831856,CAD millions,"2024-2025 · Public Services and Procurement Canada · 4,378 cohort records"
+Procurement route · original value (CAD millions),2024-2025 · Public Services and Procurement Canada,Competitive · open bidding,2767.82557062,CAD millions,"2024-2025 · Public Services and Procurement Canada · 4,378 cohort records"
+Procurement route · original value (CAD millions),2024-2025 · Public Services and Procurement Canada,Competitive · traditional,823.03966961,CAD millions,"2024-2025 · Public Services and Procurement Canada · 4,378 cohort records"
+Procurement route · original value (CAD millions),2024-2025 · Public Services and Procurement Canada,Competitive · selective,11.26414789,CAD millions,"2024-2025 · Public Services and Procurement Canada · 4,378 cohort records"
+Procurement route · original value (CAD millions),2024-2025 · Public Services and Procurement Canada,Non-competitive,118.27746308,CAD millions,"2024-2025 · Public Services and Procurement Canada · 4,378 cohort records"
+Procurement route · original value (CAD millions),2024-2025 · Employment and Social Development Canada,Advance contract award notice,0.9853953,CAD millions,"2024-2025 · Employment and Social Development Canada · 1,129 cohort records"
+Procurement route · original value (CAD millions),2024-2025 · Employment and Social Development Canada,Competitive · open bidding,159.26895383,CAD millions,"2024-2025 · Employment and Social Development Canada · 1,129 cohort records"
+Procurement route · original value (CAD millions),2024-2025 · Employment and Social Development Canada,Competitive · traditional,4.96034723,CAD millions,"2024-2025 · Employment and Social Development Canada · 1,129 cohort records"
+Procurement route · original value (CAD millions),2024-2025 · Employment and Social Development Canada,Competitive · selective,185.77097945,CAD millions,"2024-2025 · Employment and Social Development Canada · 1,129 cohort records"
+Procurement route · original value (CAD millions),2024-2025 · Employment and Social Development Canada,Non-competitive,29.70053547,CAD millions,"2024-2025 · Employment and Social Development Canada · 1,129 cohort records"
+Procurement route · original value (CAD millions),2024-2025 · Health Canada,Advance contract award notice,1.11494835,CAD millions,2024-2025 · Health Canada · 858 cohort records
+Procurement route · original value (CAD millions),2024-2025 · Health Canada,Competitive · open bidding,12.78621578,CAD millions,2024-2025 · Health Canada · 858 cohort records
+Procurement route · original value (CAD millions),2024-2025 · Health Canada,Competitive · traditional,16.15011442,CAD millions,2024-2025 · Health Canada · 858 cohort records
+Procurement route · original value (CAD millions),2024-2025 · Health Canada,Competitive · selective,13.23479309,CAD millions,2024-2025 · Health Canada · 858 cohort records
+Procurement route · original value (CAD millions),2024-2025 · Health Canada,Non-competitive,40.07343384,CAD millions,2024-2025 · Health Canada · 858 cohort records
+Procurement route · original value (CAD millions),2024-2025 · Public Health Agency of Canada,Advance contract award notice,3.3391641,CAD millions,2024-2025 · Public Health Agency of Canada · 706 cohort records
+Procurement route · original value (CAD millions),2024-2025 · Public Health Agency of Canada,Competitive · open bidding,70.58357441,CAD millions,2024-2025 · Public Health Agency of Canada · 706 cohort records
+Procurement route · original value (CAD millions),2024-2025 · Public Health Agency of Canada,Competitive · traditional,36.64524498,CAD millions,2024-2025 · Public Health Agency of Canada · 706 cohort records
+Procurement route · original value (CAD millions),2024-2025 · Public Health Agency of Canada,Competitive · selective,0.36926086,CAD millions,2024-2025 · Public Health Agency of Canada · 706 cohort records
+Procurement route · original value (CAD millions),2024-2025 · Public Health Agency of Canada,Non-competitive,19.99478728,CAD millions,2024-2025 · Public Health Agency of Canada · 706 cohort records
+Procurement route · original value (CAD millions),2024-2025 · Transport Canada,Advance contract award notice,4.5808504,CAD millions,"2024-2025 · Transport Canada · 1,382 cohort records"
+Procurement route · original value (CAD millions),2024-2025 · Transport Canada,Competitive · open bidding,22.59210467,CAD millions,"2024-2025 · Transport Canada · 1,382 cohort records"
+Procurement route · original value (CAD millions),2024-2025 · Transport Canada,Competitive · traditional,68.59716586,CAD millions,"2024-2025 · Transport Canada · 1,382 cohort records"
+Procurement route · original value (CAD millions),2024-2025 · Transport Canada,Competitive · selective,25.64677315,CAD millions,"2024-2025 · Transport Canada · 1,382 cohort records"
+Procurement route · original value (CAD millions),2024-2025 · Transport Canada,Non-competitive,23.1989865,CAD millions,"2024-2025 · Transport Canada · 1,382 cohort records"
+Procurement route · original value (CAD millions),2024-2025 · Statistics Canada,Advance contract award notice,0.14612367,CAD millions,2024-2025 · Statistics Canada · 286 cohort records
+Procurement route · original value (CAD millions),2024-2025 · Statistics Canada,Competitive · open bidding,2.56615156,CAD millions,2024-2025 · Statistics Canada · 286 cohort records
+Procurement route · original value (CAD millions),2024-2025 · Statistics Canada,Competitive · traditional,2.83571897,CAD millions,2024-2025 · Statistics Canada · 286 cohort records
+Procurement route · original value (CAD millions),2024-2025 · Statistics Canada,Competitive · selective,7.61446378,CAD millions,2024-2025 · Statistics Canada · 286 cohort records
+Procurement route · original value (CAD millions),2024-2025 · Statistics Canada,Non-competitive,9.53169539,CAD millions,2024-2025 · Statistics Canada · 286 cohort records
+Procurement route · original value (CAD millions),2025-2026 · Six selected entities,Advance contract award notice,10.47435765,CAD millions,"2025-2026 · Six selected entities · 8,559 cohort records"
+Procurement route · original value (CAD millions),2025-2026 · Six selected entities,Competitive · open bidding,234.20310939,CAD millions,"2025-2026 · Six selected entities · 8,559 cohort records"
+Procurement route · original value (CAD millions),2025-2026 · Six selected entities,Competitive · traditional,1815.31100717,CAD millions,"2025-2026 · Six selected entities · 8,559 cohort records"
+Procurement route · original value (CAD millions),2025-2026 · Six selected entities,Competitive · selective,135.28278188,CAD millions,"2025-2026 · Six selected entities · 8,559 cohort records"
+Procurement route · original value (CAD millions),2025-2026 · Six selected entities,Non-competitive,272.80103601,CAD millions,"2025-2026 · Six selected entities · 8,559 cohort records"
+Procurement route · original value (CAD millions),2025-2026 · Public Services and Procurement Canada,Advance contract award notice,3.73341108,CAD millions,"2025-2026 · Public Services and Procurement Canada · 4,650 cohort records"
+Procurement route · original value (CAD millions),2025-2026 · Public Services and Procurement Canada,Competitive · open bidding,68.53751688,CAD millions,"2025-2026 · Public Services and Procurement Canada · 4,650 cohort records"
+Procurement route · original value (CAD millions),2025-2026 · Public Services and Procurement Canada,Competitive · traditional,1709.93277017,CAD millions,"2025-2026 · Public Services and Procurement Canada · 4,650 cohort records"
+Procurement route · original value (CAD millions),2025-2026 · Public Services and Procurement Canada,Competitive · selective,19.72234155,CAD millions,"2025-2026 · Public Services and Procurement Canada · 4,650 cohort records"
+Procurement route · original value (CAD millions),2025-2026 · Public Services and Procurement Canada,Non-competitive,124.40887308,CAD millions,"2025-2026 · Public Services and Procurement Canada · 4,650 cohort records"
+Procurement route · original value (CAD millions),2025-2026 · Employment and Social Development Canada,Advance contract award notice,0.22115814,CAD millions,2025-2026 · Employment and Social Development Canada · 927 cohort records
+Procurement route · original value (CAD millions),2025-2026 · Employment and Social Development Canada,Competitive · open bidding,87.47687308,CAD millions,2025-2026 · Employment and Social Development Canada · 927 cohort records
+Procurement route · original value (CAD millions),2025-2026 · Employment and Social Development Canada,Competitive · traditional,20.36821394,CAD millions,2025-2026 · Employment and Social Development Canada · 927 cohort records
+Procurement route · original value (CAD millions),2025-2026 · Employment and Social Development Canada,Competitive · selective,64.93337593,CAD millions,2025-2026 · Employment and Social Development Canada · 927 cohort records
+Procurement route · original value (CAD millions),2025-2026 · Employment and Social Development Canada,Non-competitive,28.16011428,CAD millions,2025-2026 · Employment and Social Development Canada · 927 cohort records
+Procurement route · original value (CAD millions),2025-2026 · Health Canada,Advance contract award notice,4.15118891,CAD millions,2025-2026 · Health Canada · 819 cohort records
+Procurement route · original value (CAD millions),2025-2026 · Health Canada,Competitive · open bidding,7.66588138,CAD millions,2025-2026 · Health Canada · 819 cohort records
+Procurement route · original value (CAD millions),2025-2026 · Health Canada,Competitive · traditional,15.45042308,CAD millions,2025-2026 · Health Canada · 819 cohort records
+Procurement route · original value (CAD millions),2025-2026 · Health Canada,Competitive · selective,3.47554119,CAD millions,2025-2026 · Health Canada · 819 cohort records
+Procurement route · original value (CAD millions),2025-2026 · Health Canada,Non-competitive,43.12351782,CAD millions,2025-2026 · Health Canada · 819 cohort records
+Procurement route · original value (CAD millions),2025-2026 · Public Health Agency of Canada,Competitive · open bidding,35.88708705,CAD millions,2025-2026 · Public Health Agency of Canada · 668 cohort records
+Procurement route · original value (CAD millions),2025-2026 · Public Health Agency of Canada,Competitive · traditional,14.99425543,CAD millions,2025-2026 · Public Health Agency of Canada · 668 cohort records
+Procurement route · original value (CAD millions),2025-2026 · Public Health Agency of Canada,Competitive · selective,3.78094364,CAD millions,2025-2026 · Public Health Agency of Canada · 668 cohort records
+Procurement route · original value (CAD millions),2025-2026 · Public Health Agency of Canada,Non-competitive,38.66264366,CAD millions,2025-2026 · Public Health Agency of Canada · 668 cohort records
+Procurement route · original value (CAD millions),2025-2026 · Transport Canada,Advance contract award notice,2.36859952,CAD millions,"2025-2026 · Transport Canada · 1,289 cohort records"
+Procurement route · original value (CAD millions),2025-2026 · Transport Canada,Competitive · open bidding,15.984617,CAD millions,"2025-2026 · Transport Canada · 1,289 cohort records"
+Procurement route · original value (CAD millions),2025-2026 · Transport Canada,Competitive · traditional,51.980177,CAD millions,"2025-2026 · Transport Canada · 1,289 cohort records"
+Procurement route · original value (CAD millions),2025-2026 · Transport Canada,Competitive · selective,38.7196952,CAD millions,"2025-2026 · Transport Canada · 1,289 cohort records"
+Procurement route · original value (CAD millions),2025-2026 · Transport Canada,Non-competitive,29.49303215,CAD millions,"2025-2026 · Transport Canada · 1,289 cohort records"
+Procurement route · original value (CAD millions),2025-2026 · Statistics Canada,Competitive · open bidding,18.651134,CAD millions,2025-2026 · Statistics Canada · 206 cohort records
+Procurement route · original value (CAD millions),2025-2026 · Statistics Canada,Competitive · traditional,2.58516755,CAD millions,2025-2026 · Statistics Canada · 206 cohort records
+Procurement route · original value (CAD millions),2025-2026 · Statistics Canada,Competitive · selective,4.65088437,CAD millions,2025-2026 · Statistics Canada · 206 cohort records
+Procurement route · original value (CAD millions),2025-2026 · Statistics Canada,Non-competitive,8.95285502,CAD millions,2025-2026 · Statistics Canada · 206 cohort records
+Procurement route · disclosure records,2023-2024 · Six selected entities,Advance contract award notice,93,records,"2023-2024 · Six selected entities · 9,741 cohort records"
+Procurement route · disclosure records,2023-2024 · Six selected entities,Competitive · open bidding,813,records,"2023-2024 · Six selected entities · 9,741 cohort records"
+Procurement route · disclosure records,2023-2024 · Six selected entities,Competitive · traditional,4608,records,"2023-2024 · Six selected entities · 9,741 cohort records"
+Procurement route · disclosure records,2023-2024 · Six selected entities,Competitive · selective,598,records,"2023-2024 · Six selected entities · 9,741 cohort records"
+Procurement route · disclosure records,2023-2024 · Six selected entities,Non-competitive,3629,records,"2023-2024 · Six selected entities · 9,741 cohort records"
+Procurement route · disclosure records,2023-2024 · Public Services and Procurement Canada,Advance contract award notice,21,records,"2023-2024 · Public Services and Procurement Canada · 4,694 cohort records"
+Procurement route · disclosure records,2023-2024 · Public Services and Procurement Canada,Competitive · open bidding,97,records,"2023-2024 · Public Services and Procurement Canada · 4,694 cohort records"
+Procurement route · disclosure records,2023-2024 · Public Services and Procurement Canada,Competitive · traditional,3093,records,"2023-2024 · Public Services and Procurement Canada · 4,694 cohort records"
+Procurement route · disclosure records,2023-2024 · Public Services and Procurement Canada,Competitive · selective,81,records,"2023-2024 · Public Services and Procurement Canada · 4,694 cohort records"
+Procurement route · disclosure records,2023-2024 · Public Services and Procurement Canada,Non-competitive,1402,records,"2023-2024 · Public Services and Procurement Canada · 4,694 cohort records"
+Procurement route · disclosure records,2023-2024 · Employment and Social Development Canada,Advance contract award notice,5,records,"2023-2024 · Employment and Social Development Canada · 1,076 cohort records"
+Procurement route · disclosure records,2023-2024 · Employment and Social Development Canada,Competitive · open bidding,360,records,"2023-2024 · Employment and Social Development Canada · 1,076 cohort records"
+Procurement route · disclosure records,2023-2024 · Employment and Social Development Canada,Competitive · traditional,25,records,"2023-2024 · Employment and Social Development Canada · 1,076 cohort records"
+Procurement route · disclosure records,2023-2024 · Employment and Social Development Canada,Competitive · selective,339,records,"2023-2024 · Employment and Social Development Canada · 1,076 cohort records"
+Procurement route · disclosure records,2023-2024 · Employment and Social Development Canada,Non-competitive,347,records,"2023-2024 · Employment and Social Development Canada · 1,076 cohort records"
+Procurement route · disclosure records,2023-2024 · Health Canada,Advance contract award notice,8,records,"2023-2024 · Health Canada · 1,099 cohort records"
+Procurement route · disclosure records,2023-2024 · Health Canada,Competitive · open bidding,153,records,"2023-2024 · Health Canada · 1,099 cohort records"
+Procurement route · disclosure records,2023-2024 · Health Canada,Competitive · traditional,245,records,"2023-2024 · Health Canada · 1,099 cohort records"
+Procurement route · disclosure records,2023-2024 · Health Canada,Competitive · selective,44,records,"2023-2024 · Health Canada · 1,099 cohort records"
+Procurement route · disclosure records,2023-2024 · Health Canada,Non-competitive,649,records,"2023-2024 · Health Canada · 1,099 cohort records"
+Procurement route · disclosure records,2023-2024 · Public Health Agency of Canada,Advance contract award notice,3,records,2023-2024 · Public Health Agency of Canada · 908 cohort records
+Procurement route · disclosure records,2023-2024 · Public Health Agency of Canada,Competitive · open bidding,114,records,2023-2024 · Public Health Agency of Canada · 908 cohort records
+Procurement route · disclosure records,2023-2024 · Public Health Agency of Canada,Competitive · traditional,297,records,2023-2024 · Public Health Agency of Canada · 908 cohort records
+Procurement route · disclosure records,2023-2024 · Public Health Agency of Canada,Competitive · selective,16,records,2023-2024 · Public Health Agency of Canada · 908 cohort records
+Procurement route · disclosure records,2023-2024 · Public Health Agency of Canada,Non-competitive,478,records,2023-2024 · Public Health Agency of Canada · 908 cohort records
+Procurement route · disclosure records,2023-2024 · Transport Canada,Advance contract award notice,55,records,"2023-2024 · Transport Canada · 1,687 cohort records"
+Procurement route · disclosure records,2023-2024 · Transport Canada,Competitive · open bidding,78,records,"2023-2024 · Transport Canada · 1,687 cohort records"
+Procurement route · disclosure records,2023-2024 · Transport Canada,Competitive · traditional,845,records,"2023-2024 · Transport Canada · 1,687 cohort records"
+Procurement route · disclosure records,2023-2024 · Transport Canada,Competitive · selective,72,records,"2023-2024 · Transport Canada · 1,687 cohort records"
+Procurement route · disclosure records,2023-2024 · Transport Canada,Non-competitive,637,records,"2023-2024 · Transport Canada · 1,687 cohort records"
+Procurement route · disclosure records,2023-2024 · Statistics Canada,Advance contract award notice,1,records,2023-2024 · Statistics Canada · 277 cohort records
+Procurement route · disclosure records,2023-2024 · Statistics Canada,Competitive · open bidding,11,records,2023-2024 · Statistics Canada · 277 cohort records
+Procurement route · disclosure records,2023-2024 · Statistics Canada,Competitive · traditional,103,records,2023-2024 · Statistics Canada · 277 cohort records
+Procurement route · disclosure records,2023-2024 · Statistics Canada,Competitive · selective,46,records,2023-2024 · Statistics Canada · 277 cohort records
+Procurement route · disclosure records,2023-2024 · Statistics Canada,Non-competitive,116,records,2023-2024 · Statistics Canada · 277 cohort records
+Procurement route · disclosure records,2024-2025 · Six selected entities,Advance contract award notice,72,records,"2024-2025 · Six selected entities · 8,739 cohort records"
+Procurement route · disclosure records,2024-2025 · Six selected entities,Competitive · open bidding,713,records,"2024-2025 · Six selected entities · 8,739 cohort records"
+Procurement route · disclosure records,2024-2025 · Six selected entities,Competitive · traditional,3988,records,"2024-2025 · Six selected entities · 8,739 cohort records"
+Procurement route · disclosure records,2024-2025 · Six selected entities,Competitive · selective,692,records,"2024-2025 · Six selected entities · 8,739 cohort records"
+Procurement route · disclosure records,2024-2025 · Six selected entities,Non-competitive,3274,records,"2024-2025 · Six selected entities · 8,739 cohort records"
+Procurement route · disclosure records,2024-2025 · Public Services and Procurement Canada,Advance contract award notice,30,records,"2024-2025 · Public Services and Procurement Canada · 4,378 cohort records"
+Procurement route · disclosure records,2024-2025 · Public Services and Procurement Canada,Competitive · open bidding,115,records,"2024-2025 · Public Services and Procurement Canada · 4,378 cohort records"
+Procurement route · disclosure records,2024-2025 · Public Services and Procurement Canada,Competitive · traditional,2853,records,"2024-2025 · Public Services and Procurement Canada · 4,378 cohort records"
+Procurement route · disclosure records,2024-2025 · Public Services and Procurement Canada,Competitive · selective,76,records,"2024-2025 · Public Services and Procurement Canada · 4,378 cohort records"
+Procurement route · disclosure records,2024-2025 · Public Services and Procurement Canada,Non-competitive,1304,records,"2024-2025 · Public Services and Procurement Canada · 4,378 cohort records"
+Procurement route · disclosure records,2024-2025 · Employment and Social Development Canada,Advance contract award notice,7,records,"2024-2025 · Employment and Social Development Canada · 1,129 cohort records"
+Procurement route · disclosure records,2024-2025 · Employment and Social Development Canada,Competitive · open bidding,366,records,"2024-2025 · Employment and Social Development Canada · 1,129 cohort records"
+Procurement route · disclosure records,2024-2025 · Employment and Social Development Canada,Competitive · traditional,16,records,"2024-2025 · Employment and Social Development Canada · 1,129 cohort records"
+Procurement route · disclosure records,2024-2025 · Employment and Social Development Canada,Competitive · selective,402,records,"2024-2025 · Employment and Social Development Canada · 1,129 cohort records"
+Procurement route · disclosure records,2024-2025 · Employment and Social Development Canada,Non-competitive,338,records,"2024-2025 · Employment and Social Development Canada · 1,129 cohort records"
+Procurement route · disclosure records,2024-2025 · Health Canada,Advance contract award notice,2,records,2024-2025 · Health Canada · 858 cohort records
+Procurement route · disclosure records,2024-2025 · Health Canada,Competitive · open bidding,85,records,2024-2025 · Health Canada · 858 cohort records
+Procurement route · disclosure records,2024-2025 · Health Canada,Competitive · traditional,160,records,2024-2025 · Health Canada · 858 cohort records
+Procurement route · disclosure records,2024-2025 · Health Canada,Competitive · selective,22,records,2024-2025 · Health Canada · 858 cohort records
+Procurement route · disclosure records,2024-2025 · Health Canada,Non-competitive,589,records,2024-2025 · Health Canada · 858 cohort records
+Procurement route · disclosure records,2024-2025 · Public Health Agency of Canada,Advance contract award notice,3,records,2024-2025 · Public Health Agency of Canada · 706 cohort records
+Procurement route · disclosure records,2024-2025 · Public Health Agency of Canada,Competitive · open bidding,78,records,2024-2025 · Public Health Agency of Canada · 706 cohort records
+Procurement route · disclosure records,2024-2025 · Public Health Agency of Canada,Competitive · traditional,247,records,2024-2025 · Public Health Agency of Canada · 706 cohort records
+Procurement route · disclosure records,2024-2025 · Public Health Agency of Canada,Competitive · selective,5,records,2024-2025 · Public Health Agency of Canada · 706 cohort records
+Procurement route · disclosure records,2024-2025 · Public Health Agency of Canada,Non-competitive,373,records,2024-2025 · Public Health Agency of Canada · 706 cohort records
+Procurement route · disclosure records,2024-2025 · Transport Canada,Advance contract award notice,28,records,"2024-2025 · Transport Canada · 1,382 cohort records"
+Procurement route · disclosure records,2024-2025 · Transport Canada,Competitive · open bidding,51,records,"2024-2025 · Transport Canada · 1,382 cohort records"
+Procurement route · disclosure records,2024-2025 · Transport Canada,Competitive · traditional,619,records,"2024-2025 · Transport Canada · 1,382 cohort records"
+Procurement route · disclosure records,2024-2025 · Transport Canada,Competitive · selective,107,records,"2024-2025 · Transport Canada · 1,382 cohort records"
+Procurement route · disclosure records,2024-2025 · Transport Canada,Non-competitive,577,records,"2024-2025 · Transport Canada · 1,382 cohort records"
+Procurement route · disclosure records,2024-2025 · Statistics Canada,Advance contract award notice,2,records,2024-2025 · Statistics Canada · 286 cohort records
+Procurement route · disclosure records,2024-2025 · Statistics Canada,Competitive · open bidding,18,records,2024-2025 · Statistics Canada · 286 cohort records
+Procurement route · disclosure records,2024-2025 · Statistics Canada,Competitive · traditional,93,records,2024-2025 · Statistics Canada · 286 cohort records
+Procurement route · disclosure records,2024-2025 · Statistics Canada,Competitive · selective,80,records,2024-2025 · Statistics Canada · 286 cohort records
+Procurement route · disclosure records,2024-2025 · Statistics Canada,Non-competitive,93,records,2024-2025 · Statistics Canada · 286 cohort records
+Procurement route · disclosure records,2025-2026 · Six selected entities,Advance contract award notice,33,records,"2025-2026 · Six selected entities · 8,559 cohort records"
+Procurement route · disclosure records,2025-2026 · Six selected entities,Competitive · open bidding,627,records,"2025-2026 · Six selected entities · 8,559 cohort records"
+Procurement route · disclosure records,2025-2026 · Six selected entities,Competitive · traditional,3944,records,"2025-2026 · Six selected entities · 8,559 cohort records"
+Procurement route · disclosure records,2025-2026 · Six selected entities,Competitive · selective,684,records,"2025-2026 · Six selected entities · 8,559 cohort records"
+Procurement route · disclosure records,2025-2026 · Six selected entities,Non-competitive,3271,records,"2025-2026 · Six selected entities · 8,559 cohort records"
+Procurement route · disclosure records,2025-2026 · Public Services and Procurement Canada,Advance contract award notice,9,records,"2025-2026 · Public Services and Procurement Canada · 4,650 cohort records"
+Procurement route · disclosure records,2025-2026 · Public Services and Procurement Canada,Competitive · open bidding,154,records,"2025-2026 · Public Services and Procurement Canada · 4,650 cohort records"
+Procurement route · disclosure records,2025-2026 · Public Services and Procurement Canada,Competitive · traditional,3034,records,"2025-2026 · Public Services and Procurement Canada · 4,650 cohort records"
+Procurement route · disclosure records,2025-2026 · Public Services and Procurement Canada,Competitive · selective,78,records,"2025-2026 · Public Services and Procurement Canada · 4,650 cohort records"
+Procurement route · disclosure records,2025-2026 · Public Services and Procurement Canada,Non-competitive,1375,records,"2025-2026 · Public Services and Procurement Canada · 4,650 cohort records"
+Procurement route · disclosure records,2025-2026 · Employment and Social Development Canada,Advance contract award notice,3,records,2025-2026 · Employment and Social Development Canada · 927 cohort records
+Procurement route · disclosure records,2025-2026 · Employment and Social Development Canada,Competitive · open bidding,269,records,2025-2026 · Employment and Social Development Canada · 927 cohort records
+Procurement route · disclosure records,2025-2026 · Employment and Social Development Canada,Competitive · traditional,30,records,2025-2026 · Employment and Social Development Canada · 927 cohort records
+Procurement route · disclosure records,2025-2026 · Employment and Social Development Canada,Competitive · selective,345,records,2025-2026 · Employment and Social Development Canada · 927 cohort records
+Procurement route · disclosure records,2025-2026 · Employment and Social Development Canada,Non-competitive,280,records,2025-2026 · Employment and Social Development Canada · 927 cohort records
+Procurement route · disclosure records,2025-2026 · Health Canada,Advance contract award notice,7,records,2025-2026 · Health Canada · 819 cohort records
+Procurement route · disclosure records,2025-2026 · Health Canada,Competitive · open bidding,69,records,2025-2026 · Health Canada · 819 cohort records
+Procurement route · disclosure records,2025-2026 · Health Canada,Competitive · traditional,178,records,2025-2026 · Health Canada · 819 cohort records
+Procurement route · disclosure records,2025-2026 · Health Canada,Competitive · selective,6,records,2025-2026 · Health Canada · 819 cohort records
+Procurement route · disclosure records,2025-2026 · Health Canada,Non-competitive,559,records,2025-2026 · Health Canada · 819 cohort records
+Procurement route · disclosure records,2025-2026 · Public Health Agency of Canada,Competitive · open bidding,46,records,2025-2026 · Public Health Agency of Canada · 668 cohort records
+Procurement route · disclosure records,2025-2026 · Public Health Agency of Canada,Competitive · traditional,215,records,2025-2026 · Public Health Agency of Canada · 668 cohort records
+Procurement route · disclosure records,2025-2026 · Public Health Agency of Canada,Competitive · selective,8,records,2025-2026 · Public Health Agency of Canada · 668 cohort records
+Procurement route · disclosure records,2025-2026 · Public Health Agency of Canada,Non-competitive,399,records,2025-2026 · Public Health Agency of Canada · 668 cohort records
+Procurement route · disclosure records,2025-2026 · Transport Canada,Advance contract award notice,14,records,"2025-2026 · Transport Canada · 1,289 cohort records"
+Procurement route · disclosure records,2025-2026 · Transport Canada,Competitive · open bidding,72,records,"2025-2026 · Transport Canada · 1,289 cohort records"
+Procurement route · disclosure records,2025-2026 · Transport Canada,Competitive · traditional,421,records,"2025-2026 · Transport Canada · 1,289 cohort records"
+Procurement route · disclosure records,2025-2026 · Transport Canada,Competitive · selective,211,records,"2025-2026 · Transport Canada · 1,289 cohort records"
+Procurement route · disclosure records,2025-2026 · Transport Canada,Non-competitive,571,records,"2025-2026 · Transport Canada · 1,289 cohort records"
+Procurement route · disclosure records,2025-2026 · Statistics Canada,Competitive · open bidding,17,records,2025-2026 · Statistics Canada · 206 cohort records
+Procurement route · disclosure records,2025-2026 · Statistics Canada,Competitive · traditional,66,records,2025-2026 · Statistics Canada · 206 cohort records
+Procurement route · disclosure records,2025-2026 · Statistics Canada,Competitive · selective,36,records,2025-2026 · Statistics Canada · 206 cohort records
+Procurement route · disclosure records,2025-2026 · Statistics Canada,Non-competitive,87,records,2025-2026 · Statistics Canada · 206 cohort records
+Commodity · original value (CAD millions),2023-2024 · Six selected entities,Goods,381.0343828,CAD millions,"2023-2024 · Six selected entities · 9,741 cohort records"
+Commodity · original value (CAD millions),2023-2024 · Six selected entities,Services,2063.39147705,CAD millions,"2023-2024 · Six selected entities · 9,741 cohort records"
+Commodity · original value (CAD millions),2023-2024 · Six selected entities,Construction,539.88513165,CAD millions,"2023-2024 · Six selected entities · 9,741 cohort records"
+Commodity · original value (CAD millions),2023-2024 · Public Services and Procurement Canada,Goods,46.75857514,CAD millions,"2023-2024 · Public Services and Procurement Canada · 4,694 cohort records"
+Commodity · original value (CAD millions),2023-2024 · Public Services and Procurement Canada,Services,655.7563966,CAD millions,"2023-2024 · Public Services and Procurement Canada · 4,694 cohort records"
+Commodity · original value (CAD millions),2023-2024 · Public Services and Procurement Canada,Construction,535.95979294,CAD millions,"2023-2024 · Public Services and Procurement Canada · 4,694 cohort records"
+Commodity · original value (CAD millions),2023-2024 · Employment and Social Development Canada,Goods,39.12568328,CAD millions,"2023-2024 · Employment and Social Development Canada · 1,076 cohort records"
+Commodity · original value (CAD millions),2023-2024 · Employment and Social Development Canada,Services,261.53985097,CAD millions,"2023-2024 · Employment and Social Development Canada · 1,076 cohort records"
+Commodity · original value (CAD millions),2023-2024 · Health Canada,Goods,44.42562046,CAD millions,"2023-2024 · Health Canada · 1,099 cohort records"
+Commodity · original value (CAD millions),2023-2024 · Health Canada,Services,861.17767973,CAD millions,"2023-2024 · Health Canada · 1,099 cohort records"
+Commodity · original value (CAD millions),2023-2024 · Health Canada,Construction,2.06948133,CAD millions,"2023-2024 · Health Canada · 1,099 cohort records"
+Commodity · original value (CAD millions),2023-2024 · Public Health Agency of Canada,Goods,131.99296667,CAD millions,2023-2024 · Public Health Agency of Canada · 908 cohort records
+Commodity · original value (CAD millions),2023-2024 · Public Health Agency of Canada,Services,53.58579219,CAD millions,2023-2024 · Public Health Agency of Canada · 908 cohort records
+Commodity · original value (CAD millions),2023-2024 · Public Health Agency of Canada,Construction,1.81005661,CAD millions,2023-2024 · Public Health Agency of Canada · 908 cohort records
+Commodity · original value (CAD millions),2023-2024 · Transport Canada,Goods,102.96999834,CAD millions,"2023-2024 · Transport Canada · 1,687 cohort records"
+Commodity · original value (CAD millions),2023-2024 · Transport Canada,Services,129.35397635,CAD millions,"2023-2024 · Transport Canada · 1,687 cohort records"
+Commodity · original value (CAD millions),2023-2024 · Transport Canada,Construction,0.04580077,CAD millions,"2023-2024 · Transport Canada · 1,687 cohort records"
+Commodity · original value (CAD millions),2023-2024 · Statistics Canada,Goods,15.76153891,CAD millions,2023-2024 · Statistics Canada · 277 cohort records
+Commodity · original value (CAD millions),2023-2024 · Statistics Canada,Services,101.97778121,CAD millions,2023-2024 · Statistics Canada · 277 cohort records
+Commodity · original value (CAD millions),2024-2025 · Six selected entities,Goods,197.24251238,CAD millions,"2024-2025 · Six selected entities · 8,739 cohort records"
+Commodity · original value (CAD millions),2024-2025 · Six selected entities,Services,3825.9686016,CAD millions,"2024-2025 · Six selected entities · 8,739 cohort records"
+Commodity · original value (CAD millions),2024-2025 · Six selected entities,Construction,467.64183812,CAD millions,"2024-2025 · Six selected entities · 8,739 cohort records"
+Commodity · original value (CAD millions),2024-2025 · Public Services and Procurement Canada,Goods,46.34564894,CAD millions,"2024-2025 · Public Services and Procurement Canada · 4,378 cohort records"
+Commodity · original value (CAD millions),2024-2025 · Public Services and Procurement Canada,Services,3218.60108772,CAD millions,"2024-2025 · Public Services and Procurement Canada · 4,378 cohort records"
+Commodity · original value (CAD millions),2024-2025 · Public Services and Procurement Canada,Construction,463.6184331,CAD millions,"2024-2025 · Public Services and Procurement Canada · 4,378 cohort records"
+Commodity · original value (CAD millions),2024-2025 · Employment and Social Development Canada,Goods,24.25529967,CAD millions,"2024-2025 · Employment and Social Development Canada · 1,129 cohort records"
+Commodity · original value (CAD millions),2024-2025 · Employment and Social Development Canada,Services,356.43091161,CAD millions,"2024-2025 · Employment and Social Development Canada · 1,129 cohort records"
+Commodity · original value (CAD millions),2024-2025 · Health Canada,Goods,34.3501863,CAD millions,2024-2025 · Health Canada · 858 cohort records
+Commodity · original value (CAD millions),2024-2025 · Health Canada,Services,47.56689446,CAD millions,2024-2025 · Health Canada · 858 cohort records
+Commodity · original value (CAD millions),2024-2025 · Health Canada,Construction,1.44242472,CAD millions,2024-2025 · Health Canada · 858 cohort records
+Commodity · original value (CAD millions),2024-2025 · Public Health Agency of Canada,Goods,30.9661946,CAD millions,2024-2025 · Public Health Agency of Canada · 706 cohort records
+Commodity · original value (CAD millions),2024-2025 · Public Health Agency of Canada,Services,97.47970095,CAD millions,2024-2025 · Public Health Agency of Canada · 706 cohort records
+Commodity · original value (CAD millions),2024-2025 · Public Health Agency of Canada,Construction,2.48613608,CAD millions,2024-2025 · Public Health Agency of Canada · 706 cohort records
+Commodity · original value (CAD millions),2024-2025 · Transport Canada,Goods,52.12542302,CAD millions,"2024-2025 · Transport Canada · 1,382 cohort records"
+Commodity · original value (CAD millions),2024-2025 · Transport Canada,Services,92.39561334,CAD millions,"2024-2025 · Transport Canada · 1,382 cohort records"
+Commodity · original value (CAD millions),2024-2025 · Transport Canada,Construction,0.09484422,CAD millions,"2024-2025 · Transport Canada · 1,382 cohort records"
+Commodity · original value (CAD millions),2024-2025 · Statistics Canada,Goods,9.19975985,CAD millions,2024-2025 · Statistics Canada · 286 cohort records
+Commodity · original value (CAD millions),2024-2025 · Statistics Canada,Services,13.49439352,CAD millions,2024-2025 · Statistics Canada · 286 cohort records
+Commodity · original value (CAD millions),2025-2026 · Six selected entities,Goods,265.02744081,CAD millions,"2025-2026 · Six selected entities · 8,559 cohort records"
+Commodity · original value (CAD millions),2025-2026 · Six selected entities,Services,1029.71825038,CAD millions,"2025-2026 · Six selected entities · 8,559 cohort records"
+Commodity · original value (CAD millions),2025-2026 · Six selected entities,Construction,1173.32660091,CAD millions,"2025-2026 · Six selected entities · 8,559 cohort records"
+Commodity · original value (CAD millions),2025-2026 · Public Services and Procurement Canada,Goods,70.06971609,CAD millions,"2025-2026 · Public Services and Procurement Canada · 4,650 cohort records"
+Commodity · original value (CAD millions),2025-2026 · Public Services and Procurement Canada,Services,685.51140958,CAD millions,"2025-2026 · Public Services and Procurement Canada · 4,650 cohort records"
+Commodity · original value (CAD millions),2025-2026 · Public Services and Procurement Canada,Construction,1170.75378709,CAD millions,"2025-2026 · Public Services and Procurement Canada · 4,650 cohort records"
+Commodity · original value (CAD millions),2025-2026 · Employment and Social Development Canada,Goods,43.05132028,CAD millions,2025-2026 · Employment and Social Development Canada · 927 cohort records
+Commodity · original value (CAD millions),2025-2026 · Employment and Social Development Canada,Services,158.10841509,CAD millions,2025-2026 · Employment and Social Development Canada · 927 cohort records
+Commodity · original value (CAD millions),2025-2026 · Health Canada,Goods,40.44753427,CAD millions,2025-2026 · Health Canada · 819 cohort records
+Commodity · original value (CAD millions),2025-2026 · Health Canada,Services,31.92100357,CAD millions,2025-2026 · Health Canada · 819 cohort records
+Commodity · original value (CAD millions),2025-2026 · Health Canada,Construction,1.49801454,CAD millions,2025-2026 · Health Canada · 819 cohort records
+Commodity · original value (CAD millions),2025-2026 · Public Health Agency of Canada,Goods,50.80532266,CAD millions,2025-2026 · Public Health Agency of Canada · 668 cohort records
+Commodity · original value (CAD millions),2025-2026 · Public Health Agency of Canada,Services,41.51260545,CAD millions,2025-2026 · Public Health Agency of Canada · 668 cohort records
+Commodity · original value (CAD millions),2025-2026 · Public Health Agency of Canada,Construction,1.00700167,CAD millions,2025-2026 · Public Health Agency of Canada · 668 cohort records
+Commodity · original value (CAD millions),2025-2026 · Transport Canada,Goods,53.04992901,CAD millions,"2025-2026 · Transport Canada · 1,289 cohort records"
+Commodity · original value (CAD millions),2025-2026 · Transport Canada,Services,85.42839425,CAD millions,"2025-2026 · Transport Canada · 1,289 cohort records"
+Commodity · original value (CAD millions),2025-2026 · Transport Canada,Construction,0.06779761,CAD millions,"2025-2026 · Transport Canada · 1,289 cohort records"
+Commodity · original value (CAD millions),2025-2026 · Statistics Canada,Goods,7.6036185,CAD millions,2025-2026 · Statistics Canada · 206 cohort records
+Commodity · original value (CAD millions),2025-2026 · Statistics Canada,Services,27.23642244,CAD millions,2025-2026 · Statistics Canada · 206 cohort records
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Six selected entities,SUN LIFE ASSURANCE COMPANY OF CANADA,747.54383822,CAD millions,2023-2024 · Six selected entities · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Six selected entities,WSP CANADA INC,100.070175,CAD millions,2023-2024 · Six selected entities · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Six selected entities,MICROSOFT CANADA INC.,98.38242882,CAD millions,2023-2024 · Six selected entities · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Six selected entities,WAZANA CLOTHING INC.,97.8180432,CAD millions,2023-2024 · Six selected entities · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Six selected entities,POMERLEAU INC.,76.24665414,CAD millions,2023-2024 · Six selected entities · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Six selected entities,MILESTONE ENVIRONMENTAL,56.72157452,CAD millions,2023-2024 · Six selected entities · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Six selected entities,COLLIERS PROJECT LEADERS INC.,42.99447621,CAD millions,2023-2024 · Six selected entities · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Six selected entities,WIKBORG REIN ADVOKATFIRMA AS,42.62014227,CAD millions,2023-2024 · Six selected entities · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Six selected entities,ACCENTURE INC.,34.46174319,CAD millions,2023-2024 · Six selected entities · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Six selected entities,WHITE BEAR INDUSTRIES LTD.,32.986947,CAD millions,2023-2024 · Six selected entities · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Public Services and Procurement Canada,WSP CANADA INC,99.76180041,CAD millions,2023-2024 · Public Services and Procurement Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Public Services and Procurement Canada,POMERLEAU INC.,76.24665414,CAD millions,2023-2024 · Public Services and Procurement Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Public Services and Procurement Canada,MILESTONE ENVIRONMENTAL,56.72157452,CAD millions,2023-2024 · Public Services and Procurement Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Public Services and Procurement Canada,COLLIERS PROJECT LEADERS INC.,42.99447621,CAD millions,2023-2024 · Public Services and Procurement Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Public Services and Procurement Canada,WHITE BEAR INDUSTRIES LTD.,32.986947,CAD millions,2023-2024 · Public Services and Procurement Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Public Services and Procurement Canada,CONSTRUCTION GAMARCO INC.,29.11763607,CAD millions,2023-2024 · Public Services and Procurement Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Public Services and Procurement Canada,ZEIDLER ARCHITECTURE INC.,28.25,CAD millions,2023-2024 · Public Services and Procurement Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Public Services and Procurement Canada,TRITECH GROUP LTD.,27.28761497,CAD millions,2023-2024 · Public Services and Procurement Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Public Services and Procurement Canada,EUROVIA QUÉBEC CONSTRUCTION INC.,26.36027456,CAD millions,2023-2024 · Public Services and Procurement Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Public Services and Procurement Canada,MCNALLY CONSTRUCTION INC,25.53715415,CAD millions,2023-2024 · Public Services and Procurement Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Employment and Social Development Canada,MICROSOFT CANADA INC.,35.03338498,CAD millions,2023-2024 · Employment and Social Development Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Employment and Social Development Canada,ACCENTURE INC.,34.46174319,CAD millions,2023-2024 · Employment and Social Development Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Employment and Social Development Canada,DELOITTE INC,23.6461247,CAD millions,2023-2024 · Employment and Social Development Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Employment and Social Development Canada,GATESTONE & CO. INC.,17.4942547,CAD millions,2023-2024 · Employment and Social Development Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Employment and Social Development Canada,FUJITSU CONSULTING (CANADA) INC.,14.12444161,CAD millions,2023-2024 · Employment and Social Development Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Employment and Social Development Canada,CGI,12.76711,CAD millions,2023-2024 · Employment and Social Development Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Employment and Social Development Canada,ORACLE CANADA ULC,12.34363783,CAD millions,2023-2024 · Employment and Social Development Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Employment and Social Development Canada,DELOITTE INC.,10.09012188,CAD millions,2023-2024 · Employment and Social Development Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Employment and Social Development Canada,DONNA CONA INC.,9.8778401,CAD millions,2023-2024 · Employment and Social Development Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Employment and Social Development Canada,"PRICEWATERHOUSECOOPERS LLP, ESIT CANADA ENTERPRISE SERVICES CO ESIT CANADA SERVICES AUX ENTREPRISES CIE, IN JOINT VENTURE",7.82472809,CAD millions,2023-2024 · Employment and Social Development Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Health Canada,SUN LIFE ASSURANCE COMPANY OF CANADA,747.54383822,CAD millions,2023-2024 · Health Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Health Canada,MAPLESOFT GROUP,10.29656,CAD millions,2023-2024 · Health Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Health Canada,VERITAAQ TECHNOLOGY HOUSE INC.,10.16179168,CAD millions,2023-2024 · Health Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Health Canada,COSSETTE MEDIA INC.,7.983902,CAD millions,2023-2024 · Health Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Health Canada,IFATHOM CORPORATION,7.71398802,CAD millions,2023-2024 · Health Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Health Canada,S. I. SYSTEMS ULC,7.16438329,CAD millions,2023-2024 · Health Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Health Canada,MICROSOFT CANADA INC,6.39667,CAD millions,2023-2024 · Health Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Health Canada,ADVANCED CHIPPEWA TECHNOLOGIES INC,5.92463164,CAD millions,2023-2024 · Health Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Health Canada,THINK ON INC.,4.05876225,CAD millions,2023-2024 · Health Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Health Canada,CISTEL TECHNOLOGY INC.,3.64425,CAD millions,2023-2024 · Health Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Public Health Agency of Canada,WAZANA CLOTHING INC.,97.8180432,CAD millions,2023-2024 · Public Health Agency of Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Public Health Agency of Canada,ILLUMINA CANADA ULC,6.81756825,CAD millions,2023-2024 · Public Health Agency of Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Public Health Agency of Canada,DALHOUSIE UNIVERSITY,3.64829899,CAD millions,2023-2024 · Public Health Agency of Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Public Health Agency of Canada,PALADIN SECURITY GROUP LTD.,3.2253024,CAD millions,2023-2024 · Public Health Agency of Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Public Health Agency of Canada,VANCOUVER AIRPORT AUTHORITY,2.57513295,CAD millions,2023-2024 · Public Health Agency of Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Public Health Agency of Canada,NATCO PHARMA (CANADA) INC,2.12828,CAD millions,2023-2024 · Public Health Agency of Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Public Health Agency of Canada,CARL ZEISS CANADA LTD,1.88372274,CAD millions,2023-2024 · Public Health Agency of Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Public Health Agency of Canada,BAYSHORE HEALTHCARE LTD,1.871054,CAD millions,2023-2024 · Public Health Agency of Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Public Health Agency of Canada,PALADIN RISK SOLUTIONS INC,1.8645,CAD millions,2023-2024 · Public Health Agency of Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Public Health Agency of Canada,RAYMOND CHABOT GRANT INC.,1.8645,CAD millions,2023-2024 · Public Health Agency of Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Transport Canada,WIKBORG REIN ADVOKATFIRMA AS,42.62014227,CAD millions,2023-2024 · Transport Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Transport Canada,PMG TECHNOLOGIES INC.,18.10330146,CAD millions,2023-2024 · Transport Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Transport Canada,TEKSYSTEMS,14.99755,CAD millions,2023-2024 · Transport Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Transport Canada,JASCO APPLIED SCIENCES ( CANADA) LTD,5.28109253,CAD millions,2023-2024 · Transport Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Transport Canada,VERITAAQ TECHNOLOGY HOUSE,4.90540458,CAD millions,2023-2024 · Transport Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Transport Canada,NOVA NETWORKS INC.,3.8482992,CAD millions,2023-2024 · Transport Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Transport Canada,MICROSOFT CANADA INC.,3.72045924,CAD millions,2023-2024 · Transport Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Transport Canada,DELOITTE LLP,3.544565,CAD millions,2023-2024 · Transport Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Transport Canada,HELITRADES INC.,3.48127148,CAD millions,2023-2024 · Transport Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Transport Canada,INNOVATE BC,3.35384,CAD millions,2023-2024 · Transport Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Statistics Canada,MICROSOFT CANADA INC.,59.6285846,CAD millions,2023-2024 · Statistics Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Statistics Canada,TRANSCONTINENTAL PRINTING 2005 G.P.,17.25294057,CAD millions,2023-2024 · Statistics Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Statistics Canada,ORACLE CANADA ULC,6.49369744,CAD millions,2023-2024 · Statistics Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Statistics Canada,NOVA NETWORKS INC,4.41323421,CAD millions,2023-2024 · Statistics Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Statistics Canada,TEKSYSTEMS CANADA CORP,3.72733914,CAD millions,2023-2024 · Statistics Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Statistics Canada,S.I. SYSTEMS ULC,3.68140492,CAD millions,2023-2024 · Statistics Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Statistics Canada,INTERCONTINENTAL TRUCK BODY (BC) INC.,3.58436,CAD millions,2023-2024 · Statistics Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Statistics Canada,GAMBIT IT SOLUTIONS INC.,1.59330113,CAD millions,2023-2024 · Statistics Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Statistics Canada,CANADIAN PUBLIC SAFETY OPERATIONS ORG,1.12201063,CAD millions,2023-2024 · Statistics Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2023-2024 · Statistics Canada,ESRI CANADA LIMITED,0.88563466,CAD millions,2023-2024 · Statistics Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Six selected entities,BGIS GLOBAL INTEGRATED SOLUTIONS CANADA,2641.9733812,CAD millions,2024-2025 · Six selected entities · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Six selected entities,MICROSOFT CANADA INC.,121.00119081,CAD millions,2024-2025 · Six selected entities · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Six selected entities,ACCENTURE INC.,95.91726719,CAD millions,2024-2025 · Six selected entities · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Six selected entities,LWTAB COMMUNICATIONS INC.,66.29480126,CAD millions,2024-2025 · Six selected entities · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Six selected entities,MAXIM CONSTRUCTION INC.,45.6688,CAD millions,2024-2025 · Six selected entities · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Six selected entities,OTTAWA DIVISION - CANADIAN CORPS,42.22733201,CAD millions,2024-2025 · Six selected entities · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Six selected entities,DRAGAGE OCEAN DS INC,39.35906079,CAD millions,2024-2025 · Six selected entities · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Six selected entities,INDUSTRA CONSTRUCTION CORP.,39.02822653,CAD millions,2024-2025 · Six selected entities · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Six selected entities,PRICEWATERHOUSECOOPERS LLP,36.46290966,CAD millions,2024-2025 · Six selected entities · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Six selected entities,METRO SUPPLY CHAIN INC.,33.65962518,CAD millions,2024-2025 · Six selected entities · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Public Services and Procurement Canada,BGIS GLOBAL INTEGRATED SOLUTIONS CANADA,2641.9733812,CAD millions,2024-2025 · Public Services and Procurement Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Public Services and Procurement Canada,LWTAB COMMUNICATIONS INC.,66.29480126,CAD millions,2024-2025 · Public Services and Procurement Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Public Services and Procurement Canada,MAXIM CONSTRUCTION INC.,45.6688,CAD millions,2024-2025 · Public Services and Procurement Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Public Services and Procurement Canada,OTTAWA DIVISION - CANADIAN CORPS,42.22733201,CAD millions,2024-2025 · Public Services and Procurement Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Public Services and Procurement Canada,DRAGAGE OCEAN DS INC,39.35906079,CAD millions,2024-2025 · Public Services and Procurement Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Public Services and Procurement Canada,INDUSTRA CONSTRUCTION CORP.,39.02822653,CAD millions,2024-2025 · Public Services and Procurement Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Public Services and Procurement Canada,PRICEWATERHOUSECOOPERS LLP,33.93732502,CAD millions,2024-2025 · Public Services and Procurement Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Public Services and Procurement Canada,COLLIERS PROJECT LEADERS INC.,30.38630409,CAD millions,2024-2025 · Public Services and Procurement Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Public Services and Procurement Canada,POMERLEAU INC.,29.75939067,CAD millions,2024-2025 · Public Services and Procurement Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Public Services and Procurement Canada,KEHOE MARINE CONSTRUCTION LTD.,28.46502756,CAD millions,2024-2025 · Public Services and Procurement Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Employment and Social Development Canada,MICROSOFT CANADA INC.,111.20362102,CAD millions,2024-2025 · Employment and Social Development Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Employment and Social Development Canada,ACCENTURE INC.,95.91726719,CAD millions,2024-2025 · Employment and Social Development Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Employment and Social Development Canada,IBM CANADA LIMITED/ IBM CANADA LIMITEE,22.82118845,CAD millions,2024-2025 · Employment and Social Development Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Employment and Social Development Canada,KPMG,8.71175464,CAD millions,2024-2025 · Employment and Social Development Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Employment and Social Development Canada,DONNA CONA INC.,6.38415073,CAD millions,2024-2025 · Employment and Social Development Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Employment and Social Development Canada,ESSENCEMEDIACOM CANADA ULC,6.2231219,CAD millions,2024-2025 · Employment and Social Development Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Employment and Social Development Canada,"PRICEWATERHOUSECOOPERS LLP ESIT CANADA ENTERPRISE SERVICES CO, ESITCANADA SERVICES AUX ENTREPRISES CIE IN JV",5.76448447,CAD millions,2024-2025 · Employment and Social Development Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Employment and Social Development Canada,SYSTEMATIX SOLUTIONS TI INC / SYSTEMATIX IT SOLUTIONS INC,4.8966818,CAD millions,2024-2025 · Employment and Social Development Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Employment and Social Development Canada,AFFINITIQUEST IO INC,4.6119002,CAD millions,2024-2025 · Employment and Social Development Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Employment and Social Development Canada,INDIGENUITY TECHNOLOGY INC,4.10527197,CAD millions,2024-2025 · Employment and Social Development Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Health Canada,PROCOM CONSULTANTS GROUP LTD,4.75678562,CAD millions,2024-2025 · Health Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Health Canada,DYNABOOK CANADA INC.,4.51841801,CAD millions,2024-2025 · Health Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Health Canada,ADVANCED CHIPPEWA TECHNOLOGIES INC,4.04458638,CAD millions,2024-2025 · Health Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Health Canada,AGILENT TECHNOLOGIES CANADA INC.,3.32231546,CAD millions,2024-2025 · Health Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Health Canada,MAPLESOFT GROUP,3.216432,CAD millions,2024-2025 · Health Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Health Canada,CANADIAN CORPS OF COMMISSIONNAIRES,2.02184773,CAD millions,2024-2025 · Health Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Health Canada,TEKSYSTEMS CANADA INC.,1.839075,CAD millions,2024-2025 · Health Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Health Canada,ASOKAN BUSINESS INTERIORS,1.67935063,CAD millions,2024-2025 · Health Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Health Canada,MICROSOFT CANADA INC,1.67781315,CAD millions,2024-2025 · Health Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Health Canada,IRON MOUNTAIN CANADA,1.61965681,CAD millions,2024-2025 · Health Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Public Health Agency of Canada,METRO SUPPLY CHAIN INC.,33.65962518,CAD millions,2024-2025 · Public Health Agency of Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Public Health Agency of Canada,"AMAZON WEB SERVICES, INC.",21.229875,CAD millions,2024-2025 · Public Health Agency of Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Public Health Agency of Canada,THE GOVERNORS OF THE UNIVERSITY OF CALGARY,20.84327951,CAD millions,2024-2025 · Public Health Agency of Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Public Health Agency of Canada,ILLUMINA CANADA ULC,7.3151066,CAD millions,2024-2025 · Public Health Agency of Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Public Health Agency of Canada,INNOMAR STRATEGIES INC.,4.21192029,CAD millions,2024-2025 · Public Health Agency of Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Public Health Agency of Canada,UNIVERSITY OF OTTAWA,3.28989042,CAD millions,2024-2025 · Public Health Agency of Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Public Health Agency of Canada,CANADIAN PAEDIATRIC SOCIETY,3.18902937,CAD millions,2024-2025 · Public Health Agency of Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Public Health Agency of Canada,NORTHERN MICRO,2.15490636,CAD millions,2024-2025 · Public Health Agency of Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Public Health Agency of Canada,FACTIVA LIMITED,2.14453597,CAD millions,2024-2025 · Public Health Agency of Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Public Health Agency of Canada,"REGENERON PHARMACEUTICAL, INC.",1.54890075,CAD millions,2024-2025 · Public Health Agency of Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Transport Canada,PMG TECHNOLOGIES INC.,15.4110284,CAD millions,2024-2025 · Transport Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Transport Canada,TEKSYSTEMS,12.1284708,CAD millions,2024-2025 · Transport Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Transport Canada,MICROSOFT CANADA INC.,9.7086693,CAD millions,2024-2025 · Transport Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Transport Canada,RAMCO SYSTEMS CANADA INC,9.44109915,CAD millions,2024-2025 · Transport Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Transport Canada,OXARO,4.76,CAD millions,2024-2025 · Transport Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Transport Canada,BELL TEXTRON CANADA LIMITED/BELL TEXTRON CANADA LIMITEE,3.31135436,CAD millions,2024-2025 · Transport Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Transport Canada,ORACLE CANADA ULC,3.17389065,CAD millions,2024-2025 · Transport Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Transport Canada,CANADIAN CORPS OF COMMISSIONAIRES,3.16544894,CAD millions,2024-2025 · Transport Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Transport Canada,NORTHERN MICRO INC,2.66172782,CAD millions,2024-2025 · Transport Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Transport Canada,HOPE AERO PROPELLORS & COMPONENTS,2.26,CAD millions,2024-2025 · Transport Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Statistics Canada,ESRI CANADA LIMITED,1.83184428,CAD millions,2024-2025 · Statistics Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Statistics Canada,CANADIAN CORPS OF COMMISSIONAIRES,1.6533503,CAD millions,2024-2025 · Statistics Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Statistics Canada,ECOLE DE LANGUES LA CITE INC.,1.11475,CAD millions,2024-2025 · Statistics Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Statistics Canada,M5 MARKETING COMMUNICATIONS INC.,0.83994595,CAD millions,2024-2025 · Statistics Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Statistics Canada,ORACLE CANADA ULC,0.78354953,CAD millions,2024-2025 · Statistics Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Statistics Canada,AVANT SYSTEMS GROUP MANITOBA LTD.,0.74523208,CAD millions,2024-2025 · Statistics Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Statistics Canada,HYPERTECHNOLOGIE CIARA INC.,0.6001995,CAD millions,2024-2025 · Statistics Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Statistics Canada,ASOKAN BUSINESS INTERIORS INC.,0.594672,CAD millions,2024-2025 · Statistics Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Statistics Canada,DONNA CONA INC AND IBM CANADA LIMITED IN JOINT VENTURE,0.565,CAD millions,2024-2025 · Statistics Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2024-2025 · Statistics Canada,LANGUAGE RESEARCH DEVELOPMENT GROUP(LRDG)INC,0.54172215,CAD millions,2024-2025 · Statistics Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Six selected entities,EBC INC,521.49243879,CAD millions,2025-2026 · Six selected entities · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Six selected entities,LEDCOR HIGHWAYS LTD.,108.98193495,CAD millions,2025-2026 · Six selected entities · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Six selected entities,PILITAK ENTERPRISES LTD,77.03535,CAD millions,2025-2026 · Six selected entities · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Six selected entities,CONSTRUCTION POLARIS CMM INC.,57.56913225,CAD millions,2025-2026 · Six selected entities · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Six selected entities,POMERLEAU INC.,45.02170899,CAD millions,2025-2026 · Six selected entities · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Six selected entities,DONNA CONA INC.,42.91676194,CAD millions,2025-2026 · Six selected entities · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Six selected entities,OTTAWA DIVISION - CANADIAN CORPS,37.13926408,CAD millions,2025-2026 · Six selected entities · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Six selected entities,COFOMO OTTAWA,34.94831348,CAD millions,2025-2026 · Six selected entities · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Six selected entities,NORR ARCHITECTS & ENGINEERS LIMITED,32.8253135,CAD millions,2025-2026 · Six selected entities · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Six selected entities,MILESTONE ENVIRONMENTAL,30.71372767,CAD millions,2025-2026 · Six selected entities · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Public Services and Procurement Canada,EBC INC,521.49243879,CAD millions,2025-2026 · Public Services and Procurement Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Public Services and Procurement Canada,LEDCOR HIGHWAYS LTD.,108.98193495,CAD millions,2025-2026 · Public Services and Procurement Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Public Services and Procurement Canada,PILITAK ENTERPRISES LTD,77.03535,CAD millions,2025-2026 · Public Services and Procurement Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Public Services and Procurement Canada,CONSTRUCTION POLARIS CMM INC.,57.56913225,CAD millions,2025-2026 · Public Services and Procurement Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Public Services and Procurement Canada,POMERLEAU INC.,45.02170899,CAD millions,2025-2026 · Public Services and Procurement Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Public Services and Procurement Canada,OTTAWA DIVISION - CANADIAN CORPS,37.13926408,CAD millions,2025-2026 · Public Services and Procurement Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Public Services and Procurement Canada,COFOMO OTTAWA,34.94831348,CAD millions,2025-2026 · Public Services and Procurement Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Public Services and Procurement Canada,NORR ARCHITECTS & ENGINEERS LIMITED,32.8253135,CAD millions,2025-2026 · Public Services and Procurement Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Public Services and Procurement Canada,MILESTONE ENVIRONMENTAL,30.71372767,CAD millions,2025-2026 · Public Services and Procurement Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Public Services and Procurement Canada,ERNST & YOUNG LLP,26.09262882,CAD millions,2025-2026 · Public Services and Procurement Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Employment and Social Development Canada,GATESTONE & CO. INC.,19.88321729,CAD millions,2025-2026 · Employment and Social Development Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Employment and Social Development Canada,DONNA CONA INC.,15.43267436,CAD millions,2025-2026 · Employment and Social Development Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Employment and Social Development Canada,BELL CANADA,14.85655497,CAD millions,2025-2026 · Employment and Social Development Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Employment and Social Development Canada,SOLOTECH INC,14.53500798,CAD millions,2025-2026 · Employment and Social Development Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Employment and Social Development Canada,MICROSOFT CANADA INC.,11.6945018,CAD millions,2025-2026 · Employment and Social Development Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Employment and Social Development Canada,XEROX CANADA LTD,8.78257731,CAD millions,2025-2026 · Employment and Social Development Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Employment and Social Development Canada,KPMG LLP,8.31650364,CAD millions,2025-2026 · Employment and Social Development Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Employment and Social Development Canada,ORACLE CANADA ULC,8.19917048,CAD millions,2025-2026 · Employment and Social Development Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Employment and Social Development Canada,IBM CANADA LTD.,4.15867208,CAD millions,2025-2026 · Employment and Social Development Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Employment and Social Development Canada,DELOITTE INC,4.01682524,CAD millions,2025-2026 · Employment and Social Development Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Health Canada,AGILENT TECHNOLOGIES CANADA INC.,4.43707578,CAD millions,2025-2026 · Health Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Health Canada,ADVANCED CHIPPEWA TECHNOLOGIES INC,4.35816196,CAD millions,2025-2026 · Health Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Health Canada,MICROSOFT CANADA INC,4.1723095,CAD millions,2025-2026 · Health Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Health Canada,NORTHERN MICRO,3.3356767,CAD millions,2025-2026 · Health Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Health Canada,CISTEL TECHNOLOGY INC.,2.63033971,CAD millions,2025-2026 · Health Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Health Canada,AB SCIEX LP,2.17522286,CAD millions,2025-2026 · Health Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Health Canada,COMMISSIONAIRES,2.1749835,CAD millions,2025-2026 · Health Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Health Canada,LANDAUER INC.,1.96297927,CAD millions,2025-2026 · Health Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Health Canada,LABWARE CANADA CORP.,1.95974344,CAD millions,2025-2026 · Health Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Health Canada,DYNABOOK CANADA INC.,1.90818049,CAD millions,2025-2026 · Health Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Public Health Agency of Canada,METRO SUPPLY CHAIN INC.,28.5440825,CAD millions,2025-2026 · Public Health Agency of Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Public Health Agency of Canada,EMERGENT BIOSOLUTIONS INC,16.290784,CAD millions,2025-2026 · Public Health Agency of Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Public Health Agency of Canada,EMERGENT BIODEFENSE OPERATIONS,5.303616,CAD millions,2025-2026 · Public Health Agency of Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Public Health Agency of Canada,MICROSOFT CANADA INC,2.88202973,CAD millions,2025-2026 · Public Health Agency of Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Public Health Agency of Canada,JML SYSTEMS AND SOLUTIONS INC.,2.86723752,CAD millions,2025-2026 · Public Health Agency of Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Public Health Agency of Canada,NORTHERN MICRO,2.69316302,CAD millions,2025-2026 · Public Health Agency of Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Public Health Agency of Canada,CCI RESEARCH INC,1.808,CAD millions,2025-2026 · Public Health Agency of Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Public Health Agency of Canada,ILLUMINA CANADA ULC,1.74545691,CAD millions,2025-2026 · Public Health Agency of Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Public Health Agency of Canada,LIFE TECHNOLOGIES INC.,1.54062006,CAD millions,2025-2026 · Public Health Agency of Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Public Health Agency of Canada,DECISIVE GROUP INC.,1.32118761,CAD millions,2025-2026 · Public Health Agency of Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Transport Canada,PMG TECHNOLOGIES INC.,16.46349186,CAD millions,2025-2026 · Transport Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Transport Canada,WESCAM INC,9.44401975,CAD millions,2025-2026 · Transport Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Transport Canada,EXPERIS CANADA INC,5.773848,CAD millions,2025-2026 · Transport Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Transport Canada,RAMBOLL CANADA INC,5.085,CAD millions,2025-2026 · Transport Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Transport Canada,TEKSYSTEMS,4.55616,CAD millions,2025-2026 · Transport Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Transport Canada,MAXCRAFT AVIONICS LTD.,4.17737433,CAD millions,2025-2026 · Transport Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Transport Canada,BELL TEXTRON CANADA LIMITED/BELL TEXTRON CANADA LIMITEE,3.69370956,CAD millions,2025-2026 · Transport Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Transport Canada,S.I. SYSTEMS,3.5173284,CAD millions,2025-2026 · Transport Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Transport Canada,ORACLE CANADA ULC,3.39708338,CAD millions,2025-2026 · Transport Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Transport Canada,NORTHERN MICRO INC,3.27289832,CAD millions,2025-2026 · Transport Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Statistics Canada,GROUPM CANADA INC D/B/A ESSENCEMEDIACOM CAN,13.3001,CAD millions,2025-2026 · Statistics Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Statistics Canada,MICROSOFT CANADA INC.,2.40894048,CAD millions,2025-2026 · Statistics Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Statistics Canada,BELL CANADA,1.90857001,CAD millions,2025-2026 · Statistics Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Statistics Canada,COMMISSIONAIRES OTTAWA,1.31837637,CAD millions,2025-2026 · Statistics Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Statistics Canada,CANADIAN TECHNICAL SOLUTIONS INC.,0.89623013,CAD millions,2025-2026 · Statistics Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Statistics Canada,ECOLE DE LANGUES LA CITE INC.,0.893,CAD millions,2025-2026 · Statistics Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Statistics Canada,ESRI CANADA LIMITED,0.85092718,CAD millions,2025-2026 · Statistics Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Statistics Canada,CANADIAN CORPS OF COMMISSIONAIRES,0.83150565,CAD millions,2025-2026 · Statistics Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Statistics Canada,ADOR TECH INC.,0.758456,CAD millions,2025-2026 · Statistics Canada · published supplier name
+Top 10 supplier-name groups by original value (CAD millions),2025-2026 · Statistics Canada,ADVANCED CHIPPEWA TECHNOLOGIES INCORPORATED,0.52463304,CAD millions,2025-2026 · Statistics Canada · published supplier name
