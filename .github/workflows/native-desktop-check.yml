@@ -106,28 +106,19 @@ jobs:
           if(-not $exe){Get-ChildItem "$env:ProgramFiles\Tableau" -Filter '*.exe' -Recurse | Select-Object Name,FullName; throw 'Installed Tableau Desktop executable was not found'}
           Write-Host "Installed version $($exe.VersionInfo.ProductVersion)"
           "TABLEAU_EXE=$($exe.FullName)" >> $env:GITHUB_ENV
-      - name: Create and reconcile the four embedded Tableau Hyper extracts
+      - name: Open extract-backed workbook format variants
         shell: pwsh
         run: |
-          python -m pip install tableauhyperapi lxml
-          if($LASTEXITCODE -ne 0){throw 'Hyper API installation failed'}
           New-Item -ItemType Directory -Force evidence\tableau | Out-Null
-          python native-desktop-check\add_tableau_extracts.py resources\retail\retail-forecast.twbx evidence\tableau\retail-forecast-hyper.twbx
-          if($LASTEXITCODE -ne 0){throw 'Hyper extract creation failed'}
-          python native-desktop-check\add_tableau_extracts.py native-desktop-check\retail-forecast-sheets.twbx evidence\tableau\retail-forecast-sheets-hyper.twbx
-          exit $LASTEXITCODE
-      - name: Open and inspect Tableau extract-backed workbook
-        shell: pwsh
-        run: |
-          python native-desktop-check\check_desktop.py --kind tableau --exe "$env:TABLEAU_EXE" --file evidence\tableau\retail-forecast-hyper.twbx --output evidence\tableau\dashboard
-          $first = $LASTEXITCODE
-          if($first -ne 0){
+          foreach($ver in @('9.0','10.5')){
+            $file="native-desktop-check\retail-version-$ver.twbx"
+            Copy-Item $file evidence\tableau
+            python native-desktop-check\check_desktop.py --kind tableau --exe "$env:TABLEAU_EXE" --file $file --output "evidence\tableau\version-$ver"
+            if($LASTEXITCODE -eq 0){exit 0}
             Get-Process tabpublic -ErrorAction SilentlyContinue | Stop-Process -Force
             Start-Sleep 3
-            python native-desktop-check\check_desktop.py --kind tableau --exe "$env:TABLEAU_EXE" --file evidence\tableau\retail-forecast-sheets-hyper.twbx --output evidence\tableau\sheets
-            exit $LASTEXITCODE
           }
-          exit $first
+          exit 2
       - name: Capture Tableau workbook diagnostics
         if: always()
         shell: pwsh

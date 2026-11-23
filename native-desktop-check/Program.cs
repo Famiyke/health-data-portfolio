@@ -75,6 +75,6 @@ catch (Exception ex)
     Console.WriteLine("Native Analysis Services model refresh finished");
     results = VerifyData();
 }
-File.WriteAllText(Path.Combine(evidence, "native-dax-results.json"), JsonSerializer.Serialize(results, new JsonSerializerOptions { WriteIndented=true }));
+File.WriteAllText(Path.Combine(evidence, "native-dax-results.json"), System.Text.Json.JsonSerializer.Serialize(results, new JsonSerializerOptions { WriteIndented=true }));
 Console.WriteLine("PASS: All six native model tables and six chart measures verified.");
 server.Disconnect();

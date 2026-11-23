@@ -17,6 +17,7 @@ from pywinauto import Desktop
 import win32api
 import win32con
 import win32gui
+import win32clipboard
 
 
 def improve_resolution():
@@ -119,7 +120,22 @@ def main():
         if error is not None:
             print('Workbook opening error dialog observed.', flush=True)
             capture(error, args.output, 'error-dialog')
-            read_controls(error, args.output, 'error-dialog-controls')
+            err_controls = read_controls(error, args.output, 'error-dialog-controls')
+            for control, name, kind in err_controls:
+                if 'copy error message' in name.lower():
+                    try:
+                        control.click_input()
+                        time.sleep(1)
+                        win32clipboard.OpenClipboard()
+                        try:
+                            detail = win32clipboard.GetClipboardData()
+                            (args.output/'error-detail.txt').write_text(str(detail), encoding='utf-8')
+                            print('Copied error details:', detail, flush=True)
+                        finally:
+                            win32clipboard.CloseClipboard()
+                    except Exception as exc:
+                        print('Unable to copy error details:', str(exc))
+                    break
             break
         if candidates:
             handle = candidates[0][0]
