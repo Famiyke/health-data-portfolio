@@ -1,0 +1,213 @@
+{
+  "national_change": [
+    {
+      "indicator": "Fair or poor perceived mental health",
+      "percent_2012": 7.8,
+      "percent_2022": 15.3,
+      "change_percentage_points": 7.5
+    },
+    {
+      "indicator": "Generalized anxiety disorder, past 12 months",
+      "percent_2012": 2.6,
+      "percent_2022": 5.2,
+      "change_percentage_points": 2.6
+    },
+    {
+      "indicator": "Good perceived mental health",
+      "percent_2012": 27.1,
+      "percent_2022": 31.6,
+      "change_percentage_points": 4.5
+    },
+    {
+      "indicator": "Major depressive episode, past 12 months",
+      "percent_2012": 4.7,
+      "percent_2022": 7.6,
+      "change_percentage_points": 2.9
+    },
+    {
+      "indicator": "Mental health care needs fully met",
+      "percent_2012": 11.6,
+      "percent_2022": 14.2,
+      "change_percentage_points": 2.6
+    },
+    {
+      "indicator": "Mental health care needs not met",
+      "percent_2012": 2.1,
+      "percent_2022": 4.0,
+      "change_percentage_points": 1.9
+    },
+    {
+      "indicator": "Mental health care needs partially met",
+      "percent_2012": 3.7,
+      "percent_2022": 6.8,
+      "change_percentage_points": 3.1
+    },
+    {
+      "indicator": "Mental health consultation or service use, past 12 months",
+      "percent_2012": 10.9,
+      "percent_2022": 16.8,
+      "change_percentage_points": 5.9
+    },
+    {
+      "indicator": "No perceived mental health care need",
+      "percent_2012": 82.5,
+      "percent_2022": 75.0,
+      "change_percentage_points": -7.5
+    },
+    {
+      "indicator": "Very good or excellent perceived mental health",
+      "percent_2012": 65.1,
+      "percent_2022": 53.1,
+      "change_percentage_points": -12.0
+    }
+  ],
+  "age_comparison_2022": [
+    {
+      "age_group": "15 to 24 years",
+      "percentage": 23.6,
+      "ci_lower": 21.4,
+      "ci_upper": 25.9,
+      "status": "Published"
+    },
+    {
+      "age_group": "25 to 44 years",
+      "percentage": 17.9,
+      "ci_lower": 16.1,
+      "ci_upper": 19.9,
+      "status": "Published"
+    },
+    {
+      "age_group": "45 to 64 years",
+      "percentage": 13.3,
+      "ci_lower": 11.8,
+      "ci_upper": 15.1,
+      "status": "Published"
+    },
+    {
+      "age_group": "65 years and over",
+      "percentage": 8.9,
+      "ci_lower": 7.6,
+      "ci_upper": 10.4,
+      "status": "Published"
+    }
+  ],
+  "provincial_unmet_need_2022": [
+    {
+      "province": "Alberta",
+      "percentage": 4.9,
+      "ci_lower": 3.5,
+      "ci_upper": 6.7,
+      "status": "Published"
+    },
+    {
+      "province": "British Columbia",
+      "percentage": 4.8,
+      "ci_lower": 3.4,
+      "ci_upper": 6.6,
+      "status": "Published"
+    },
+    {
+      "province": "Manitoba",
+      "percentage": 6.2,
+      "ci_lower": 3.7,
+      "ci_upper": 10.2,
+      "status": "Published"
+    },
+    {
+      "province": "New Brunswick",
+      "percentage": null,
+      "ci_lower": null,
+      "ci_upper": null,
+      "status": "Suppressed"
+    },
+    {
+      "province": "Newfoundland and Labrador",
+      "percentage": null,
+      "ci_lower": null,
+      "ci_upper": null,
+      "status": "Suppressed"
+    },
+    {
+      "province": "Nova Scotia",
+      "percentage": null,
+      "ci_lower": null,
+      "ci_upper": null,
+      "status": "Too unreliable to publish"
+    },
+    {
+      "province": "Ontario",
+      "percentage": 4.4,
+      "ci_lower": 3.7,
+      "ci_upper": 5.3,
+      "status": "Published"
+    },
+    {
+      "province": "Prince Edward Island",
+      "percentage": null,
+      "ci_lower": null,
+      "ci_upper": null,
+      "status": "Suppressed"
+    },
+    {
+      "province": "Quebec",
+      "percentage": 2.8,
+      "ci_lower": 2.1,
+      "ci_upper": 3.7,
+      "status": "Published"
+    },
+    {
+      "province": "Saskatchewan",
+      "percentage": null,
+      "ci_lower": null,
+      "ci_upper": null,
+      "status": "Too unreliable to publish"
+    }
+  ],
+  "disclosure_audit": [
+    {
+      "dimension": "age",
+      "status": "Published",
+      "records": 54
+    },
+    {
+      "dimension": "age",
+      "status": "Use with caution",
+      "records": 2
+    },
+    {
+      "dimension": "gender",
+      "status": "Published",
+      "records": 14
+    },
+    {
+      "dimension": "national",
+      "status": "Published",
+      "records": 20
+    },
+    {
+      "dimension": "population_group",
+      "status": "Published",
+      "records": 18
+    },
+    {
+      "dimension": "province",
+      "status": "Published",
+      "records": 97
+    },
+    {
+      "dimension": "province",
+      "status": "Suppressed",
+      "records": 18
+    },
+    {
+      "dimension": "province",
+      "status": "Too unreliable to publish",
+      "records": 5
+    },
+    {
+      "dimension": "province",
+      "status": "Use with caution",
+      "records": 20
+    }
+  ]
+}

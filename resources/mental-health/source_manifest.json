@@ -1,0 +1,21 @@
+{
+  "project": "mental-health",
+  "sources": [
+    {
+      "filename": "statcan_mh_13100465.zip",
+      "url": "https://www150.statcan.gc.ca/n1/tbl/csv/13100465-eng.zip",
+      "size_bytes": 2203776,
+      "sha256": "5b0c93056cd7d25bb5d6c236d92b2a680a52a863bf38b9c6f53c7a69b0ff36a6"
+    },
+    {
+      "filename": "statcan_mh_13100930.zip",
+      "url": "https://www150.statcan.gc.ca/n1/tbl/csv/13100930-eng.zip",
+      "size_bytes": 324450,
+      "sha256": "03a07d00cc8d76ee0283bfa00837aa97e222f5800b5844ad2ebee3e344b26cfe"
+    }
+  ],
+  "observations": 248,
+  "published_numeric": 225,
+  "quality_caution": 22,
+  "unavailable_or_suppressed": 23
+}

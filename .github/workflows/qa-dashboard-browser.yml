@@ -1,64 +1,25 @@
-name: Test reviewed dashboard pages in browser
+name: Test official-source dashboard pages in browser
 on:
   push:
     paths:
+      - 'project.html'
+      - 'assets/**'
       - 'dashboards/**'
+      - 'resources/**'
+      - 'qa_portfolio.py'
       - '.github/workflows/qa-dashboard-browser.yml'
   workflow_dispatch:
+permissions:
+  contents: read
 jobs:
-  test:
+  browser-qa:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with: {python-version: '3.11'}
+        with:
+          python-version: '3.11'
       - run: pip install playwright
       - run: python -m playwright install chromium --with-deps
-      - name: Verify selectors data visualization and responsive width
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          from playwright.sync_api import sync_playwright
-          Path("reviewed-dashboard-previews").mkdir(exist_ok=True)
-          with sync_playwright() as p:
-              b=p.chromium.launch(headless=True)
-              for name in ('diabetes','ontario','mental-health','readmissions'):
-                  for width in (375,1440):
-                      page=b.new_page(viewport={'width':width,'height':900})
-                      failures=[]
-                      page.on('pageerror',lambda e: failures.append(str(e)))
-                      page.goto((Path('dashboards')/(name+'.html')).resolve().as_uri())
-                      assert page.locator('#graph .bar').count()>0,(name,width,'empty graph')
-                      assert page.locator('#table-body tr').count()>0,(name,width,'empty table')
-                      assert not failures,(name,failures)
-                      w=page.evaluate('document.documentElement.scrollWidth')
-                      print(name,width,'document width',w,'bars',page.locator('#graph .bar').count(),flush=True)
-                      assert w<=width+2,(name,width,'horizontal overflow',w)
-                      if width==1440:
-                          if name=='mental-health':
-                              assert 'SIMULATED DATA ONLY' in page.locator('.notice').inner_text()
-                              assert 'Indigenous' not in page.locator('#graph').inner_text()
-                              assert page.locator('#view option').count()==3
-                          if name=='diabetes':
-                              assert 'REAL PUBLIC DATA' in page.locator('.notice').inner_text()
-                          if name=='ontario':
-                              assert page.locator('#view option').count()==3
-                          if name in ('diabetes','ontario','mental-health','readmissions'):
-                              page.locator('#view').select_option('1')
-                              assert page.locator('#graph .bar').count()>0
-                              if name!='mental-health':
-                                  opts=page.locator('#year option').count()
-                                  if opts>1:
-                                      page.locator('#year').select_option(index=0)
-                                      assert page.locator('#table-body tr').count()>0
-                          page.screenshot(path=f'reviewed-dashboard-previews/{name}.png',full_page=True)
-                      page.close()
-              b.close()
-          print('ALL DASHBOARD BROWSER CHECKS PASSED')
-          PY
-      - uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: reviewed-dashboard-previews
-          path: reviewed-dashboard-previews/*.png
+      - run: python qa_portfolio.py dashboards

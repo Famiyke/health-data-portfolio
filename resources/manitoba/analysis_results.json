@@ -1,0 +1,114 @@
+{
+  "latest_regional_diabetes": [
+    {
+      "health_region": "Interlake-Eastern Health Region",
+      "percent": 9.8,
+      "ci_lower": 7.5,
+      "ci_upper": 12.8,
+      "difference_from_manitoba_pp": 1.1
+    },
+    {
+      "health_region": "Northern Health Region",
+      "percent": 13.8,
+      "ci_lower": 8.4,
+      "ci_upper": 21.7,
+      "difference_from_manitoba_pp": 5.1
+    },
+    {
+      "health_region": "Prairie Mountain Health Region",
+      "percent": 7.9,
+      "ci_lower": 6.3,
+      "ci_upper": 9.9,
+      "difference_from_manitoba_pp": -0.8
+    },
+    {
+      "health_region": "Southern Health Region",
+      "percent": 8.3,
+      "ci_lower": 6.7,
+      "ci_upper": 10.3,
+      "difference_from_manitoba_pp": -0.4
+    },
+    {
+      "health_region": "Winnipeg-Churchill Health Region",
+      "percent": 8.6,
+      "ci_lower": 7.2,
+      "ci_upper": 10.2,
+      "difference_from_manitoba_pp": -0.1
+    }
+  ],
+  "ed_income_gaps": [
+    {
+      "setting": "Rural",
+      "visits_per_1000_lowest": 621.0,
+      "visits_per_1000_highest": 428.0,
+      "rate_ratio_lowest_to_highest": 1.45
+    },
+    {
+      "setting": "Urban",
+      "visits_per_1000_lowest": 465.0,
+      "visits_per_1000_highest": 209.0,
+      "rate_ratio_lowest_to_highest": 2.22
+    }
+  ],
+  "heart_attack_region": [
+    {
+      "health_region": "Interlake-Eastern",
+      "rate_per_1000_adults_40_plus": 3.22,
+      "source_ref": "Printed p. 116 (PDF p. 120)"
+    },
+    {
+      "health_region": "Northern",
+      "rate_per_1000_adults_40_plus": 5.39,
+      "source_ref": "Printed p. 116 (PDF p. 120)"
+    },
+    {
+      "health_region": "Prairie Mountain",
+      "rate_per_1000_adults_40_plus": 3.09,
+      "source_ref": "Printed p. 116 (PDF p. 120)"
+    },
+    {
+      "health_region": "Southern Health–Santé Sud",
+      "rate_per_1000_adults_40_plus": 3.19,
+      "source_ref": "Printed p. 116 (PDF p. 120)"
+    },
+    {
+      "health_region": "Winnipeg",
+      "rate_per_1000_adults_40_plus": 2.25,
+      "source_ref": "Printed p. 116 (PDF p. 120)"
+    }
+  ],
+  "source_audit": [
+    {
+      "source_id": "Manitoba Health · A Healthier Manitoba For All (2025), p. 116",
+      "records": 5
+    },
+    {
+      "source_id": "Manitoba Health · A Healthier Manitoba For All (2025), p. 117",
+      "records": 4
+    },
+    {
+      "source_id": "Manitoba Health · A Healthier Manitoba For All (2025), p. 118",
+      "records": 9
+    },
+    {
+      "source_id": "Manitoba Health · A Healthier Manitoba For All (2025), p. 126",
+      "records": 5
+    },
+    {
+      "source_id": "Manitoba Health · A Healthier Manitoba For All (2025), p. 128",
+      "records": 5
+    },
+    {
+      "source_id": "Manitoba Health · A Healthier Manitoba For All (2025), p. 130",
+      "records": 5
+    },
+    {
+      "source_id": "Manitoba Health · A Healthier Manitoba For All (2025), p. 95",
+      "records": 12
+    },
+    {
+      "source_id": "Statistics Canada Table 13-10-0972-01",
+      "records": 210
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "project_checks": {
+    "expenditure": {
+      "source_values": 260,
+      "annual_records": 52,
+      "dashboard_row_inclusions": 705,
+      "check": "Five values per annual record against the official CIHI Summary worksheet; forecasts retained."
+    },
+    "diabetes": {
+      "source_strata": 1288,
+      "derived_dashboard_values": 115,
+      "check": "Every published rate and each count-weighted geographic aggregate from the Nova Scotia source CSV."
+    },
+    "ontario": {
+      "source_table_cells": 276,
+      "dashboard_values": 264,
+      "check": "FAO tables A-1 through A-3 parsed independently, every displayed service-area value and headline total matched."
+    }
+  }
+}

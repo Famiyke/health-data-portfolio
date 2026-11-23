@@ -1,12 +1,8 @@
-name: Build and verify reviewed healthcare dashboards
+name: Build historical dashboard review copies
 on:
-  push:
-    paths:
-      - 'build_reviewed_dashboards.py'
-      - '.github/workflows/build-reviewed-dashboards.yml'
   workflow_dispatch:
 permissions:
-  contents: write
+  contents: read
 jobs:
   dashboards:
     runs-on: ubuntu-latest
@@ -65,9 +61,7 @@ jobs:
               print('PASS',name,len(data),'bytes')
           assert (folder/'index.html').exists()
           PY
-      - name: Commit validated dashboards to GitHub Pages
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dashboards/
-          git diff --cached --quiet || (git commit -m "Publish reviewed real and simulated healthcare dashboards" && git push)
+      - uses: actions/upload-artifact@v4
+        with:
+          name: historical-dashboard-review-copies
+          path: dashboards/

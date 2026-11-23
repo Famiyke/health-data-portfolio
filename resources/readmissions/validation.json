@@ -1,0 +1,9 @@
+{
+  "project": "readmissions",
+  "status": "passed",
+  "source_rows_verified": 952,
+  "checks": {
+    "CIHI workbook row and inclusion scope": 952
+  },
+  "note": "All normalized source observations matched independent source checks. Withheld estimates remain blank."
+}

@@ -1,0 +1,15 @@
+{
+  "project": "readmissions",
+  "sources": [
+    {
+      "filename": "cihi_indicators.xlsx",
+      "url": "https://www.cihi.ca/sites/default/files/document/indicator-library-indicator-data-no-breakdowns-en.xlsx",
+      "size_bytes": 39031992,
+      "sha256": "3c652caf004cf5a4e700361c1606761f839aa22ba926578ca8c04f6089698198"
+    }
+  ],
+  "observations": 952,
+  "published_numeric": 937,
+  "quality_caution": 0,
+  "unavailable_or_suppressed": 15
+}

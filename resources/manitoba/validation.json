@@ -1,0 +1,10 @@
+{
+  "project": "manitoba",
+  "status": "passed",
+  "source_rows_verified": 255,
+  "checks": {
+    "Statistics Canada 13-10-0972-01": 210,
+    "Manitoba Health report figure/label transcription": 45
+  },
+  "note": "All normalized source observations matched independent source checks. Withheld estimates remain blank."
+}

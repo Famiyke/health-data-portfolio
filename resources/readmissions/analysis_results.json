@@ -1,0 +1,179 @@
+{
+  "national_trend": [
+    {
+      "period": "2015–2016",
+      "risk_adjusted_rate_per_100": 9.2
+    },
+    {
+      "period": "2016–2017",
+      "risk_adjusted_rate_per_100": 9.2
+    },
+    {
+      "period": "2017–2018",
+      "risk_adjusted_rate_per_100": 9.3
+    },
+    {
+      "period": "2018–2019",
+      "risk_adjusted_rate_per_100": 9.4
+    },
+    {
+      "period": "2019–2020",
+      "risk_adjusted_rate_per_100": 9.5
+    },
+    {
+      "period": "2020–2021",
+      "risk_adjusted_rate_per_100": 9.4
+    },
+    {
+      "period": "2021–2022",
+      "risk_adjusted_rate_per_100": 9.3
+    },
+    {
+      "period": "2022–2023",
+      "risk_adjusted_rate_per_100": 9.0
+    },
+    {
+      "period": "2023–2024",
+      "risk_adjusted_rate_per_100": 9.3
+    },
+    {
+      "period": "2024–2025",
+      "risk_adjusted_rate_per_100": 9.4
+    },
+    {
+      "period": "2025–2026",
+      "risk_adjusted_rate_per_100": 9.7
+    }
+  ],
+  "latest_province_comparison": [
+    {
+      "jurisdiction": "Alberta",
+      "risk_adjusted_rate_per_100": 9.4,
+      "ci_lower": 9.32,
+      "ci_upper": 9.54,
+      "difference_from_canada_pp": -0.3
+    },
+    {
+      "jurisdiction": "British Columbia",
+      "risk_adjusted_rate_per_100": 10.4,
+      "ci_lower": 10.27,
+      "ci_upper": 10.48,
+      "difference_from_canada_pp": 0.7
+    },
+    {
+      "jurisdiction": "Manitoba",
+      "risk_adjusted_rate_per_100": 9.1,
+      "ci_lower": 8.85,
+      "ci_upper": 9.28,
+      "difference_from_canada_pp": -0.6
+    },
+    {
+      "jurisdiction": "New Brunswick",
+      "risk_adjusted_rate_per_100": 8.6,
+      "ci_lower": 8.35,
+      "ci_upper": 8.83,
+      "difference_from_canada_pp": -1.1
+    },
+    {
+      "jurisdiction": "Newfoundland and Labrador",
+      "risk_adjusted_rate_per_100": 9.3,
+      "ci_lower": 8.96,
+      "ci_upper": 9.56,
+      "difference_from_canada_pp": -0.4
+    },
+    {
+      "jurisdiction": "Northwest Territories",
+      "risk_adjusted_rate_per_100": 11.1,
+      "ci_lower": 10.0,
+      "ci_upper": 12.41,
+      "difference_from_canada_pp": 1.4
+    },
+    {
+      "jurisdiction": "Nova Scotia",
+      "risk_adjusted_rate_per_100": 9.1,
+      "ci_lower": 8.89,
+      "ci_upper": 9.33,
+      "difference_from_canada_pp": -0.6
+    },
+    {
+      "jurisdiction": "Nunavut",
+      "risk_adjusted_rate_per_100": 10.7,
+      "ci_lower": 8.81,
+      "ci_upper": 12.87,
+      "difference_from_canada_pp": 1.0
+    },
+    {
+      "jurisdiction": "Ontario",
+      "risk_adjusted_rate_per_100": 10.2,
+      "ci_lower": 10.11,
+      "ci_upper": 10.23,
+      "difference_from_canada_pp": 0.5
+    },
+    {
+      "jurisdiction": "Prince Edward Island",
+      "risk_adjusted_rate_per_100": 9.6,
+      "ci_lower": 9.0,
+      "ci_upper": 10.18,
+      "difference_from_canada_pp": -0.1
+    },
+    {
+      "jurisdiction": "Saskatchewan",
+      "risk_adjusted_rate_per_100": 9.7,
+      "ci_lower": 9.46,
+      "ci_upper": 9.85,
+      "difference_from_canada_pp": 0.0
+    },
+    {
+      "jurisdiction": "Yukon",
+      "risk_adjusted_rate_per_100": 12.3,
+      "ci_lower": 11.12,
+      "ci_upper": 13.56,
+      "difference_from_canada_pp": 2.6
+    }
+  ],
+  "latest_patient_groups": [
+    {
+      "indicator": "Medical",
+      "risk_adjusted_rate_per_100": 14.2
+    },
+    {
+      "indicator": "Obstetric",
+      "risk_adjusted_rate_per_100": 2.0
+    },
+    {
+      "indicator": "Pediatric",
+      "risk_adjusted_rate_per_100": 6.6
+    },
+    {
+      "indicator": "Surgical",
+      "risk_adjusted_rate_per_100": 7.0
+    }
+  ],
+  "disclosure_audit": [
+    {
+      "dimension": "mb_facility",
+      "status": "Published",
+      "records": 121
+    },
+    {
+      "dimension": "mb_region",
+      "status": "Published",
+      "records": 66
+    },
+    {
+      "dimension": "national",
+      "status": "Published",
+      "records": 55
+    },
+    {
+      "dimension": "province",
+      "status": "Published",
+      "records": 695
+    },
+    {
+      "dimension": "province",
+      "status": "Suppressed",
+      "records": 15
+    }
+  ]
+}

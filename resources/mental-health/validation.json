@@ -1,0 +1,10 @@
+{
+  "project": "mental-health",
+  "status": "passed",
+  "source_rows_verified": 248,
+  "checks": {
+    "13100465": 230,
+    "13100930": 18
+  },
+  "note": "All normalized source observations matched independent source checks. Withheld estimates remain blank."
+}

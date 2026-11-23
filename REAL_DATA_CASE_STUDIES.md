@@ -1,3 +1,5 @@
+> **Historical review, 16–17 November 2026.** The [current portfolio](https://famiyke.github.io/health-data-portfolio/) now uses official-source data for all six case studies. See the [current source documentation](resources/index.html). The following record describes the earlier version.
+
 # Verified public-data projects | 17 November 2026
 
 This portfolio includes three newly built, reproducible public-data case studies. Their **source-derived indicators** are distinct from previously constructed, clearly labelled synthetic demonstrations.

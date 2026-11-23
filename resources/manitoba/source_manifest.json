@@ -1,0 +1,21 @@
+{
+  "project": "manitoba",
+  "sources": [
+    {
+      "filename": "statcan_health_13100972.zip",
+      "url": "https://www150.statcan.gc.ca/n1/tbl/csv/13100972-eng.zip",
+      "size_bytes": 28345293,
+      "sha256": "8c95f788fc498baef19beda343fc545ded18c264487ffd17056820a7cde595a7"
+    },
+    {
+      "filename": "mb_health_status2025.pdf",
+      "url": "https://www.gov.mb.ca/asset_library/en/cppho/docs/health-status-2025.pdf",
+      "size_bytes": 18940584,
+      "sha256": "6215d8f860820b498babf22c31d82dc7c0164507801eab8cba630875dce87272"
+    }
+  ],
+  "observations": 255,
+  "published_numeric": 255,
+  "quality_caution": 0,
+  "unavailable_or_suppressed": 0
+}

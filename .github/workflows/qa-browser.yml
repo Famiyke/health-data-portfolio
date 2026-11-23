@@ -3,61 +3,21 @@ on:
   push:
     paths:
       - 'index.html'
+      - 'assets/**'
+      - 'qa_portfolio.py'
       - '.github/workflows/qa-browser.yml'
   workflow_dispatch:
+permissions:
+  contents: read
 jobs:
   browser-qa:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Install browser tools
-        run: |
-          pip install playwright
-          python -m playwright install chromium --with-deps
-      - name: Check desktop, tablet and mobile layouts
-        shell: bash
-        run: |
-          python - <<'PY'
-          from playwright.sync_api import sync_playwright
-          from pathlib import Path
-          Path('qa-screenshots').mkdir(exist_ok=True)
-          with sync_playwright() as p:
-              browser=p.chromium.launch(headless=True)
-              for w,h,name in [(1440,900,'desktop'),(768,1024,'tablet'),(375,812,'mobile')]:
-                  page=browser.new_page(viewport={'width':w,'height':h},device_scale_factor=1)
-                  page.goto(Path('index.html').resolve().as_uri(),wait_until='domcontentloaded')
-                  page.evaluate('document.fonts.ready')
-                  page.screenshot(path=f'qa-screenshots/{name}.png',full_page=True)
-                  measurement=page.evaluate('''() => ({
-                    documentWidth: document.documentElement.scrollWidth,
-                    clientWidth: document.documentElement.clientWidth,
-                    featured:document.querySelectorAll('.featured-card').length,
-                    compact:document.querySelectorAll('.compact-project').length,
-                    skip:!!document.querySelector('.skip-link'),
-                    experience:!!document.getElementById('experience'),
-                    about:!!document.getElementById('about'),
-                    headings:[...document.querySelectorAll('h1')].length
-                  })''')
-                  print(name,measurement,flush=True)
-                  if measurement['documentWidth'] > measurement['clientWidth'] + 2:
-                      offenders=page.evaluate('''() => [...document.querySelectorAll('body *')].filter(el=>{if(el.closest('.ticker')) return false; const r=el.getBoundingClientRect();return r.right>innerWidth+2 || r.left < -2;}).slice(0,65).map(el=>({tag:el.tagName,cls:el.className,txt:(el.textContent||'').trim().slice(0,60),left:Math.round(el.getBoundingClientRect().left),right:Math.round(el.getBoundingClientRect().right),width:Math.round(el.getBoundingClientRect().width)}))''')
-                      print('OVERFLOW OFFENDERS',offenders,flush=True)
-                  assert measurement['documentWidth'] <= measurement['clientWidth'] + 2, f'{name}: horizontal overflow'
-                  assert measurement['featured']==3 and measurement['compact']==3
-                  assert measurement['skip'] and measurement['experience'] and measurement['about']
-                  assert measurement['headings']==1
-                  links=page.locator('a[href^="https://github.com/Famiyke/"]')
-                  assert links.count()>=6, 'Missing GitHub project links'
-                  page.close()
-              browser.close()
-          print('PASS: desktop/tablet/mobile structural and horizontal overflow checks')
-          PY
-      - uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: portfolio-viewport-screenshots
-          path: qa-screenshots/*.png
+      - run: pip install playwright
+      - run: python -m playwright install chromium --with-deps
+      - run: python qa_portfolio.py home
