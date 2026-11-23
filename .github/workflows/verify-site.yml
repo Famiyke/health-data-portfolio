@@ -18,7 +18,7 @@ jobs:
           from urllib.request import Request, urlopen
           import time
           url = "https://famiyke.github.io/health-data-portfolio/"
-          files = ("index.html", "project.html", "assets/site.js", "assets/projects.js", "assets/expansion.js", "assets/portfolio-additions.js", "resources/index.html", "resources/process/workflow.zip")
+          files = ("index.html", "project.html", "assets/site.css", "assets/site.js", "assets/projects.js", "assets/expansion.js", "assets/portfolio-additions.js", "resources/index.html", "resources/process/workflow.zip")
           for attempt in range(12):
               try:
                   stale = []
