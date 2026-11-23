@@ -1,8 +1,8 @@
 # Canadian mental health outcomes
 
 ## Purpose
-How do perceived mental health, mental health conditions and access to care vary across the Canadian population?
-This project compares Statistics Canada’s weighted mental health and access-to-care estimates for 2012 and 2022. It retains published 95% confidence intervals and data-quality flags.
+How did mental health and access to care change between the two national surveys?
+Compares 2012 and 2022 survey results on perceived mental health, selected conditions and access to care. Published confidence intervals and quality flags accompany the estimates.
 
 ## Source snapshot (22 November 2026)
 Statistics Canada Tables 13-10-0465-01 and 13-10-0930-01, released 12 December 2024. Reference years 2012 and 2022.
@@ -13,8 +13,8 @@ The dataset includes 248 observations, with 225 numerical estimates (22 marked u
 - statcan_mh_13100930.zip: https://www150.statcan.gc.ca/n1/tbl/csv/13100930-eng.zip (SHA-256 in source_manifest.json)
 
 ## Findings
-- The estimated percentage of people reporting fair or poor perceived mental health increased from 7.8% in 2012 to 15.3% in 2022, a difference of 7.5 percentage points.
-- In 2022, 4.0% of the surveyed population reported unmet mental health care needs, compared with 2.1% in 2012.
+- The estimated share reporting fair or poor mental health rose from 7.8% in 2012 to 15.3% in 2022.
+- Reported unmet mental health care needs increased from 2.1% to 4.0%.
 - In 2022, 16.8% reported professional mental health consultation or service use in the previous 12 months.
 
 ## Methods and validation
@@ -50,6 +50,6 @@ Copy analysis.sql into rebuilt/mental-health/, then:
 Publishers may revise the download files. The included source hashes identify this exact release. Reconcile revisions before comparing across vintages.
 
 ## Interpretation and limitations
-The two surveys are repeated cross-sectional studies. In 2022, the survey excluded the territories, people living on reserves and other Indigenous settlements, full-time Canadian Armed Forces personnel and institutionalized populations. Interviews took place in person in 2012 and by telephone in 2022. The 2022 survey was designed for national and selected population-group estimates. Interpret provincial estimates using confidence intervals and quality flags. Reported differences are descriptive unless formally tested. The aggregate data cannot establish individual-level or causal conclusions.
+The repeat surveys cover different samples. In 2022, the survey excluded territories, people on reserves and other Indigenous settlements, full-time Canadian Armed Forces personnel and institutionalized populations. Interview mode changed from in person to telephone. Provincial and subgroup estimates require attention to confidence intervals and quality flags. Reported changes are descriptive.
 
 This project uses public aggregate data and demonstrates portfolio analysis. It does not establish treatment effects or individual clinical risk.

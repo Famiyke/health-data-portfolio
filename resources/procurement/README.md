@@ -1,8 +1,8 @@
 # Canadian federal procurement and supplier analytics
 
-How do disclosed contract award values, purchasing routes and supplier-name concentration vary across selected federal reporting entities?
+How do original award values, purchasing methods and supplier concentration differ across six federal entities?
 
-This project uses disclosed federal contract records to compare original award values, procurement methods and supplier-name concentration across six federal reporting entities and three complete fiscal reporting years.
+Examines 27,039 original federal contract disclosures across six reporting entities. Compare contract commitments, procurement methods and the share of award value held by leading supplier-name groups.
 
 ## Data source and cohort
 The analysis uses three complete fiscal reporting years (2023–2024 to 2025–2026) and six selected reporting entities: Public Services and Procurement Canada, Employment and Social Development Canada, Health Canada, Public Health Agency of Canada, Transport Canada and Statistics Canada. Included rows have instrument type C (contract or call-up) and original value above CAD $10,000. The reported original value is converted to integer cents for accurate aggregation. Amendments and standing-offer/supply-arrangement agreement records are excluded. Reporting quarters record public disclosure, not actual payment or delivery.
@@ -22,12 +22,12 @@ Supplier names are Unicode-normalized, case-normalized and whitespace-collapsed;
 The complete source had 1,336,110 records; 41,810 matched the reporting-entity and quarter scope. Exclusions: 14,675 amendments, 57 standing-offer/supply-arrangement agreements and 39 C records at or below $10,000. All 27,039 included records independently matched the source, including 767 chart values. Entity and reference-number combinations are unique. The source contains 29 additional rows sharing procurement IDs, which are retained as distinct disclosure records because the publisher allows procurement IDs to be contract, requisition or commitment numbers. 11 C records carry a nonzero amendment field; only original value is used. SQL totals reconcile to exact integer cents.
 
 ## Key findings
-- In 2025-2026, the six selected entities disclosed 8,559 included original award records with a total original value of $2,468.07 million.
-- Public Services and Procurement Canada had the highest disclosed original value in 2025-2026 among the selected entities ($1,926.33 million).
-- The five largest normalized supplier-name groups represented 32.8% of the included original value in 2025-2026. Non-competitive code TN represented 38.2% of disclosure records and 11.1% of original value.
+- The six entities disclosed 8,559 included original awards worth $2,468.07 million in fiscal 2025-2026.
+- Public Services and Procurement Canada had the highest disclosed original value among the selected entities that year ($1,926.33 million).
+- The five largest normalized supplier-name groups accounted for 32.8% of original value. Non-competitive code TN represented 38.2% of included records and 11.1% of value.
 
 ## Reproduce
 After extracting the ZIP, run `python run_analysis.py .` to reproduce the SQL outputs from the included records. To refresh from the original CSV, run `python build_procurement.py --raw-dir raw --output-dir rebuilt --download`, then `python validate_procurement.py --raw-dir raw --output-dir rebuilt`. Source data may change; verify the source manifest and document revisions. Standard Python 3.10+ is sufficient.
 
 ## Limitations
-The analysis is limited to six reporting entities and disclosed original award records above CAD $10,000. The source is unaudited, subject to revision and may vary in reporting practices. Original contract value is a commitment, not actual expenditure. Procurement IDs may repeat across separate disclosure rows. Supplier-name normalization does not establish legal ownership, and concentration or award route alone cannot establish misconduct, compliance or value for money.
+Scope is six reporting entities and original award disclosures above CAD $10,000. The publisher’s unaudited records can be revised, and reporting practices may vary. Contract value represents a commitment rather than actual spending. Procurement identifiers can recur across disclosure rows. Normalized supplier names do not establish common ownership. Concentration and procurement route alone cannot establish compliance or value for money.

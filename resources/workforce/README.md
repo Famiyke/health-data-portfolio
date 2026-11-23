@@ -1,9 +1,9 @@
 # Canadian workforce and labour market analytics
 
 ## Research question
-Where are staffing pressures concentrated across Canadian industries and jurisdictions, and what can hospital staffing and health professional supply indicators add to workforce planning?
+Where are staffing pressures concentrated, and how do labour market indicators compare with hospital staffing measures?
 
-This project analyses quarterly vacancies, offered wages and payroll employment across selected industries and jurisdictions. Separate CIHI views examine hospital overtime, paid sick leave, calculated staffing capacity and health professional supply.
+Compares vacancies, offered wages and payroll employment across industries and provinces. Separate CIHI views cover hospital overtime, sick leave, calculated staffing capacity and health professional supply.
 
 ## Coverage
 3,199 source observations from Statistics Canada quarterly data (2021 Q1 to 2026 Q2), CIHI hospital staffing (2020–2021 to 2024–2025) and 2020–2024 professional supply. Regional labour market comparisons start in 2023.
@@ -21,9 +21,9 @@ The quarterly survey covers selected industries and jurisdictions. We retain the
 SQL analyses: latest industry snapshot, same-quarter vacancy-rate changes, sick leave per FTE and selected supply density. The workflow retains unavailable estimates without numerical values.
 
 ## Key findings
-- In 2026 Q2, Canada reported 548,400 vacancies across all industries. Health care and social assistance accounted for 95,890, or 17.5% of the total (using published estimates).
-- Manitoba’s health care and social assistance vacancy rate was 4.3% in 2026 Q2, compared with 3.7% nationally. These are unadjusted estimates for the same quarter.
-- Among CIHI reporting jurisdictions, overtime represented 4.50% of regular plus overtime hospital worked hours in 2024–2025. Reporting coverage differs from the labour market survey.
+- Canada reported 548,400 vacancies in the second quarter of 2026. Health care and social assistance accounted for 95,890 (17.5%).
+- The vacancy rate in health care and social assistance was 4.3% in Manitoba and 3.7% nationally in 2026 Q2. Both estimates are unadjusted for seasonality.
+- Overtime accounted for 4.50% of regular plus overtime hospital worked hours in CIHI’s reporting jurisdictions in 2024–2025.
 
 ## Independent validation
 3,199 source records independently reconciled to official CSV rows or Excel cells. See validation.json and analysis_results.json.
@@ -42,4 +42,4 @@ The current public release may differ from the recorded source hashes; review re
 The editable Power BI project contains six report pages with reporting-period slicers, embedded data and DAX measures. Extract the ZIP and open Workforce.pbip in a recent Power BI Desktop release. Desktop execution was not available here. The web dashboard is independently tested.
 
 ## Interpretation and limitations
-Quarterly vacancy estimates are unadjusted for seasonality; compare the same quarter across years. Offered wages refer to vacant jobs and are expressed in nominal CAD. CIHI staffing excludes physician hours and Quebec and Nunavut do not report to CMDB. Coverage may change over time. CIHI supply estimates are not equivalent to employed FTEs, and the different source populations cannot establish a direct staffing shortfall.
+Compare unadjusted vacancies across the same quarter of different years. Offered wages describe vacant jobs in current Canadian dollars. CIHI hospital staffing excludes physician hours, and Québec and Nunavut do not report to the CMDB. Supply counts differ from employed full-time equivalents. The sources cover different populations and cannot directly measure a staffing shortfall.

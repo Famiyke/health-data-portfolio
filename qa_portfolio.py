@@ -1,5 +1,6 @@
 """Check the current portfolio and its official-source dashboard interactions."""
 import csv
+from decimal import Decimal, ROUND_HALF_UP
 import io
 import json
 import os
@@ -46,6 +47,41 @@ def check_home(browser):
     print('PASS: homepage projects, filters, menu and responsive layouts')
 
 
+def rounded(value, digits):
+    return '—' if value is None else format(Decimal(str(value)).quantize(Decimal(1).scaleb(-digits), rounding=ROUND_HALF_UP), f',.{digits}f')
+
+
+SOURCE_DOWNLOADS = {
+    'https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310046501': 'https://www150.statcan.gc.ca/n1/tbl/csv/13100465-eng.zip',
+    'https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410044201': 'https://www150.statcan.gc.ca/n1/tbl/csv/14100442-eng.zip',
+}
+
+
+def check_values(page, view, rows):
+    visible = [r for r in rows if r['value'] is not None]
+    ordered = visible + [r for r in rows if r['value'] is None]
+    with_ci = any(r.get('ciLower') is not None for r in rows)
+    with_status = any(r.get('status') for r in rows)
+    table = page.locator('#table-body tr').evaluate_all("trs => trs.map(tr => ({cells: [...tr.cells].map(c => c.textContent), url: tr.querySelector('a')?.href}))")
+    assert len(table) == len(ordered)
+    for actual, row in zip(table, ordered):
+        expected = [row['label'], rounded(row['value'], view.get('digits', 1))]
+        if with_ci:
+            digits = 2 if row.get('sourceId', '').startswith('CIHI') else 1
+            expected.append('—' if row.get('ciLower') is None else rounded(row['ciLower'], digits) + '–' + rounded(row['ciUpper'], digits))
+        if with_status:
+            expected.append(row.get('status') or '—')
+        expected.append(str(row['n']))
+        assert actual['cells'] == expected, (view['name'], row['label'], actual['cells'], expected)
+        assert actual['url'] == SOURCE_DOWNLOADS.get(row['sourceUrl'], row['sourceUrl']), (view['name'], row['label'], actual['url'])
+    if view['chart'] == 'line':
+        assert page.locator('#chart circle').count() == len(visible)
+        assert page.locator('#chart .forecast-point').count() == sum(r['status'] == 'Forecast' for r in visible)
+    else:
+        assert page.locator('#chart .data-row').count() == len(visible)
+        assert page.locator('#chart .bar-value').all_text_contents() == [rounded(r['value'], view.get('digits', 1)) for r in visible]
+
+
 def check_dashboards(browser):
     total = 0
     for project in projects:
@@ -73,17 +109,18 @@ def check_dashboards(browser):
             if width == 1440:
                 for index, view in enumerate(project['views']):
                     page.locator('#indicator').select_option(str(index))
+                    assert page.locator('#selection-label').inner_text() == view['selectionLabel']
                     for year in view['years']:
                         if page.locator('#period').is_enabled():
                             page.locator('#period').select_option(year)
                         expected = [row for row in view['rows'] if str(row['year']) == year]
-                        assert page.locator('#table-body tr').count() == len(expected), (project['id'], index, year)
-                        assert page.locator('#table-body a.table-source-link').count() == len(expected)
+                        check_values(page, view, expected)
                         assert page.locator('#chart-title').inner_text() == view['name']
                         total += 1
                     if page.locator('#sort').is_visible():
                         page.locator('#sort').select_option('desc')
-                        assert page.locator('#table-body tr').count() == len(expected)
+                        ordered = sorted([r for r in expected if r['value'] is not None], key=lambda r: -r['value']) + [r for r in expected if r['value'] is None]
+                        check_values(page, view, ordered)
                 with page.expect_download() as download:
                     page.locator('#download').click()
                 data = download.value.path().read_text(encoding='utf-8')

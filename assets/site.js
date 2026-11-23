@@ -5,7 +5,12 @@ const home = document.body.dataset.page === 'home';
 const format = (value, digits = 1) => Number(value).toLocaleString('en-CA', {minimumFractionDigits: digits, maximumFractionDigits: digits});
 const typeName = p => p.type === 'experience' ? 'Professional experience' : 'Real public data';
 const projectHref = p => 'project.html?case=' + encodeURIComponent(p.id);
-const external = (url, label) => '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' + label + '</a>';
+const sourceDownloads = {
+  'https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310046501': 'https://www150.statcan.gc.ca/n1/tbl/csv/13100465-eng.zip',
+  'https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410044201': 'https://www150.statcan.gc.ca/n1/tbl/csv/14100442-eng.zip'
+};
+const linkedSource = url => sourceDownloads[url] || url;
+const external = (url, label) => '<a href="' + escapeHtml(linkedSource(url)) + '" target="_blank" rel="noopener noreferrer">' + label + '</a>';
 const escapeHtml = str => String(str).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const workflow = p => p.repoUrl.startsWith('resources/') ? '<a href="' + escapeHtml(p.repoUrl) + '" download>' + (p.type === 'experience' ? 'Download case study workflow' : 'Download Python &amp; SQL') + '</a>' : external(p.repoUrl, 'View code');
 const dataBadge = p => '<span class="badge ' + (p.type === 'experience' ? 'experience' : 'actual') + '"><span class="badge-dot"></span>' + typeName(p) + '</span>';
@@ -54,7 +59,7 @@ function createHome() {
     section.setAttribute('aria-labelledby', 'group-' + type);
     const groupProjects = projects.filter(p => p.group === type);
     const label = {system:'Health system & finance', population:'Population health & equity', business:'Workforce & business analytics'}[type];
-    const desc = {system:'Explore expenditure, access to surgery and hospital performance using published health system data.', population:'Explore disease surveillance, mental health and regional health equity using published population estimates.', business:'Explore labour markets, sales forecasting, procurement analysis and business process improvement.'}[type];
+    const desc = {system:'Health spending, surgical backlog and urgent hospital readmissions.', population:'Diabetes surveillance, mental health surveys and Manitoba regional health equity.', business:'Vacancies, hospital staffing, retail sales, federal procurement and reporting workflows.'}[type];
     section.innerHTML = '<div class="group-head"><div><h3 id="group-' + type + '">' + label + '</h3><p>' + desc + '</p></div></div><div class="project-grid"></div>';
     for (const p of groupProjects) section.querySelector('.project-grid').append(createCard(p));
     groups.append(section);
@@ -111,15 +116,15 @@ function createProject() {
     '<div class="data-status ' + p.type + '"><strong>' + 'Official-source data' + '</strong><span>' + escapeHtml(statusText) + '</span></div><p class="intro-source">' + 'Source: ' + external(p.sourceUrl, escapeHtml(p.source)) + '</p></div></section>' +
     '<section class="project-body"><div class="shell"><div class="summary-grid">' +
     p.cards.map(c => '<div class="summary-card ' + p.type + (c.label.toLowerCase().includes('forecast') ? ' forecast-card' : '') + '"><strong>' + escapeHtml(c.value) + '</strong><span>' + escapeHtml(c.label) + '</span></div>').join('') + '</div>' +
-    '<div class="dashboard-layout"><div class="dashboard-main"><section class="dashboard-panel"><div class="panel-heading"><div><h2>Explore the dashboard</h2><p>Select an indicator and reporting period to compare results.</p></div>' + dataBadge(p) + '</div>' +
-    '<div class="controls"><label class="control" for="indicator">Indicator<select id="indicator"></select></label><label class="control" for="period">Reporting period<select id="period"></select></label></div>' +
+    '<div class="dashboard-layout"><div class="dashboard-main"><section class="dashboard-panel"><div class="panel-heading"><div><h2>Explore the dashboard</h2><p>Choose an indicator and its associated period, geography or group.</p></div>' + dataBadge(p) + '</div>' +
+    '<div class="controls"><label class="control" for="indicator">Indicator<select id="indicator"></select></label><label class="control" for="period"><span id="selection-label">Reporting period</span><select id="period"></select></label></div>' +
     '<div class="chart-top"><h3 id="chart-title">Data comparison</h3><label class="sort-label" id="sort-wrap">Sort<select id="sort"><option value="original">Source order</option><option value="desc">Highest first</option><option value="asc">Lowest first</option><option value="alpha">Name A–Z</option></select></label></div>' +
     '<p id="chart-explain" class="chart-explain"></p><div id="chart" class="chart" aria-label="Interactive chart"></div><div class="legend" id="legend" hidden></div>' +
     '<div class="chart-footer"><p id="selection-info" role="status"></p><button class="download" id="download" type="button">Download selection CSV</button></div></section>' +
     '<section class="dashboard-panel table-panel"><h2>Data table</h2><p class="chart-explain">Review the exact chart values, data-quality flags and source references.</p><div class="table-scroll" tabindex="0" aria-label="Scrollable data table"><table><thead id="table-head"></thead><tbody id="table-body"></tbody></table></div><p class="table-caption" id="table-caption"></p></section></div>' +
     '<aside aria-label="Case study information"><section class="side-panel"><h2>Case study details</h2><h3>Coverage</h3><p>' + escapeHtml(p.coverage) + '</p><h3>Methods</h3><ul>' + p.methods.map(m => '<li>' + escapeHtml(m) + '</li>').join('') + '</ul>' +
     '<div class="tags">' + p.tools.map(tool => '<span>' + escapeHtml(tool) + '</span>').join('') + '</div><div class="source-block"><h3>' + 'Data source' + '</h3><p>' + escapeHtml(p.source) + '</p>' +
-    external(p.sourceUrl, 'Open official source') +
+    external(p.sourceUrl, sourceDownloads[p.sourceUrl] ? 'Download official CSV' : 'Open official source') +
     (p.sourceLinks || []).map(link => external(link.url, escapeHtml(link.name))).join('') +
     external(p.evidence, 'Findings and methodology') + workflow(p) + (p.biLink ? '<a download href="' + escapeHtml(p.biLink.url) + '">' + escapeHtml(p.biLink.label) + '</a>' : '') + '</div></section>' +
     (p.findings ? '<section class="side-panel findings-panel"><h2>Key findings</h2><ul>' + p.findings.map(f => '<li>' + escapeHtml(f) + '</li>').join('') + '</ul></section>' : '') +
@@ -182,6 +187,7 @@ function setupDashboard(p) {
   });
   function setPeriods() {
     view = p.views[Number(indicator.value)];
+    document.getElementById('selection-label').textContent = view.selectionLabel;
     period.replaceChildren();
     for (const year of view.years) {
       period.add(new Option(year === 'All' ? (view.chart === 'line' ? 'All years' : 'Full sample') : year, year));
@@ -247,7 +253,8 @@ function setupDashboard(p) {
       const n = document.createElement('td');
       if (r.sourceUrl) {
         const link = document.createElement('a');
-        link.href = r.sourceUrl; link.target = '_blank'; link.rel = 'noopener noreferrer';
+        link.href = linkedSource(r.sourceUrl);
+        if (sourceDownloads[r.sourceUrl]) link.title = 'Download official CSV'; link.target = '_blank'; link.rel = 'noopener noreferrer';
         link.className = 'table-source-link'; link.textContent = r.n;
         n.append(link);
       } else n.textContent = r.n ?? '—';
@@ -267,7 +274,7 @@ function setupDashboard(p) {
     const quote = val => '"' + String(val ?? '').replaceAll('"','""') + '"';
     const headers = ['data_type','indicator','selection','group_or_year','value','unit','confidence_lower','confidence_upper','status','source_id','source_reference','source_url','source_context','notes'];
     const selectedRows = [...rows, ...allRows.filter(r => r.value === null)];
-    const data = [headers, ...selectedRows.map(r => [typeName(p),view.name,period.value,r.label,r.value,r.unit || '',r.ciLower,r.ciUpper,r.status || '',r.sourceId || '',r.sourceRef || r.n || '',r.sourceUrl || p.sourceUrl,r.n || '',r.note || ''])];
+    const data = [headers, ...selectedRows.map(r => [typeName(p),view.name,period.value,r.label,r.value,r.unit || '',r.ciLower,r.ciUpper,r.status || '',r.sourceId || '',r.sourceRef || r.n || '',linkedSource(r.sourceUrl || p.sourceUrl),r.n || '',r.note || ''])];
     const blob = new Blob([data.map(row => row.map(quote).join(',')).join('\r\n') + '\r\n'], {type:'text/csv;charset=utf-8'});
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');

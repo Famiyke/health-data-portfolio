@@ -1,9 +1,9 @@
 # Canadian retail sales forecasting
 
 ## Research question
-How do Canadian retail sales vary by region and season, and how accurately can established time-series baselines forecast the next six months?
+How do Canadian retail sales vary by season and geography, and how accurately can two time-series models forecast them?
 
-This project analyses monthly retail sales across Canada and all provinces and territories, quantifies regional growth and seasonal demand patterns, and tests two forecasting methods using rolling-origin validation before producing six-month forecasts.
+Uses monthly retail sales to compare regional growth, examine seasonal patterns and forecast six months ahead. Two models are compared on rolling validation periods and evaluated on a separate holdout period.
 
 ## Coverage
 1,806 official observations; 117 unadjusted months per jurisdiction (January 2017 to September 2026) and the latest 12 seasonally adjusted months. Six-month forecasts for all 14 geographies, including Canada separately.
@@ -19,9 +19,9 @@ Forecasts use monthly unadjusted positive nominal sales. Compare seasonal naive 
 SQL analyses: regional seasonally adjusted sales, same-month year-over-year nominal sales growth, independent holdout WAPE/MAE recomputation and six-month forecast export. Forecasts and observed rows remain separate in the downloadable data.
 
 ## Key findings
-- Canada’s seasonally adjusted retail sales were $75.31 billion in September 2026.
-- For Canada, the validation-selected Log trend + month effects model achieved holdout WAPE of 1.72%; seasonal naive holdout WAPE was 3.81%. Lower is better.
-- Across 2021–2025, May had the highest average national seasonal index (108.4). Manitoba’s October 2026 portfolio-model forecast was $2.589 billion.
+- Canada’s seasonally adjusted retail sales reached $75.31 billion in September 2026.
+- For Canada, the selected log-trend model with month effects had a holdout weighted absolute percentage error (WAPE) of 1.72%, compared with 3.81% for the seasonal naive model.
+- May had the highest average national seasonal index (108.4) across 2021–2025. The model forecasts $2.589 billion in Manitoba retail sales for October 2026.
 
 ## Independent validation
 1,806 source records independently reconciled to official CSV rows or Excel cells. See validation.json and analysis_results.json.
@@ -40,4 +40,4 @@ The current public release may differ from the recorded source hashes; review re
 The packaged Tableau workbook contains Canadian and Manitoba historical/forecast views, regional sales and national model accuracy. Open retail-forecast.twbx in Tableau Desktop or Tableau Public Desktop. Desktop execution was not available here. The web dashboard is independently tested.
 
 ## Interpretation and limitations
-Nominal aggregate retail sales include price changes. These are broad market indicators, not individual store revenue or inventory demand. Model selection uses one historical release rather than first-release data vintages, so backtests do not establish real-time operational accuracy. Structural changes, economic shocks and revisions may affect forecasts. All future estimates are point forecasts without a probability interval.
+Sales are nominal aggregates, so changes include price effects. The forecasts describe broad retail markets. Backtests use one historical data release, which may include revisions. Economic shocks and structural changes can reduce forecasting accuracy. Forecasts are point estimates without probability intervals.

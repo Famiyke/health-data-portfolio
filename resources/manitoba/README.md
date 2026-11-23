@@ -1,8 +1,8 @@
 # Manitoba regional health equity
 
 ## Purpose
-How do health indicators and healthcare use vary across Manitoba’s health regions and income groups?
-This project compares Manitoba’s health regions and income groups using published estimates from Statistics Canada’s Canadian Community Health Survey (CCHS) and administrative indicators from Manitoba’s 2025 health status report.
+Where do Manitoba’s regions and income groups differ in health outcomes and use of care?
+Examines regional differences in chronic disease, mental health and service use, alongside income-related gaps in emergency care and cardiovascular outcomes. Combines Canadian Community Health Survey estimates with Manitoba’s 2025 health status report.
 
 ## Source snapshot (22 November 2026)
 Statistics Canada Table 13-10-0972-01, released 6 May 2026, and Manitoba's 2025 Health Status of Manitobans Report. Reference periods are retained by measure.
@@ -13,9 +13,9 @@ The dataset contains 255 published observations. It covers seven survey indicato
 - mb_health_status2025.pdf: https://www.gov.mb.ca/asset_library/en/cppho/docs/health-status-2025.pdf (SHA-256 in source_manifest.json)
 
 ## Findings
-- In the 2023/2024 CCHS, the Northern Health Region’s self-reported diabetes prevalence was 13.8%, compared with 8.7% for Manitoba. The difference of 5.1 percentage points is descriptive, and the Northern estimate has a wide confidence interval.
-- In 2023, urban residents in the lowest income quintile had 465 emergency department visits per 1,000 people, compared with 209 in the highest quintile. The descriptive rate ratio was 2.22.
-- During 2018–2022, the Manitoba report recorded 5.39 heart attack hospitalizations and deaths per 1,000 residents aged 40 and older in the Northern Health Region, compared with 2.25 in Winnipeg.
+- In the 2023/2024 survey, self-reported diabetes prevalence was 13.8% in the Northern Health Region and 8.7% province-wide. The Northern estimate has a wide confidence interval.
+- In 2023, urban residents in the lowest income quintile had 465 emergency visits per 1,000 people, compared with 209 in the highest quintile (2.22 times as many).
+- During 2018–2022, the Manitoba report recorded 5.39 heart attack hospitalizations and deaths per 1,000 residents aged 40 and older in the Northern Health Region and 2.25 in Winnipeg.
 
 ## Methods and validation
 - Official CSV extraction for Manitoba and its five health regions
@@ -50,6 +50,6 @@ Copy analysis.sql into rebuilt/manitoba/, then:
 Publishers may revise the download files. The included source hashes identify this exact release. Reconcile revisions before comparing across vintages.
 
 ## Interpretation and limitations
-The CCHS estimates use self-reported data from adults aged 18 and older. The survey may exclude or underrepresent some populations, particularly people living on reserves. Consider confidence intervals and differences in regional age structure. Statistics Canada’s 2022 survey redesign requires caution when comparing earlier and later survey cycles. The report-based indicators use distinct definitions and reporting periods. These regional associations cannot establish causes or individual risks.
+Survey estimates reflect self-reported health among adults aged 18 and older. Some populations, including people on reserves, may be excluded or underrepresented. Consider confidence intervals and regional age structure. The 2022 CCHS redesign affects comparisons across survey cycles. Administrative indicators have their own populations and definitions. These findings describe inequalities without establishing their causes.
 
 This project uses public aggregate data and demonstrates portfolio analysis. It does not establish treatment effects or individual clinical risk.
